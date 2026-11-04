@@ -1,0 +1,46 @@
+# Atgoritma
+
+> Atgoritma, Türkiye Jokey Kulübü'nün (TJK) resmi program ve sonuçlarıyla eğitilen yapay zekâ destekli bir at yarışı analiz sitesidir. Her gün tüm hipodromlardaki koşular için atların kazanma şansını hesaplar, AGF ile karşılaştırır, sürpriz ihtimali yüksek koşuları işaretler ve her tahmini sonuçla birlikte açık bir karnede tutar. Bilgi ve eğlence amaçlıdır; bahis tavsiyesi değildir, kazanç vaat etmez. 18 yaş altına uygun değildir.
+
+## Nasıl çalışır
+
+- Veri: TJK günlük program ve sonuç dosyaları, Eylül 2023 - Kasım 2026 arası 17.895 koşu.
+- Yöntem: koşu içi kıyaslama (koşullu logit). Her at aynı koşudaki rakiplerine göre puanlanır; AGF, form, derece, handikap puanı, kilo, jokey, antrenör, pist ve mesafe geçmişi, galop (idman) dereceleri gibi kriterler tek bir kazanma şansında birleşir. Koşu tipine göre (Maiden, Şartlı, KV, Handikap, Grup) ayrı ağırlıklar öğrenilir.
+- Sürpriz katmanı: koşunun özelliklerine göre şansları yumuşatır; sürpriz ihtimali, kazananın yapay zekânın ilk 3'ü dışından gelme olasılığıdır.
+- Değer ganyanı: yapay zekânın verdiği şansa göre atın en az ödemesi gereken ganyan (%20 güvenlik payıyla).
+
+## Başarı (geriye dönük test, yapay zekânın görmediği dönem)
+
+- Dönem: 2026-06-27 ile 2026-11-03 arası, 2.016 koşu.
+- Kazananı birinci bilme: yapay zekâ %31,6, AGF favorisi %31,1.
+- Kazananı ilk 3'te gösterme: yapay zekâ %65,0, AGF %62,0.
+- Altılı kuponları ve değer bahisleri geçmiş testlerde kâr getirmedi; site bunu açıkça yazar.
+
+## 4.11.2026 programı: yapay zekânın favorileri
+
+### İstanbul
+- 1. koşu (14.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BAY MENTOR, kazanma şansı %45; sürpriz ihtimali %23. Sonuç: kazanan 5 MISTER EZEL.
+- 2. koşu (14.30 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 3 JIMDEMA, kazanma şansı %27; sürpriz ihtimali %40. Sonuç: kazanan 7 ROZERYA.
+- 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1300 m · Sentetik): favori 1 RAPID SHOT, kazanma şansı %63; sürpriz ihtimali %9. Sonuç: kazanan 2 AYLİNPERİ.
+- 4. koşu (15.30 · ŞARTLI 4/DHÖW/Dişi · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 8 ŞENGÜL SULTAN, kazanma şansı %26; sürpriz ihtimali %44. Sonuç: kazanan 1 UÇAN DULO.
+- 5. koşu (16.00 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 1500 m · Sentetik): favori 5 UMUDUNU KAYBETME, kazanma şansı %13; sürpriz ihtimali %66. Sonuç: kazanan 15 ARAM SAMSAM.
+- 6. koşu (16.30 · SATIŞ 3/DHÖW · 4 ve Yukarı Araplar · 2100 m · Sentetik): favori 2 UFKUN ÖTESİ, kazanma şansı %35; sürpriz ihtimali %30. Sonuç: kazanan 4 ULU BEDEN.
+- 7. koşu (17.00 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 4 PLAYMAKER, kazanma şansı %76; sürpriz ihtimali %5. Sonuç: kazanan 4 PLAYMAKER.
+- 8. koşu (17.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 SHINO, kazanma şansı %29; sürpriz ihtimali %35. Sonuç: kazanan 7 NEMOSİS.
+- 9. koşu (18.00 · ŞARTLI 19 · 3 Yaşlı İngilizler · 1300 m · Sentetik): favori 2 THIEF IN MARRAKESH, kazanma şansı %58; sürpriz ihtimali %27. Sonuç: kazanan 2 THIEF IN MARRAKESH.
+
+### Elazığ
+- 1. koşu (18.30 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 5 SARİŞİM, kazanma şansı %56; sürpriz ihtimali %11. Sonuç: kazanan 5 SARİŞİM.
+- 2. koşu (19.00 · Handikap 17/DHÖW /H3 · 4 ve Yukarı Araplar · 1500 m · Kum): favori 12 KING GÖKÇE, kazanma şansı %22; sürpriz ihtimali %45. Sonuç: kazanan 12 KING GÖKÇE.
+- 3. koşu (19.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1700 m · Kum): favori 7 RHEA, kazanma şansı %37; sürpriz ihtimali %30. Sonuç: kazanan 1 GÜLPAŞA.
+- 4. koşu (20.00 · ŞARTLI 4/DHÖW/Dişi · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 SÜRATLİ KIZ, kazanma şansı %33; sürpriz ihtimali %34. Sonuç: kazanan 5 SÜRATLİ KIZ.
+- 5. koşu (20.30 · KV-6/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 2 NALIN SESİ, kazanma şansı %41; sürpriz ihtimali %35. Sonuç: kazanan 2 NALIN SESİ.
+- 6. koşu (21.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 PRINCESS ALLIANOI, kazanma şansı %43; sürpriz ihtimali %22. Sonuç: kazanan 4 PRINCESS ALLIANOI.
+- 7. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 Yaşlı Araplar · 1600 m · Kum): favori 4 TURBO BEYİ, kazanma şansı %22; sürpriz ihtimali %52. Sonuç: kazanan 12 TAYKUTBEY.
+
+## Sayfalar
+
+- [Ana sayfa](https://atgoritma.com/): günün yarışları, yapay zekâ tahminleri, altılı analizi, istatistikler ve karne.
+- [Yasal uyarı](https://atgoritma.com/#yasal): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
+
+Güncellendi: 04.11.2026 22:40
