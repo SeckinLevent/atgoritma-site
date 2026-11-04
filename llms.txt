@@ -43,4 +43,4 @@
 - [Ana sayfa](https://atgoritma.com/): günün yarışları, yapay zekâ tahminleri, altılı analizi, istatistikler ve karne.
 - [Yasal uyarı](https://atgoritma.com/#yasal): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 04.11.2026 22:40
+Güncellendi: 04.11.2026 22:48
