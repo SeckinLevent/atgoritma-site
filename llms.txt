@@ -24,7 +24,7 @@
 - 3. koşu (15.00 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 SERTUĞ, kazanma şansı %23; sürpriz ihtimali %45. Sonuç: kazanan 4 AĞA SABRİNİN ZAFERİ.
 - 4. koşu (15.30 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1500 m · Kum): favori 4 KOCAEFE, kazanma şansı %35; sürpriz ihtimali %32. Sonuç: kazanan 3 ERKŞAN.
 - 5. koşu (16.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 6 MELİKE, kazanma şansı %70; sürpriz ihtimali %15. Sonuç: kazanan 6 MELİKE.
-- 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 2 NIGHTFLYERS, kazanma şansı %35; sürpriz ihtimali %20.
+- 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 2 NIGHTFLYERS, kazanma şansı %35; sürpriz ihtimali %20. Sonuç: kazanan 2 NIGHTFLYERS.
 - 7. koşu (17.00 · Handikap 17 /H1 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 1 KIZILCAHAMAM BEYİ, kazanma şansı %43; sürpriz ihtimali %12.
 - 8. koşu (17.30 · Handikap 15/DHÖ /H1 · 4 ve Yukarı Araplar · 1900 m · Çim): favori 7 MENDERES KIZI, kazanma şansı %26; sürpriz ihtimali %38.
 
@@ -48,4 +48,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 05.11.2026 16:20
+Güncellendi: 05.11.2026 16:42
