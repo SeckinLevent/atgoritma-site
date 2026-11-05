@@ -43,6 +43,9 @@
 ## Sayfalar
 
 - [Ana sayfa](https://atgoritma.com/): günün yarışları, yapay zekâ tahminleri, altılı analizi, istatistikler ve karne.
-- [Yasal uyarı](https://atgoritma.com/#yasal): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
+- [Nasıl çalışır](https://atgoritma.com/nasil-calisir/): veri, kriterler, sürpriz ihtimali, değer ganyanı ve sınırlar.
+- [İstatistikler](https://atgoritma.com/istatistikler/): kazananı bilme oranları, AGF ile karşılaştırma, kalibrasyon.
+- [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
+- [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 05.11.2026 08:41
+Güncellendi: 05.11.2026 08:45
