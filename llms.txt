@@ -36,7 +36,7 @@
 - 5. koşu (19.00 · Handikap 16/DHÖW /H2 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 MADEİRA, kazanma şansı %21; sürpriz ihtimali %46. Sonuç: kazanan 2 MADEİRA.
 - 6. koşu (19.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 6 SİYAH SANCAK, kazanma şansı %29; sürpriz ihtimali %40. Sonuç: kazanan 11 DENİZOVA.
 - 7. koşu (20.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 1 O BİR ÇELİK, kazanma şansı %24; sürpriz ihtimali %47. Sonuç: kazanan 8 FIRTINA BEY.
-- 8. koşu (20.30 · Handikap 14/DHÖW/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 AÇANAY, kazanma şansı %47; sürpriz ihtimali %26.
+- 8. koşu (20.30 · Handikap 14/DHÖW/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 AÇANAY, kazanma şansı %47; sürpriz ihtimali %26. Sonuç: kazanan 3 PATARA.
 - 9. koşu (21.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 7 MIDNIGHT BLUE, kazanma şansı %40; sürpriz ihtimali %27.
 - 10. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 KRALÇINAR, kazanma şansı %35; sürpriz ihtimali %31.
 
@@ -48,4 +48,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 05.11.2026 20:14
+Güncellendi: 05.11.2026 20:41
