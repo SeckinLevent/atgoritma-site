@@ -24,20 +24,20 @@
 - 3. koşu (15.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 11 ŞADİNİN GÜLÜ, kazanma şansı %23; sürpriz ihtimali %44.
 - 4. koşu (15.30 · Handikap 15/DHÖW /H2 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 4 ÇELİK ABİ, kazanma şansı %22; sürpriz ihtimali %43.
 - 5. koşu (16.00 · ŞARTLI 3/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 6 ÇETO BAŞKAN, kazanma şansı %29; sürpriz ihtimali %31.
-- 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 7 ÇELİK MENGENE, kazanma şansı %25; sürpriz ihtimali %40.
+- 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 7 ÇELİK MENGENE, kazanma şansı %26; sürpriz ihtimali %40.
 - 7. koşu (17.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 5 HAMZA KIZI, kazanma şansı %27; sürpriz ihtimali %36.
 - 8. koşu (17.30 · Handikap 15/DHÖ /H2 · 4 Yaşlı Araplar · 1800 m · Kum): favori 5 KURUŞUN GÜCÜ, kazanma şansı %23; sürpriz ihtimali %42.
 
 ### İstanbul
-- 1. koşu (17.15 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 2200 m · Sentetik): favori 5 APOLLON, kazanma şansı %23; sürpriz ihtimali %40.
-- 2. koşu (18.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Çim): favori 4 ALLER YILDIZI, kazanma şansı %22; sürpriz ihtimali %47.
-- 3. koşu (18.30 · SATIŞ 4 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 ART OF VICTORY, kazanma şansı %47; sürpriz ihtimali %10.
-- 4. koşu (19.00 · Handikap 16/Dişi /H1 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 11 LİSENDORA, kazanma şansı %26; sürpriz ihtimali %42.
-- 5. koşu (19.30 · Handikap 21/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1900 m · Çim): favori 6 SİYAH KUŞ, kazanma şansı %24; sürpriz ihtimali %49.
-- 6. koşu (20.00 · KV-9 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 2 CAPTAIN FANTASTIC, kazanma şansı %32; sürpriz ihtimali %27.
-- 7. koşu (20.30 · KV-6/DHÖW · 3 Yaşlı Araplar · 1400 m · Çim): favori 5 ERHANHAN, kazanma şansı %26; sürpriz ihtimali %28.
+- 1. koşu (17.15 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 2200 m · Sentetik): favori 5 APOLLON, kazanma şansı %22; sürpriz ihtimali %42.
+- 2. koşu (18.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Çim): favori 1 ÖZGÜNDEN, kazanma şansı %21; sürpriz ihtimali %48.
+- 3. koşu (18.30 · SATIŞ 4 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 ART OF VICTORY, kazanma şansı %47; sürpriz ihtimali %9.
+- 4. koşu (19.00 · Handikap 16/Dişi /H1 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 11 LİSENDORA, kazanma şansı %28; sürpriz ihtimali %41.
+- 5. koşu (19.30 · Handikap 21/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1900 m · Çim): favori 6 SİYAH KUŞ, kazanma şansı %23; sürpriz ihtimali %50.
+- 6. koşu (20.00 · KV-9 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 2 CAPTAIN FANTASTIC, kazanma şansı %33; sürpriz ihtimali %27.
+- 7. koşu (20.30 · KV-6/DHÖW · 3 Yaşlı Araplar · 1400 m · Çim): favori 5 ERHANHAN, kazanma şansı %26; sürpriz ihtimali %29.
 - 8. koşu (21.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Çim): favori 5 CANSEFİRE, kazanma şansı %17; sürpriz ihtimali %56.
-- 9. koşu (21.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 13 SARAFİM, kazanma şansı %21; sürpriz ihtimali %49.
+- 9. koşu (21.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 13 SARAFİM, kazanma şansı %20; sürpriz ihtimali %48.
 
 ## Sayfalar
 
@@ -47,4 +47,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 06.11.2026 08:14
+Güncellendi: 06.11.2026 09:16
