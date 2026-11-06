@@ -22,7 +22,7 @@
 - 1. koşu (14.00 · Handikap 15/Dişi /H2 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 5 CROWN JEWEL, kazanma şansı %45; sürpriz ihtimali %25. Sonuç: kazanan 5 CROWN JEWEL.
 - 2. koşu (14.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1800 m · Kum): favori 3 BAKA BABA, kazanma şansı %28; sürpriz ihtimali %30. Sonuç: kazanan 1 KÖYCÜ BEY.
 - 3. koşu (15.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 1 NARENKA, kazanma şansı %22; sürpriz ihtimali %35. Sonuç: kazanan 13 YOLDERE GÜZELİ.
-- 4. koşu (15.30 · Handikap 15/DHÖW /H2 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 4 ÇELİK ABİ, kazanma şansı %24; sürpriz ihtimali %51.
+- 4. koşu (15.30 · Handikap 15/DHÖW /H2 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 4 ÇELİK ABİ, kazanma şansı %24; sürpriz ihtimali %51. Sonuç: kazanan 11 HALİDAĞA.
 - 5. koşu (16.00 · ŞARTLI 3/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 6 ÇETO BAŞKAN, kazanma şansı %39; sürpriz ihtimali %25.
 - 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 5 CIX LIFE, kazanma şansı %38; sürpriz ihtimali %27.
 - 7. koşu (17.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 5 HAMZA KIZI, kazanma şansı %36; sürpriz ihtimali %32.
@@ -47,4 +47,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 06.11.2026 15:11
+Güncellendi: 06.11.2026 15:44
