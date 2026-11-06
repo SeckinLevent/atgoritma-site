@@ -34,7 +34,7 @@
 - 3. koşu (18.30 · SATIŞ 4 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 ART OF VICTORY, kazanma şansı %57; sürpriz ihtimali %8. Sonuç: kazanan 4 RADAGIA.
 - 4. koşu (19.00 · Handikap 16/Dişi /H1 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 11 LİSENDORA, kazanma şansı %28; sürpriz ihtimali %35. Sonuç: kazanan 11 LİSENDORA.
 - 5. koşu (19.30 · Handikap 21/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 6 SİYAH KUŞ, kazanma şansı %33; sürpriz ihtimali %39. Sonuç: kazanan 11 GÜL AYALI.
-- 6. koşu (20.00 · KV-9 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 2 CAPTAIN FANTASTIC, kazanma şansı %40; sürpriz ihtimali %10.
+- 6. koşu (20.00 · KV-9 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 2 CAPTAIN FANTASTIC, kazanma şansı %40; sürpriz ihtimali %10. Sonuç: kazanan 2 CAPTAIN FANTASTIC.
 - 7. koşu (20.30 · KV-6/DHÖW · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 ÇİLEKEŞ ÖMER, kazanma şansı %30; sürpriz ihtimali %33.
 - 8. koşu (21.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 1 ÇINARALTI KIZI, kazanma şansı %30; sürpriz ihtimali %37.
 - 9. koşu (21.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 13 SARAFİM, kazanma şansı %44; sürpriz ihtimali %33.
@@ -47,4 +47,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 06.11.2026 20:06
+Güncellendi: 06.11.2026 20:12
