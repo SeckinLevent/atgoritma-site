@@ -20,13 +20,13 @@
 
 ### Bursa
 - 1. koşu (14.00 · Handikap 15/Dişi /H2 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 5 CROWN JEWEL, kazanma şansı %30; sürpriz ihtimali %28.
-- 2. koşu (14.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1800 m · Kum): favori 4 BALKI TAY, kazanma şansı %22; sürpriz ihtimali %42.
-- 3. koşu (15.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 11 ŞADİNİN GÜLÜ, kazanma şansı %25; sürpriz ihtimali %41.
-- 4. koşu (15.30 · Handikap 15/DHÖW /H2 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 4 ÇELİK ABİ, kazanma şansı %21; sürpriz ihtimali %44.
+- 2. koşu (14.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1800 m · Kum): favori 4 BALKI TAY, kazanma şansı %23; sürpriz ihtimali %40.
+- 3. koşu (15.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 11 ŞADİNİN GÜLÜ, kazanma şansı %23; sürpriz ihtimali %44.
+- 4. koşu (15.30 · Handikap 15/DHÖW /H2 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 4 ÇELİK ABİ, kazanma şansı %22; sürpriz ihtimali %43.
 - 5. koşu (16.00 · ŞARTLI 3/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 6 ÇETO BAŞKAN, kazanma şansı %29; sürpriz ihtimali %31.
-- 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 7 ÇELİK MENGENE, kazanma şansı %26; sürpriz ihtimali %40.
-- 7. koşu (17.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 5 HAMZA KIZI, kazanma şansı %27; sürpriz ihtimali %37.
-- 8. koşu (17.30 · Handikap 15/DHÖ /H2 · 4 Yaşlı Araplar · 1800 m · Kum): favori 5 KURUŞUN GÜCÜ, kazanma şansı %26; sürpriz ihtimali %41.
+- 6. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 7 ÇELİK MENGENE, kazanma şansı %25; sürpriz ihtimali %40.
+- 7. koşu (17.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1300 m · Kum): favori 5 HAMZA KIZI, kazanma şansı %27; sürpriz ihtimali %36.
+- 8. koşu (17.30 · Handikap 15/DHÖ /H2 · 4 Yaşlı Araplar · 1800 m · Kum): favori 5 KURUŞUN GÜCÜ, kazanma şansı %23; sürpriz ihtimali %42.
 
 ### İstanbul
 - 1. koşu (17.15 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 2200 m · Sentetik): favori 5 APOLLON, kazanma şansı %23; sürpriz ihtimali %40.
@@ -47,4 +47,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 06.11.2026 07:08
+Güncellendi: 06.11.2026 08:14
