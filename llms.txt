@@ -19,12 +19,12 @@
 ## 7.11.2026 programı: yapay zekânın favorileri
 
 ### Ankara
-- 1. koşu (13.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Kum): favori 5 GAZNELİ, kazanma şansı %40; sürpriz ihtimali %21.
-- 2. koşu (14.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ETMAN, kazanma şansı %28; sürpriz ihtimali %31.
-- 3. koşu (14.30 · SATIŞ 3 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 1 LORD VİDAR, kazanma şansı %35; sürpriz ihtimali %14.
-- 4. koşu (15.00 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 7 CALL ME FREE, kazanma şansı %36; sürpriz ihtimali %34.
-- 5. koşu (15.30 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1200 m · Çim): favori 1 ÜNAL GÖZ, kazanma şansı %33; sürpriz ihtimali %29.
-- 6. koşu (16.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 2200 m · Çim): favori 2 SIKIDOST, kazanma şansı %39; sürpriz ihtimali %22.
+- 1. koşu (13.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Kum): favori 5 GAZNELİ, kazanma şansı %36; sürpriz ihtimali %27.
+- 2. koşu (14.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ETMAN, kazanma şansı %22; sürpriz ihtimali %42.
+- 3. koşu (14.30 · SATIŞ 3 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 2 NINE TREES, kazanma şansı %47; sürpriz ihtimali %10.
+- 4. koşu (15.00 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 7 CALL ME FREE, kazanma şansı %45; sürpriz ihtimali %31.
+- 5. koşu (15.30 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1200 m · Çim): favori 1 ÜNAL GÖZ, kazanma şansı %34; sürpriz ihtimali %32.
+- 6. koşu (16.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 2200 m · Çim): favori 2 SIKIDOST, kazanma şansı %33; sürpriz ihtimali %26.
 - 7. koşu (16.30 · KV-6/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 3 PERIWINKLE, kazanma şansı %36; sürpriz ihtimali %19.
 - 8. koşu (17.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 DÜZ KOŞU, kazanma şansı %28; sürpriz ihtimali %34.
 - 9. koşu (17.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 1 LOVE SEA, kazanma şansı %21; sürpriz ihtimali %46.
@@ -55,4 +55,4 @@
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 08:34
+Güncellendi: 07.11.2026 09:15
