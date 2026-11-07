@@ -40,12 +40,12 @@
 - 8. koşu (20.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 LADY ESİN, kazanma şansı %39; sürpriz ihtimali %27.
 
 ### Diyarbakır
-- 1. koşu (21.00 · Handikap 14 /H3 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 11 SUNFYRE, kazanma şansı %42; sürpriz ihtimali %34.
-- 2. koşu (21.30 · KV-7 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 7 KING LIGHTNING, kazanma şansı %47; sürpriz ihtimali %36.
-- 3. koşu (22.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 MELEKCAN, kazanma şansı %36; sürpriz ihtimali %20.
-- 4. koşu (22.30 · Handikap 16 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 BLUE RANSOM, kazanma şansı %47; sürpriz ihtimali %24.
-- 5. koşu (23.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 ARAPÇELİK, kazanma şansı %21; sürpriz ihtimali %48.
-- 6. koşu (23.30 · ŞARTLI 19/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 1 FERİTBATUR, kazanma şansı %27; sürpriz ihtimali %31.
+- 1. koşu (21.00 · Handikap 14 /H3 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 11 SUNFYRE, kazanma şansı %41; sürpriz ihtimali %35.
+- 2. koşu (21.30 · KV-7 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 7 KING LIGHTNING, kazanma şansı %46; sürpriz ihtimali %37.
+- 3. koşu (22.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 MELEKCAN, kazanma şansı %32; sürpriz ihtimali %22.
+- 4. koşu (22.30 · Handikap 16 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 BLUE RANSOM, kazanma şansı %45; sürpriz ihtimali %24.
+- 5. koşu (23.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 ARAPÇELİK, kazanma şansı %20; sürpriz ihtimali %48.
+- 6. koşu (23.30 · ŞARTLI 19/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 1 FERİTBATUR, kazanma şansı %27; sürpriz ihtimali %34.
 
 ## Sayfalar
 
@@ -58,4 +58,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 20:11
+Güncellendi: 07.11.2026 20:45
