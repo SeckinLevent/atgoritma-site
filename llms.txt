@@ -19,33 +19,33 @@
 ## 7.11.2026 programı: yapay zekânın favorileri
 
 ### Ankara
-- 1. koşu (13.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Kum): favori 5 GAZNELİ, kazanma şansı %36; sürpriz ihtimali %26.
-- 2. koşu (14.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ETMAN, kazanma şansı %23; sürpriz ihtimali %42.
-- 3. koşu (14.30 · SATIŞ 3 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 2 NINE TREES, kazanma şansı %58; sürpriz ihtimali %11.
+- 1. koşu (13.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Kum): favori 5 GAZNELİ, kazanma şansı %38; sürpriz ihtimali %25.
+- 2. koşu (14.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ETMAN, kazanma şansı %22; sürpriz ihtimali %41.
+- 3. koşu (14.30 · SATIŞ 3 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 2 NINE TREES, kazanma şansı %58; sürpriz ihtimali %10.
 - 4. koşu (15.00 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 7 CALL ME FREE, kazanma şansı %46; sürpriz ihtimali %28.
-- 5. koşu (15.30 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1200 m · Çim): favori 1 ÜNAL GÖZ, kazanma şansı %36; sürpriz ihtimali %27.
-- 6. koşu (16.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 2200 m · Çim): favori 2 SIKIDOST, kazanma şansı %39; sürpriz ihtimali %23.
-- 7. koşu (16.30 · KV-6/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 LEOPARDESS, kazanma şansı %33; sürpriz ihtimali %26.
-- 8. koşu (17.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 DÜZ KOŞU, kazanma şansı %43; sürpriz ihtimali %18.
-- 9. koşu (17.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 2 MELIAN THE MAIA, kazanma şansı %21; sürpriz ihtimali %44.
+- 5. koşu (15.30 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1200 m · Çim): favori 1 ÜNAL GÖZ, kazanma şansı %37; sürpriz ihtimali %26.
+- 6. koşu (16.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 2200 m · Çim): favori 2 SIKIDOST, kazanma şansı %40; sürpriz ihtimali %21.
+- 7. koşu (16.30 · KV-6/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 LEOPARDESS, kazanma şansı %33; sürpriz ihtimali %24.
+- 8. koşu (17.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 DÜZ KOŞU, kazanma şansı %44; sürpriz ihtimali %17.
+- 9. koşu (17.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 2 MELIAN THE MAIA, kazanma şansı %23; sürpriz ihtimali %44.
 
 ### İzmir
-- 1. koşu (16.45 · Handikap 16 /H2 · 3 Yaşlı İngilizler · 2200 m · Kum): favori 4 KRAL AYVALIK, kazanma şansı %36; sürpriz ihtimali %10.
-- 2. koşu (17.15 · ŞARTLI 4/DHÖ · 3 Yaşlı Araplar · 1600 m · Kum): favori 3 DOSTBAŞAR, kazanma şansı %36; sürpriz ihtimali %23.
-- 3. koşu (18.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 9 KUNTA, kazanma şansı %30; sürpriz ihtimali %21.
-- 4. koşu (18.30 · KV-6 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 10 CANVELO, kazanma şansı %25; sürpriz ihtimali %37.
+- 1. koşu (16.45 · Handikap 16 /H2 · 3 Yaşlı İngilizler · 2200 m · Kum): favori 4 KRAL AYVALIK, kazanma şansı %38; sürpriz ihtimali %12.
+- 2. koşu (17.15 · ŞARTLI 4/DHÖ · 3 Yaşlı Araplar · 1600 m · Kum): favori 3 DOSTBAŞAR, kazanma şansı %33; sürpriz ihtimali %23.
+- 3. koşu (18.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 8 DREAM OF ANGEL, kazanma şansı %30; sürpriz ihtimali %21.
+- 4. koşu (18.30 · KV-6 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 10 CANVELO, kazanma şansı %28; sürpriz ihtimali %35.
 - 5. koşu (19.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 9 ROSİLDA, kazanma şansı %21; sürpriz ihtimali %42.
-- 6. koşu (19.30 · KV-8 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 HILL OF ANGELS, kazanma şansı %46; sürpriz ihtimali %9.
-- 7. koşu (20.00 · Handikap 16/DHÖW/Dişi /H2/Y2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 2 SAKIZ ADASI, kazanma şansı %18; sürpriz ihtimali %55.
-- 8. koşu (20.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 LADY ESİN, kazanma şansı %37; sürpriz ihtimali %32.
+- 6. koşu (19.30 · KV-8 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 HILL OF ANGELS, kazanma şansı %47; sürpriz ihtimali %8.
+- 7. koşu (20.00 · Handikap 16/DHÖW/Dişi /H2/Y2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 2 SAKIZ ADASI, kazanma şansı %20; sürpriz ihtimali %52.
+- 8. koşu (20.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 LADY ESİN, kazanma şansı %39; sürpriz ihtimali %33.
 
 ### Diyarbakır
-- 1. koşu (21.00 · Handikap 14 /H3 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 11 SUNFYRE, kazanma şansı %38; sürpriz ihtimali %30.
-- 2. koşu (21.30 · KV-7 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 7 KING LIGHTNING, kazanma şansı %38; sürpriz ihtimali %41.
-- 3. koşu (22.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 MELEKCAN, kazanma şansı %39; sürpriz ihtimali %20.
-- 4. koşu (22.30 · Handikap 16 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 BLUE RANSOM, kazanma şansı %30; sürpriz ihtimali %34.
-- 5. koşu (23.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 8 PRENSES DİLARA, kazanma şansı %18; sürpriz ihtimali %50.
-- 6. koşu (23.30 · ŞARTLI 19/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 1 FERİTBATUR, kazanma şansı %29; sürpriz ihtimali %42.
+- 1. koşu (21.00 · Handikap 14 /H3 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 11 SUNFYRE, kazanma şansı %45; sürpriz ihtimali %30.
+- 2. koşu (21.30 · KV-7 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 7 KING LIGHTNING, kazanma şansı %44; sürpriz ihtimali %39.
+- 3. koşu (22.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 MELEKCAN, kazanma şansı %41; sürpriz ihtimali %16.
+- 4. koşu (22.30 · Handikap 16 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 BLUE RANSOM, kazanma şansı %40; sürpriz ihtimali %30.
+- 5. koşu (23.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 ARAPÇELİK, kazanma şansı %20; sürpriz ihtimali %47.
+- 6. koşu (23.30 · ŞARTLI 19/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 1 FERİTBATUR, kazanma şansı %29; sürpriz ihtimali %35.
 
 ## Sayfalar
 
@@ -58,4 +58,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 10:33
+Güncellendi: 07.11.2026 11:34
