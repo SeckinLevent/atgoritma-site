@@ -37,7 +37,7 @@
 - 5. koşu (19.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 9 ROSİLDA, kazanma şansı %20; sürpriz ihtimali %45. Sonuç: kazanan 8 KUZEYİN KRALI.
 - 6. koşu (19.30 · KV-8 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 HILL OF ANGELS, kazanma şansı %42; sürpriz ihtimali %7. Sonuç: kazanan 4 PAŞOT.
 - 7. koşu (20.00 · Handikap 16/DHÖW/Dişi /H2/Y2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 2 SAKIZ ADASI, kazanma şansı %22; sürpriz ihtimali %47. Sonuç: kazanan 4 ERGEN.
-- 8. koşu (20.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 LADY ESİN, kazanma şansı %39; sürpriz ihtimali %27.
+- 8. koşu (20.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 LADY ESİN, kazanma şansı %39; sürpriz ihtimali %27. Sonuç: kazanan 3 DELİ ALPERİN OĞLU.
 
 ### Diyarbakır
 - 1. koşu (21.00 · Handikap 14 /H3 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 11 SUNFYRE, kazanma şansı %41; sürpriz ihtimali %35.
@@ -58,4 +58,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 20:45
+Güncellendi: 07.11.2026 20:47
