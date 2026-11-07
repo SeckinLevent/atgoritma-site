@@ -53,6 +53,9 @@
 - [Nasıl çalışır](https://atgoritma.com/nasil-calisir/): veri, kriterler, sürpriz ihtimali, değer ganyanı ve sınırlar.
 - [İstatistikler](https://atgoritma.com/istatistikler/): kazananı bilme oranları, AGF ile karşılaştırma, kalibrasyon.
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
+- [Tahminler](https://atgoritma.com/tahmin/): hipodrom hipodrom günün tahminleri (düz metin), sonuçlar ve günlük arşiv.
+- [At sayfaları](https://atgoritma.com/at/) ve [jokey sayfaları](https://atgoritma.com/jokey/): TJK sonuçlarından yarış geçmişi ve istatistikler.
+- [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 09:15
+Güncellendi: 07.11.2026 09:17
