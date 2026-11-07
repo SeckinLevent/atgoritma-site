@@ -27,7 +27,7 @@
 - 6. koşu (16.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 2200 m · Çim): favori 2 SIKIDOST, kazanma şansı %36; sürpriz ihtimali %22. Sonuç: kazanan 3 DİNAMİT.
 - 7. koşu (16.30 · KV-6/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 LEOPARDESS, kazanma şansı %33; sürpriz ihtimali %25. Sonuç: kazanan 1 LEOPARDESS.
 - 8. koşu (17.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 DÜZ KOŞU, kazanma şansı %47; sürpriz ihtimali %19. Sonuç: kazanan 2 DÜZ KOŞU.
-- 9. koşu (17.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 2 MELIAN THE MAIA, kazanma şansı %22; sürpriz ihtimali %41.
+- 9. koşu (17.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 2 MELIAN THE MAIA, kazanma şansı %22; sürpriz ihtimali %41. Sonuç: kazanan 2 MELIAN THE MAIA.
 
 ### İzmir
 - 1. koşu (16.45 · Handikap 16 /H2 · 3 Yaşlı İngilizler · 2200 m · Kum): favori 4 KRAL AYVALIK, kazanma şansı %34; sürpriz ihtimali %21. Sonuç: kazanan 1 HARP.
@@ -58,4 +58,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 17:35
+Güncellendi: 07.11.2026 17:47
