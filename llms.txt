@@ -34,7 +34,7 @@
 - 2. koşu (17.15 · ŞARTLI 4/DHÖ · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 KAFKAS YÜREKLİ, kazanma şansı %45; sürpriz ihtimali %27. Sonuç: kazanan 8 AYDİNÇ.
 - 3. koşu (18.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 8 DREAM OF ANGEL, kazanma şansı %30; sürpriz ihtimali %31. Sonuç: kazanan 3 GOLDEN BEST.
 - 4. koşu (18.30 · KV-6 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 10 CANVELO, kazanma şansı %36; sürpriz ihtimali %38. Sonuç: kazanan 5 EMREEFE.
-- 5. koşu (19.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 9 ROSİLDA, kazanma şansı %20; sürpriz ihtimali %45.
+- 5. koşu (19.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 9 ROSİLDA, kazanma şansı %20; sürpriz ihtimali %45. Sonuç: kazanan 8 KUZEYİN KRALI.
 - 6. koşu (19.30 · KV-8 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 HILL OF ANGELS, kazanma şansı %42; sürpriz ihtimali %7.
 - 7. koşu (20.00 · Handikap 16/DHÖW/Dişi /H2/Y2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 2 SAKIZ ADASI, kazanma şansı %22; sürpriz ihtimali %47.
 - 8. koşu (20.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 LADY ESİN, kazanma şansı %39; sürpriz ihtimali %27.
@@ -58,4 +58,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 07.11.2026 18:43
+Güncellendi: 07.11.2026 19:13
