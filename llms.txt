@@ -37,7 +37,7 @@
 - 5. koşu (19.30 · Handikap 16/Dişi /H2 · 3 ve Yukarı İngilizler · 1400 m · Sentetik): favori 3 MISFIT, kazanma şansı %17; sürpriz ihtimali %56. Sonuç: kazanan 7 HIZLI GÖR.
 - 6. koşu (20.00 · KV-7/DHÖW/Dişi · 4 ve Yukarı Araplar · 1300 m · Sentetik): favori 1 ESİNİN KIZI, kazanma şansı %29; sürpriz ihtimali %38. Sonuç: kazanan 7 AL BENZE.
 - 7. koşu (20.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 8 SİGNOMİ, kazanma şansı %33; sürpriz ihtimali %32. Sonuç: kazanan 3 BLACK AS NIGHT.
-- 8. koşu (21.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 8 CONSULTANT, kazanma şansı %49; sürpriz ihtimali %22.
+- 8. koşu (21.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 8 CONSULTANT, kazanma şansı %49; sürpriz ihtimali %22. Sonuç: kazanan 8 CONSULTANT.
 - 9. koşu (21.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 9 TAKEACHANCEONME, kazanma şansı %32; sürpriz ihtimali %32.
 
 ## Sayfalar
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 08.11.2026 20:45
+Güncellendi: 08.11.2026 21:12
