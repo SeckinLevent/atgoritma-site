@@ -19,15 +19,15 @@
 ## 8.11.2026 programı: yapay zekânın favorileri
 
 ### İstanbul
-- 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Çim): favori 5 TIME TO VICTORY, kazanma şansı %25; sürpriz ihtimali %41.
+- 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Çim): favori 5 TIME TO VICTORY, kazanma şansı %24; sürpriz ihtimali %41.
 - 2. koşu (14.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 3 PRENS LAUTARO, kazanma şansı %25; sürpriz ihtimali %40.
-- 3. koşu (15.00 · Handikap 15/DHÖ/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Çim): favori 1 BALLIBİKE, kazanma şansı %37; sürpriz ihtimali %27.
+- 3. koşu (15.00 · Handikap 15/DHÖ/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Çim): favori 1 BALLIBİKE, kazanma şansı %37; sürpriz ihtimali %28.
 - 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Çim): favori 7 TOUCH THE STORM, kazanma şansı %27; sürpriz ihtimali %32.
 - 5. koşu (16.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1900 m · Çim): favori 3 ERSANŞAH, kazanma şansı %32; sürpriz ihtimali %28.
-- 6. koşu (16.30 · G 2/Dişi · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 4 SHINNY, kazanma şansı %27; sürpriz ihtimali %41.
-- 7. koşu (17.00 · Kısa Vade Handikap 24 /H1 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 2 JOHN ABRUZZI, kazanma şansı %30; sürpriz ihtimali %20.
+- 6. koşu (16.30 · G 2/Dişi · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 4 SHINNY, kazanma şansı %28; sürpriz ihtimali %40.
+- 7. koşu (17.00 · Kısa Vade Handikap 24 /H1 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 2 JOHN ABRUZZI, kazanma şansı %31; sürpriz ihtimali %21.
 - 8. koşu (17.30 · KV-7 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 6 SOMEWHAT CLOUDY, kazanma şansı %41; sürpriz ihtimali %23.
-- 9. koşu (18.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1900 m · Çim): favori 4 KOKO LOKO, kazanma şansı %25; sürpriz ihtimali %39.
+- 9. koşu (18.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1900 m · Çim): favori 4 KOKO LOKO, kazanma şansı %24; sürpriz ihtimali %39.
 
 ### Adana
 - 1. koşu (17.15 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1300 m · Kum): favori 4 ROCKSTAR, kazanma şansı %25; sürpriz ihtimali %33.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 08.11.2026 07:04
+Güncellendi: 08.11.2026 09:14
