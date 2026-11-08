@@ -19,26 +19,26 @@
 ## 8.11.2026 programı: yapay zekânın favorileri
 
 ### İstanbul
-- 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 5 TIME TO VICTORY, kazanma şansı %28; sürpriz ihtimali %38.
-- 2. koşu (14.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 3 PRENS LAUTARO, kazanma şansı %26; sürpriz ihtimali %35.
-- 3. koşu (15.00 · Handikap 15/DHÖ/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 BALLIBİKE, kazanma şansı %33; sürpriz ihtimali %33.
-- 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 7 TOUCH THE STORM, kazanma şansı %51; sürpriz ihtimali %24.
-- 5. koşu (16.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 4 KAŞIKÇIBEYİ, kazanma şansı %34; sürpriz ihtimali %29.
+- 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 5 TIME TO VICTORY, kazanma şansı %30; sürpriz ihtimali %37.
+- 2. koşu (14.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 3 PRENS LAUTARO, kazanma şansı %27; sürpriz ihtimali %35.
+- 3. koşu (15.00 · Handikap 15/DHÖ/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 BALLIBİKE, kazanma şansı %32; sürpriz ihtimali %35.
+- 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 7 TOUCH THE STORM, kazanma şansı %58; sürpriz ihtimali %20.
+- 5. koşu (16.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 4 KAŞIKÇIBEYİ, kazanma şansı %32; sürpriz ihtimali %28.
 - 6. koşu (16.30 · G 2/Dişi · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 4 SHINNY, kazanma şansı %47; sürpriz ihtimali %21.
-- 7. koşu (17.00 · Kısa Vade Handikap 24 /H1 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 1 BROARTS, kazanma şansı %30; sürpriz ihtimali %26.
+- 7. koşu (17.00 · Kısa Vade Handikap 24 /H1 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 1 BROARTS, kazanma şansı %31; sürpriz ihtimali %26.
 - 8. koşu (17.30 · KV-7 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 6 SOMEWHAT CLOUDY, kazanma şansı %51; sürpriz ihtimali %15.
-- 9. koşu (18.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 4 KOKO LOKO, kazanma şansı %38; sürpriz ihtimali %36.
+- 9. koşu (18.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 4 KOKO LOKO, kazanma şansı %37; sürpriz ihtimali %34.
 
 ### Adana
-- 1. koşu (17.15 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1300 m · Kum): favori 8 DEĞERHAN, kazanma şansı %28; sürpriz ihtimali %27.
-- 2. koşu (17.45 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 4 KONNICHIWA, kazanma şansı %51; sürpriz ihtimali %24.
-- 3. koşu (18.30 · Handikap 16 /H2 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 3 MY LADY BUG, kazanma şansı %36; sürpriz ihtimali %11.
-- 4. koşu (19.00 · ŞARTLI 5/DHÖ · 4 Yaşlı Araplar · 1300 m · Sentetik): favori 8 DENİZ KESTANESİ, kazanma şansı %66; sürpriz ihtimali %17.
-- 5. koşu (19.30 · Handikap 16/Dişi /H2 · 3 ve Yukarı İngilizler · 1400 m · Sentetik): favori 12 FRÜHLİNG, kazanma şansı %18; sürpriz ihtimali %55.
-- 6. koşu (20.00 · KV-7/DHÖW/Dişi · 4 ve Yukarı Araplar · 1300 m · Sentetik): favori 1 ESİNİN KIZI, kazanma şansı %27; sürpriz ihtimali %40.
-- 7. koşu (20.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 8 SİGNOMİ, kazanma şansı %31; sürpriz ihtimali %24.
-- 8. koşu (21.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 8 CONSULTANT, kazanma şansı %37; sürpriz ihtimali %24.
-- 9. koşu (21.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 9 TAKEACHANCEONME, kazanma şansı %30; sürpriz ihtimali %26.
+- 1. koşu (17.15 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1300 m · Kum): favori 8 DEĞERHAN, kazanma şansı %30; sürpriz ihtimali %23.
+- 2. koşu (17.45 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 4 KONNICHIWA, kazanma şansı %51; sürpriz ihtimali %27.
+- 3. koşu (18.30 · Handikap 16 /H2 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 3 MY LADY BUG, kazanma şansı %37; sürpriz ihtimali %14.
+- 4. koşu (19.00 · ŞARTLI 5/DHÖ · 4 Yaşlı Araplar · 1300 m · Sentetik): favori 8 DENİZ KESTANESİ, kazanma şansı %61; sürpriz ihtimali %20.
+- 5. koşu (19.30 · Handikap 16/Dişi /H2 · 3 ve Yukarı İngilizler · 1400 m · Sentetik): favori 12 FRÜHLİNG, kazanma şansı %17; sürpriz ihtimali %55.
+- 6. koşu (20.00 · KV-7/DHÖW/Dişi · 4 ve Yukarı Araplar · 1300 m · Sentetik): favori 1 ESİNİN KIZI, kazanma şansı %30; sürpriz ihtimali %36.
+- 7. koşu (20.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 8 SİGNOMİ, kazanma şansı %32; sürpriz ihtimali %32.
+- 8. koşu (21.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 8 CONSULTANT, kazanma şansı %45; sürpriz ihtimali %22.
+- 9. koşu (21.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 9 TAKEACHANCEONME, kazanma şansı %30; sürpriz ihtimali %29.
 
 ## Sayfalar
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 08.11.2026 12:22
+Güncellendi: 08.11.2026 13:43
