@@ -25,7 +25,7 @@
 - 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 7 TOUCH THE STORM, kazanma şansı %58; sürpriz ihtimali %19. Sonuç: kazanan 7 TOUCH THE STORM.
 - 5. koşu (16.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 4 KAŞIKÇIBEYİ, kazanma şansı %31; sürpriz ihtimali %28. Sonuç: kazanan 4 KAŞIKÇIBEYİ.
 - 6. koşu (16.30 · G 2/Dişi · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 4 SHINNY, kazanma şansı %46; sürpriz ihtimali %21. Sonuç: kazanan 1 BEAUTY OF DARKNESS.
-- 7. koşu (17.00 · Kısa Vade Handikap 24 /H1 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 1 BROARTS, kazanma şansı %31; sürpriz ihtimali %26.
+- 7. koşu (17.00 · Kısa Vade Handikap 24 /H1 · 3 ve Yukarı İngilizler · 2000 m · Sentetik): favori 1 BROARTS, kazanma şansı %31; sürpriz ihtimali %26. Sonuç: kazanan 1 BROARTS.
 - 8. koşu (17.30 · KV-7 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 6 SOMEWHAT CLOUDY, kazanma şansı %50; sürpriz ihtimali %15.
 - 9. koşu (18.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 4 KOKO LOKO, kazanma şansı %31; sürpriz ihtimali %38.
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 08.11.2026 17:01
+Güncellendi: 08.11.2026 17:11
