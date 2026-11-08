@@ -20,7 +20,7 @@
 
 ### İstanbul
 - 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 5 TIME TO VICTORY, kazanma şansı %30; sürpriz ihtimali %37. Sonuç: kazanan 2 BREAK MY HEART.
-- 2. koşu (14.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 3 PRENS LAUTARO, kazanma şansı %26; sürpriz ihtimali %35.
+- 2. koşu (14.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 3 PRENS LAUTARO, kazanma şansı %26; sürpriz ihtimali %35. Sonuç: kazanan 6 WOLF BROTHERS.
 - 3. koşu (15.00 · Handikap 15/DHÖ/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 BALLIBİKE, kazanma şansı %31; sürpriz ihtimali %36.
 - 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 7 TOUCH THE STORM, kazanma şansı %58; sürpriz ihtimali %19.
 - 5. koşu (16.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 4 KAŞIKÇIBEYİ, kazanma şansı %31; sürpriz ihtimali %28.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 08.11.2026 14:15
+Güncellendi: 08.11.2026 14:40
