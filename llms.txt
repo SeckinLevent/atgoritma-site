@@ -19,7 +19,7 @@
 ## 9.11.2026 programı: yapay zekânın favorileri
 
 ### Bursa
-- 1. koşu (14.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 6 GOLDEN RHYTHM, kazanma şansı %36; sürpriz ihtimali %32.
+- 1. koşu (14.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 6 GOLDEN RHYTHM, kazanma şansı %36; sürpriz ihtimali %32. Sonuç: kazanan 2 ALTIN KELEBEK.
 - 2. koşu (14.30 · SATIŞ 1/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 GÜZEL ZEHRA, kazanma şansı %45; sürpriz ihtimali %20.
 - 3. koşu (15.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 HOLD ON TO LIFE, kazanma şansı %32; sürpriz ihtimali %38.
 - 4. koşu (15.30 · Handikap 16/DHÖW /H2 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 12 KARANİMO, kazanma şansı %20; sürpriz ihtimali %52.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 09.11.2026 13:42
+Güncellendi: 09.11.2026 14:15
