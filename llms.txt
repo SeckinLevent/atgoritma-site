@@ -36,7 +36,7 @@
 - 5. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 12 QUEEN IQRA, kazanma şansı %25; sürpriz ihtimali %46. Sonuç: kazanan 11 WILD FALCON.
 - 6. koşu (20.00 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 5 WAR COMANDER, kazanma şansı %37; sürpriz ihtimali %35. Sonuç: kazanan 5 WAR COMANDER.
 - 7. koşu (20.30 · ŞARTLI 5/DHÖ · 4 ve Yukarı Araplar · 1400 m · Kum): favori 9 UTKAN, kazanma şansı %20; sürpriz ihtimali %49. Sonuç: kazanan 13 KRALDOĞAN.
-- 8. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 8 STAR SONN, kazanma şansı %41; sürpriz ihtimali %39.
+- 8. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 8 STAR SONN, kazanma şansı %41; sürpriz ihtimali %39. Sonuç: kazanan 3 GÖKTE YAZI.
 - 9. koşu (21.30 · Handikap 16/DHÖW /H3 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 10 ÜNSALBEYİM, kazanma şansı %27; sürpriz ihtimali %51.
 
 ## Sayfalar
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 09.11.2026 20:41
+Güncellendi: 09.11.2026 21:16
