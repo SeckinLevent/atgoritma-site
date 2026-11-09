@@ -21,7 +21,7 @@
 ### Bursa
 - 1. koşu (14.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 6 GOLDEN RHYTHM, kazanma şansı %36; sürpriz ihtimali %32. Sonuç: kazanan 2 ALTIN KELEBEK.
 - 2. koşu (14.30 · SATIŞ 1/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 GÜZEL ZEHRA, kazanma şansı %45; sürpriz ihtimali %20. Sonuç: kazanan 3 GÜZEL ZEHRA.
-- 3. koşu (15.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 HOLD ON TO LIFE, kazanma şansı %32; sürpriz ihtimali %38.
+- 3. koşu (15.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 HOLD ON TO LIFE, kazanma şansı %32; sürpriz ihtimali %38. Sonuç: kazanan 6 INFINITE STORM.
 - 4. koşu (15.30 · Handikap 16/DHÖW /H2 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 12 KARANİMO, kazanma şansı %20; sürpriz ihtimali %52.
 - 5. koşu (16.00 · KV-8 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 7 TENACIOUS KHAN, kazanma şansı %64; sürpriz ihtimali %8.
 - 6. koşu (16.30 · G 3/DHT · 4 ve Yukarı Araplar · 2000 m · Kum): favori 16 TAHSİN SEFA, kazanma şansı %28; sürpriz ihtimali %43.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 09.11.2026 14:46
+Güncellendi: 09.11.2026 15:14
