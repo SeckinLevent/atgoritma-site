@@ -32,7 +32,7 @@
 - 1. koşu (17.15 · Handikap 14/Dişi /H3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 SECRET GIRL, kazanma şansı %35; sürpriz ihtimali %33. Sonuç: kazanan 7 GODDESS OF BEAUTY.
 - 2. koşu (18.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 12 MINISTER GIRL, kazanma şansı %26; sürpriz ihtimali %48. Sonuç: kazanan 12 MINISTER GIRL.
 - 3. koşu (18.30 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1700 m · Kum): favori 3 BAKTAGÖR, kazanma şansı %23; sürpriz ihtimali %42. Sonuç: kazanan 1 KING BOREAS.
-- 4. koşu (19.00 · Handikap 14/DHÖW /H3 · 3 Yaşlı Araplar · 1300 m · Kum): favori 7 KARAMAHMUTOĞLU, kazanma şansı %21; sürpriz ihtimali %50.
+- 4. koşu (19.00 · Handikap 14/DHÖW /H3 · 3 Yaşlı Araplar · 1300 m · Kum): favori 7 KARAMAHMUTOĞLU, kazanma şansı %21; sürpriz ihtimali %50. Sonuç: kazanan 8 MAÇKA BEY.
 - 5. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 12 QUEEN IQRA, kazanma şansı %25; sürpriz ihtimali %46.
 - 6. koşu (20.00 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 5 WAR COMANDER, kazanma şansı %37; sürpriz ihtimali %35.
 - 7. koşu (20.30 · ŞARTLI 5/DHÖ · 4 ve Yukarı Araplar · 1400 m · Kum): favori 9 UTKAN, kazanma şansı %20; sürpriz ihtimali %49.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 09.11.2026 18:43
+Güncellendi: 09.11.2026 19:13
