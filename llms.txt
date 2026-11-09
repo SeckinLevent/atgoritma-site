@@ -29,14 +29,14 @@
 - 8. koşu (17.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 2 ABELARDO, kazanma şansı %15; sürpriz ihtimali %58.
 
 ### Şanlıurfa
-- 1. koşu (17.15 · Handikap 14/Dişi /H3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 SECRET GIRL, kazanma şansı %22; sürpriz ihtimali %44.
+- 1. koşu (17.15 · Handikap 14/Dişi /H3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 AŞAN STAR, kazanma şansı %23; sürpriz ihtimali %40.
 - 2. koşu (18.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 12 MINISTER GIRL, kazanma şansı %14; sürpriz ihtimali %62.
-- 3. koşu (18.30 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1700 m · Kum): favori 8 SYNDICATION, kazanma şansı %19; sürpriz ihtimali %48.
-- 4. koşu (19.00 · Handikap 14/DHÖW /H3 · 3 Yaşlı Araplar · 1300 m · Kum): favori 12 KIRDOĞAN, kazanma şansı %16; sürpriz ihtimali %54.
+- 3. koşu (18.30 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1700 m · Kum): favori 3 BAKTAGÖR, kazanma şansı %20; sürpriz ihtimali %47.
+- 4. koşu (19.00 · Handikap 14/DHÖW /H3 · 3 Yaşlı Araplar · 1300 m · Kum): favori 7 KARAMAHMUTOĞLU, kazanma şansı %19; sürpriz ihtimali %50.
 - 5. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 12 QUEEN IQRA, kazanma şansı %15; sürpriz ihtimali %58.
 - 6. koşu (20.00 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 12 ŞERDİL, kazanma şansı %19; sürpriz ihtimali %50.
-- 7. koşu (20.30 · ŞARTLI 5/DHÖ · 4 ve Yukarı Araplar · 1400 m · Kum): favori 1 İLBAN BEYİ, kazanma şansı %25; sürpriz ihtimali %42.
-- 8. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 9 VIA SISTINO, kazanma şansı %21; sürpriz ihtimali %45.
+- 7. koşu (20.30 · ŞARTLI 5/DHÖ · 4 ve Yukarı Araplar · 1400 m · Kum): favori 1 İLBAN BEYİ, kazanma şansı %26; sürpriz ihtimali %40.
+- 8. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 8 STAR SONN, kazanma şansı %22; sürpriz ihtimali %43.
 - 9. koşu (21.30 · Handikap 16/DHÖW /H3 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 6 ÇİÇEKMAST, kazanma şansı %16; sürpriz ihtimali %58.
 
 ## Sayfalar
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 09.11.2026 07:04
+Güncellendi: 09.11.2026 08:12
