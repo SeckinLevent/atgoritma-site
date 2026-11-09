@@ -19,14 +19,14 @@
 ## 9.11.2026 programı: yapay zekânın favorileri
 
 ### Bursa
-- 1. koşu (14.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 11 YÜKSEL BAŞKAN, kazanma şansı %24; sürpriz ihtimali %44.
-- 2. koşu (14.30 · SATIŞ 1/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 GÜZEL ZEHRA, kazanma şansı %30; sürpriz ihtimali %30.
+- 1. koşu (14.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 11 YÜKSEL BAŞKAN, kazanma şansı %24; sürpriz ihtimali %45.
+- 2. koşu (14.30 · SATIŞ 1/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 GÜZEL ZEHRA, kazanma şansı %31; sürpriz ihtimali %29.
 - 3. koşu (15.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 6 INFINITE STORM, kazanma şansı %23; sürpriz ihtimali %42.
 - 4. koşu (15.30 · Handikap 16/DHÖW /H2 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 5 BİRGEDAĞ, kazanma şansı %16; sürpriz ihtimali %55.
 - 5. koşu (16.00 · KV-8 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 7 TENACIOUS KHAN, kazanma şansı %34; sürpriz ihtimali %26.
-- 6. koşu (16.30 · G 3/DHT · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 BEYAZIŞIK, kazanma şansı %18; sürpriz ihtimali %56.
+- 6. koşu (16.30 · G 3/DHT · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 BEYAZIŞIK, kazanma şansı %18; sürpriz ihtimali %57.
 - 7. koşu (17.00 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 1 AĞUSTOS AHMET, kazanma şansı %27; sürpriz ihtimali %32.
-- 8. koşu (17.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 2 ABELARDO, kazanma şansı %15; sürpriz ihtimali %58.
+- 8. koşu (17.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 15 BABA ZÜLKÜF, kazanma şansı %15; sürpriz ihtimali %58.
 
 ### Şanlıurfa
 - 1. koşu (17.15 · Handikap 14/Dişi /H3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 AŞAN STAR, kazanma şansı %23; sürpriz ihtimali %40.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 09.11.2026 08:12
+Güncellendi: 09.11.2026 08:55
