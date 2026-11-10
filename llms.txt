@@ -30,7 +30,7 @@
 - 9. koşu (18.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 5 GÜNDOĞMUŞ, kazanma şansı %20; sürpriz ihtimali %44.
 
 ### Kocaeli
-- 1. koşu (17.15 · Handikap 17/DHÖW /H2 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 2 CANYAMAN, kazanma şansı %19; sürpriz ihtimali %50.
+- 1. koşu (17.15 · Handikap 17/DHÖW /H2 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 2 CANYAMAN, kazanma şansı %19; sürpriz ihtimali %50. Sonuç: kazanan 3 BEŞİR ÇAVUŞ.
 - 2. koşu (17.45 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 DİSU BEY, kazanma şansı %33; sürpriz ihtimali %34.
 - 3. koşu (18.30 · ŞARTLI 4 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 1 STEEL STRONG, kazanma şansı %80; sürpriz ihtimali %3.
 - 4. koşu (19.00 · Handikap 15/DHÖW/Dişi /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 3 SEMENDİN GÜCÜ, kazanma şansı %26; sürpriz ihtimali %42.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 10.11.2026 17:17
+Güncellendi: 10.11.2026 17:27
