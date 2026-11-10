@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Atgoritma · Yapay zekâ ile at yarışı · Tanıtım</title>
+<title>Atgoritma · Yapay zekâ ile at yarışı · 1 dakikalık tanıtım</title>
 <meta name="description" content="Atgoritma'yı adım adım tanıyın: menüler, yarış tablosu, ata dokununca açılan özet, koşunun hikâyesi, altılı kuponları ve Kupon Sihirbazı.">
 <link rel="canonical" href="https://atgoritma.com/tanitim/">
 <meta name="robots" content="index, follow">
-<meta property="og:title" content="Atgoritma nasıl kullanılır? · 2 dakikalık tanıtım">
+<meta property="og:title" content="Atgoritma · Yapay zekâ ile at yarışı · 1 dakikalık tanıtım">
 <meta property="og:description" content="Menüler, yarış tablosu, at özeti, koşunun hikâyesi ve Kupon Sihirbazı: adım adım animasyonlu tanıtım.">
 <meta property="og:type" content="website"><meta property="og:url" content="https://atgoritma.com/tanitim/">
 <meta property="og:site_name" content="Atgoritma"><meta property="og:locale" content="tr_TR">
@@ -233,7 +233,7 @@ body { overflow: hidden; background: #03070f; }
 .izle { position: relative; width: 96px; height: 96px; border-radius: 50%; border: 0; cursor: pointer; display: grid; place-items: center; background: linear-gradient(180deg, var(--gold2), var(--gold) 55%, var(--gold-deep)); box-shadow: 0 0 0 0 rgba(245,197,66,.6), 0 0 50px rgba(245,197,66,.55); animation: izleNab 2s infinite; }
 .izle svg { width: 40px; height: 40px; fill: var(--on-gold); margin-left: 6px; }
 .izle svg.geri-say { position: absolute; inset: -8px; width: 112px; height: 112px; margin: 0; fill: none; transform: rotate(-90deg); }
-.izle svg.geri-say circle { stroke: var(--gold2); stroke-width: 3; stroke-dasharray: 333; stroke-dashoffset: 333; animation: say 3.2s linear forwards; }
+.izle svg.geri-say circle { stroke: var(--gold2); stroke-width: 3; stroke-dasharray: 333; stroke-dashoffset: 333; animation: say 2.6s linear forwards; }
 @keyframes say { to { stroke-dashoffset: 0; } }
 @keyframes izleNab { 0% { box-shadow: 0 0 0 0 rgba(245,197,66,.55), 0 0 50px rgba(245,197,66,.55); } 70% { box-shadow: 0 0 0 22px rgba(245,197,66,0), 0 0 50px rgba(245,197,66,.55); } 100% { box-shadow: 0 0 0 0 rgba(245,197,66,0), 0 0 50px rgba(245,197,66,.55); } }
 .ortu .dugmeler { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
@@ -249,17 +249,58 @@ body { overflow: hidden; background: #03070f; }
   .dokun-alan { inset: 58px 0 30px; }
 }
 @media (prefers-reduced-motion: reduce) { .isik, .tel-don, .izle { animation: none !important; } .yazi h1 .k, .yazi h1 em.k { animation: kelime .01s forwards !important; } .silme.git { animation: none; } }
+
+/* ===== Hız, vurgu ve marka ===== */
+.filigran { position: absolute; width: 90vmin; right: -14vmin; bottom: -18vmin; opacity: .07; mix-blend-mode: screen; animation: filigran 18s ease-in-out infinite alternate; pointer-events: none; }
+@keyframes filigran { from { transform: translate(0, 0) rotate(-4deg); } to { transform: translate(-6vmin, -4vmin) rotate(3deg); } }
+.ust-k .marka img.ust-logo { height: 58px; width: auto; border-radius: 0;  filter: drop-shadow(0 0 12px rgba(245,197,66,.35)); }
+.ust-k .marka { gap: 0; }
+.etiket img { width: 26px; height: 26px; mix-blend-mode: screen; }
+.etiket::before { display: none; }
+.hayalet { position: absolute; z-index: -1; left: -.06em; top: 50%; transform: translateY(-58%); font: 800 clamp(140px, 22vw, 300px)/1 var(--fd); color: transparent; -webkit-text-stroke: 2px rgba(245,197,66,.16); pointer-events: none; }
+.hayalet.vur { animation: hayalet .5s cubic-bezier(.2,.8,.2,1); }
+@keyframes hayalet { from { opacity: 0; transform: translateY(-58%) scale(1.5); } to { opacity: 1; transform: translateY(-58%) scale(1); } }
+.yazi { position: relative; }
+.yazi h1 em.k { filter: drop-shadow(0 0 16px rgba(245,197,66,.55)); animation: vurgu .55s cubic-bezier(.2,1.4,.3,1) forwards, parilti 2.4s .8s linear infinite !important; }
+@keyframes vurgu { 0% { opacity: 0; transform: scale(1.8) translateY(-.1em); filter: blur(6px) drop-shadow(0 0 30px rgba(255,224,138,.9)); } 60% { opacity: 1; transform: scale(.94); } 100% { opacity: 1; transform: none; filter: drop-shadow(0 0 16px rgba(245,197,66,.55)); } }
+.yazi h1 .k { animation-duration: .45s; }
+.flas { position: absolute; inset: 0; z-index: 24; pointer-events: none; background: radial-gradient(60% 60% at 60% 45%, rgba(255,236,170,.55), rgba(245,197,66,.15) 45%, transparent 70%); opacity: 0; }
+.flas.git { animation: flas .45s ease-out; }
+@keyframes flas { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
+.silme.git { animation-duration: .5s; }
+.tel-don.giris-sag { animation: girSag .55s cubic-bezier(.2,.9,.25,1.05) both, yuz 5s .55s ease-in-out infinite; }
+.tel-don.giris-sol { animation: girSol .55s cubic-bezier(.2,.9,.25,1.05) both, yuz 5s .55s ease-in-out infinite; }
+@keyframes girSag { from { opacity: 0; transform: translateX(24%) rotateY(-34deg) scale(1.12); } to { opacity: 1; transform: none; } }
+@keyframes girSol { from { opacity: 0; transform: translateX(-24%) rotateY(34deg) scale(1.12); } to { opacity: 1; transform: none; } }
+.yazi .alt.gor { animation: gir .45s .35s ease-out forwards; }
+/* Marka sahnesi (giriş ve kapanış) */
+.marka-sahne { position: relative; width: min(560px, 88vw); aspect-ratio: 3 / 2; display: grid; place-items: center; }
+.isinlar { position: absolute; inset: -30%; border-radius: 50%; background: repeating-conic-gradient(from 0deg, rgba(245,197,66,.16) 0deg 6deg, transparent 6deg 18deg); -webkit-mask: radial-gradient(closest-side, #000 30%, transparent 75%); mask: radial-gradient(closest-side, #000 30%, transparent 75%); animation: don 22s linear infinite; opacity: 0; }
+.ortu:not(.kapali) .isinlar { animation: don 22s linear infinite, isinGel 1s .3s ease-out forwards; }
+@keyframes don { to { transform: rotate(360deg); } }
+@keyframes isinGel { to { opacity: 1; } }
+.logo-tam { position: relative; width: 100%; height: auto;  }
+.ortu:not(.kapali) .logo-tam { animation: logoPatla 1.1s cubic-bezier(.2,1.2,.3,1) both; }
+@keyframes logoPatla { 0% { opacity: 0; transform: scale(.55); filter: brightness(3) blur(10px); } 55% { opacity: 1; transform: scale(1.06); filter: brightness(1.6) blur(0); } 100% { transform: none; filter: none; } }
+.parla { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(105deg, transparent 35%, rgba(255,255,255,.55) 48%, rgba(255,236,170,.35) 52%, transparent 65%); background-size: 260% 100%; mix-blend-mode: overlay; -webkit-mask: radial-gradient(75% 80% at 50% 50%, #000 55%, transparent 100%); mask: radial-gradient(75% 80% at 50% 50%, #000 55%, transparent 100%); }
+.ortu:not(.kapali) .parla { animation: parla 2.6s 1s ease-in-out infinite; }
+@keyframes parla { 0% { background-position: 130% 0; } 60%, 100% { background-position: -130% 0; } }
+.ortu .ortu-ic { gap: 12px; }
+.ortu h2 { font-size: clamp(28px, 5vw, 52px); }
+@media (max-width: 860px) { .ust-k .marka img.ust-logo { height: 38px; } .sahne2 { inset: 70px 0 30px !important; } .dokun-alan { inset: 70px 0 30px !important; } .hayalet { left: 50%; transform: translate(-50%, -58%); font-size: 150px; } .hayalet.vur { animation: none; } .etiket img { width: 20px; height: 20px; } }
+@media (prefers-reduced-motion: reduce) { .filigran, .isinlar, .parla, .ortu:not(.kapali) .logo-tam, .flas.git { animation: none !important; } .isinlar { opacity: 1; } .yazi h1 em.k { animation: kelime .01s forwards !important; } }
+.m-logo-img { width: 210px; height: auto; margin: 0 auto;  }
 </style>
 <script data-goatcounter="https://atgoritma.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 </head>
 <body>
 <div class="sinema" id="sinema">
-  <div class="arka" id="arka"><span class="isik"></span><span class="isik i2"></span><canvas id="parcacik" aria-hidden="true"></canvas></div>
+  <div class="arka" id="arka"><span class="isik"></span><span class="isik i2"></span><img class="filigran" src="/ikon-512.png" alt="" aria-hidden="true"><canvas id="parcacik" aria-hidden="true"></canvas></div>
   <div class="cubuklar" id="cubuklar" aria-hidden="true"></div>
-  <div class="ust-k"><a class="marka" href="/"><img src="/ikon-192.png" alt="Atgoritma logosu">Atgoritma</a><a class="btn altin" href="/#yarislar">Siteye git →</a></div>
+  <div class="ust-k"><a class="marka" href="/" aria-label="Atgoritma ana sayfa"><img class="ust-logo" src="logo-serit.webp" alt="Atgoritma logosu"></a><a class="btn altin" href="/#yarislar">Siteye git →</a></div>
   <section class="sahne2" aria-live="polite">
-    <div class="yazi"><div class="etiket" id="etiket"></div><h1 id="baslik"></h1><p class="alt" id="alt"></p></div>
+    <div class="yazi"><span class="hayalet" id="hayalet" aria-hidden="true"></span><div class="etiket" id="etiket"></div><h1 id="baslik"></h1><p class="alt" id="alt"></p></div>
     <div class="tel-kap" id="telKap"><div class="tel-don" id="telDon">
   <div class="tel" aria-hidden="true">
     <div class="ekran">
@@ -269,7 +310,7 @@ body { overflow: hidden; background: #03070f; }
         <!-- 1 hoş geldin -->
         <div class="parca" data-p="0">
           <div class="m-hos">
-            <p class="gir m-logo">Atgoritma</p>
+            <img class="gir m-logo-img" src="logo-serit.webp" alt="">
             <p class="gir" style="--gec:.3s">Yapay zekâ tabanlı at yarışı tahmini</p>
             <div class="gir" style="--gec:.6s"><div class="sayac" id="sayac">0</div><p>koşuyla eğitilmiş yapay zekâ</p></div>
             <div class="m-kart gir" style="--gec:.9s"><b>%</b>Her koşuda her ata bir kazanma şansı</div>
@@ -423,14 +464,13 @@ body { overflow: hidden; background: #03070f; }
   </section>
   <div class="dokun-alan"><button type="button" id="dGeri" aria-label="Önceki sahne"></button><button type="button" id="dDur" aria-label="Duraklat ya da oynat"></button><button type="button" id="dIleri" aria-label="Sonraki sahne"></button></div>
   <div class="durdu" id="durdu" aria-hidden="true"><svg viewBox="0 0 24 24" id="durduIk"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg></div>
-  <div class="silme" id="silme" aria-hidden="true"></div>
+  <div class="silme" id="silme" aria-hidden="true"></div><div class="flas" id="flas" aria-hidden="true"></div>
   <p class="yasal-k">18+ · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir · Örnek at ve jokey adları</p>
 
   <div class="ortu" id="intro">
     <div class="ortu-ic">
-      <img class="logo-b" src="/ikon-192.png" alt="Atgoritma logosu">
-      <h2 class="gir2" style="animation-delay:.4s">Yapay zekâ ile<br><em>at yarışı tahmini</em></h2>
-      <p class="gir2" style="animation-delay:.8s">2 dakikada Atgoritma: yapay zekâ nasıl düşünür, site nasıl kullanılır?</p>
+      <div class="marka-sahne"><div class="isinlar"></div><img class="logo-tam" src="logo.webp" alt="Atgoritma: yapay zekâ destekli at yarışı analiz ve tahmin platformu"><span class="parla"></span></div>
+      <p class="gir2" style="animation-delay:.9s">Yapay zekâ nasıl düşünür, site nasıl kullanılır? <b style="color:var(--gold)">1 dakikada.</b></p>
       <button class="izle gir2" id="izle" type="button" aria-label="Tanıtımı izle" style="animation-delay:1.1s"><svg class="geri-say" viewBox="0 0 112 112"><circle cx="56" cy="56" r="53"/></svg><svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z"/></svg></button>
       <span class="ipucu-alt gir2" style="animation-delay:1.4s">Dokun: sağ ileri · sol geri · orta duraklat</span>
     </div>
@@ -438,8 +478,8 @@ body { overflow: hidden; background: #03070f; }
 
   <div class="ortu kapali" id="outro">
     <div class="ortu-ic">
-      <img class="logo-b" src="/ikon-192.png" alt="Atgoritma logosu">
-      <h2>Bugünün yarışları<br><em>yapay zekâyla</em> hazır</h2>
+      <div class="marka-sahne"><div class="isinlar"></div><img class="logo-tam" src="logo.webp" alt="Atgoritma logosu"><span class="parla"></span></div>
+      <h2>Bugünün yarışları <em>yapay zekâyla</em> hazır</h2>
       <div class="site">atgoritma.com</div>
       <div class="dugmeler"><a class="btn altin" href="/#yarislar">Günün yarışlarına git →</a><button class="btn" type="button" id="paylas">Paylaş</button><button class="btn" type="button" id="tekrar">↺ Tekrar izle</button></div>
       <p class="ipucu-alt" id="paylasNot">18+ · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir ve kazanç vaat etmez. Sorumlu oyun: YEDAM 115.</p>
@@ -461,7 +501,7 @@ body { overflow: hidden; background: #03070f; }
     { e: "KUPON SİHİRBAZI", ek: "Kupon", menu: 3, b: "Kendi kuponunu <em>kur</em>", alt: "Altı ayak yan yana: dokun, seç; tutar ve tutma ihtimali anında hesaplanır." },
     { e: "ŞEFFAF KARNE", ek: "İstatistik", menu: 4, b: "Her gün <em>açık</em> karne", alt: "Kilitlenen tahminler, halkın tahminiyle yan yana. Sonuçlar garanti değildir." },
   ];
-  const SURE = 7500, SURE_AD = { 2: 10000, 8: 8500 };
+  const SURE = 4800, SURE_AD = { 0: 5200, 2: 7200, 3: 5200, 8: 6200 };
   const AZ = matchMedia("(prefers-reduced-motion: reduce)").matches;
   let a = 0, oyn = false, bas = 0, kalan = SURE, zam = null, raf = null, sihZam = [], basladi = false;
   const $ = (id) => document.getElementById(id);
@@ -472,7 +512,7 @@ body { overflow: hidden; background: #03070f; }
 
   // Telefonu ekrana sığdır
   function olcek() {
-    const mob = innerWidth <= 860, h = innerHeight - (mob ? 58 + 30 + ($("baslik").offsetHeight + $("alt").offsetHeight + 40) : 120), w = innerWidth - 32;
+    const mob = innerWidth <= 860, h = innerHeight - (mob ? 70 + 34 + ($("baslik").offsetHeight + $("alt").offsetHeight + 40) : 120), w = innerWidth - 32;
     const o = Math.max(.5, Math.min(1.1, h / 620, w / 320));
     document.documentElement.style.setProperty("--o", o.toFixed(3));
   }
@@ -516,12 +556,12 @@ body { overflow: hidden; background: #03070f; }
       d.style.left = (r.left - ek.left + r.width / 2) + "px"; d.style.top = (r.top - ek.top + r.height / 2) + "px";
       d.style.animation = "none"; void d.offsetWidth; d.style.animation = "dokun .8s ease-out both"; };
     // 1) hazır küçük kupon yüklenir, 2) ipucu çıkar, 3) önerilen at eklenir
-    sihZam.push(setTimeout(() => { ON.forEach((l, i) => l.forEach((j) => { S[i].add(j); document.querySelector(`[data-a="${i}-${j}"]`).classList.add("s"); })); hesap(); }, 900));
-    sihZam.push(setTimeout(() => { const el = document.querySelector('[data-a="2-1"]'); dokun(el); el.classList.add("s"); S[2].add(1); hesap(); }, 5600));
+    sihZam.push(setTimeout(() => { ON.forEach((l, i) => l.forEach((j) => { S[i].add(j); document.querySelector(`[data-a="${i}-${j}"]`).classList.add("s"); })); hesap(); }, 500));
+    sihZam.push(setTimeout(() => { const el = document.querySelector('[data-a="2-1"]'); dokun(el); el.classList.add("s"); S[2].add(1); hesap(); }, 3600));
   }
   function sayacOyna() {
-    const el = $("sayac"), H = 19885, t0 = performance.now() + 600;
-    const f = (t) => { const u = Math.max(0, Math.min(1, (t - t0) / 1600)); el.textContent = Math.round(H * (1 - Math.pow(1 - u, 3))).toLocaleString("tr-TR"); if (u < 1 && a === 0) requestAnimationFrame(f); };
+    const el = $("sayac"), H = 19885, t0 = performance.now() + 250;
+    const f = (t) => { const u = Math.max(0, Math.min(1, (t - t0) / 1100)); el.textContent = Math.round(H * (1 - Math.pow(1 - u, 3))).toLocaleString("tr-TR"); if (u < 1 && a === 0) requestAnimationFrame(f); };
     requestAnimationFrame(f);
   }
   // Yarış simülasyonu: bitiş sırası yapay zekâ sırası, aradaki farklar şansa göre; koşu tarzı (önde/geride) yarış içi konumu belirler
@@ -533,9 +573,9 @@ body { overflow: hidden; background: #03070f; }
     const pist = $("pist"), sonuc = $("simSonuc");
     pist.querySelectorAll(".serit").forEach((x) => x.remove()); sonuc.innerHTML = "";
     const S = SIM.map((h, i) => { const d = document.createElement("div"); d.className = "serit"; d.innerHTML = `<span class="kosucu" style="background:${h[3]};color:${h[4]}">${h[0]}</span>`; pist.appendChild(d); return d.firstChild; });
-    const L = pist.clientWidth - 52, T0 = 6200;
+    const L = pist.clientWidth - 52, T0 = 4300;
     const sure = SIM.map((h, i) => T0 * (1 + i * 0.035 + (i ? 0.012 : 0)));
-    const bas = performance.now() + 700, bit = new Set();
+    const bas = performance.now() + 350, bit = new Set();
     const kare = (t) => {
       const ms = t - bas;
       S.forEach((el, i) => {
@@ -558,16 +598,16 @@ body { overflow: hidden; background: #03070f; }
       alt.forEach((s, k) => s.classList.toggle("on", k === i));
       const n = $("menuNot"), w = $("ekAlt").getBoundingClientRect().width;
       n.textContent = x; n.style.left = ((i + .5) * w / 6) + "px";
-    }, 300 + i * 1200)));
+    }, 200 + i * 750)));
   }
   function vurguOyna() {
-    sihZam.push(setTimeout(() => { $("vurguChip").classList.add("on"); document.querySelectorAll('#pVurgu .vs').forEach((x) => { x.style.opacity = ".3"; }); }, 3300));
+    sihZam.push(setTimeout(() => { $("vurguChip").classList.add("on"); document.querySelectorAll('#pVurgu .vs').forEach((x) => { x.style.opacity = ".3"; }); }, 2100));
   }
   function baslikYaz(html) {
     const t = document.createElement("div"); t.innerHTML = html; let n = 0, out = "";
     t.childNodes.forEach((d) => {
-      if (d.nodeType === 3) d.textContent.split(/(\s+)/).forEach((w) => { if (!w) return; out += /^\s+$/.test(w) ? w : `<span class="k" style="animation-delay:${(0.08 * n++).toFixed(2)}s">${w}</span>`; });
-      else out += `<em class="k" style="animation-delay:${(0.08 * n++).toFixed(2)}s, ${(1 + 0.08 * n).toFixed(2)}s">${d.textContent}</em>`;
+      if (d.nodeType === 3) d.textContent.split(/(\s+)/).forEach((w) => { if (!w) return; out += /^\s+$/.test(w) ? w : `<span class="k" style="animation-delay:${(0.05 * n++).toFixed(2)}s">${w}</span>`; });
+      else out += `<em class="k" style="animation-delay:${(0.05 * n++).toFixed(2)}s, ${(0.8 + 0.05 * n).toFixed(2)}s">${d.textContent}</em>`;
     });
     return out;
   }
@@ -576,13 +616,15 @@ body { overflow: hidden; background: #03070f; }
     a = Math.max(0, Math.min(ADIM.length - 1, i));
     const x = ADIM[a];
     const sl = $("silme"); sl.classList.remove("git"); void sl.offsetWidth; if (!AZ) sl.classList.add("git");
+    const fl = $("flas"); fl.classList.remove("git"); void fl.offsetWidth; if (!AZ) fl.classList.add("git");
+    const hy = $("hayalet"); hy.textContent = String(a + 1).padStart(2, "0"); hy.classList.remove("vur"); void hy.offsetWidth; hy.classList.add("vur");
     const td = $("telDon"); td.classList.remove("giris-sag", "giris-sol"); void td.offsetWidth; td.classList.add(yon > 0 ? "giris-sag" : "giris-sol");
     P.forEach((p, k) => { p.classList.toggle("aktif", k === a); p.classList.remove("oyna"); });
     void P[a].offsetWidth; P[a].classList.add("oyna");
     document.querySelectorAll('#pVurgu .vs').forEach((y) => { y.style.opacity = ""; }); $("vurguChip").classList.remove("on");
     alt.forEach((s, k) => s.classList.toggle("on", k === x.menu));
     $("ekBaslik").textContent = x.ek;
-    $("etiket").textContent = `${String(a + 1).padStart(2, "0")} · ${x.e}`;
+    $("etiket").innerHTML = `<img src="/ikon-192.png" alt="">ATGORİTMA · ${x.e}`;
     $("baslik").innerHTML = baslikYaz(x.b);
     const al = $("alt"); al.textContent = x.alt; al.classList.remove("gor"); void al.offsetWidth; al.classList.add("gor");
     $("arka").style.setProperty("--gx", (20 + (a * 37) % 70) + "%"); $("arka").style.setProperty("--gy", (10 + (a * 23) % 60) + "%");
@@ -623,7 +665,7 @@ body { overflow: hidden; background: #03070f; }
     $("outro").classList.remove("kapali");
   }
   $("izle").onclick = basla;
-  basla.z = setTimeout(basla, 3400);
+  basla.z = setTimeout(basla, 2700);
   $("tekrar").onclick = () => { $("outro").classList.add("kapali"); oyn = true; goster(0); };
   $("dGeri").onclick = () => basladi && goster(a - 1, -1);
   $("dIleri").onclick = () => { if (!basladi) return; if (a < ADIM.length - 1) goster(a + 1); else bitir(); };
