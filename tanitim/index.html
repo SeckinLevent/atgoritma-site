@@ -106,6 +106,46 @@ a { color: var(--gold); }
 .m-hos p { margin: 0; font-size: 12px; color: var(--muted); }
 .m-hos .m-kart { font-size: 11.5px; text-align: left; display: flex; gap: 8px; align-items: center; }
 .m-hos .m-kart b { color: var(--gold); font: 800 15px var(--fd); }
+/* YZ akışı ve simülasyon sahneleri */
+.m-ai { position: relative; height: 100%; }
+.m-ai svg.akis { position: absolute; inset: 0; width: 100%; height: 100%; }
+.akis path { fill: none; stroke: rgba(245,197,66,.18); stroke-width: 1.4; }
+.akis path.nab { stroke: var(--gold2); stroke-width: 2.2; stroke-dasharray: 3 14; stroke-linecap: round; opacity: 0; }
+.oyna .akis path.nab { animation: akis 1.1s linear infinite, gor .4s var(--gec, 0s) both; }
+@keyframes akis { to { stroke-dashoffset: -17; } }
+@keyframes gor { from { opacity: 0; } to { opacity: .95; } }
+.ai-girdi { position: absolute; left: 0; width: 30%; padding: 5px 7px; border-radius: 8px; background: var(--panel); border: 1px solid var(--line); font-size: 10px; font-weight: 600; }
+.ai-girdi small { display: block; color: var(--muted); font-weight: 500; font-size: 8.5px; }
+.ai-cekirdek { position: absolute; left: 52%; top: 49%; width: 64px; height: 64px; margin: -32px 0 0 -32px; border-radius: 50%; display: grid; place-items: center; text-align: center;
+  background: radial-gradient(circle at 35% 30%, #fff4c8, var(--gold) 40%, var(--gold-deep) 75%, #6b4a08); color: var(--on-gold); font: 800 16px/1 var(--fd); box-shadow: 0 0 30px rgba(245,197,66,.7); }
+.ai-cekirdek small { display: block; font: 700 7.5px var(--fb); letter-spacing: .08em; margin-top: 2px; }
+.ai-cekirdek::before, .ai-cekirdek::after { content: ""; position: absolute; inset: -8px; border-radius: 50%; border: 2px solid rgba(245,197,66,.55); opacity: 0; }
+.oyna .ai-cekirdek::before { animation: halka 1.8s .6s ease-out infinite; } .oyna .ai-cekirdek::after { animation: halka 1.8s 1.5s ease-out infinite; }
+@keyframes halka { 0% { opacity: .9; transform: scale(.9); } 100% { opacity: 0; transform: scale(1.6); } }
+.ai-cikti { position: absolute; right: 0; width: 26%; display: grid; gap: 2px; font-size: 10px; }
+.ai-cikti b { display: flex; justify-content: space-between; font-size: 10px; }
+.ai-cikti .m-bar { margin: 0; height: 6px; }
+.ai-alt { position: absolute; left: 0; right: 0; bottom: 0; text-align: center; font-size: 10.5px; color: var(--muted); }
+.ai-alt b { color: var(--gold); font: 800 18px var(--fd); display: block; }
+.m-pist { position: relative; border-radius: 12px; overflow: hidden; background: linear-gradient(180deg, #6b4a2a, #8a5f36); border: 2px solid #c79a62; padding: 6px 0; }
+.m-pist .serit { position: relative; height: 34px; border-bottom: 1px dashed rgba(255,255,255,.22); }
+.m-pist .serit:last-child { border-bottom: 0; }
+.m-pist .bitis { position: absolute; top: 0; bottom: 0; right: 18px; width: 6px; background: repeating-linear-gradient(0deg, #fff 0 6px, #111 6px 12px); opacity: .9; z-index: 1; }
+.m-pist .basla { position: absolute; top: 0; bottom: 0; left: 30px; width: 2px; background: rgba(255,255,255,.5); }
+.kosucu { position: absolute; top: 4px; left: 4px; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font: 800 11px var(--fd); box-shadow: 0 2px 6px rgba(0,0,0,.5); z-index: 2; will-change: transform; }
+.kosucu::after { content: ""; position: absolute; left: -14px; top: 11px; width: 14px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.45)); opacity: 0; }
+.kosucu.hiz::after { opacity: 1; }
+.sim-ust { display: flex; justify-content: space-between; align-items: center; margin-bottom: 7px; }
+.sim-canli { font: 700 9.5px var(--fb); color: #ff8b96; display: inline-flex; align-items: center; gap: 5px; }
+.sim-canli::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #ff5d6c; animation: nabiz 1s infinite; }
+@keyframes nabiz { 50% { opacity: .3; } }
+.sim-sonuc { display: grid; gap: 4px; margin-top: 8px; }
+.sim-sonuc div { display: grid; grid-template-columns: 22px 22px 1fr auto; gap: 6px; align-items: center; padding: 5px 7px; border-radius: 8px; background: var(--panel); font-size: 10.5px; opacity: 0; transform: translateX(-8px); transition: all .35s; }
+.sim-sonuc div.gor { opacity: 1; transform: none; }
+.sim-sonuc div:first-child { border: 1px solid rgba(245,197,66,.6); background: rgba(245,197,66,.1); }
+.sim-sonuc i { font-style: normal; display: grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; font-weight: 800; font-size: 10px; }
+.sim-sonuc em { font-style: normal; color: var(--gold); font-weight: 700; }
+.m-hos .sayac { font: 800 30px var(--fd); color: var(--gold); line-height: 1; }
 /* anlatım */
 .anlat { display: grid; gap: 16px; }
 .adim-no { font: 700 12px var(--fb); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
@@ -156,11 +196,45 @@ footer b { color: var(--ink); }
         <div class="parca" data-p="0">
           <div class="m-hos">
             <h3 class="gir">Atgoritma</h3>
-            <p class="gir" style="--gec:.3s">Yapay zekâ ile at yarışı analizi</p>
+            <p class="gir" style="--gec:.3s">Yapay zekâ tabanlı at yarışı tahmini</p>
+            <div class="gir" style="--gec:.6s"><div class="sayac" id="sayac">0</div><p>koşuyla eğitilmiş yapay zekâ</p></div>
             <div class="m-kart gir" style="--gec:.9s"><b>%</b>Her koşuda her ata bir kazanma şansı</div>
             <div class="m-kart gir" style="--gec:1.4s"><b>≈</b>Halkın tahmini (AGF) ile yan yana</div>
             <div class="m-kart gir" style="--gec:1.9s"><b>6</b>Altılı kuponları ve Kupon Sihirbazı</div>
           </div>
+        </div>
+
+        <!-- 1b yapay zekâ nasıl düşünür -->
+        <div class="parca" data-p="ai">
+          <div class="m-ai">
+            <svg class="akis" viewBox="0 0 276 470" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M84 52 C105 52 100 200 118 215"/><path d="M84 112 C105 112 100 205 118 220"/><path d="M84 172 C100 172 105 210 118 225"/>
+              <path d="M84 232 C100 232 105 230 118 230"/><path d="M84 292 C100 292 105 245 118 235"/><path d="M84 352 C105 352 100 250 118 240"/>
+              <path d="M168 225 C188 225 185 120 204 110"/><path d="M168 228 C188 228 188 185 204 180"/><path d="M168 232 C188 232 188 255 204 250"/><path d="M168 236 C188 236 185 315 204 320"/>
+              <path class="nab" style="--gec:.2s" d="M84 52 C105 52 100 200 118 215"/><path class="nab" style="--gec:.35s" d="M84 112 C105 112 100 205 118 220"/><path class="nab" style="--gec:.5s" d="M84 172 C100 172 105 210 118 225"/>
+              <path class="nab" style="--gec:.65s" d="M84 232 C100 232 105 230 118 230"/><path class="nab" style="--gec:.8s" d="M84 292 C100 292 105 245 118 235"/><path class="nab" style="--gec:.95s" d="M84 352 C105 352 100 250 118 240"/>
+              <path class="nab" style="--gec:1.8s" d="M168 225 C188 225 185 120 204 110"/><path class="nab" style="--gec:1.9s" d="M168 228 C188 228 188 185 204 180"/><path class="nab" style="--gec:2s" d="M168 232 C188 232 188 255 204 250"/><path class="nab" style="--gec:2.1s" d="M168 236 C188 236 185 315 204 320"/>
+            </svg>
+            <div class="ai-girdi gir" style="top:7%;--gec:.1s">Form<small>son 6 yarış</small></div>
+            <div class="ai-girdi gir" style="top:20%;--gec:.25s">Derece<small>hız puanları</small></div>
+            <div class="ai-girdi gir" style="top:33%;--gec:.4s">Galop<small>idman süreleri</small></div>
+            <div class="ai-girdi gir" style="top:46%;--gec:.55s">Jokey<small>son 30 gün</small></div>
+            <div class="ai-girdi gir" style="top:59%;--gec:.7s">Pist / mesafe<small>uyum</small></div>
+            <div class="ai-girdi gir" style="top:72%;--gec:.85s">Halkın tahmini<small>AGF</small></div>
+            <div class="ai-cekirdek gir" style="--gec:1.1s">YZ<small>MODEL</small></div>
+            <div class="ai-cikti gir" style="top:20%;--gec:2.2s"><b><span>3</span><span>%31</span></b><div class="m-bar"><i style="--w:100%;background:var(--gold)"></i></div></div>
+            <div class="ai-cikti gir" style="top:35%;--gec:2.35s"><b><span>7</span><span>%15</span></b><div class="m-bar"><i style="--w:48%;background:var(--mor)"></i></div></div>
+            <div class="ai-cikti gir" style="top:50%;--gec:2.5s"><b><span>1</span><span>%14</span></b><div class="m-bar"><i style="--w:45%;background:var(--muted)"></i></div></div>
+            <div class="ai-cikti gir" style="top:65%;--gec:2.65s"><b><span>5</span><span>%11</span></b><div class="m-bar"><i style="--w:35%;background:var(--muted)"></i></div></div>
+            <div class="ai-alt gir" style="--gec:3s"><b>Her ata kazanma şansı</b>Onlarca kriter, rakiplere göre tartılır</div>
+          </div>
+        </div>
+
+        <!-- 1c simülasyon -->
+        <div class="parca" data-p="sim">
+          <div class="sim-ust"><span class="m-bas" style="margin:0">Yapay zekâ simülasyonu</span><span class="sim-canli">CANLI</span></div>
+          <div class="m-pist" id="pist"><div class="basla"></div><div class="bitis"></div></div>
+          <div class="sim-sonuc" id="simSonuc"></div>
         </div>
 
         <!-- 2 menüler -->
@@ -214,7 +288,7 @@ footer b { color: var(--ink); }
         </div>
 
         <!-- 5 hikâye + vurgula -->
-        <div class="parca" data-p="4">
+        <div class="parca" data-p="4" id="pVurgu">
           <div class="m-hik gir">
             <em>KOŞUNUN HİKÂYESİ</em>
             <p class="gir" style="--gec:.4s">Favori <b>3 RÜZGAR OĞLU</b> (%31), ardından <b>7 GECE YILDIZI</b>.</p>
@@ -295,8 +369,14 @@ footer b { color: var(--ink); }
 (function () {
   const ADIM = [
     { kisa: "Giriş", ek: "Hoş geldin", menu: -1, b: "Atgoritma'ya hoş geldin",
-      m: "Atgoritma, TJK'nın program ve sonuçlarıyla eğitilen bir yapay zekâ. Her koşuda her ata bir kazanma şansı verir ve bunu halkın tahminiyle (AGF) yan yana gösterir.",
+      m: "Atgoritma, TJK'nın program ve sonuçlarıyla yaklaşık 20 bin koşu üzerinde eğitilen bir yapay zekâ. Her koşuda her ata bir kazanma şansı verir ve bunu halkın tahminiyle (AGF) yan yana gösterir.",
       i: ["2 dakika", "Bu tanıtım kendiliğinden ilerler; istediğin adıma alttan geçebilirsin."] },
+    { kisa: "Yapay zekâ", ek: "Yapay zekâ", menu: -1, b: "Yapay zekâ nasıl tahmin eder?",
+      m: "Model her koşuda atın formunu, derecelerini, galop sürelerini, jokeyini, pist ve mesafe uyumunu ve halkın tahminini (AGF) birlikte tartar. Her at rakiplerine göre puanlanır ve puanlar kazanma şansına çevrilir.",
+      i: ["Fark", "Yapay zekâ, halkın tahminini tek başına izlemez; geçmiş veriyle ne kadar haklı olduğunu da ölçer."] },
+    { kisa: "Simülasyon", ek: "Simülasyon", menu: -1, b: "Koşuyu yapay zekâyla izle",
+      m: "Her koşuda Yapay zekâ simülasyonu düğmesi var: atlar yapay zekânın sıralamasıyla biter, aradaki farklar şanslara göre açılır, önden ya da geriden koşma tarzı yarış içindeki yerlerini belirler. Koşu bitince gerçek sonucu da aynı pistte izleyebilirsin.",
+      i: ["Not", "Simülasyon bir canlandırmadır; gerçek sonucu göstermez."] },
     { kisa: "Menüler", ek: "Menüler", menu: 0, b: "Menüler: neyi nerede bulursun?",
       m: "Telefonda alttaki çubuk, bilgisayarda üstteki menü. Ana sayfa günün özetini, Yarışlar tüm koşuları, Altılı yapay zekânın kuponlarını, Kupon kendi kuponunu kurmayı, İstatistik canlı karneyi açar.",
       i: ["İpucu", "Üstteki tarih kutusundan önceki günlere ve sonuçlara dönebilirsin."] },
@@ -319,7 +399,7 @@ footer b { color: var(--ink); }
       m: "İstatistik sekmesi yapay zekânın her gün kilitlenen tahminlerle tutulan canlı karnesini, halkın tahminiyle karşılaştırmasını ve 'verilen şans tuttu mu' tablolarını gösterir. Sonuçlar garanti değildir; bilgi amaçlıdır.",
       i: ["Hazırsın", "Günün yarışlarına geçmek için aşağıdaki altın düğmeye dokun."] },
   ];
-  const SURE = 9000;
+  const SURE = 9000, SURE_AD = { 2: 11000 };
   let a = 0, oyn = !matchMedia("(prefers-reduced-motion: reduce)").matches, bas = 0, kalan = SURE, zam = null, raf = null, sihZam = [];
   const $ = (id) => document.getElementById(id);
   const P = [...document.querySelectorAll(".parca")];
@@ -351,6 +431,39 @@ footer b { color: var(--ink); }
     sihZam.push(setTimeout(() => { ON.forEach((l, i) => l.forEach((j) => { S[i].add(j); document.querySelector(`[data-a="${i}-${j}"]`).classList.add("s"); })); hesap(); }, 900));
     sihZam.push(setTimeout(() => { const el = document.querySelector('[data-a="2-1"]'); dokun(el); el.classList.add("s"); S[2].add(1); hesap(); }, 5600));
   }
+  function sayacOyna() {
+    const el = $("sayac"), H = 19885, t0 = performance.now() + 600;
+    const f = (t) => { const u = Math.max(0, Math.min(1, (t - t0) / 1600)); el.textContent = Math.round(H * (1 - Math.pow(1 - u, 3))).toLocaleString("tr-TR"); if (u < 1 && a === 0) requestAnimationFrame(f); };
+    requestAnimationFrame(f);
+  }
+  // Yarış simülasyonu: bitiş sırası yapay zekâ sırası, aradaki farklar şansa göre; koşu tarzı (önde/geride) yarış içi konumu belirler
+  const SIM = [["3", "RÜZGAR OĞLU", 31, "#d32f2f", "#fff", .25], ["7", "GECE YILDIZI", 15, "#8e44ad", "#fff", -.35], ["1", "DEMİR ASLAN", 14, "#1e63d6", "#fff", .45],
+    ["5", "ALTIN KANAT", 11, "#f2c94c", "#111", -.1], ["2", "KARA ŞİMŞEK", 9, "#2e9d4f", "#fff", .1], ["4", "BEYAZ İNCİ", 7, "#f5f5f5", "#111", -.2]];
+  let simRaf = null;
+  function simOyna() {
+    cancelAnimationFrame(simRaf);
+    const pist = $("pist"), sonuc = $("simSonuc");
+    pist.querySelectorAll(".serit").forEach((x) => x.remove()); sonuc.innerHTML = "";
+    const S = SIM.map((h, i) => { const d = document.createElement("div"); d.className = "serit"; d.innerHTML = `<span class="kosucu" style="background:${h[3]};color:${h[4]}">${h[0]}</span>`; pist.appendChild(d); return d.firstChild; });
+    const L = pist.clientWidth - 52, T0 = 6200;
+    const sure = SIM.map((h, i) => T0 * (1 + i * 0.035 + (i ? 0.012 : 0)));
+    const bas = performance.now() + 700, bit = new Set();
+    const kare = (t) => {
+      const ms = t - bas;
+      S.forEach((el, i) => {
+        const u = Math.max(0, Math.min(1, ms / sure[i])), a_ = SIM[i][5];
+        const x = L * (u + a_ * u * (1 - u));
+        el.style.transform = `translateX(${Math.max(0, x)}px)`;
+        el.classList.toggle("hiz", u > 0 && u < 1);
+        if (u >= 1 && !bit.has(i)) { bit.add(i); const h = SIM[i];
+          sonuc.insertAdjacentHTML("beforeend", `<div><i style="background:${h[3]};color:${h[4]}">${h[0]}</i><span>${bit.size}.</span><span>${h[1]}</span><em>YZ %${h[2]}</em></div>`);
+          const son = sonuc.lastElementChild; setTimeout(() => son.classList.add("gor"), 20);
+          [...sonuc.children].slice(3).forEach((x) => x.remove()); }
+      });
+      if (bit.size < S.length && a === 2) simRaf = requestAnimationFrame(kare);
+    };
+    simRaf = requestAnimationFrame(kare);
+  }
   function menuOyna() {
     const ad = ["Ana", "Yarışlar", "Altılı", "Kupon", "İstatistik", "Daha"];
     ad.forEach((x, i) => sihZam.push(setTimeout(() => {
@@ -360,7 +473,7 @@ footer b { color: var(--ink); }
     }, 300 + i * 1200)));
   }
   function vurguOyna() {
-    sihZam.push(setTimeout(() => { $("vurguChip").classList.add("on"); document.querySelectorAll('[data-p="4"] .vs').forEach((x) => { x.style.opacity = ".3"; }); }, 3300));
+    sihZam.push(setTimeout(() => { $("vurguChip").classList.add("on"); document.querySelectorAll('#pVurgu .vs').forEach((x) => { x.style.opacity = ".3"; }); }, 3300));
   }
   function goster(i) {
     sihZam.forEach(clearTimeout); sihZam = [];
@@ -368,21 +481,23 @@ footer b { color: var(--ink); }
     const x = ADIM[a];
     P.forEach((p, k) => { p.classList.toggle("aktif", k === a); p.classList.remove("oyna"); });
     void P[a].offsetWidth; P[a].classList.add("oyna");
-    document.querySelectorAll('[data-p="4"] .vs').forEach((y) => { y.style.opacity = ""; }); $("vurguChip").classList.remove("on");
+    document.querySelectorAll('#pVurgu .vs').forEach((y) => { y.style.opacity = ""; }); $("vurguChip").classList.remove("on");
     alt.forEach((s, k) => s.classList.toggle("on", k === x.menu));
     $("ekBaslik").textContent = x.ek; $("adimNo").textContent = `Adım ${a + 1} / ${ADIM.length}`;
     $("baslik").textContent = x.b; $("metin").textContent = x.m; $("ipucu").innerHTML = `<b>${x.i[0]}</b><span>${x.i[1]}</span>`;
     document.querySelectorAll("#adimlar button").forEach((b, k) => { b.setAttribute("aria-current", k === a ? "step" : "false"); b.classList.toggle("gecti", k < a); });
-    if (a === 1) menuOyna();
-    if (a === 4) vurguOyna();
-    if (a === 6) sihOyna();
-    kalan = SURE; bas = performance.now(); zamanla();
+    if (a === 0) sayacOyna();
+    if (a === 2) simOyna();
+    if (a === 3) menuOyna();
+    if (a === 6) vurguOyna();
+    if (a === 8) sihOyna();
+    kalan = SURE_AD[a] || SURE; bas = performance.now(); zamanla();
   }
   function zamanla() {
     clearTimeout(zam); cancelAnimationFrame(raf);
-    if (!oyn) { $("cubuk").style.width = (100 * (1 - kalan / SURE)) + "%"; return; }
+    if (!oyn) { $("cubuk").style.width = (100 * (1 - kalan / (SURE_AD[a] || SURE))) + "%"; return; }
     bas = performance.now();
-    const ciz = () => { const g = SURE - kalan + (performance.now() - bas); $("cubuk").style.width = Math.min(100, 100 * g / SURE) + "%"; if (oyn) raf = requestAnimationFrame(ciz); };
+    const T = SURE_AD[a] || SURE; const ciz = () => { const g = T - kalan + (performance.now() - bas); $("cubuk").style.width = Math.min(100, 100 * g / T) + "%"; if (oyn) raf = requestAnimationFrame(ciz); };
     ciz();
     zam = setTimeout(() => { if (a < ADIM.length - 1) goster(a + 1); else { oyn = false; ikon(); } }, kalan);
   }
