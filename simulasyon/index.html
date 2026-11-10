@@ -68,7 +68,7 @@ button.altin { background: linear-gradient(180deg, var(--gold2), var(--gold) 55%
   <div class="sag kam" role="group" aria-label="Kamera">
     <button type="button" data-kam="jokey" aria-pressed="true">1 Jokey</button><button type="button" data-kam="takip" aria-pressed="false">2 Takip</button>
     <button type="button" data-kam="yayin" aria-pressed="false">3 Yayın</button><button type="button" data-kam="hava" aria-pressed="false">4 Havadan</button>
-    <button type="button" class="altin" id="tekrar">↺ Yeniden</button>
+    <button type="button" id="ses" aria-pressed="true">Ses açık</button><button type="button" class="altin" id="tekrar">↺ Yeniden</button>
   </div>
 </div>
 <div class="hud sira" id="sira"></div>
@@ -297,7 +297,7 @@ function atYap(no, ad, p) {
 }
 
 /* ---------- yarış ---------- */
-let durum = "bekle", zaman = 0, sonKare = 0, ben = 0, kamera = "jokey", mod = "sim", bitisZ = null;
+let sayilan = 9, durum = "bekle", zaman = 0, sonKare = 0, ben = 0, kamera = "jokey", mod = "sim", bitisZ = null;
 const kY = new THREE.Vector3(), kB = new THREE.Vector3(), hY = new THREE.Vector3(), hB = new THREE.Vector3();
 function kur(i, m = "sim") {
   aktif = KOSU[i]; mod = m; $("sKosu").value = i;
@@ -317,7 +317,7 @@ function kur(i, m = "sim") {
 }
 const konum = (a, t) => { const u = t / a.plan.T; if (u <= 1) return UZ * (u + a.plan.a * u * (1 - u)); const d = Math.min(7, t - a.plan.T); return UZ + 15 * (d - d * d / 14); };
 function basla() {
-  $("giris").hidden = true; durum = "say"; zaman = -3.2;
+  $("giris").hidden = true; durum = "say"; zaman = -3.2; sayilan = 9; sesKur();
 }
 function bitir() {
   durum = "bitti"; const L = atlar.slice().sort((a, b) => a.plan.sira - b.plan.sira);
@@ -362,26 +362,82 @@ function ciz(dt) {
   $("sira").innerHTML = S.slice(0, 6).map((a, i) => { const f = FORMA[(a.no - 1) % FORMA.length]; return `<div class="${a === b ? "ben" : ""}"><b>${i + 1}</b><i style="background:${f};color:${ACIK.includes(f) ? "#111" : "#fff"}">${a.no}</i><span>${esc(a.ad)}</span><em>%${Math.round(100 * a.p)}</em></div>`; }).join("");
   $("hiz").innerHTML = `${Math.round(Math.max(0, b.v) * 3.6)}<small> km/s</small>`; $("yer").innerHTML = durum === "bekle" ? "-" : `${yer}<small> / ${atlar.length}</small>`;
   $("mesafe").innerHTML = `${Math.max(0, Math.round(UZ - b.s))}<small> m</small>`; $("kalan").style.width = Math.min(100, 100 * b.s / UZ) + "%";
+  sesGuncelle(lider, b, hz);
   renderer.render(scene, cam);
 }
 function dongu(simdi) {
   requestAnimationFrame(dongu);
   let dt = Math.min(.05, (simdi - sonKare) / 1000 || 0); sonKare = simdi;
-  if (durum === "say") { zaman += dt; const n = Math.ceil(-zaman); const bt = $("bant"); bt.textContent = n > 0 ? n : "BAŞLA!"; bt.classList.add("gor"); if (zaman >= 0) { durum = "kos"; setTimeout(() => bt.classList.remove("gor"), 700); } dt = 0; }
+  if (durum === "say") { zaman += dt; const n = Math.ceil(-zaman); const bt = $("bant"); bt.textContent = n > 0 ? n : "BAŞLA!"; bt.classList.add("gor"); if (n !== sayilan && n > 0 && n <= 3) { sayilan = n; bip(520, .14, .18, "square"); } if (zaman >= 0) { durum = "kos"; bip(1040, .7, .22, "triangle"); bip(1560, .9, .12, "sine", .02); setTimeout(() => bt.classList.remove("gor"), 700); } dt = 0; }
   else if (durum === "kos") {
     const kz = atlar.reduce((m, a) => Math.max(m, a.s), 0);
     if (kz > UZ - 9 && zaman < T0 + .9) dt *= .38;  // finişte ağır çekim
     zaman += dt;
-    if (bitisZ == null && kz >= UZ) { bitisZ = zaman; const bt = $("bant"); bt.textContent = "FİNİŞ"; bt.classList.add("gor"); setTimeout(() => bt.classList.remove("gor"), 1400); }
+    if (bitisZ == null && kz >= UZ) { bitisZ = zaman; const bt = $("bant"); bt.textContent = "FİNİŞ"; bt.classList.add("gor"); [523, 659, 784, 1047].forEach((f, i) => bip(f, .5, .16, "triangle", i * .11)); setTimeout(() => bt.classList.remove("gor"), 1400); }
     if (bitisZ != null && zaman > bitisZ + 4.2) bitir();
   }
   ciz(dt);
+}
+
+/* ---------- ses: tarayıcıda üretilir (dosya yok); nal sesleri atın konumundan gelir ---------- */
+let ac = null, ana = null, gurultu = null, kalabalik = null, ruzgar = null, sesAcik = true;
+try { sesAcik = localStorage.getItem("atg_ses") !== "0"; } catch (e) {}
+const kon = (n, x, y, z) => { if (n.positionX) { n.positionX.value = x; n.positionY.value = y; n.positionZ.value = z; } else n.setPosition(x, y, z); };
+function sesAt(a) { if (!ac || a.pan) return; a.pan = ac.createPanner(); a.pan.panningModel = "HRTF"; a.pan.distanceModel = "inverse"; a.pan.refDistance = 3; a.pan.rolloffFactor = 1.3; a.pan.connect(ana); a.vurus = -1; }
+function sesKur() {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  if (!AC) return;
+  if (!ac) {
+    ac = new AC(); ana = ac.createGain(); ana.gain.value = sesAcik ? .9 : 0; ana.connect(ac.destination);
+    const n = ac.sampleRate * 2, buf = ac.createBuffer(1, n, ac.sampleRate), d = buf.getChannelData(0);
+    for (let i = 0; i < n; i++) d[i] = Math.random() * 2 - 1;
+    gurultu = buf;
+    const dongu = (frek, q, tip) => { const k = ac.createBufferSource(); k.buffer = buf; k.loop = true; const f = ac.createBiquadFilter(); f.type = tip; f.frequency.value = frek; f.Q.value = q; const g = ac.createGain(); g.gain.value = 0; k.connect(f); f.connect(g); k.start(); return { f, g }; };
+    kalabalik = dongu(850, .5, "bandpass"); kalabalik.p = ac.createPanner(); kalabalik.p.panningModel = "HRTF"; kalabalik.p.refDistance = 60; kalabalik.p.rolloffFactor = .5; kalabalik.g.connect(kalabalik.p); kalabalik.p.connect(ana);
+    ruzgar = dongu(1800, .3, "highpass"); ruzgar.g.connect(ana);
+  }
+  if (ac.state === "suspended") ac.resume();
+  atlar.forEach(sesAt);
+  kon(kalabalik.p, genislik / 2 + 20, 10, -UZ + 110);
+}
+function nal(a, guc) {
+  const t = ac.currentTime, k = ac.createBufferSource(); k.buffer = gurultu; k.playbackRate.value = .55 + Math.random() * .5;
+  const f = ac.createBiquadFilter(); f.type = "lowpass"; f.frequency.value = 200 + Math.random() * 140;
+  const g = ac.createGain(); g.gain.setValueAtTime(guc, t); g.gain.exponentialRampToValueAtTime(.001, t + .1);
+  k.connect(f); f.connect(g); g.connect(a.pan); k.start(t, Math.random(), .12);
+}
+function bip(frek, sure, ses = .2, tip = "sine", gec = 0) {
+  if (!ac) return;
+  const t = ac.currentTime + gec, o = ac.createOscillator(), g = ac.createGain(); o.type = tip; o.frequency.value = frek;
+  g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(ses, t + .01); g.gain.exponentialRampToValueAtTime(.001, t + sure);
+  o.connect(g); g.connect(ana); o.start(t); o.stop(t + sure + .05);
+}
+function sesGuncelle(lider, b, hz) {
+  if (!ac || ac.state !== "running") return;
+  const L = ac.listener, yon = new THREE.Vector3(); cam.getWorldDirection(yon);
+  if (L.positionX) { L.positionX.value = cam.position.x; L.positionY.value = cam.position.y; L.positionZ.value = cam.position.z; L.forwardX.value = yon.x; L.forwardY.value = yon.y; L.forwardZ.value = yon.z; L.upX.value = 0; L.upY.value = 1; L.upZ.value = 0; }
+  else { L.setPosition(cam.position.x, cam.position.y, cam.position.z); L.setOrientation(yon.x, yon.y, yon.z, 0, 1, 0); }
+  const kos = durum === "kos", t = ac.currentTime;
+  atlar.forEach((a) => {
+    if (!a.pan) return;
+    kon(a.pan, a.x, 1, -a.s);
+    const w = a.faz + Math.max(0, zaman) * (9 + 5.5 * Math.min(1, Math.abs(a.v) / 17)), v = Math.floor(w / (Math.PI / 2));
+    if (v !== a.vurus) { a.vurus = v; if (kos && a.v > 3 && a.g.position.distanceTo(cam.position) < 45) nal(a, a === b && kamera === "jokey" ? .9 : .6); }
+  });
+  const ilerleme = Math.min(1, lider.s / UZ);
+  kalabalik.g.gain.setTargetAtTime(durum === "bekle" ? .04 : kos ? .06 + .5 * Math.max(0, ilerleme - .45) / .55 + (bitisZ != null ? .25 : 0) : durum === "bitti" ? .2 : .05, t, .6);
+  kalabalik.f.frequency.setTargetAtTime(750 + 500 * ilerleme, t, .8);
+  ruzgar.g.gain.setTargetAtTime(kos ? (kamera === "jokey" ? .1 : kamera === "takip" ? .05 : .015) * hz : 0, t, .3);
 }
 
 /* ---------- arayüz ---------- */
 function kamSec(k) { kamera = k; document.querySelectorAll("[data-kam]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.kam === k))); }
 document.querySelectorAll("[data-kam]").forEach((b) => (b.onclick = () => kamSec(b.dataset.kam)));
 $("basla").onclick = basla;
+const sesYaz = () => { $("ses").textContent = sesAcik ? "Ses açık" : "Ses kapalı"; $("ses").setAttribute("aria-pressed", String(sesAcik)); };
+$("ses").onclick = () => { sesAcik = !sesAcik; try { localStorage.setItem("atg_ses", sesAcik ? "1" : "0"); } catch (e) {} if (ana) ana.gain.setTargetAtTime(sesAcik ? .9 : 0, ac.currentTime, .05); sesYaz(); };
+sesYaz();
+document.addEventListener("visibilitychange", () => { if (ac) document.hidden ? ac.suspend() : ac.resume(); });
 $("tekrar").onclick = $("tekrar2").onclick = () => { kur(KOSU.indexOf(aktif), mod); basla(); };
 $("sonraki").onclick = () => kur((KOSU.indexOf(aktif) + 1) % KOSU.length);
 $("sKosu").onchange = (e) => kur(+e.target.value);
