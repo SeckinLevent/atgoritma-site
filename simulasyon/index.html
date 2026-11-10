@@ -135,7 +135,7 @@ renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x060b1c); scene.fog = new THREE.Fog(0x0a1230, 60, 520);
-const cam = new THREE.PerspectiveCamera(72, 1, 0.08, 1200);
+const cam = new THREE.PerspectiveCamera(72, 1, 0.15, 1200);
 scene.add(new THREE.HemisphereLight(0xb9c8ff, 0x4a3520, 1.5));
 const gunes = new THREE.DirectionalLight(0xfff0d0, 1.9); gunes.position.set(-60, 90, 40); scene.add(gunes);
 const dolgu = new THREE.DirectionalLight(0x6f8cff, 0.55); dolgu.position.set(70, 40, -80); scene.add(dolgu);
@@ -158,7 +158,7 @@ function dunyaKur(pist, n) {
   yol.rotation.x = -Math.PI / 2; yol.position.z = -UZ / 2; dunya.add(yol);
   const cim = doku(128, 128, (x) => { x.fillStyle = "#1f5a2a"; x.fillRect(0, 0, 128, 128); for (let i = 0; i < 900; i++) { x.fillStyle = Math.random() < .5 ? "#2a6f33" : "#184a22"; x.fillRect(Math.random() * 128, Math.random() * 128, 2, 3); } }, [60, 120]);
   const cayir = new THREE.Mesh(new THREE.PlaneGeometry(900, UZ + 500), new THREE.MeshStandardMaterial({ map: cim, roughness: 1 }));
-  cayir.rotation.x = -Math.PI / 2; cayir.position.set(0, -0.02, -UZ / 2); dunya.add(cayir);
+  cayir.rotation.x = -Math.PI / 2; cayir.position.set(0, -0.35, -UZ / 2); dunya.add(cayir);
   // korkuluklar
   const beyaz = new THREE.MeshStandardMaterial({ color: 0xf2f4f8, roughness: .5 });
   [-1, 1].forEach((y) => {
@@ -189,7 +189,7 @@ function dunyaKur(pist, n) {
   yg.setAttribute("position", new THREE.BufferAttribute(yp, 3)); dunya.add(new THREE.Points(yg, new THREE.PointsMaterial({ color: 0xcfd9ff, size: 2.2, sizeAttenuation: false, fog: false })));
   // finiş
   const dama = doku(128, 32, (x) => { for (let i = 0; i < 16; i++) for (let j = 0; j < 4; j++) { x.fillStyle = (i + j) % 2 ? "#111" : "#fff"; x.fillRect(i * 8, j * 8, 8, 8); } });
-  const cizgi = new THREE.Mesh(new THREE.PlaneGeometry(genislik, 1.6), new THREE.MeshBasicMaterial({ map: dama })); cizgi.rotation.x = -Math.PI / 2; cizgi.position.set(0, .012, -UZ); dunya.add(cizgi);
+  const cizgi = new THREE.Mesh(new THREE.PlaneGeometry(genislik, 1.6), new THREE.MeshBasicMaterial({ map: dama })); cizgi.rotation.x = -Math.PI / 2; cizgi.position.set(0, .04, -UZ); dunya.add(cizgi);
   const altin = new THREE.MeshStandardMaterial({ color: 0xf5c542, emissive: 0xf5c542, emissiveIntensity: .7, metalness: .6, roughness: .3 });
   [-1, 1].forEach((y) => { const d = new THREE.Mesh(new THREE.CylinderGeometry(.22, .22, 9, 10), altin); d.position.set(y * (genislik / 2 + 1), 4.5, -UZ); dunya.add(d); });
   const kem = new THREE.Mesh(new THREE.BoxGeometry(genislik + 2.6, 1.9, .3), new THREE.MeshBasicMaterial({ map: yazi("FİNİŞ", "#0a1226", "#f5c542", 1024, 128, 96) })); kem.position.set(0, 8.4, -UZ); dunya.add(kem);
@@ -248,7 +248,7 @@ function atYap(no, ad, p) {
     const bc = new THREE.Mesh(new THREE.BoxGeometry(.1, .42, .12), beyaz); bc.position.set(y * .3, -.22, .02); bc.rotation.x = .5; jokey.add(bc);
     const dz = new THREE.Mesh(new THREE.BoxGeometry(.02, .02, .7), koyu); dz.position.set(y * .1, .1, -.95); dz.rotation.x = .25; jokey.add(dz);
   });
-  const golge = new THREE.Mesh(new THREE.CircleGeometry(.75, 16), new THREE.MeshBasicMaterial({ color: 0, transparent: true, opacity: .38, depthWrite: false })); golge.rotation.x = -Math.PI / 2; golge.scale.set(.75, 1.7, 1); golge.position.y = .02; g.add(golge);
+  const golge = new THREE.Mesh(new THREE.CircleGeometry(.75, 16), new THREE.MeshBasicMaterial({ color: 0, transparent: true, opacity: .38, depthWrite: false })); golge.rotation.x = -Math.PI / 2; golge.scale.set(.75, 1.7, 1); golge.position.y = .05; g.add(golge);
   // etiket
   const et = new THREE.Sprite(new THREE.SpriteMaterial({ map: doku(512, 128, (x) => { x.fillStyle = "rgba(6,12,27,.82)"; x.beginPath(); x.roundRect(4, 14, 504, 100, 26); x.fill(); x.fillStyle = f; x.beginPath(); x.roundRect(16, 26, 92, 76, 16); x.fill(); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 56px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 62, 66); x.fillStyle = "#fff"; x.font = "700 40px Arial"; x.textAlign = "left"; let a = ad; while (x.measureText(a).width > 270 && a.length > 4) a = a.slice(0, -2); x.fillText(a === ad ? a : a + "…", 122, 66); x.fillStyle = "#f5c542"; x.textAlign = "right"; x.font = "800 40px Arial"; x.fillText("%" + Math.round(100 * p), 496, 66); }), transparent: true, depthWrite: false, sizeAttenuation: false }));
   et.scale.set(.16, .04, 1); et.position.y = 3.1; g.add(et);
