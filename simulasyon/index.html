@@ -209,46 +209,74 @@ function dunyaKur(pist, n) {
 
 function atYap(no, ad, p) {
   const g = new THREE.Group(), f = FORMA[(no - 1) % FORMA.length], fr = new THREE.Color(f);
-  const post = new THREE.MeshStandardMaterial({ color: TON[(no * 5) % TON.length], roughness: .55, metalness: .05 });
-  const koyu = new THREE.MeshStandardMaterial({ color: 0x15100c, roughness: .8 }), ipek = new THREE.MeshStandardMaterial({ color: fr, roughness: .45 });
-  const ten = new THREE.MeshStandardMaterial({ color: 0xe8b890, roughness: .7 }), beyaz = new THREE.MeshStandardMaterial({ color: 0xf4f4f4, roughness: .6 });
+  const ton = TON[(no * 5) % TON.length], koyuTon = new THREE.Color(ton).multiplyScalar(.45);
+  const post = new THREE.MeshStandardMaterial({ color: ton, roughness: .42, metalness: .08 });
+  const koyu = new THREE.MeshStandardMaterial({ color: ton === 0xb9b4ae ? 0x4a4744 : 0x120d0a, roughness: .7 });
+  const alt = new THREE.MeshStandardMaterial({ color: no % 3 === 0 ? 0xf1ede6 : koyuTon, roughness: .6 });  // bazı atlarda beyaz sekiler
+  const toynak = new THREE.MeshStandardMaterial({ color: 0x1a1512, roughness: .5 });
+  const ipek = new THREE.MeshStandardMaterial({ color: fr, roughness: .38 }), ipek2 = new THREE.MeshStandardMaterial({ color: fr.clone().lerp(new THREE.Color(0xffffff), .55), roughness: .4 });
+  const ten = new THREE.MeshStandardMaterial({ color: 0xe2b48c, roughness: .7 }), beyaz = new THREE.MeshStandardMaterial({ color: 0xf4f4f4, roughness: .55 });
+  const deri = new THREE.MeshStandardMaterial({ color: 0x2a1a10, roughness: .6 });
+  const kure = (rx, ry, rz, m, x, y, z, ek) => { const o = new THREE.Mesh(new THREE.SphereGeometry(1, 20, 14), m); o.scale.set(rx, ry, rz); o.position.set(x, y, z); ek.add(o); return o; };
+  const sil = (r1, r2, h, m, ek, seg = 12) => { const o = new THREE.Mesh(new THREE.CylinderGeometry(r1, r2, h, seg), m); ek.add(o); return o; };
   const govde = new THREE.Group(); g.add(govde);
-  const b = new THREE.Mesh(new THREE.CapsuleGeometry(.33, 1.15, 5, 12), post); b.rotation.x = Math.PI / 2; b.position.y = 1.45; govde.add(b);
-  const boyun = new THREE.Group(); boyun.position.set(0, 1.6, -.62); boyun.rotation.x = -.95; govde.add(boyun);
-  const bn = new THREE.Mesh(new THREE.BoxGeometry(.24, .8, .32), post); bn.position.y = .38; boyun.add(bn);
-  const yele = new THREE.Mesh(new THREE.BoxGeometry(.06, .78, .1), koyu); yele.position.set(0, .4, .2); boyun.add(yele);
-  const bas = new THREE.Group(); bas.position.set(0, .8, 0); bas.rotation.x = .75; boyun.add(bas);
-  const kafa = new THREE.Mesh(new THREE.BoxGeometry(.2, .24, .56), post); kafa.position.set(0, .02, -.2); bas.add(kafa);
-  const burun = new THREE.Mesh(new THREE.BoxGeometry(.16, .17, .16), koyu); burun.position.set(0, -.01, -.5); bas.add(burun);
-  [-1, 1].forEach((y) => { const k = new THREE.Mesh(new THREE.ConeGeometry(.045, .15, 6), post); k.position.set(y * .07, .19, .02); bas.add(k); });
-  const baslik = new THREE.Mesh(new THREE.BoxGeometry(.215, .06, .3), ipek); baslik.position.set(0, .12, -.12); bas.add(baslik);
-  const kuyruk = new THREE.Group(); kuyruk.position.set(0, 1.62, .9); kuyruk.rotation.x = .9; govde.add(kuyruk);
-  const ky = new THREE.Mesh(new THREE.BoxGeometry(.09, .75, .09), koyu); ky.position.y = -.36; kuyruk.add(ky);
+  // gövde: fıçı + göğüs + sağrı + karın
+  kure(.33, .37, .74, post, 0, 1.47, 0, govde);
+  kure(.33, .42, .40, post, 0, 1.50, -.50, govde);
+  kure(.36, .43, .44, post, 0, 1.54, .48, govde);
+  kure(.27, .24, .46, post, 0, 1.30, .02, govde);
+  kure(.20, .20, .22, post, 0, 1.72, -.56, govde);  // omuz başı (cidago)
+  // boyun ve baş
+  const boyun = new THREE.Group(); boyun.position.set(0, 1.66, -.70); boyun.rotation.x = -.95; govde.add(boyun);
+  const bn = sil(.125, .245, .92, post, boyun, 16); bn.position.y = .40; bn.scale.set(.72, 1, 1.25);
+  const yele = new THREE.Mesh(new THREE.BoxGeometry(.045, .86, .2), koyu); yele.position.set(0, .44, .2); boyun.add(yele);
+  const bas = new THREE.Group(); bas.position.set(0, .86, .02); bas.rotation.x = .82; boyun.add(bas);
+  kure(.115, .15, .19, post, 0, .0, -.04, bas);  // kafatası
+  const yuzK = sil(.062, .112, .44, post, bas, 14); yuzK.rotation.x = Math.PI / 2; yuzK.position.set(0, -.035, -.32); yuzK.scale.set(.9, 1, 1.15);
+  kure(.068, .075, .07, koyu, 0, -.045, -.54, bas);  // burun
+  kure(.05, .03, .09, koyu, 0, .0, -.13, bas).position.y = .135;  // perçem
+  [-1, 1].forEach((y) => { const k = new THREE.Mesh(new THREE.ConeGeometry(.04, .15, 8), post); k.position.set(y * .065, .2, .03); k.rotation.z = -y * .18; bas.add(k); kure(.018, .018, .018, toynak, y * .098, .03, -.12, bas); });
+  // başlık ve dizgin
+  const kayis = new THREE.Mesh(new THREE.TorusGeometry(.085, .012, 6, 16), deri); kayis.position.set(0, -.04, -.42); bas.add(kayis);
+  const alin = new THREE.Mesh(new THREE.BoxGeometry(.2, .035, .03), ipek); alin.position.set(0, .1, -.14); bas.add(alin);
+  // kuyruk
+  const kuyruk = new THREE.Group(); kuyruk.position.set(0, 1.74, .9); kuyruk.rotation.x = .9; govde.add(kuyruk);
+  const ky = sil(.035, .1, .9, koyu, kuyruk, 8); ky.position.y = -.45; ky.scale.set(1, 1, .6);
+  // bacaklar: omuz/kalça küresi + incelen üst + eklem + alt + toynak
   const bacak = [];
-  [[-.17, -.5, 0], [.17, -.5, .35], [-.17, .52, Math.PI], [.17, .52, Math.PI + .35]].forEach(([x, z, faz], i) => {
-    const ust = new THREE.Group(); ust.position.set(x, 1.27, z); govde.add(ust);
-    const u = new THREE.Mesh(new THREE.BoxGeometry(.12, .62, .15), post); u.position.y = -.31; ust.add(u);
-    const diz = new THREE.Group(); diz.position.y = -.62; ust.add(diz);
-    const a = new THREE.Mesh(new THREE.BoxGeometry(.085, .6, .1), post); a.position.y = -.3; diz.add(a);
-    const t = new THREE.Mesh(new THREE.BoxGeometry(.11, .08, .14), koyu); t.position.y = -.61; diz.add(t);
-    bacak.push({ ust, diz, faz, on: i < 2 });
+  [[-.17, -.50, 0, 1], [.17, -.50, .35, 1], [-.19, .50, Math.PI, 0], [.19, .50, Math.PI + .35, 0]].forEach(([x, z, faz, on]) => {
+    const ust = new THREE.Group(); ust.position.set(x, 1.30, z); govde.add(ust);
+    kure(on ? .115 : .15, on ? .2 : .26, on ? .14 : .2, post, 0, -.06, 0, ust);
+    const u = sil(on ? .085 : .105, .058, .6, post, ust); u.position.y = -.32;
+    const diz = new THREE.Group(); diz.position.y = -.64; ust.add(diz);
+    kure(.066, .07, .066, post, 0, 0, 0, diz);
+    const a = sil(.052, .04, .52, alt, diz); a.position.y = -.27;
+    kure(.05, .05, .05, alt, 0, -.54, 0, diz);
+    const t = sil(.052, .07, .1, toynak, diz); t.position.y = -.61;
+    bacak.push({ ust, diz, faz, on: !!on });
   });
-  // eyer örtüsü ve numara
-  const nd = doku(128, 96, (x) => { x.fillStyle = f; x.fillRect(0, 0, 128, 96); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 74px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 64, 52); });
+  // eyer, örtü ve numara
+  const eyer = kure(.2, .06, .26, deri, 0, 1.86, .02, govde);
+  const nd = doku(128, 96, (x) => { x.fillStyle = f; x.fillRect(0, 0, 128, 96); x.strokeStyle = ACIK.includes(f) ? "#111" : "#fff"; x.lineWidth = 5; x.strokeRect(4, 4, 120, 88); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 70px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 64, 52); });
   const nm = new THREE.MeshBasicMaterial({ map: nd });
-  [-1, 1].forEach((y) => { const o = new THREE.Mesh(new THREE.PlaneGeometry(.5, .38), nm); o.position.set(y * .345, 1.5, .05); o.rotation.y = y * Math.PI / 2; govde.add(o); });
-  // jokey
-  const jokey = new THREE.Group(); jokey.position.set(0, 1.86, .12); govde.add(jokey);
-  const govdeJ = new THREE.Mesh(new THREE.BoxGeometry(.32, .5, .26), ipek); govdeJ.rotation.x = -1.05; govdeJ.position.set(0, .2, -.16); jokey.add(govdeJ);
-  const kask = new THREE.Group(); kask.position.set(0, .4, -.5); jokey.add(kask);
-  const yuz = new THREE.Mesh(new THREE.SphereGeometry(.105, 10, 8), ten); kask.add(yuz);
-  const kep = new THREE.Mesh(new THREE.SphereGeometry(.125, 12, 8, 0, Math.PI * 2, 0, Math.PI / 1.9), ipek); kep.position.y = .02; kask.add(kep);
+  [-1, 1].forEach((y) => { const o = new THREE.Mesh(new THREE.PlaneGeometry(.46, .34), nm); o.position.set(y * .355, 1.52, .06); o.rotation.y = y * Math.PI / 2; o.rotation.x = 0; govde.add(o); });
+  // jokey: öne eğik gövde, kasklı baş, kollar dizginde, dizler bükük
+  const jokey = new THREE.Group(); jokey.position.set(0, 1.9, .1); govde.add(jokey);
+  const govJ = new THREE.Mesh(new THREE.CapsuleGeometry(.135, .3, 4, 12), ipek); govJ.rotation.x = -1.1; govJ.position.set(0, .26, -.2); govJ.scale.set(1.15, 1, .9); jokey.add(govJ);
+  const kusak = new THREE.Mesh(new THREE.TorusGeometry(.14, .035, 6, 14), ipek2); kusak.position.set(0, .2, -.08); kusak.rotation.x = .5; jokey.add(kusak);
+  const kask = new THREE.Group(); kask.position.set(0, .45, -.52); jokey.add(kask);
+  kure(.098, .105, .1, ten, 0, 0, 0, kask);
+  const kep = new THREE.Mesh(new THREE.SphereGeometry(.118, 16, 10, 0, Math.PI * 2, 0, Math.PI / 1.85), ipek); kep.position.y = .015; kask.add(kep);
+  const siper = new THREE.Mesh(new THREE.BoxGeometry(.15, .015, .09), ipek2); siper.position.set(0, .03, -.13); kask.add(siper);
+  kure(.085, .03, .03, toynak, 0, .01, -.085, kask);  // gözlük
   [-1, 1].forEach((y) => {
-    const kol = new THREE.Mesh(new THREE.BoxGeometry(.08, .08, .5), ipek); kol.position.set(y * .15, .2, -.58); kol.rotation.x = .35; jokey.add(kol);
-    const bc = new THREE.Mesh(new THREE.BoxGeometry(.1, .42, .12), beyaz); bc.position.set(y * .3, -.22, .02); bc.rotation.x = .5; jokey.add(bc);
-    const dz = new THREE.Mesh(new THREE.BoxGeometry(.02, .02, .7), koyu); dz.position.set(y * .1, .1, -.95); dz.rotation.x = .25; jokey.add(dz);
+    const kol = new THREE.Mesh(new THREE.CapsuleGeometry(.042, .36, 3, 8), ipek); kol.position.set(y * .16, .2, -.52); kol.rotation.x = Math.PI / 2 - .45; jokey.add(kol);
+    kure(.04, .04, .045, beyaz, y * .12, .06, -.74, jokey);  // eldiven
+    const uyluk = new THREE.Mesh(new THREE.CapsuleGeometry(.062, .26, 3, 8), beyaz); uyluk.position.set(y * .25, .0, -.06); uyluk.rotation.x = -1.0; jokey.add(uyluk);
+    const cizme = new THREE.Mesh(new THREE.CapsuleGeometry(.05, .24, 3, 8), toynak); cizme.position.set(y * .31, -.2, .06); cizme.rotation.x = .55; jokey.add(cizme);
+    const dz = new THREE.Mesh(new THREE.CylinderGeometry(.008, .008, .62, 4), deri); dz.position.set(y * .1, .0, -1.0); dz.rotation.x = Math.PI / 2 + .28; jokey.add(dz);
   });
-  const golge = new THREE.Mesh(new THREE.CircleGeometry(.75, 16), new THREE.MeshBasicMaterial({ color: 0, transparent: true, opacity: .38, depthWrite: false })); golge.rotation.x = -Math.PI / 2; golge.scale.set(.75, 1.7, 1); golge.position.y = .05; g.add(golge);
+  const golge = new THREE.Mesh(new THREE.CircleGeometry(.75, 20), new THREE.MeshBasicMaterial({ color: 0, transparent: true, opacity: .4, depthWrite: false })); golge.rotation.x = -Math.PI / 2; golge.scale.set(.75, 1.75, 1); golge.position.y = .05; g.add(golge);
   // etiket
   const et = new THREE.Sprite(new THREE.SpriteMaterial({ map: doku(512, 128, (x) => { x.fillStyle = "rgba(6,12,27,.82)"; x.beginPath(); x.roundRect(4, 14, 504, 100, 26); x.fill(); x.fillStyle = f; x.beginPath(); x.roundRect(16, 26, 92, 76, 16); x.fill(); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 56px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 62, 66); x.fillStyle = "#fff"; x.font = "700 40px Arial"; x.textAlign = "left"; let a = ad; while (x.measureText(a).width > 270 && a.length > 4) a = a.slice(0, -2); x.fillText(a === ad ? a : a + "…", 122, 66); x.fillStyle = "#f5c542"; x.textAlign = "right"; x.font = "800 40px Arial"; x.fillText("%" + Math.round(100 * p), 496, 66); }), transparent: true, depthWrite: false, sizeAttenuation: false }));
   et.scale.set(.16, .04, 1); et.position.y = 3.1; g.add(et);
@@ -308,7 +336,7 @@ function ciz(dt) {
   if (durum === "bekle") { const a = performance.now() / 9000; hY.set(Math.sin(a) * 15, 4.5 + Math.sin(a * 2), 9 + Math.cos(a) * 9); hB.set(0, 1.5, -4); fov = 55; }
   else if (kamera === "jokey") { hY.set(b.x, 2.5 + .06 * hz * Math.sin(2 * w + 1), -b.s + .25); hB.set(b.x * .93, 1.7, -b.s - 30); fov = 74 + 12 * hz; }
   else if (kamera === "takip") { hY.set(b.x + 1.4, 3.3, -b.s + 6.5); hB.set(b.x, 1.6, -b.s - 8); fov = 62 + 8 * hz; }
-  else if (kamera === "yayin") { hY.set(genislik / 2 + 14, 6, -lider.s + 4); hB.set(0, 1.4, -lider.s + 1); fov = 34; }
+  else if (kamera === "yayin") { hY.set(genislik / 2 + 11, 4.2, -lider.s + 5); hB.set(0, 1.3, -lider.s + 2); fov = 30; }
   else { hY.set(-genislik / 2 - 6, 26, -lider.s + 16); hB.set(0, 0, -lider.s - 6); fov = 50; }
   if (bitisZ != null && kamera !== "jokey") { hY.set(genislik / 2 + 9, 2.4, -UZ + 5); hB.set(0, 1.5, -UZ - 2); fov = 42; }
   const k = dt === 0 || kamera === "jokey" && durum !== "bekle" ? 1 : Math.min(1, dt * 5);
