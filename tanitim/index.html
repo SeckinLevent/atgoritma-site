@@ -2,687 +2,662 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Atgoritma · Yapay zekâ ile at yarışı · 1 dakikalık tanıtım</title>
-<meta name="description" content="Atgoritma'yı adım adım tanıyın: menüler, yarış tablosu, ata dokununca açılan özet, koşunun hikâyesi, altılı kuponları ve Kupon Sihirbazı.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Kaynak: kod/tanitim_sinematik.html. [[...]] işaretlerini kod/site_uret.py (tanitim_yaz) her üretimde günün verisiyle doldurur. -->
+<title>Atgoritma tanıtımı · Yapay zekâ ile at yarışı tahmini, altılı ganyan ve Kupon Sihirbazı</title>
+<meta name="description" content="Atgoritma'yı 45 saniyede tanıyın: TJK'nın resmi verisiyle eğitilen yapay zekâ, her ata kazanma şansı, sürpriz ihtimali, altılı ganyan kuponları, Kupon Sihirbazı'nın önerileri ve her gün açık karne.">
 <link rel="canonical" href="https://atgoritma.com/tanitim/">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="Atgoritma · Yapay zekâ ile at yarışı · 1 dakikalık tanıtım">
-<meta property="og:description" content="Menüler, yarış tablosu, at özeti, koşunun hikâyesi ve Kupon Sihirbazı: adım adım animasyonlu tanıtım.">
+<meta property="og:title" content="Atgoritma tanıtımı · Yapay zekâ ile at yarışı tahmini">
+<meta property="og:description" content="TJK verisiyle eğitilen yapay zekâ, kazanma şansı, sürpriz ihtimali, altılı ganyan ve koşu simülasyonu ve Kupon Sihirbazı: 45 saniyelik sinematik tanıtım.">
 <meta property="og:type" content="website"><meta property="og:url" content="https://atgoritma.com/tanitim/">
 <meta property="og:site_name" content="Atgoritma"><meta property="og:locale" content="tr_TR">
 <meta property="og:image" content="https://atgoritma.com/paylasim.jpg"><meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="192x192" href="/ikon-192.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#060c1b">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;0,700;0,800;1,800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <style>
 :root {
-  --bg: #060c1b; --bg2: #0a1328; --panel: #0d1630; --panel2: #121e3d; --soft: #172243; --line: #22325a;
-  --ink: #f3f5fb; --muted: #9ca9c6; --gold: #f5c542; --gold2: #ffe08a; --gold-deep: #c8901a; --on-gold: #0a1226;
-  --ok: #2fe39b; --ok-soft: #0e3327; --bad: #ff5d6c; --warn: #ffb547; --warn-soft: #3b2a0f; --mor: #8d9cff; --kum: #ff9f43; --blue: #6fb4ff;
+  --bg: #060c1b; --bg2: #0a1328; --panel: #0d1630; --panel2: #121e3d; --ink: #f3f5fb; --muted: #9ca9c6; --line: #22325a;
+  --gold: #f5c542; --gold2: #ffe08a; --gold-deep: #c8901a; --silver: #dfe5ef; --on-gold: #0a1226;
+  --soft: #172243; --ok: #2fe39b; --mor: #8d9cff; --warn: #ffb547;
   --fd: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif; --fb: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --ust: 60px; --alt: 76px;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; }
-body { background: radial-gradient(1200px 600px at 70% -10%, rgba(245,197,66,.10), transparent 60%), var(--bg); color: var(--ink); font: 15px/1.5 var(--fb); min-height: 100vh; -webkit-font-smoothing: antialiased; }
-a { color: var(--gold); }
-.ust { display: flex; align-items: center; justify-content: space-between; gap: 12px; max-width: 1080px; margin: 0 auto; padding: 16px; }
-.marka { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font: 800 19px var(--fd); }
-.marka img { width: 34px; height: 34px; border-radius: 9px; }
-.btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 12px; font: 700 14px var(--fb); text-decoration: none; cursor: pointer; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
-.btn.altin { background: linear-gradient(180deg, var(--gold2), var(--gold) 55%, var(--gold-deep)); color: var(--on-gold); border-color: transparent; box-shadow: 0 0 22px -6px rgba(245,197,66,.6); }
-.sahne { max-width: 1080px; margin: 0 auto; padding: 8px 16px 24px; display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 40px; align-items: center; }
-/* telefon */
-.tel { position: relative; width: 320px; height: 620px; margin: 0 auto; border-radius: 42px; padding: 12px; background: linear-gradient(160deg, #26324f, #0b1224); box-shadow: 0 30px 80px -30px rgba(0,0,0,.9), 0 0 0 1px #2c3a60, 0 0 60px -20px rgba(245,197,66,.35); }
-.tel::before { content: ""; position: absolute; top: 20px; left: 50%; transform: translateX(-50%); width: 90px; height: 22px; border-radius: 12px; background: #050a16; z-index: 3; }
-.ekran { position: relative; width: 100%; height: 100%; border-radius: 32px; overflow: hidden; background: var(--bg2); }
-.ek-ust { height: 64px; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 14px 8px; background: rgba(10,19,40,.95); border-bottom: 1px solid var(--line); font: 800 14px var(--fd); color: var(--gold); }
-.ek-ust small { font: 600 11px var(--fb); color: var(--muted); }
-.ek-icerik { position: absolute; inset: 64px 0 58px; padding: 10px; overflow: hidden; }
-.ek-alt { position: absolute; left: 0; right: 0; bottom: 0; height: 58px; display: grid; grid-template-columns: repeat(6, 1fr); background: rgba(10,19,40,.97); border-top: 1px solid var(--line); }
-.ek-alt span { display: grid; place-items: center; align-content: center; gap: 2px; font-size: 9.5px; color: var(--muted); position: relative; }
-.ek-alt span i { width: 16px; height: 16px; border-radius: 5px; border: 1.6px solid currentColor; }
-.ek-alt span.on { color: var(--gold); }
-.parca { position: absolute; inset: 0; opacity: 0; pointer-events: none; transition: opacity .45s ease; }
-.parca.aktif { opacity: 1; }
-/* parmak / dokunma */
-.dokun { position: absolute; width: 34px; height: 34px; margin: -17px 0 0 -17px; border-radius: 50%; background: rgba(255,224,138,.35); border: 2px solid var(--gold2); box-shadow: 0 0 18px rgba(245,197,66,.8); opacity: 0; z-index: 5; pointer-events: none; }
-.oyna .dokun { animation: dokun var(--sure, 1s) var(--gec, 0s) ease-out both; }
-@keyframes dokun { 0% { opacity: 0; transform: scale(1.6); } 25% { opacity: 1; transform: scale(1); } 45% { transform: scale(.8); } 70% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.3); } }
-.gir { opacity: 0; transform: translateY(8px); }
-.oyna .gir { animation: gir .5s var(--gec, 0s) ease-out both; }
-@keyframes gir { to { opacity: 1; transform: none; } }
-/* sahnedeki mini arayüz parçaları */
-.m-kart { background: linear-gradient(180deg, var(--panel2), var(--panel)); border: 1px solid var(--line); border-radius: 12px; padding: 9px; }
-.m-bas { font: 700 12px var(--fd); color: var(--gold2); margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center; }
-.m-sub { font-size: 10px; color: var(--muted); }
-.m-tag { font-size: 9px; font-weight: 700; padding: 1px 5px; border-radius: 4px; border: 1px solid var(--line); color: var(--muted); }
-.m-tag.fav { color: var(--gold2); border-color: rgba(245,197,66,.55); } .m-tag.sur { color: #c9d0ff; background: rgba(141,156,255,.16); border-color: rgba(141,156,255,.55); }
-.m-satir { display: grid; grid-template-columns: 22px minmax(0, 1fr) 46px 40px; gap: 6px; align-items: center; padding: 7px 6px; border-bottom: 1px solid var(--line); font-size: 11px; position: relative; transition: opacity .4s; }
-.m-satir.fav { box-shadow: inset 3px 0 0 var(--gold); } .m-satir.sur { box-shadow: inset 3px 0 0 var(--mor); background: rgba(141,156,255,.08); }
-.m-no { display: grid; place-items: center; width: 20px; height: 20px; border-radius: 6px; background: var(--soft); font-weight: 700; font-size: 10px; }
-.m-ad b { display: block; font-size: 11px; } .m-ad span { font-size: 9.5px; color: var(--muted); }
-.m-yz { font-weight: 700; color: var(--ink); } .m-yz small { display: block; height: 4px; border-radius: 3px; background: var(--gold); margin-top: 3px; }
-.m-agf { color: var(--muted); text-align: right; }
-.m-ik { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-left: 3px; vertical-align: -1px; }
-.m-ik.f { background: var(--ok); } .m-ik.j { background: var(--gold); } .m-ik.g { background: var(--blue); }
-.m-oz { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 8px 6px; background: rgba(245,197,66,.05); border-bottom: 1px solid rgba(245,197,66,.3); }
-.m-oz div { background: var(--panel); border-radius: 7px; padding: 5px 6px; font-size: 9.5px; color: var(--muted); }
-.m-oz b { display: block; font-size: 11.5px; color: var(--ink); } .m-oz .iyi b { color: var(--ok); } .m-oz .dik b { color: var(--warn); }
-.m-hik { padding: 8px 9px; border-radius: 10px; background: linear-gradient(135deg, rgba(245,197,66,.1), rgba(141,156,255,.07)); border: 1px solid rgba(245,197,66,.25); font-size: 10.5px; display: grid; gap: 4px; }
-.m-hik em { font-style: normal; font: 700 9.5px var(--fb); letter-spacing: .08em; color: var(--gold); }
-.m-hik p { margin: 0; padding-left: 11px; position: relative; } .m-hik p::before { content: ""; position: absolute; left: 0; top: 5px; width: 6px; height: 6px; border-radius: 50%; background: var(--c, var(--gold)); }
-.m-chips { display: flex; gap: 4px; flex-wrap: wrap; margin: 8px 0; }
-.m-chip { font-size: 9.5px; font-weight: 600; padding: 4px 7px; border-radius: 7px; border: 1px solid var(--line); background: var(--panel); }
-.m-chip.on { background: linear-gradient(180deg, var(--gold2), var(--gold)); color: var(--on-gold); border-color: transparent; }
-.m-kupon { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
-.m-kupon .m-kart b { display: block; font: 800 16px var(--fd); color: var(--gold); }
-.m-legs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; margin-top: 8px; }
-.m-legs span { display: grid; place-items: center; height: 22px; border-radius: 5px; background: var(--soft); font-size: 10px; font-weight: 700; }
-.m-legs span.s { background: var(--gold); color: var(--on-gold); }
-.m-ozet { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-bottom: 7px; }
-.m-ozet div { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 4px 6px; font-size: 8.5px; color: var(--muted); text-transform: uppercase; }
-.m-ozet b { display: block; font: 800 14px var(--fd); color: var(--ink); text-transform: none; }
-.m-ozet .v { border-color: rgba(245,197,66,.6); background: rgba(245,197,66,.1); } .m-ozet .v b { color: var(--gold); }
-.m-sih { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; }
-.m-ayak { display: grid; gap: 3px; align-content: start; }
-.m-ayak > i { font-style: normal; text-align: center; font: 700 9px var(--fb); color: var(--gold2); }
-.m-ayak > em { font-style: normal; text-align: center; font-size: 8px; font-weight: 700; border-radius: 4px; padding: 1px 0; }
-.m-ayak > em.n { color: var(--ok); background: var(--ok-soft); } .m-ayak > em.z { color: var(--warn); background: var(--warn-soft); }
-.m-at { display: grid; place-items: center; padding: 3px 0; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); font-size: 10px; font-weight: 700; line-height: 1.1; transition: all .25s; }
-.m-at small { font-size: 8px; color: var(--muted); font-weight: 600; }
-.m-at.s { border-color: var(--gold); background: rgba(245,197,66,.18); } .m-at.s small { color: var(--gold); }
-.m-at.u { border-color: rgba(141,156,255,.6); background: rgba(141,156,255,.12); }
-.m-ip { margin-top: 7px; font-size: 9.5px; padding: 5px 7px 5px 18px; border-radius: 7px; background: var(--panel); position: relative; }
-.m-ip::before { content: ""; position: absolute; left: 7px; top: 9px; width: 6px; height: 6px; border-radius: 50%; background: var(--ok); }
-.m-bar { height: 8px; border-radius: 5px; background: var(--soft); overflow: hidden; margin: 3px 0 8px; }
-.m-bar i { display: block; height: 100%; width: 0; border-radius: 5px; transition: width 1.2s ease; }
-.oyna .m-bar i { width: var(--w); }
-.m-menu-not { position: absolute; bottom: 66px; left: 50%; transform: translateX(-50%); white-space: nowrap; padding: 6px 10px; border-radius: 9px; background: var(--gold); color: var(--on-gold); font: 700 11px var(--fb); box-shadow: 0 8px 20px -6px rgba(0,0,0,.6); }
-.m-hos { height: 100%; display: grid; place-content: center; text-align: center; gap: 10px; padding: 12px; }
-.m-hos .m-logo { margin: 0; font: 800 28px var(--fd); background: linear-gradient(180deg, #fff4c8, var(--gold) 50%, var(--gold-deep)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.m-hos p { margin: 0; font-size: 12px; color: var(--muted); }
-.m-hos .m-kart { font-size: 11.5px; text-align: left; display: flex; gap: 8px; align-items: center; }
-.m-hos .m-kart b { color: var(--gold); font: 800 15px var(--fd); }
-/* YZ akışı ve simülasyon sahneleri */
-.m-ai { position: relative; height: 100%; }
-.m-ai svg.akis { position: absolute; inset: 0; width: 100%; height: 100%; }
-.akis path { fill: none; stroke: rgba(245,197,66,.18); stroke-width: 1.4; }
-.akis path.nab { stroke: var(--gold2); stroke-width: 2.2; stroke-dasharray: 3 14; stroke-linecap: round; opacity: 0; }
-.oyna .akis path.nab { animation: akis 1.1s linear infinite, gor .4s var(--gec, 0s) both; }
-@keyframes akis { to { stroke-dashoffset: -17; } }
-@keyframes gor { from { opacity: 0; } to { opacity: .95; } }
-.ai-girdi { position: absolute; left: 0; width: 30%; padding: 5px 7px; border-radius: 8px; background: var(--panel); border: 1px solid var(--line); font-size: 10px; font-weight: 600; }
-.ai-girdi small { display: block; color: var(--muted); font-weight: 500; font-size: 8.5px; }
-.ai-cekirdek { position: absolute; left: 52%; top: 49%; width: 64px; height: 64px; margin: -32px 0 0 -32px; border-radius: 50%; display: grid; place-items: center; text-align: center;
-  background: radial-gradient(circle at 35% 30%, #fff4c8, var(--gold) 40%, var(--gold-deep) 75%, #6b4a08); color: var(--on-gold); font: 800 16px/1 var(--fd); box-shadow: 0 0 30px rgba(245,197,66,.7); }
-.ai-cekirdek small { display: block; font: 700 7.5px var(--fb); letter-spacing: .08em; margin-top: 2px; }
-.ai-cekirdek::before, .ai-cekirdek::after { content: ""; position: absolute; inset: -8px; border-radius: 50%; border: 2px solid rgba(245,197,66,.55); opacity: 0; }
-.oyna .ai-cekirdek::before { animation: halka 1.8s .6s ease-out infinite; } .oyna .ai-cekirdek::after { animation: halka 1.8s 1.5s ease-out infinite; }
-@keyframes halka { 0% { opacity: .9; transform: scale(.9); } 100% { opacity: 0; transform: scale(1.6); } }
-.ai-cikti { position: absolute; right: 0; width: 26%; display: grid; gap: 2px; font-size: 10px; }
-.ai-cikti b { display: flex; justify-content: space-between; font-size: 10px; }
-.ai-cikti .m-bar { margin: 0; height: 6px; }
-.ai-alt { position: absolute; left: 0; right: 0; bottom: 0; text-align: center; font-size: 10.5px; color: var(--muted); }
-.ai-alt b { color: var(--gold); font: 800 18px var(--fd); display: block; }
-.m-pist { position: relative; border-radius: 12px; overflow: hidden; background: linear-gradient(180deg, #6b4a2a, #8a5f36); border: 2px solid #c79a62; padding: 6px 0; }
-.m-pist .serit { position: relative; height: 34px; border-bottom: 1px dashed rgba(255,255,255,.22); }
-.m-pist .serit:last-child { border-bottom: 0; }
-.m-pist .bitis { position: absolute; top: 0; bottom: 0; right: 18px; width: 6px; background: repeating-linear-gradient(0deg, #fff 0 6px, #111 6px 12px); opacity: .9; z-index: 1; }
-.m-pist .basla { position: absolute; top: 0; bottom: 0; left: 30px; width: 2px; background: rgba(255,255,255,.5); }
-.kosucu { position: absolute; top: 4px; left: 4px; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font: 800 11px var(--fd); box-shadow: 0 2px 6px rgba(0,0,0,.5); z-index: 2; will-change: transform; }
-.kosucu::after { content: ""; position: absolute; left: -14px; top: 11px; width: 14px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.45)); opacity: 0; }
-.kosucu.hiz::after { opacity: 1; }
-.sim-ust { display: flex; justify-content: space-between; align-items: center; margin-bottom: 7px; }
-.sim-canli { font: 700 9.5px var(--fb); color: #ff8b96; display: inline-flex; align-items: center; gap: 5px; }
-.sim-canli::before { content: ""; width: 7px; height: 7px; border-radius: 2px; background: #ff5d6c; }
-@keyframes nabiz { 50% { opacity: .3; } }
-.sim-sonuc { display: grid; gap: 4px; margin-top: 8px; }
-.sim-sonuc div { display: grid; grid-template-columns: 22px 22px 1fr auto; gap: 6px; align-items: center; padding: 5px 7px; border-radius: 8px; background: var(--panel); font-size: 10.5px; opacity: 0; transform: translateX(-8px); transition: all .35s; }
-.sim-sonuc div.gor { opacity: 1; transform: none; }
-.sim-sonuc div:first-child { border: 1px solid rgba(245,197,66,.6); background: rgba(245,197,66,.1); }
-.sim-sonuc i { font-style: normal; display: grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; font-weight: 800; font-size: 10px; }
-.sim-sonuc em { font-style: normal; color: var(--gold); font-weight: 700; }
-.m-hos .sayac { font: 800 30px var(--fd); color: var(--gold); line-height: 1; }
-/* anlatım */
-.anlat { display: grid; gap: 16px; }
-.adim-no { font: 700 12px var(--fb); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
-.anlat h1 { margin: 0; font: 800 clamp(26px, 3.4vw, 38px)/1.15 var(--fd); }
-.anlat .metin { margin: 0; font-size: 16.5px; color: #cdd5e8; max-width: 52ch; min-height: 5.4em; }
-.ipucu-kutu { display: flex; gap: 10px; align-items: flex-start; padding: 10px 14px; border-radius: 12px; background: rgba(245,197,66,.08); border: 1px solid rgba(245,197,66,.3); font-size: 14px; max-width: 54ch; }
-.ipucu-kutu b { color: var(--gold2); white-space: nowrap; }
-.kontrol { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.kontrol button { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
-.kontrol button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; }
-.kontrol button#oynat { background: linear-gradient(180deg, var(--gold2), var(--gold) 55%, var(--gold-deep)); color: var(--on-gold); border-color: transparent; }
-.ilerleme { flex: 1; min-width: 120px; height: 6px; border-radius: 4px; background: var(--soft); overflow: hidden; }
-.ilerleme i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--gold-deep), var(--gold)); }
-.adimlar { display: flex; gap: 6px; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
-.adimlar button { font: 600 12.5px var(--fb); padding: 7px 11px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); cursor: pointer; }
-.adimlar button[aria-current="step"] { color: var(--gold); border-color: rgba(245,197,66,.55); background: rgba(245,197,66,.1); }
-.adimlar button.gecti { color: var(--ink); }
-.son-cta { display: flex; gap: 10px; flex-wrap: wrap; }
-.paylas-not { font-size: 13px; color: var(--muted); margin: 0; }
-footer { max-width: 1080px; margin: 0 auto; padding: 18px 16px 28px; color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); }
-footer b { color: var(--ink); }
-@media (max-width: 860px) {
-  .sahne { grid-template-columns: 1fr; gap: 18px; padding-top: 0; }
-  .tel { width: min(272px, calc(100vw - 32px)); height: 528px; border-radius: 38px; padding: 10px; }
-  .anlat { text-align: left; }
-  .anlat .metin { font-size: 15.5px; min-height: 6.6em; }
-  .ust .btn span { display: none; }
+body { background: #000; color: var(--ink); font: 15px/1.5 var(--fb); -webkit-font-smoothing: antialiased; }
+button { font: inherit; color: inherit; }
+em { font-style: inherit; }
+
+/* ---------- Perde: üstte ve altta siyah sinema şeritleri, ortada sahne ---------- */
+.film { position: relative; height: 100vh; height: 100dvh; min-height: 520px; display: grid; grid-template-rows: var(--ust) minmax(0, 1fr) var(--alt); background: #000; }
+.serit-ust { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+.serit-ust img { display: block; height: 40px; width: auto; mix-blend-mode: screen; }
+.git { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 13.5px;
+  color: var(--on-gold); background: var(--gold) linear-gradient(180deg, var(--gold2), var(--gold)); }
+.git:focus-visible, .kontrol button:focus-visible, .buyuk:focus-visible { outline: 2px solid var(--gold2); outline-offset: 3px; }
+
+.perde { position: relative; overflow: hidden; background: var(--bg); isolation: isolate; }
+.arka { position: absolute; inset: 0; z-index: -1; background: radial-gradient(900px 520px at 78% 18%, #1b2d63 0%, transparent 62%), radial-gradient(700px 480px at 8% 90%, #0f2150 0%, transparent 60%), var(--bg); }
+.arka img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 40%; opacity: .2; animation: aFoto 36s ease-in-out infinite alternate; }
+.arka .isin { position: absolute; inset: -30% -20%; background: linear-gradient(104deg, transparent 42%, rgba(255, 236, 170, .07) 50%, transparent 58%); animation: aIsin 14s ease-in-out infinite; }
+.arka .isin.i2 { animation-duration: 21s; animation-delay: -8s; background: linear-gradient(76deg, transparent 44%, rgba(141, 156, 255, .06) 50%, transparent 56%); }
+.arka::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 45%, rgba(0, 0, 0, .62) 100%); }
+@keyframes aFoto { from { transform: scale(1.05) translateX(-1%); } to { transform: scale(1.2) translateX(2%); } }
+@keyframes aIsin { 0%, 100% { transform: translateX(-28%); } 50% { transform: translateX(28%); } }
+/* sahne geçişinde çakan yatay ışık */
+.cakma { position: absolute; left: -10%; right: -10%; top: 50%; height: 3px; z-index: 5; pointer-events: none; opacity: 0; transform: scaleX(.05);
+  background: linear-gradient(90deg, transparent, rgba(245, 197, 66, .8) 30%, #fff8dc 50%, rgba(245, 197, 66, .8) 70%, transparent); filter: blur(.6px); }
+.cakma.vur { animation: cVur .7s ease-out; }
+@keyframes cVur { 0% { opacity: 0; transform: scaleX(.05); } 25% { opacity: 1; transform: scaleX(1); } 100% { opacity: 0; transform: scaleX(1.15); } }
+
+/* ---------- Sahneler ---------- */
+.sahne { position: absolute; inset: 0; display: grid; place-items: center; padding: clamp(14px, 3vh, 36px) clamp(16px, 4vw, 56px); opacity: 0; visibility: hidden; }
+.sahne.acik { opacity: 1; visibility: visible; animation: sGir .85s cubic-bezier(.16, 1, .3, 1); }
+.sahne.cikan { visibility: visible; animation: sCik .45s ease-in forwards; }
+@keyframes sGir { from { opacity: 0; transform: scale(.93); filter: blur(10px); } to { opacity: 1; transform: none; filter: blur(0); } }
+@keyframes sCik { from { opacity: 1; transform: none; filter: blur(0); } to { opacity: 0; transform: scale(1.12); filter: blur(8px); } }
+.ic { width: 100%; max-width: 1080px; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: clamp(20px, 4vw, 56px); align-items: center; }
+.ic.tek { grid-template-columns: 1fr; justify-items: center; text-align: center; max-width: 860px; gap: clamp(10px, 2.2vh, 20px); }
+.yazi { display: grid; gap: clamp(8px, 1.6vh, 16px); }
+.etiket { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 10px; }
+.etiket::before { content: ""; width: 30px; height: 2px; background: linear-gradient(90deg, var(--gold), transparent); }
+.tek .etiket { justify-content: center; } .tek .etiket::before { display: none; }
+h1, h2 { margin: 0; font-family: var(--fd); font-style: italic; font-weight: 800; font-size: clamp(30px, 5.2vw, 64px); line-height: 1.04; letter-spacing: -.03em; text-wrap: balance; color: var(--silver); }
+h1 em, h2 em { color: var(--gold); }
+.alt-yazi b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.alt-yazi { margin: 0; color: var(--muted); font-size: clamp(14px, 1.5vw, 17.5px); max-width: 48ch; }
+.tek .alt-yazi { margin-inline: auto; }
+.gorsel { justify-self: center; width: 100%; max-width: 420px; }
+
+/* içerik giriş hareketleri: yalnız sahne açıkken oynar, her açılışta baştan başlar */
+.sahne.acik .g { animation: gGir .75s cubic-bezier(.16, 1, .3, 1) var(--d, 0s) backwards; }
+@keyframes gGir { from { opacity: 0; transform: translateY(20px); filter: blur(5px); } to { opacity: 1; transform: none; filter: blur(0); } }
+.sahne.acik .dol { animation: gDol 1.1s cubic-bezier(.2, .7, .2, 1) var(--d, 0s) backwards; }
+@keyframes gDol { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+/* ortak kart */
+.kart { background: rgba(13, 22, 48, .9); border: 1px solid var(--line); border-radius: 16px; padding: 14px; box-shadow: 0 24px 50px -28px #000; }
+.kart-ust { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.kart-ust small { display: block; font-size: 10px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+.kart-ust b { font: 700 15px var(--fd); }
+.kart-ust span { font-size: 12px; color: var(--muted); }
+.kart-alt { margin: 10px 2px 0; font-size: 11.5px; color: var(--muted); }
+
+/* --- Sahne 0 ve 7: nal ve logo --- */
+.nal-buyuk { width: clamp(120px, 22vh, 190px); height: auto; overflow: visible; }
+.nal-buyuk .nal { fill: none; stroke: url(#altin); stroke-width: 17; stroke-linecap: round; }
+.nal-buyuk .dg { fill: var(--ok); stroke: #06101f; stroke-width: 1.5; }
+.nal-buyuk .mk { fill: var(--gold2); }
+.nal-buyuk .hk { fill: none; stroke: var(--gold2); stroke-width: 2; opacity: 0; transform-box: fill-box; transform-origin: center; }
+.sahne.acik .nal-buyuk { animation: nGel 1.5s cubic-bezier(.16, 1, .3, 1) .1s backwards; }
+.sahne.acik .nal-buyuk .hk { animation: nSok 1s ease-out 1.15s; }
+.sahne.acik .nal-buyuk .hk.h2 { animation-delay: 1.4s; }
+.sahne.acik .nal-buyuk .dg { animation: nDg .4s ease-out calc(1.3s + var(--i) * .12s) backwards; }
+@keyframes nGel { 0% { opacity: 0; transform: scale(3.4) rotate(-30deg); filter: blur(10px); } 70% { opacity: 1; filter: blur(0); } 100% { opacity: 1; transform: none; filter: blur(0); } }
+@keyframes nSok { from { opacity: .9; transform: scale(1); } to { opacity: 0; transform: scale(3); } }
+@keyframes nDg { from { fill: #1b2748; } to { fill: var(--ok); } }
+.logo-buyuk { width: auto; height: auto; max-width: min(420px, 78vw); max-height: 30vh; mix-blend-mode: screen; }
+.kucuk-not { margin: 4px 0 0; font-size: 12px; color: var(--muted); min-height: 1.5em; }
+.dugmeler { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 6px; }
+.buyuk { display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none; cursor: pointer; border: 1px solid var(--line); background: var(--panel2); color: var(--ink); }
+.buyuk.altin { color: var(--on-gold); background: var(--gold) linear-gradient(180deg, var(--gold2), var(--gold)); border-color: transparent; }
+
+/* --- Sahne 1: veriden tahmine (kriterler nala akar) --- */
+.ag svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ag .yol path { fill: none; stroke: #2b3d6e; stroke-width: 1.2; }
+.ag .yol path.ak { stroke: var(--gold2); stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 14 100; stroke-dashoffset: -100; opacity: 0; }
+.ag .kr rect { fill: rgba(18, 30, 61, .92); stroke: var(--line); }
+.ag .kr circle { fill: var(--gold); }
+.ag .kr text { font: 600 12px var(--fb); fill: var(--ink); }
+.ag .nal { fill: none; stroke: url(#altin); stroke-width: 17; stroke-linecap: round; }
+.ag .dg { fill: var(--ok); stroke: #06101f; stroke-width: 1.5; }
+.ag .mk { fill: var(--gold2); transform-box: fill-box; transform-origin: center; }
+.ag .hk { fill: none; stroke: var(--gold); stroke-width: 1.5; opacity: 0; transform-box: fill-box; transform-origin: center; }
+.ag .et { font: 700 9.5px var(--fd); letter-spacing: .18em; fill: var(--gold); text-anchor: middle; }
+.sahne.acik .ag .kr { animation: gKr .5s cubic-bezier(.16, 1, .3, 1) calc(.05s + var(--g) * .2) backwards; }
+.sahne.acik .ag .yol path.ak { animation: vAk 4.2s linear calc(.4s + var(--g) * .6) infinite backwards; }
+.sahne.acik .ag .dg { animation: vDg 4.2s linear calc(.4s + var(--g) * .6) infinite backwards; }
+.sahne.acik .ag .mk { animation: vMk 4.2s ease-out .4s infinite backwards; }
+.sahne.acik .ag .hk { animation: vHk 4.2s ease-out .4s infinite backwards; }
+@keyframes gKr { from { opacity: 0; transform: translateX(-26px); } to { opacity: 1; transform: none; } }
+@keyframes vAk { 0% { stroke-dashoffset: 14; opacity: 0; } 1% { opacity: 1; } 11% { stroke-dashoffset: -100; opacity: 1; } 12%, 100% { stroke-dashoffset: -100; opacity: 0; } }
+@keyframes vDg { 0%, 10% { fill: #1b2748; } 13%, 100% { fill: var(--ok); } }
+@keyframes vMk { 0%, 50% { opacity: .3; transform: scale(.8); } 56% { opacity: 1; transform: scale(1.5); } 64%, 100% { opacity: 1; transform: scale(1); } }
+@keyframes vHk { 0%, 54% { opacity: 0; transform: scale(1); } 56% { opacity: .9; } 74%, 100% { opacity: 0; transform: scale(4.4); } }
+
+/* --- Sahne 2: kazanma şansı --- */
+.satir { position: relative; display: grid; grid-template-columns: 24px minmax(0, 1fr) 46px; align-items: center; gap: 9px; padding: 6px 7px; border-radius: 9px; }
+.satir.fav { background: rgba(245, 197, 66, .09); outline: 1px solid rgba(245, 197, 66, .45); overflow: hidden; }
+.satir.fav::after { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, transparent 35%, rgba(255, 240, 190, .5) 50%, transparent 65%); transform: translateX(110%); }
+.sahne.acik .satir.fav::after { animation: gParla .9s ease-in-out 1.6s backwards; }
+@keyframes gParla { from { transform: translateX(-110%); } to { transform: translateX(110%); } }
+.no { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--soft); border: 1px solid var(--line); font: 700 12px var(--fd); }
+.at { min-width: 0; }
+.at i { display: block; font-style: normal; font-size: 12.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cubuk { display: block; height: 6px; margin-top: 3px; border-radius: 3px; background: rgba(255, 255, 255, .06); overflow: hidden; }
+.cubuk u { display: block; height: 100%; width: var(--w); border-radius: 3px; background: #4f69ad; transform-origin: left; }
+.cubuk.agf { height: 3px; margin-top: 2px; } .cubuk.agf u { background: #7d8aa8; }
+.fav .cubuk:not(.agf) u { background: linear-gradient(90deg, var(--gold-deep), var(--gold), var(--gold2)); }
+.yuzde { text-align: right; font: 800 14px var(--fd); font-variant-numeric: tabular-nums; color: var(--silver); }
+.fav .yuzde { color: var(--gold); }
+.aciklama { display: flex; gap: 14px; margin: 10px 2px 0; font-size: 11.5px; color: var(--muted); }
+.aciklama i { display: inline-block; width: 18px; height: 5px; border-radius: 3px; margin-right: 6px; vertical-align: middle; background: var(--gold); }
+.aciklama i.a { height: 3px; background: #7d8aa8; }
+
+/* --- Sahne 3: sürpriz --- */
+.sur { position: relative; display: grid; grid-template-columns: 62px minmax(0, 1fr) 50px 22px; align-items: center; gap: 10px; padding: 8px 8px; border-radius: 9px; }
+.sur b { font: 700 12.5px var(--fd); }
+.sur .olc { height: 8px; border-radius: 4px; background: rgba(255, 255, 255, .06); overflow: hidden; }
+.sur .olc u { display: block; height: 100%; width: var(--w); border-radius: 4px; background: #4f69ad; transform-origin: left; }
+.sur .yz { text-align: right; font: 800 14px var(--fd); font-variant-numeric: tabular-nums; }
+.sur .uy { opacity: 0; color: var(--mor); font-weight: 700; }
+.sur.risk { background: rgba(141, 156, 255, .1); outline: 1px solid rgba(141, 156, 255, .5); }
+.sur.risk .olc u { background: linear-gradient(90deg, #5b68c9, var(--mor)); } .sur.risk .yz { color: var(--mor); } .sur.risk .uy { opacity: 1; }
+.sahne.acik .sur.risk { animation: gRisk .5s ease-out calc(var(--d) + .7s) backwards; }
+@keyframes gRisk { from { background: transparent; outline-color: transparent; } }
+.tarama { position: absolute; left: 0; right: 0; top: 0; height: 40px; pointer-events: none; opacity: 0; background: linear-gradient(180deg, transparent, rgba(141, 156, 255, .22)); border-bottom: 1px solid rgba(141, 156, 255, .7); }
+.sahne.acik .tarama { animation: gTara 1.7s ease-in-out .3s; }
+@keyframes gTara { 0% { opacity: 0; transform: translateY(0); } 15%, 85% { opacity: 1; } 100% { opacity: 0; transform: translateY(230px); } }
+.kart.goreli { position: relative; overflow: hidden; }
+
+/* --- Koşu simülasyonu sahnesi: sitedeki pist arayüzünün küçüğü --- */
+.sim-dugme { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: 9px; font-weight: 700; font-size: 12.5px; color: var(--on-gold); background: var(--gold) linear-gradient(180deg, var(--gold2), var(--gold)); margin-bottom: 10px; }
+.sim-dugme svg { width: 12px; height: 12px; fill: currentColor; }
+.sahne.acik .sim-dugme { animation: sBas .5s ease-out .25s backwards; }
+@keyframes sBas { 0% { transform: scale(1); } 40% { transform: scale(.93); filter: brightness(1.25); } 100% { transform: scale(1); } }
+.pist { position: relative; container-type: inline-size; border-radius: 12px; overflow: hidden; --h: 30px;
+  background: repeating-linear-gradient(90deg, rgba(0, 0, 0, .05) 0 2px, transparent 2px 9px), linear-gradient(180deg, #c99a62, #a97a47); }
+.pist-etiket { position: absolute; left: 8px; top: 6px; z-index: 3; font: 700 9.5px/1 var(--fb); letter-spacing: .12em; text-transform: uppercase; color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .7); }
+.pist .kulvar { position: relative; height: var(--h); border-bottom: 1px dashed rgba(255, 255, 255, .35); }
+.pist .kulvar:first-of-type { margin-top: 20px; } .pist .kulvar:last-of-type { border-bottom: 0; }
+.pist .kulvar.kazandi::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(245, 197, 66, .45)); }
+.pist .baslama, .pist .finis { position: absolute; top: 20px; bottom: 0; }
+.pist .baslama { left: 9cqw; width: 2px; background: rgba(255, 255, 255, .55); }
+.pist .finis { left: 88cqw; width: 6px; background: repeating-linear-gradient(0deg, #fff 0 6px, #111 6px 12px); opacity: .85; }
+.pist .at { position: absolute; left: 0; top: 50%; z-index: 1; display: flex; align-items: center; gap: 3px; transform: translate(var(--s), -50%); }
+/* At ve jokey çizimi sitedeki simülasyonla aynı: Twemoji "yarış atı" (CC BY 4.0, github.com/jdecked/twemoji), forma renginde */
+.pist .at svg { height: calc(var(--h) + 14px); width: calc(var(--h) + 14px); margin: -7px 0; overflow: visible; transform-origin: 50% 85%;
+  filter: drop-shadow(0 0 .7px rgba(255, 255, 255, .85)) drop-shadow(0 2px 1px rgba(0, 0, 0, .45)); }
+.pist .forma { min-width: 20px; height: 16px; padding: 0 3px; border-radius: 4px; font: 800 10.5px/16px var(--fd); text-align: center; color: #fff; background: var(--f, #24345f); box-shadow: 0 1px 2px rgba(0, 0, 0, .5); }
+.pist .derece { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); z-index: 2; min-width: 20px; text-align: center; font: 800 12px/1 var(--fd); color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .8); }
+.pist .kazandi .derece { color: var(--on-gold); background: var(--gold); border-radius: 6px; padding: 3px 4px; text-shadow: none; }
+.sahne.acik .pist .at { animation: sKos 3.3s linear .75s both; }
+.sahne.acik .pist .at svg { animation: sNal .34s ease-in-out .75s 10; }
+.sahne.acik .pist .derece { animation: gGir .4s ease-out calc(4.05s + var(--i) * .12s) backwards; }
+.sahne.acik .pist .kulvar.kazandi::before { animation: gSec .5s ease-out 4.05s backwards; }
+@keyframes sKos { 0% { transform: translate(0, -50%); } 35% { transform: translate(var(--a), -50%); } 70% { transform: translate(var(--b), -50%); } 100% { transform: translate(var(--s), -50%); } }
+@keyframes sNal { 0%, 100% { transform: translateY(0) rotate(0); } 30% { transform: translateY(-2.5px) rotate(-4deg); } 70% { transform: translateY(.5px) rotate(3deg); } }
+.tarz { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; font-size: 11.5px; color: var(--muted); }
+.tarz span { padding: 3px 8px; border-radius: 6px; background: var(--bg2); border: 1px solid var(--line); }
+.tarz b { color: var(--ink); }
+
+/* --- Sahne 4: altılı ve kupon sihirbazı --- */
+.ayaklar { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+.ayak { display: grid; gap: 5px; justify-items: center; }
+.ayak small { font-size: 9.5px; font-weight: 600; letter-spacing: .08em; color: var(--muted); }
+.ayak span { display: grid; place-items: center; width: 100%; max-width: 44px; height: 30px; border-radius: 8px; background: var(--panel2); border: 1px solid var(--line); font: 700 14px var(--fd); color: var(--muted); }
+.ayak span.sec { background: linear-gradient(180deg, var(--gold2), var(--gold)); border-color: transparent; color: var(--on-gold); }
+.sahne.acik .ayak span.sec { animation: gSec2 .45s cubic-bezier(.2, 1.6, .4, 1) var(--d) backwards; }
+@keyframes gSec2 { from { background: var(--panel2); color: var(--muted); border-color: var(--line); transform: scale(.8); } }
+@keyframes gSec { from { opacity: 0; transform: scale(.7); } }
+.kupon-ozet { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); }
+.kupon-ozet span { font-size: 12.5px; color: var(--muted); }
+.kupon-ozet b { font: 800 22px var(--fd); color: var(--gold); font-variant-numeric: tabular-nums; }
+
+.ozet3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin-top: 12px; }
+.ozet3 div { background: var(--bg2); border: 1px solid var(--line); border-radius: 10px; padding: 7px 8px; }
+.ozet3 span { display: block; font-size: 10.5px; color: var(--muted); }
+.ozet3 b { font: 800 16px var(--fd); font-variant-numeric: tabular-nums; }
+.ozet3 .vurgu { border-color: rgba(245, 197, 66, .5); } .ozet3 .vurgu b { color: var(--gold); }
+.hazir { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.hazir span { font-size: 11.5px; font-weight: 600; padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel2); }
+
+/* --- Sahne 5: yapay zekânın kupon önerileri ve sürpriz tiyoları --- */
+.oneri { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 13px; }
+.oneri li { position: relative; padding: 8px 10px 8px 26px; border-radius: 9px; background: var(--bg2); border: 1px solid var(--line); }
+.oneri li::before { content: ""; position: absolute; left: 11px; top: 15px; width: 7px; height: 7px; border-radius: 50%; background: var(--warn); }
+.oneri li.art::before { background: var(--ok); } .oneri li.eks::before { background: var(--mor); }
+.oneri b { color: var(--ink); } .oneri small { display: block; font-size: 11.5px; color: var(--muted); }
+.tiyo { margin-top: 10px; border-radius: 12px; border: 1px solid rgba(176, 110, 255, .5); background: linear-gradient(135deg, rgba(123, 92, 255, .16), rgba(6, 12, 27, .3)); padding: 10px 12px; }
+.tiyo > b { display: block; font: 700 14px var(--fd); color: #d6c2ff; margin-bottom: 6px; }
+.rozetler { display: flex; flex-wrap: wrap; gap: 5px; }
+.rozetler i { font-style: normal; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; background: rgba(123, 92, 255, .22); color: #e3d9ff; border: 1px solid rgba(176, 110, 255, .35); }
+.sahne.acik .rozetler i { animation: gSec .45s cubic-bezier(.2, 1.6, .4, 1) var(--d) backwards; }
+
+/* --- Sahne 6: karne --- */
+.kiyas { display: grid; gap: 6px; }
+.kiyas + .kiyas { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.kiyas > b { font: 700 13px var(--fd); }
+.kiyas .ks { display: grid; grid-template-columns: 78px minmax(0, 1fr) 56px; align-items: center; gap: 10px; font-size: 12.5px; color: var(--muted); }
+.kiyas .ks .olc { height: 10px; border-radius: 5px; background: rgba(255, 255, 255, .06); overflow: hidden; }
+.kiyas .ks .olc u { display: block; height: 100%; width: var(--w); border-radius: 5px; background: #7d8aa8; transform-origin: left; }
+.kiyas .ks.yz .olc u { background: linear-gradient(90deg, var(--gold-deep), var(--gold), var(--gold2)); }
+.kiyas .ks strong { text-align: right; font: 800 15px var(--fd); color: var(--silver); font-variant-numeric: tabular-nums; }
+.kiyas .ks.yz { color: var(--ink); } .kiyas .ks.yz strong { color: var(--gold); }
+
+/* --- Sahne 6: dahası --- */
+.kutular { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; width: 100%; text-align: left; }
+.kutu { background: rgba(13, 22, 48, .9); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 4px; align-content: start; }
+.kutu svg { width: 24px; height: 24px; stroke: var(--gold); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; margin-bottom: 4px; }
+.kutu b { font: 700 15px var(--fd); }
+.kutu p { margin: 0; font-size: 12.5px; color: var(--muted); }
+
+/* ---------- Filmin altındaki yazılı özet: film izlemeyen ziyaretçi, arama motoru ve yapay zekâ araçları için ---------- */
+.ozet { background: var(--bg); border-top: 1px solid var(--line); padding: clamp(28px, 6vw, 64px) 16px; }
+.ozet-ic { max-width: 860px; margin: 0 auto; display: grid; gap: 18px; }
+.ozet h2 { font-size: clamp(24px, 3.4vw, 34px); }
+.ozet h3 { margin: 10px 0 0; font: 700 18px var(--fd); color: var(--gold2); }
+.ozet p { margin: 0; color: #c3cde3; max-width: 70ch; }
+.ozet ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; color: #c3cde3; max-width: 72ch; }
+.ozet li b { color: var(--ink); }
+.ozet a { color: var(--gold); }
+.ozet .kucuk { font-size: 13px; color: var(--muted); }
+
+/* ---------- Alt şerit: ilerleme ve kontroller ---------- */
+.serit-alt { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 0 max(16px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(16px, env(safe-area-inset-left, 0px)); }
+.kontrol { display: flex; gap: 6px; }
+.kontrol button { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; border: 1px solid #26314f; background: #0b1020; cursor: pointer; }
+.kontrol button:hover { border-color: var(--gold); }
+.kontrol svg { width: 16px; height: 16px; fill: var(--ink); }
+.ilerleme { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 5px; }
+.ilerleme button { height: 22px; padding: 9px 0; border: 0; background: none; cursor: pointer; }
+.ilerleme i { display: block; height: 4px; border-radius: 2px; background: #232b42; overflow: hidden; }
+.ilerleme u { display: block; height: 100%; width: 100%; background: var(--gold); transform: scaleX(0); transform-origin: left; }
+.ilerleme .gecti u { transform: scaleX(1); }
+.ilerleme .simdi u { animation: iDol var(--sure, 6s) linear forwards; }
+.duraklat .ilerleme .simdi u { animation-play-state: paused; }
+@keyframes iDol { to { transform: scaleX(1); } }
+.yasal { margin: 0; font-size: 11px; color: #7f8aa6; white-space: nowrap; }
+
+/* hareketi azalt açıksa: film durur, sahneler son haliyle görünür; "Oynat"a basınca hareket başlar */
+.durgun .film *, .durgun .film *::after, .durgun .film *::before { animation: none !important; }
+.oynat-ort { position: absolute; inset: 0; z-index: 8; display: none; place-items: end center; padding-bottom: 5vh; pointer-events: none; }
+.durgun .oynat-ort { display: grid; }
+.oynat-ort button { pointer-events: auto; }
+
+@media (max-width: 820px) {
+  :root { --ust: 52px; --alt: 84px; }
+  .serit-ust img { height: 32px; }
+  .ic { grid-template-columns: 1fr; gap: 14px; align-content: center; }
+  .yazi { text-align: left; }
+  h1, h2 { font-size: clamp(26px, 7.4vw, 40px); }
+  .gorsel { max-width: 360px; }
+  .ag { max-width: 290px; margin-inline: auto; }
+  .kutular { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .kutu { padding: 10px; } .kutu p { font-size: 11.5px; }
+  .serit-alt { grid-template-columns: auto minmax(0, 1fr); row-gap: 0; align-content: center; }
+  .yasal { grid-column: 1 / -1; text-align: center; white-space: normal; font-size: 10.5px; }
 }
-
-@media (prefers-reduced-motion: reduce) { .oyna .gir, .oyna .dokun { animation-duration: .01s; } .parca { transition: none; } .m-bar i { transition: none; } }
-
-/* ===== Sinematik video düzeni ===== */
-body { overflow: hidden; background: #03070f; }
-.sinema { position: fixed; inset: 0; overflow: hidden; color: var(--ink); user-select: none; -webkit-user-select: none; }
-.arka { position: absolute; inset: 0; background: radial-gradient(900px 600px at var(--gx, 70%) var(--gy, 20%), rgba(245,197,66,.16), transparent 60%), radial-gradient(700px 500px at 10% 90%, rgba(123,92,255,.16), transparent 60%), linear-gradient(180deg, #050b18, #03070f); transition: background-position 1.2s; }
-.isik { position: absolute; width: 140vmax; height: 26vmax; left: -20vmax; top: 30%; background: linear-gradient(90deg, transparent, rgba(245,197,66,.07), transparent); transform: rotate(-24deg); animation: isik 9s linear infinite; }
-.isik.i2 { top: 62%; animation-duration: 13s; animation-delay: -5s; background: linear-gradient(90deg, transparent, rgba(141,156,255,.07), transparent); }
-@keyframes isik { from { transform: rotate(-24deg) translateX(-40%); } to { transform: rotate(-24deg) translateX(40%); } }
-#parcacik { position: absolute; inset: 0; width: 100%; height: 100%; }
-.cubuklar { position: absolute; top: 10px; left: 12px; right: 12px; display: flex; gap: 4px; z-index: 30; }
-.cubuklar span { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.18); overflow: hidden; }
-.cubuklar span i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--gold2), var(--gold)); }
-.cubuklar span.bitti i { width: 100%; }
-.ust-k { position: absolute; top: 22px; left: 14px; right: 14px; display: flex; align-items: center; justify-content: space-between; z-index: 30; }
-.ust-k .marka { font-size: 16px; } .ust-k .marka img { width: 28px; height: 28px; }
-.ust-k .btn { padding: 7px 12px; font-size: 13px; }
-.sahne2 { position: absolute; inset: 64px 0 34px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 4vw; max-width: 1180px; margin: 0 auto; padding: 0 5vw; }
-.yazi { display: grid; gap: 14px; align-content: center; }
-.etiket { font: 700 13px var(--fb); letter-spacing: .22em; color: var(--gold); display: flex; align-items: center; gap: 10px; }
-.etiket::before { content: ""; width: 34px; height: 2px; background: linear-gradient(90deg, var(--gold), transparent); }
-.yazi h1 { margin: 0; font: 800 clamp(34px, 5.6vw, 76px)/1.02 var(--fd); letter-spacing: -.02em; }
-.yazi h1 .k { display: inline-block; opacity: 0; transform: translateY(.5em) rotateX(40deg); filter: blur(8px); animation: kelime .7s cubic-bezier(.2,.8,.2,1) forwards; }
-.yazi h1 em.k { font-style: normal; background: linear-gradient(100deg, var(--gold-deep), var(--gold2) 35%, #fff 50%, var(--gold2) 65%, var(--gold-deep)); background-size: 250% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: kelime .7s cubic-bezier(.2,.8,.2,1) forwards, parilti 3.5s 1s linear infinite; }
-@keyframes kelime { to { opacity: 1; transform: none; filter: none; } }
-@keyframes parilti { from { background-position: 120% 0; } to { background-position: -120% 0; } }
-.yazi .alt { margin: 0; font-size: clamp(16px, 1.7vw, 22px); color: #cdd5e8; max-width: 34ch; opacity: 0; transform: translateY(10px); }
-.yazi .alt.gor { animation: gir .6s .55s ease-out forwards; }
-.tel-kap { position: relative; width: calc(320px * var(--o, 1)); height: calc(620px * var(--o, 1)); perspective: 1400px; }
-.tel-kap .tel { position: absolute; top: 0; left: 0; width: 320px; height: 620px; padding: 12px; border-radius: 42px; transform-origin: top left; transform: scale(var(--o, 1)); margin: 0; }
-.tel-don { position: absolute; inset: 0; transform-style: preserve-3d; animation: yuz 6s ease-in-out infinite; }
-.tel-don.giris-sag { animation: girSag .9s cubic-bezier(.2,.8,.2,1) both, yuz 6s .9s ease-in-out infinite; }
-.tel-don.giris-sol { animation: girSol .9s cubic-bezier(.2,.8,.2,1) both, yuz 6s .9s ease-in-out infinite; }
-@keyframes girSag { from { opacity: 0; transform: translateX(28%) rotateY(-38deg) scale(.86); } to { opacity: 1; transform: none; } }
-@keyframes girSol { from { opacity: 0; transform: translateX(-28%) rotateY(38deg) scale(.86); } to { opacity: 1; transform: none; } }
-@keyframes yuz { 0%, 100% { transform: translateY(0) rotateY(-6deg); } 50% { transform: translateY(-10px) rotateY(4deg); } }
-.tel-kap::after { content: ""; position: absolute; left: 10%; right: 10%; bottom: -26px; height: 30px; border-radius: 50%; background: radial-gradient(closest-side, rgba(245,197,66,.35), transparent); filter: blur(6px); }
-.silme { position: absolute; inset: -20% -60%; z-index: 25; pointer-events: none; background: linear-gradient(100deg, transparent 40%, rgba(255,224,138,.0) 42%, rgba(255,224,138,.55) 49%, rgba(255,255,255,.85) 50%, rgba(255,224,138,.55) 51%, transparent 58%); transform: translateX(-100%); opacity: 0; }
-.silme.git { animation: sil .75s ease-in-out; }
-@keyframes sil { 0% { opacity: 1; transform: translateX(-70%); } 100% { opacity: 1; transform: translateX(70%); } }
-.dokun-alan { position: absolute; inset: 64px 0 34px; z-index: 20; display: grid; grid-template-columns: 30% 40% 30%; }
-.dokun-alan button { background: none; border: 0; cursor: pointer; padding: 0; }
-.durdu { position: absolute; left: 50%; top: 50%; z-index: 26; width: 84px; height: 84px; margin: -42px 0 0 -42px; border-radius: 50%; display: grid; place-items: center; background: rgba(6,12,27,.6); border: 1px solid rgba(245,197,66,.5); backdrop-filter: blur(6px); opacity: 0; transform: scale(.8); transition: all .25s; pointer-events: none; }
-.durdu.gor { opacity: 1; transform: none; }
-.durdu svg { width: 34px; height: 34px; fill: var(--gold); }
-.yasal-k { position: absolute; left: 0; right: 0; bottom: 8px; margin: 0; text-align: center; font-size: 12.5px; color: rgba(156,169,198,.8); z-index: 22; padding: 0 12px; }
-.ortu { position: absolute; inset: 0; z-index: 40; display: grid; place-items: center; text-align: center; padding: 24px; background: radial-gradient(800px 500px at 50% 40%, rgba(245,197,66,.14), transparent 60%), rgba(3,7,15,.9); backdrop-filter: blur(4px); transition: opacity .6s, visibility .6s; }
-.ortu.kapali { opacity: 0; visibility: hidden; }
-.ortu-ic { display: grid; gap: 16px; justify-items: center; max-width: 640px; }
-.ortu .logo-b { width: 92px; height: 92px; border-radius: 24px; box-shadow: 0 0 60px rgba(245,197,66,.5); animation: logoGir 1.2s cubic-bezier(.2,.8,.2,1) both; }
-@keyframes logoGir { from { opacity: 0; transform: scale(.4) rotate(-20deg); filter: blur(10px); } to { opacity: 1; transform: none; filter: none; } }
-.ortu h2 { margin: 0; font: 800 clamp(36px, 7vw, 72px)/1.02 var(--fd); letter-spacing: -.02em; }
-.ortu h2 em { font-style: normal; background: linear-gradient(100deg, var(--gold-deep), var(--gold2) 35%, #fff 50%, var(--gold2) 65%, var(--gold-deep)); background-size: 250% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: parilti 3s linear infinite; }
-.ortu p { margin: 0; color: #cdd5e8; font-size: clamp(15px, 2vw, 19px); }
-.ortu .gir2 { opacity: 0; animation: gir .7s ease-out forwards; }
-.izle { position: relative; width: 96px; height: 96px; border-radius: 50%; border: 0; cursor: pointer; display: grid; place-items: center; background: linear-gradient(180deg, var(--gold2), var(--gold) 55%, var(--gold-deep)); box-shadow: 0 0 0 0 rgba(245,197,66,.6), 0 0 50px rgba(245,197,66,.55); animation: izleNab 2s infinite; }
-.izle svg { width: 40px; height: 40px; fill: var(--on-gold); margin-left: 6px; }
-.izle svg.geri-say { position: absolute; inset: -8px; width: 112px; height: 112px; margin: 0; fill: none; transform: rotate(-90deg); }
-.izle svg.geri-say circle { stroke: var(--gold2); stroke-width: 3; stroke-dasharray: 333; stroke-dashoffset: 333; animation: say 2.6s linear forwards; }
-@keyframes say { to { stroke-dashoffset: 0; } }
-@keyframes izleNab { 0% { box-shadow: 0 0 0 0 rgba(245,197,66,.55), 0 0 50px rgba(245,197,66,.55); } 70% { box-shadow: 0 0 0 22px rgba(245,197,66,0), 0 0 50px rgba(245,197,66,.55); } 100% { box-shadow: 0 0 0 0 rgba(245,197,66,0), 0 0 50px rgba(245,197,66,.55); } }
-.ortu .dugmeler { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-.ortu .site { font: 800 clamp(22px, 3.4vw, 34px) var(--fd); color: var(--gold); letter-spacing: .02em; }
-.ipucu-alt { font-size: 12.5px; color: var(--muted); }
-@media (max-width: 860px) {
-  .sahne2 { grid-template-columns: 1fr; grid-template-rows: auto 1fr; gap: 10px; padding: 0 16px; inset: 58px 0 30px; align-items: start; justify-items: center; }
-  .yazi { gap: 6px; text-align: center; justify-items: center; }
-  .etiket { font-size: 11px; } .etiket::before { display: none; }
-  .yazi h1 { font-size: clamp(26px, 7.6vw, 40px); }
-  .yazi .alt { font-size: 14.5px; max-width: 36ch; }
-  .tel-kap::after { bottom: -16px; }
-  .dokun-alan { inset: 58px 0 30px; }
-}
-@media (prefers-reduced-motion: reduce) { .isik, .tel-don, .izle { animation: none !important; } .yazi h1 .k, .yazi h1 em.k { animation: kelime .01s forwards !important; } .silme.git { animation: none; } }
-
-/* ===== Hız, vurgu ve marka ===== */
-.filigran { position: absolute; width: 90vmin; right: -14vmin; bottom: -18vmin; opacity: .14; mix-blend-mode: screen; animation: filigran 18s ease-in-out infinite alternate; pointer-events: none; }
-@keyframes filigran { from { transform: translate(0, 0) rotate(-4deg); } to { transform: translate(-6vmin, -4vmin) rotate(3deg); } }
-.ust-k .marka img.ust-logo { height: 58px; width: auto; border-radius: 0;  filter: drop-shadow(0 0 12px rgba(245,197,66,.35)); }
-.ust-k .marka { gap: 0; }
-.etiket img { width: 26px; height: 26px; mix-blend-mode: screen; }
-.etiket::before { display: none; }
-.hayalet { position: absolute; z-index: -1; left: -.06em; top: 50%; transform: translateY(-58%); font: 800 clamp(140px, 22vw, 300px)/1 var(--fd); color: transparent; -webkit-text-stroke: 2px rgba(245,197,66,.16); pointer-events: none; }
-.hayalet.vur { animation: hayalet .5s cubic-bezier(.2,.8,.2,1); }
-@keyframes hayalet { from { opacity: 0; transform: translateY(-58%) scale(1.5); } to { opacity: 1; transform: translateY(-58%) scale(1); } }
-.yazi { position: relative; }
-.yazi h1 em.k { filter: drop-shadow(0 0 16px rgba(245,197,66,.55)); animation: vurgu .55s cubic-bezier(.2,1.4,.3,1) forwards, parilti 2.4s .8s linear infinite !important; }
-@keyframes vurgu { 0% { opacity: 0; transform: scale(1.8) translateY(-.1em); filter: blur(6px) drop-shadow(0 0 30px rgba(255,224,138,.9)); } 60% { opacity: 1; transform: scale(.94); } 100% { opacity: 1; transform: none; filter: drop-shadow(0 0 16px rgba(245,197,66,.55)); } }
-.yazi h1 .k { animation-duration: .45s; }
-.flas { position: absolute; inset: 0; z-index: 24; pointer-events: none; background: radial-gradient(60% 60% at 60% 45%, rgba(255,236,170,.55), rgba(245,197,66,.15) 45%, transparent 70%); opacity: 0; }
-.flas.git { animation: flas .45s ease-out; }
-@keyframes flas { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
-.silme.git { animation-duration: .5s; }
-.tel-don.giris-sag { animation: girSag .55s cubic-bezier(.2,.9,.25,1.05) both, yuz 5s .55s ease-in-out infinite; }
-.tel-don.giris-sol { animation: girSol .55s cubic-bezier(.2,.9,.25,1.05) both, yuz 5s .55s ease-in-out infinite; }
-@keyframes girSag { from { opacity: 0; transform: translateX(24%) rotateY(-34deg) scale(1.12); } to { opacity: 1; transform: none; } }
-@keyframes girSol { from { opacity: 0; transform: translateX(-24%) rotateY(34deg) scale(1.12); } to { opacity: 1; transform: none; } }
-.yazi .alt.gor { animation: gir .45s .35s ease-out forwards; }
-/* Marka sahnesi (giriş ve kapanış) */
-.marka-sahne { position: relative; width: min(560px, 88vw); aspect-ratio: 3 / 2; display: grid; place-items: center; }
-.isinlar { position: absolute; inset: -30%; border-radius: 50%; background: repeating-conic-gradient(from 0deg, rgba(245,197,66,.16) 0deg 6deg, transparent 6deg 18deg); -webkit-mask: radial-gradient(closest-side, #000 30%, transparent 75%); mask: radial-gradient(closest-side, #000 30%, transparent 75%); animation: don 22s linear infinite; opacity: 0; }
-.ortu:not(.kapali) .isinlar { animation: don 22s linear infinite, isinGel 1s .3s ease-out forwards; }
-@keyframes don { to { transform: rotate(360deg); } }
-@keyframes isinGel { to { opacity: 1; } }
-.logo-tam { position: relative; width: 100%; height: auto;  }
-.ortu:not(.kapali) .logo-tam { animation: logoPatla 1.1s cubic-bezier(.2,1.2,.3,1) both; }
-@keyframes logoPatla { 0% { opacity: 0; transform: scale(.55); filter: brightness(3) blur(10px); } 55% { opacity: 1; transform: scale(1.06); filter: brightness(1.6) blur(0); } 100% { transform: none; filter: none; } }
-.parla { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(105deg, transparent 35%, rgba(255,255,255,.55) 48%, rgba(255,236,170,.35) 52%, transparent 65%); background-size: 260% 100%; mix-blend-mode: overlay; -webkit-mask: radial-gradient(75% 80% at 50% 50%, #000 55%, transparent 100%); mask: radial-gradient(75% 80% at 50% 50%, #000 55%, transparent 100%); }
-.ortu:not(.kapali) .parla { animation: parla 2.6s 1s ease-in-out infinite; }
-@keyframes parla { 0% { background-position: 130% 0; } 60%, 100% { background-position: -130% 0; } }
-.ortu .ortu-ic { gap: 12px; }
-.ortu h2 { font-size: clamp(28px, 5vw, 52px); }
-@media (max-width: 860px) { .ust-k .marka img.ust-logo { height: 38px; } .sahne2 { inset: 70px 0 30px !important; } .dokun-alan { inset: 70px 0 30px !important; } .hayalet { left: 50%; transform: translate(-50%, -58%); font-size: 150px; } .hayalet.vur { animation: none; } .etiket img { width: 20px; height: 20px; } }
-@media (prefers-reduced-motion: reduce) { .filigran, .isinlar, .parla, .ortu:not(.kapali) .logo-tam, .flas.git { animation: none !important; } .isinlar { opacity: 1; } .yazi h1 em.k { animation: kelime .01s forwards !important; } }
-.m-logo-img { width: 210px; height: auto; margin: 0 auto;  }
+@media (max-height: 740px) and (max-width: 820px) { .sahne .ic:not(.tek) .alt-yazi { display: none; } }
 </style>
 <script data-goatcounter="https://atgoritma.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 </head>
 <body>
-<div class="sinema" id="sinema">
-  <div class="arka" id="arka"><span class="isik"></span><span class="isik i2"></span><img class="filigran" src="/ikon-512.png" alt="" aria-hidden="true"><canvas id="parcacik" aria-hidden="true"></canvas></div>
-  <div class="cubuklar" id="cubuklar" aria-hidden="true"></div>
-  <div class="ust-k"><a class="marka" href="/" aria-label="Atgoritma ana sayfa"><img class="ust-logo" src="logo-serit.webp" alt="Atgoritma logosu"></a><a class="btn altin" href="/#yarislar">Siteye git →</a></div>
-  <section class="sahne2" aria-live="polite">
-    <div class="yazi"><span class="hayalet" id="hayalet" aria-hidden="true"></span><div class="etiket" id="etiket"></div><h1 id="baslik"></h1><p class="alt" id="alt"></p></div>
-    <div class="tel-kap" id="telKap"><div class="tel-don" id="telDon">
-  <div class="tel" aria-hidden="true">
-    <div class="ekran">
-      <div class="ek-ust"><span>Atgoritma</span><small id="ekBaslik">Hoş geldin</small></div>
-      <div class="ek-icerik" id="ekIcerik">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="altin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset=".5" stop-color="#f5c542"/><stop offset="1" stop-color="#c8901a"/></linearGradient></defs></svg>
 
-        <!-- 1 hoş geldin -->
-        <div class="parca" data-p="0">
-          <div class="m-hos">
-            <img class="gir m-logo-img" src="logo-serit.webp" alt="">
-            <p class="gir" style="--gec:.3s">Yapay zekâ tabanlı at yarışı tahmini</p>
-            <div class="gir" style="--gec:.6s"><div class="sayac" id="sayac">0</div><p>koşuyla eğitilmiş yapay zekâ</p></div>
-            <div class="m-kart gir" style="--gec:.9s"><b>%</b>Her koşuda her ata bir kazanma şansı</div>
-            <div class="m-kart gir" style="--gec:1.4s"><b>≈</b>Halkın tahmini (AGF) ile yan yana</div>
-            <div class="m-kart gir" style="--gec:1.9s"><b>6</b>Altılı kuponları ve Kupon Sihirbazı</div>
-          </div>
+<div class="film" id="film">
+  <header class="serit-ust">
+    <a href="/" aria-label="Atgoritma ana sayfa"><img src="logo-serit.webp" alt="Atgoritma"></a>
+    <a class="git" href="/">Siteye git →</a>
+  </header>
+
+  <main class="perde" id="perde" aria-live="polite">
+    <div class="arka" aria-hidden="true"><img src="../vitrin.webp" alt=""><span class="isin"></span><span class="isin i2"></span></div>
+    <div class="cakma" id="cakma" aria-hidden="true"></div>
+
+    <!-- 0 · Veri -->
+    <section class="sahne" data-sure="5000" aria-label="Yapay zekâ ile at yarışı tahmini">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Atgoritma · 45 saniyede</p>
+          <h1 class="g" style="--d:.1s">Yapay zekâ ile <em>at yarışı</em> tahmini</h1>
+          <p class="alt-yazi g" style="--d:.45s"><b data-say="19980" data-gec="300">19.980</b> koşuluk TJK verisi, 31 kriter, her ata tek bir kazanma şansı.</p>
         </div>
-
-        <!-- 1b yapay zekâ nasıl düşünür -->
-        <div class="parca" data-p="ai">
-          <div class="m-ai">
-            <svg class="akis" viewBox="0 0 276 470" preserveAspectRatio="none" aria-hidden="true">
-              <path d="M84 52 C105 52 100 200 118 215"/><path d="M84 112 C105 112 100 205 118 220"/><path d="M84 172 C100 172 105 210 118 225"/>
-              <path d="M84 232 C100 232 105 230 118 230"/><path d="M84 292 C100 292 105 245 118 235"/><path d="M84 352 C105 352 100 250 118 240"/>
-              <path d="M168 225 C188 225 185 120 204 110"/><path d="M168 228 C188 228 188 185 204 180"/><path d="M168 232 C188 232 188 255 204 250"/><path d="M168 236 C188 236 185 315 204 320"/>
-              <path class="nab" style="--gec:.2s" d="M84 52 C105 52 100 200 118 215"/><path class="nab" style="--gec:.35s" d="M84 112 C105 112 100 205 118 220"/><path class="nab" style="--gec:.5s" d="M84 172 C100 172 105 210 118 225"/>
-              <path class="nab" style="--gec:.65s" d="M84 232 C100 232 105 230 118 230"/><path class="nab" style="--gec:.8s" d="M84 292 C100 292 105 245 118 235"/><path class="nab" style="--gec:.95s" d="M84 352 C105 352 100 250 118 240"/>
-              <path class="nab" style="--gec:1.8s" d="M168 225 C188 225 185 120 204 110"/><path class="nab" style="--gec:1.9s" d="M168 228 C188 228 188 185 204 180"/><path class="nab" style="--gec:2s" d="M168 232 C188 232 188 255 204 250"/><path class="nab" style="--gec:2.1s" d="M168 236 C188 236 185 315 204 320"/>
-            </svg>
-            <div class="ai-girdi gir" style="top:7%;--gec:.1s">Form<small>son 6 yarış</small></div>
-            <div class="ai-girdi gir" style="top:20%;--gec:.25s">Derece<small>hız puanları</small></div>
-            <div class="ai-girdi gir" style="top:33%;--gec:.4s">Galop<small>idman süreleri</small></div>
-            <div class="ai-girdi gir" style="top:46%;--gec:.55s">Jokey<small>son 30 gün</small></div>
-            <div class="ai-girdi gir" style="top:59%;--gec:.7s">Pist / mesafe<small>uyum</small></div>
-            <div class="ai-girdi gir" style="top:72%;--gec:.85s">Halkın tahmini<small>AGF</small></div>
-            <div class="ai-cekirdek gir" style="--gec:1.1s">YZ<small>MODEL</small></div>
-            <div class="ai-cikti gir" style="top:20%;--gec:2.2s"><b><span>3</span><span>%31</span></b><div class="m-bar"><i style="--w:100%;background:var(--gold)"></i></div></div>
-            <div class="ai-cikti gir" style="top:35%;--gec:2.35s"><b><span>7</span><span>%15</span></b><div class="m-bar"><i style="--w:48%;background:var(--mor)"></i></div></div>
-            <div class="ai-cikti gir" style="top:50%;--gec:2.5s"><b><span>1</span><span>%14</span></b><div class="m-bar"><i style="--w:45%;background:var(--muted)"></i></div></div>
-            <div class="ai-cikti gir" style="top:65%;--gec:2.65s"><b><span>5</span><span>%11</span></b><div class="m-bar"><i style="--w:35%;background:var(--muted)"></i></div></div>
-            <div class="ai-alt gir" style="--gec:3s"><b>Her ata kazanma şansı</b>Onlarca kriter, rakiplere göre tartılır</div>
-          </div>
+        <div class="gorsel ag" aria-hidden="true">
+          <svg viewBox="0 0 320 300">
+            <g class="yol">
+              <path d="M112 33 C152 33 148 121 188 121"/><path d="M112 79 C150 79 148 132 184 132"/><path d="M112 125 C146 125 150 144 182 144"/>
+              <path d="M112 171 C146 171 150 156 182 156"/><path d="M112 217 C150 217 148 168 184 168"/><path d="M112 263 C152 263 148 179 188 179"/>
+              <path class="ak" pathLength="100" style="--g:.4s" d="M112 33 C152 33 148 121 188 121"/><path class="ak" pathLength="100" style="--g:.75s" d="M112 79 C150 79 148 132 184 132"/>
+              <path class="ak" pathLength="100" style="--g:1.1s" d="M112 125 C146 125 150 144 182 144"/><path class="ak" pathLength="100" style="--g:1.45s" d="M112 171 C146 171 150 156 182 156"/>
+              <path class="ak" pathLength="100" style="--g:1.8s" d="M112 217 C150 217 148 168 184 168"/><path class="ak" pathLength="100" style="--g:2.15s" d="M112 263 C152 263 148 179 188 179"/>
+            </g>
+            <g class="kr" style="--g:.4s"><rect x="8" y="18" width="104" height="30" rx="15"/><circle cx="24" cy="33" r="3"/><text x="35" y="37">Form</text></g>
+            <g class="kr" style="--g:.75s"><rect x="8" y="64" width="104" height="30" rx="15"/><circle cx="24" cy="79" r="3"/><text x="35" y="83">Hız</text></g>
+            <g class="kr" style="--g:1.1s"><rect x="8" y="110" width="104" height="30" rx="15"/><circle cx="24" cy="125" r="3"/><text x="35" y="129">Jokey</text></g>
+            <g class="kr" style="--g:1.45s"><rect x="8" y="156" width="104" height="30" rx="15"/><circle cx="24" cy="171" r="3"/><text x="35" y="175">Galop</text></g>
+            <g class="kr" style="--g:1.8s"><rect x="8" y="202" width="104" height="30" rx="15"/><circle cx="24" cy="217" r="3"/><text x="35" y="221">Kilo</text></g>
+            <g class="kr" style="--g:2.15s"><rect x="8" y="248" width="104" height="30" rx="15"/><circle cx="24" cy="263" r="3"/><text x="35" y="267">AGF</text></g>
+            <path class="nal" d="M214 193 A56 56 0 1 1 286 193"/>
+            <circle class="dg" style="--g:.4s" cx="201.5" cy="178" r="4.5"/><circle class="dg" style="--g:.75s" cx="195.9" cy="135.5" r="4.5"/><circle class="dg" style="--g:1.1s" cx="222" cy="101.5" r="4.5"/>
+            <circle class="dg" style="--g:1.45s" cx="278" cy="101.5" r="4.5"/><circle class="dg" style="--g:1.8s" cx="304.1" cy="135.5" r="4.5"/><circle class="dg" style="--g:2.15s" cx="298.5" cy="178" r="4.5"/>
+            <circle class="hk" cx="250" cy="150" r="9"/><circle class="mk" cx="250" cy="150" r="9"/>
+            <text class="et" x="250" y="234">31 KRİTER</text>
+          </svg>
         </div>
-
-        <!-- 1c simülasyon -->
-        <div class="parca" data-p="sim">
-          <div class="sim-ust"><span class="m-bas" style="margin:0">Yapay zekâ simülasyonu</span><span class="sim-canli">CANLANDIRMA</span></div>
-          <div class="m-pist" id="pist"><div class="basla"></div><div class="bitis"></div></div>
-          <div class="sim-sonuc" id="simSonuc"></div>
-        </div>
-
-        <!-- 2 menüler -->
-        <div class="parca" data-p="1">
-          <div class="m-kart gir"><div class="m-bas">Menüler</div><div class="m-sub">Telefonda alttaki çubuk, bilgisayarda üstteki menü. Her sekme bir iş görür.</div></div>
-          <div class="m-kart gir" style="--gec:.5s;margin-top:8px;font-size:11px;display:grid;gap:5px">
-            <div><b style="color:var(--gold)">Ana</b> · günün favorileri, sürprizler</div>
-            <div><b style="color:var(--gold)">Yarışlar</b> · koşu koşu tüm atlar</div>
-            <div><b style="color:var(--gold)">Altılı</b> · yapay zekânın kuponları</div>
-            <div><b style="color:var(--gold)">Kupon</b> · kendi kuponunu kur</div>
-            <div><b style="color:var(--gold)">İstatistik</b> · canlı karne</div>
-            <div><b style="color:var(--gold)">Daha</b> · analiz motoru, yorumlar</div>
-          </div>
-          <div class="m-menu-not" id="menuNot">Ana</div>
-        </div>
-
-        <!-- 3 yarış tablosu -->
-        <div class="parca" data-p="2">
-          <div class="m-kart" style="padding:0">
-            <div class="m-bas" style="padding:9px 9px 0">4. koşu · 1400 m Kum <span class="m-tag">Örnek</span></div>
-            <div class="m-satir fav gir" style="--gec:.2s"><span class="m-no">3</span><span class="m-ad"><b>RÜZGAR OĞLU</b><span>A.JOKEY<i class="m-ik j"></i> <span class="m-tag fav">YZ favorisi</span></span></span><span class="m-yz">%31<small style="width:90%"></small></span><span class="m-agf">%28</span></div>
-            <div class="m-satir sur gir" style="--gec:.5s"><span class="m-no">7</span><span class="m-ad"><b>GECE YILDIZI</b><span>B.JOKEY<i class="m-ik f"></i><i class="m-ik g"></i> <span class="m-tag sur">Sürpriz adayı</span></span></span><span class="m-yz">%15<small style="width:45%"></small></span><span class="m-agf">%8</span></div>
-            <div class="m-satir gir" style="--gec:.8s"><span class="m-no">1</span><span class="m-ad"><b>DEMİR ASLAN</b><span>C.JOKEY</span></span><span class="m-yz">%14<small style="width:42%"></small></span><span class="m-agf">%19</span></div>
-            <div class="m-satir gir" style="--gec:1.1s"><span class="m-no">5</span><span class="m-ad"><b>ALTIN KANAT</b><span>D.JOKEY<i class="m-ik f"></i></span></span><span class="m-yz">%11<small style="width:33%"></small></span><span class="m-agf">%12</span></div>
-          </div>
-          <div class="m-kart gir" style="--gec:1.6s;margin-top:8px;font-size:10.5px;display:grid;gap:4px">
-            <div><span style="color:var(--gold)">▌</span> Altın şerit: yapay zekânın favorisi</div>
-            <div><span style="color:var(--mor)">▌</span> Mor şerit: halkın gözden kaçırdığı sürpriz aday</div>
-            <div><i class="m-ik f"></i> formda <i class="m-ik g"></i> idmanı iyi <i class="m-ik j"></i> jokeyi başarılı</div>
-          </div>
-          <span class="dokun" style="left:150px;top:96px;--gec:2.6s;--sure:1.2s"></span>
-        </div>
-
-        <!-- 4 ata dokun -->
-        <div class="parca" data-p="3">
-          <div class="m-kart" style="padding:0">
-            <div class="m-bas" style="padding:9px 9px 0">4. koşu · 1400 m Kum <span class="m-tag">Örnek</span></div>
-            <div class="m-satir sur"><span class="m-no">7</span><span class="m-ad"><b>GECE YILDIZI</b><span>B.JOKEY <span class="m-tag sur">Sürpriz adayı</span></span></span><span class="m-yz">%15<small style="width:45%"></small></span><span class="m-agf">%8</span></div>
-            <div class="m-oz">
-              <div class="gir iyi" style="--gec:.9s">1400 m (±100)<b>4/7 ilk 3</b></div>
-              <div class="gir" style="--gec:1.1s">Kum pist<b>5/11 ilk 3</b></div>
-              <div class="gir" style="--gec:1.3s">Son koşudan beri<b>14 gün</b></div>
-              <div class="gir iyi" style="--gec:1.5s">Kilo<b>−2 kg hafif</b></div>
-              <div class="gir iyi" style="--gec:1.7s">Son galop<b>Koşuda 1. en hızlı</b></div>
-              <div class="gir" style="--gec:1.9s">Jokey son 30 gün<b>%16 kazanma</b></div>
-            </div>
-            <div class="m-satir" style="opacity:.6"><span class="m-no">1</span><span class="m-ad"><b>DEMİR ASLAN</b><span>C.JOKEY</span></span><span class="m-yz">%14</span><span class="m-agf">%19</span></div>
-          </div>
-          <div class="m-kart gir" style="--gec:2.4s;margin-top:8px;font-size:10.5px">Yapay zekânın gözünde: <b style="color:var(--ok)">+ Hız puanı</b> · <b style="color:var(--ok)">+ Galop</b> · <b style="color:var(--bad)">− Kilo</b></div>
-          <span class="dokun" style="left:120px;top:58px;--gec:.2s"></span>
-        </div>
-
-        <!-- 5 hikâye + vurgula -->
-        <div class="parca" data-p="4" id="pVurgu">
-          <div class="m-hik gir">
-            <em>KOŞUNUN HİKÂYESİ</em>
-            <p class="gir" style="--gec:.4s">Favori <b>3 RÜZGAR OĞLU</b> (%31), ardından <b>7 GECE YILDIZI</b>.</p>
-            <p class="gir" style="--gec:.9s;--c:var(--mor)">Yapay zekâ <b>7</b> için halktan iyimser: %15, AGF %8.</p>
-            <p class="gir" style="--gec:1.4s;--c:var(--kum)">Önde koşmayı seven 4 at var: tempo sert olabilir.</p>
-            <p class="gir" style="--gec:1.9s;--c:var(--ok)">En hızlı 400 m galop: <b>7 GECE YILDIZI</b>.</p>
-          </div>
-          <div class="m-chips gir" style="--gec:2.3s"><span class="m-chip">Tümü</span><span class="m-chip" id="vurguChip">Sürpriz adayları</span><span class="m-chip">Formdakiler</span><span class="m-chip">Galopu iyi</span></div>
-          <div class="m-kart" style="padding:0">
-            <div class="m-satir fav vs"><span class="m-no">3</span><span class="m-ad"><b>RÜZGAR OĞLU</b></span><span class="m-yz">%31</span><span class="m-agf">%28</span></div>
-            <div class="m-satir sur"><span class="m-no">7</span><span class="m-ad"><b>GECE YILDIZI</b></span><span class="m-yz">%15</span><span class="m-agf">%8</span></div>
-            <div class="m-satir vs"><span class="m-no">1</span><span class="m-ad"><b>DEMİR ASLAN</b></span><span class="m-yz">%14</span><span class="m-agf">%19</span></div>
-          </div>
-          <span class="dokun" style="left:118px;top:182px;--gec:3s"></span>
-        </div>
-
-        <!-- 6 altılı -->
-        <div class="parca" data-p="5">
-          <div class="m-kart gir"><div class="m-bas">1. Altılı · 1–6. koşular <span class="m-tag" style="color:var(--ok);border-color:var(--ok)">Kolay altılı</span></div>
-            <div class="m-sub">Beklenen sürpriz ayak 1,4 · ikramiye geçmişi</div></div>
-          <div class="m-kupon" style="margin-top:8px">
-            <div class="m-kart gir" style="--gec:.5s"><div class="m-sub">Küçük kupon</div><b>₺450</b><div class="m-sub">tutma ihtimali %13</div></div>
-            <div class="m-kart gir" style="--gec:.8s"><div class="m-sub">Geniş kupon</div><b>₺1.800</b><div class="m-sub">tutma ihtimali %32</div></div>
-          </div>
-          <div class="m-kart gir" style="--gec:1.2s;margin-top:8px">
-            <div class="m-sub">Ayaklar (canlı: yeşil geçti, kırmızı yattı)</div>
-            <div class="m-legs"><span class="s">3</span><span class="s">7</span><span>1</span><span>4</span><span>2</span><span>5</span></div>
-            <div class="m-legs"><span>9</span><span>2</span><span class="s">5</span><span>8</span><span class="s">4</span><span>1</span></div>
-          </div>
-          <div class="m-kart gir" style="--gec:1.8s;margin-top:8px;font-size:10.5px">Bütçe altılının zorluğuna göre değişir: sakin altılı ucuz, sürprizli altılı geniş kurulur.</div>
-        </div>
-
-        <!-- 7 kupon sihirbazı -->
-        <div class="parca" data-p="6">
-          <div class="m-ozet"><div>Komb.<b id="sKomb">-</b></div><div>Tutar<b id="sTutar">-</b></div><div class="v">Tutma<b id="sTutma">-</b></div></div>
-          <div class="m-sih" id="sIzgara"></div>
-          <div class="m-ip gir" id="sIpucu" style="--gec:2.6s">Yapay zekânın küçük kuponu yüklendi. En verimli ekleme: <b>3. ayağa 1</b> · tutma +3 puan</div>
-          <span class="dokun" id="sDokun" style="opacity:0;animation:none"></span>
-        </div>
-
-        <!-- 8 istatistik -->
-        <div class="parca" data-p="7">
-          <div class="m-kart gir"><div class="m-bas">Canlı karne</div>
-            <div class="m-sub">Kazananı birinci bilme</div>
-            <div style="font-size:10px">Yapay zekâ</div><div class="m-bar"><i style="--w:72%;background:var(--gold)"></i></div>
-            <div style="font-size:10px">Halk (AGF)</div><div class="m-bar"><i style="--w:64%;background:var(--muted)"></i></div>
-            <div class="m-sub">Her gün kilitlenen tahminlerle tutulur; çubuklar örnektir, güncel rakamlar İstatistik sekmesinde.</div>
-          </div>
-          <div class="m-kart gir" style="--gec:.8s;margin-top:8px;font-size:10.5px">Verilen şans tuttu mu? Yapay zekâ %20 dediği atların gerçekten ne kadarının kazandığını gösteren kalibrasyon tabloları.</div>
-          <div class="m-kart gir" style="--gec:1.4s;margin-top:8px;font-size:10.5px;border-color:rgba(255,181,71,.45)"><b style="color:var(--warn)">18+</b> · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir ve kazanç vaat etmez.</div>
-        </div>
-
       </div>
-      <div class="ek-alt" id="ekAlt"><span><i></i>Ana</span><span><i></i>Yarışlar</span><span><i></i>Altılı</span><span><i></i>Kupon</span><span><i></i>İstatistik</span><span><i></i>Daha</span></div>
-    </div>
-  </div>
-    </div></div>
-  </section>
-  <div class="dokun-alan"><button type="button" id="dGeri" aria-label="Önceki sahne"></button><button type="button" id="dDur" aria-label="Duraklat ya da oynat"></button><button type="button" id="dIleri" aria-label="Sonraki sahne"></button></div>
-  <div class="durdu" id="durdu" aria-hidden="true"><svg viewBox="0 0 24 24" id="durduIk"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg></div>
-  <div class="silme" id="silme" aria-hidden="true"></div><div class="flas" id="flas" aria-hidden="true"></div>
-  <p class="yasal-k">18+ · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir · Örnek at ve jokey adları</p>
+    </section>
 
-  <div class="ortu" id="intro">
-    <div class="ortu-ic">
-      <div class="marka-sahne"><div class="isinlar"></div><img class="logo-tam" src="logo.webp" alt="Atgoritma: yapay zekâ destekli at yarışı analiz ve tahmin platformu"><span class="parla"></span></div>
-      <p class="gir2" style="animation-delay:.9s">Yapay zekâ nasıl düşünür, site nasıl kullanılır? <b style="color:var(--gold)">1 dakikada.</b></p>
-      <button class="izle gir2" id="izle" type="button" aria-label="Tanıtımı izle" style="animation-delay:1.1s"><svg class="geri-say" viewBox="0 0 112 112"><circle cx="56" cy="56" r="53"/></svg><svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z"/></svg></button>
-      <span class="ipucu-alt gir2" style="animation-delay:1.4s">Dokun: sağ ileri · sol geri · orta duraklat</span>
-    </div>
-  </div>
+    <!-- 1 · Kazanma şansı -->
+    <section class="sahne" data-sure="5500" aria-label="Kazanma şansı">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Yarışlar</p>
+          <h2 class="g" style="--d:0.1s">Her ata bir <em>kazanma şansı</em></h2>
+          <p class="alt-yazi g" style="--d:0.23s">Her gün, her koşu, her at. Halkın tahmini AGF ile yan yana.</p>
+        </div>
+        <div class="gorsel kart g" style="--d:0.26s">
+          <div class="kart-ust"><div><small>Kazanma şansı</small><b>Kocaeli · 7. koşu</b></div><span>10 Kasım 2026</span></div>
+          <div class="satir fav"><span class="no">1</span><span class="at"><i>BRAVE ATHENA</i><span class="cubuk"><u class="dol" style="--w:100%;--d:0.65s"></u></span><span class="cubuk agf"><u class="dol" style="--w:78%;--d:1.04s"></u></span></span><span class="yuzde" data-say="45" data-on="%">%45</span></div>
+          <div class="satir"><span class="no">7</span><span class="at"><i>LITTLE FLORENTINA</i><span class="cubuk"><u class="dol" style="--w:40%;--d:0.73s"></u></span><span class="cubuk agf"><u class="dol" style="--w:45%;--d:1.12s"></u></span></span><span class="yuzde" data-say="18" data-on="%">%18</span></div>
+          <div class="satir"><span class="no">6</span><span class="at"><i>GREY GARDEN</i><span class="cubuk"><u class="dol" style="--w:24%;--d:0.81s"></u></span><span class="cubuk agf"><u class="dol" style="--w:34%;--d:1.2s"></u></span></span><span class="yuzde" data-say="11" data-on="%">%11</span></div>
+          <div class="satir"><span class="no">5</span><span class="at"><i>ROYAL MAJESTY</i><span class="cubuk"><u class="dol" style="--w:22%;--d:0.88s"></u></span><span class="cubuk agf"><u class="dol" style="--w:31%;--d:1.27s"></u></span></span><span class="yuzde" data-say="10" data-on="%">%10</span></div>
+          <div class="satir"><span class="no">4</span><span class="at"><i>NALDÖKEN</i><span class="cubuk"><u class="dol" style="--w:16%;--d:0.96s"></u></span><span class="cubuk agf"><u class="dol" style="--w:13%;--d:1.35s"></u></span></span><span class="yuzde" data-say="7" data-on="%">%7</span></div>
+          <p class="aciklama"><span><i></i>Yapay zekâ</span><span><i class="a"></i>AGF (halkın tahmini)</span></p>
+        </div>
+      </div>
+    </section>
 
-  <div class="ortu kapali" id="outro">
-    <div class="ortu-ic">
-      <div class="marka-sahne"><div class="isinlar"></div><img class="logo-tam" src="logo.webp" alt="Atgoritma logosu"><span class="parla"></span></div>
-      <h2>Bugünün yarışları <em>yapay zekâyla</em> hazır</h2>
-      <div class="site">atgoritma.com</div>
-      <div class="dugmeler"><a class="btn altin" href="/#yarislar">Günün yarışlarına git →</a><button class="btn" type="button" id="paylas">Paylaş</button><button class="btn" type="button" id="tekrar">↺ Tekrar izle</button></div>
-      <p class="ipucu-alt" id="paylasNot">18+ · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir ve kazanç vaat etmez. Sorumlu oyun: YEDAM 115.</p>
+    <!-- 2 · Sürpriz -->
+    <section class="sahne" data-sure="5000" aria-label="Sürpriz ihtimali">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Sürpriz ihtimali</p>
+          <h2 class="g" style="--d:0.1s">Zor koşuyu <em>önceden</em> işaretler</h2>
+          <p class="alt-yazi g" style="--d:0.23s">Kazananın ilk üç dışından gelme ihtimali, her koşu için.</p>
+        </div>
+        <div class="gorsel kart goreli g" style="--d:0.26s">
+          <div class="tarama" aria-hidden="true"></div>
+          <div class="kart-ust"><div><small>Sürpriz ihtimali</small><b>Adana</b></div><span>10 Kasım 2026</span></div>
+          <div class="sur" style="--d:0.59s"><b>1. koşu</b><span class="olc"><u class="dol" style="--w:15%;--d:0.59s"></u></span><span class="yz" data-say="15" data-on="%">%15</span><span class="uy">!</span></div>
+          <div class="sur risk" style="--d:0.72s"><b>2. koşu</b><span class="olc"><u class="dol" style="--w:47%;--d:0.72s"></u></span><span class="yz" data-say="47" data-on="%">%47</span><span class="uy">!</span></div>
+          <div class="sur" style="--d:0.85s"><b>3. koşu</b><span class="olc"><u class="dol" style="--w:7%;--d:0.85s"></u></span><span class="yz" data-say="7" data-on="%">%7</span><span class="uy">!</span></div>
+          <div class="sur risk" style="--d:0.98s"><b>4. koşu</b><span class="olc"><u class="dol" style="--w:47%;--d:0.98s"></u></span><span class="yz" data-say="47" data-on="%">%47</span><span class="uy">!</span></div>
+          <div class="sur" style="--d:1.1s"><b>5. koşu</b><span class="olc"><u class="dol" style="--w:26%;--d:1.1s"></u></span><span class="yz" data-say="26" data-on="%">%26</span><span class="uy">!</span></div>
+          <p class="kart-alt g" style="--d:1.56s">Canlı karne: uyarı verilen 76 koşuda sürpriz oranı <b style="color:var(--mor)">%46</b>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · Koşu simülasyonu -->
+    <section class="sahne" data-sure="6500" aria-label="Koşu simülasyonu">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Koşu simülasyonu</p>
+          <h2 class="g" style="--d:.1s">Koşuyu <em>önceden izle</em></h2>
+          <p class="alt-yazi g" style="--d:.25s">Her koşunun altında tek düğme. Atlar pistte yapay zekânın gözünden koşar.</p>
+        </div>
+        <div class="gorsel kart g" style="--d:.3s">
+          <span class="sim-dugme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Yapay zekâ simülasyonu</span>
+          <div class="pist" aria-hidden="true">
+            <span class="pist-etiket">Simülasyon · 1400 m Kum · örnek</span>
+            <span class="baslama"></span><span class="finis"></span>
+            <div class="kulvar kazandi"><span class="at" style="--a:27cqw;--b:55cqw;--s:calc(88cqw - 62px)"><svg viewBox="0 0 36 36" aria-hidden="true"><g transform="translate(36 0) scale(-1 1)"><path fill="#292F33" d="M28.721 12.849s3.809 1.643 5.532.449c1.723-1.193 2.11-2.773 1.159-4.736-.951-1.961-3.623-2.732-3.712-5.292 0 0-.298 4.141 1.513 5.505 2.562 1.933-.446 4.21-3.522 3.828-3.078-.382-.97.246-.97.246z"/><path fill="#7a3e22" d="M23.875 19.375s-.628 2.542.187 5.03c.145.341.049.556-.208.678-.256.122-4.294 1.542-4.729 1.771-.396.208-1.142 1.78-1.208 2.854.844.218 1.625.104 1.625.104s.025-1.915.208-2.042c.183-.127 5.686-1.048 6.062-1.771s1.611-3.888.812-5.292c-.225-.395-.637-1.15-.637-1.15l-2.112-.182z"/><path fill="#292F33" d="M17.917 29.708s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.186-1.861-.126-1.861-.126z"/><path fill="#7a3e22" d="M11.812 21.875l-.75-2.562s-2.766 2.105-3.938 3.594c-.344.437-1.847 3.198-1.722 4.413.05.488.474 2.583.474 2.583l1.651-.465s-1.312-1.896-1.021-2.562c1.428-3.263 5.306-5.001 5.306-5.001z"/><path fill="#292F33" d="M7.679 29.424c-.172-.139-1.803.479-1.803.479s.057 2.085.695 2.022c.618-.061 1.48-.912 1.455-1.175-.034-.351-.175-1.187-.347-1.326z"/><path fill="#a0522d" d="M27.188 11.188c-3.437.156-7.207.438-9.5.438-3.655 0-5.219-1.428-6.562-2.625C8.838 6.964 8.167 4.779 6 5.501c0 0-.632-.411-1.247-.778l-.261-.152c-.256-.148-.492-.276-.656-.347-.164-.072-.258-.087-.228-.01.019.051.093.143.236.286.472.472.675.95.728 1.395-2.01 1.202-2.093 2.276-2.871 3.552-.492.807-1.36 2.054-1.56 2.515-.412.948 1.024 2.052 1.706 1.407.893-.845.961-1.122 2.032-1.744.983-.016 1.975-.416 2.308-1.02 0 0 .938 2.083 1.938 3.583s2.5 3.125 2.5 3.125c-.131 1.227.12 2.176.549 2.922-.385.757-.924 1.807-1.417 2.745-.656 1.245-1.473 3.224-1.208 3.618.534.798 2.719 2.926 4.137 3.311 1.03.28 2.14.437 2.14.437l-.193-1.574s-1.343.213-1.875-.083c-1.427-.795-2.666-2.248-2.708-2.542-.07-.487 3.841-2.868 5.14-3.645 2.266.097 6.022-.369 8.626-1.702.958 1.86 2.978 2.513 2.978 2.513s.667 2.208 1.375 4.125c-1.017.533-4.468 3.254-4.975 3.854-.456.54-.856 2.49-.856 2.49.82.375 1.57.187 1.57.187s.039-1.562.385-2.073c.346-.511 4.701-2.559 5.958-3.458.492-.352.404-.903.262-1.552-.321-1.471-.97-4.781-.971-4.782 5.146-2.979 6.458-11.316-2.354-10.916z"/><path fill="#292F33" d="M22.336 33.782s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.187-1.861-.126-1.861-.126zm-7.676-5.296c-.167.146.164 1.859.164 1.859s2.064.299 2.111-.34c.045-.62-.647-1.614-.91-1.634-.351-.027-1.198-.031-1.365.115z"/><path fill="#a92626" d="M25.103 11.282c-3.295.135-9.103.499-10.4-.079.063 1.922-.676 3.605.3 6.865.46.101 8.122.244 10.935-.912-.672-2.862-.389-3.993-.835-5.874z"/><path fill="#623120" d="M15.891 11.438s-.759 3.543 2.408 3.63 2.792-2.247 3.045-2.505 2.718-.391 2.718-1.064c0-.233-1.269-.127-1.874-.099-.303.014-3.589.204-6.297.038z"/><path fill="#d32f2f" d="M6.094 5.706c-.682.47-1.67.286-1.67.286-.594.25-1.524 1.156-1.93 1.937S.969 10.593.969 10.593s1.094.865 1.719 1.906c0 0 .531-.531 1.192-.875 1.942-.063 2.308-1.02 2.308-1.02s.031-2.992-.094-4.898zM4.321 8.467c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459z"/><circle fill="#292F33" cx="4.25" cy="8.047" r=".349"/><path fill="#F5F8FA" d="M4.321 7.099c-.502 0-.909.408-.909.909s.407.909.909.909c.501 0 .908-.408.908-.909s-.407-.909-.908-.909zm0 1.368c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459zm-1.785 4.185L.765 10.9l.253-.388 1.841 1.817zm3.568-6.953l.449-.009.093 4.898-.449.009z"/><path fill="#292F33" d="M12.655 9.07c1.773 1.446 3.147.322 3.147.322-1.295-.271-2.056-.867-2.708-1.562.835-.131 1.287-.666 1.287-.666-1.061-.013-1.824-.3-2.485-.699-.565-.614-1.233-1.202-2.254-1.631-.294-.125-.606-.21-.922-.276-.086-.025-.178-.063-.258-.073-.906-.114-1.845.051-2.737.603-.322.2-.214.639.117.623 1.741-.085 2.866.582 3.47 1.633 2.169 3.772 5.344 3.875 5.344 3.875s-1.29-.688-2.001-2.149zm5.11 13.33l-.361-7.566 1.029.228.45 7.208c-.377.071-1.118.13-1.118.13z"/><path fill="#623120" d="M2.354 12.75c-.191 0-.374-.11-.457-.296-.112-.252.001-.548.254-.66C8.29 9.058 13.369 9.059 13.628 9.047c.275.001.498.226.497.502-.001.275-.226.498-.5.498h-.004c-.104 0-5.15.025-11.063 2.66-.066.029-.135.043-.204.043z"/><path fill="#FFDC5D" d="M18.875 5.516c-.438-1.469-3.256-1.231-3.077-2.591l-.121.243c-.028-.207-.079-.416-.171-.62-.45-.997-1.522-1.486-2.394-1.092-.756.341-1.738.349-1.341 1.636.061.197.134.451.248.703.452.996 1.849 1.665 2.722 1.271.05-.022.091-.055.137-.082.207.123.84.506 1.864 1.205 1.207.823 2.568.797 2.133-.673z"/><path fill="#a92626" d="M11.889 1.419c.256-.5 1.301-1.065 2.192-1.01 1.005.063 1.564.76 1.795 1.633.114.43.045.914-.043 1.27 0 0-.965-.087-.858-.15.198-.117.034-.815-.218-.907-.265-.097-.361.163-.324.364.036.201.032.324-.08.398s-.489-.502-.765-.614c-.455-.185-1.491 1.132-1.816.69-.202-.276-.2-1.055.117-1.674z"/><path fill="#d32f2f" d="M13.163 2.849s1.582-.754 1.988-.869.603-.166.671-.252c.067-.086-.103-.225-.178-.316s-.44-.974-1.275-1.243c-.696-.224-1.202-.111-1.583.045s-1.184.512-1.366 1.842c-.096.745.038 1.145.038 1.145s-.476.136-.523.144c-.047.008-.042.126.179.181.221.055 1.292-.068 1.64-.231s.318-.371.409-.446z"/><path d="M20.828 14.172c-.186-.532-.248-.716-.554-1.524-.1-.264-.219-.585-.369-.993l-1.934.745c.176.383.313.688.426.946.364.832.475 1.321.592 1.877l-.801.291c-.387.168-.811.333-.858.933-.036.462.341.424.635.388.433-.052 3.093-.506 3.223-.788.117-.257-.139-1.243-.36-1.875z"/><path fill="#CCD6DD" d="M17.971 12.4s-.2-.506-.395-1.169c-.376-1.282-.565-2.314 3.451-3.335-.024-.042-.056-.092-.099-.152-1.324-1.858-4.253-3.696-3.491-3.815 3.832-.601 5.007-.007 6.684 2.349.827 1.162.936 1.593.784 2.191-.59 2.328-5.15 1.272-5 3.186l-1.934.745z"/><path fill="#d32f2f" d="M17.439 7.086c1.535 1.055 2.339-.154 3.588.81l3.277-1.322c-1.281-2.465-4.879-4.553-7.86-3.024-.693.355-1.185 1.024-1.041 1.804.289 1.56 1.405 1.299 2.036 1.732z"/><path fill="#e78d8d" d="M17.937 5.153c-.031-.08-.117-.287-.179-.356-.3-.419-.842-.609-1.34-.406-.583.238-.864.903-.626 1.487.924 2.413 1.142 2.651 1.032 2.839-.03.03-.348.284-2.323.09L14 9v1l.305.797c1.924.189 3.359.114 4.107-.865.879-1.152.428-2.421-.475-4.779z"/><path fill="#FFDC5D" d="M14.502 8.807c-1.893-1.191-2.035.25-2.089.799-.054.55-.098.995 1.893 1.191l.196-1.99z"/><path fill="#AAB8C2" d="M18.273 15.478l.447-.159c-.488-1.218-1.031-1.021-1.071-1.006-.2.076-.925 1.053-.316 2.516.039.093.126.15.22.154.036.002.073-.005.107-.019.127-.054.188-.199.135-.327-.373-.896-.142-1.651.031-1.725.172-.073.411.302.447.566z"/></g></svg><span class="forma" style="--f:#d32f2f;color:#fff">1</span></span><span class="derece" style="--i:0">1</span></div>
+            <div class="kulvar"><span class="at" style="--a:34cqw;--b:60cqw;--s:calc(82cqw - 62px)"><svg viewBox="0 0 36 36" aria-hidden="true"><g transform="translate(36 0) scale(-1 1)"><path fill="#292F33" d="M28.721 12.849s3.809 1.643 5.532.449c1.723-1.193 2.11-2.773 1.159-4.736-.951-1.961-3.623-2.732-3.712-5.292 0 0-.298 4.141 1.513 5.505 2.562 1.933-.446 4.21-3.522 3.828-3.078-.382-.97.246-.97.246z"/><path fill="#7a3e22" d="M23.875 19.375s-.628 2.542.187 5.03c.145.341.049.556-.208.678-.256.122-4.294 1.542-4.729 1.771-.396.208-1.142 1.78-1.208 2.854.844.218 1.625.104 1.625.104s.025-1.915.208-2.042c.183-.127 5.686-1.048 6.062-1.771s1.611-3.888.812-5.292c-.225-.395-.637-1.15-.637-1.15l-2.112-.182z"/><path fill="#292F33" d="M17.917 29.708s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.186-1.861-.126-1.861-.126z"/><path fill="#7a3e22" d="M11.812 21.875l-.75-2.562s-2.766 2.105-3.938 3.594c-.344.437-1.847 3.198-1.722 4.413.05.488.474 2.583.474 2.583l1.651-.465s-1.312-1.896-1.021-2.562c1.428-3.263 5.306-5.001 5.306-5.001z"/><path fill="#292F33" d="M7.679 29.424c-.172-.139-1.803.479-1.803.479s.057 2.085.695 2.022c.618-.061 1.48-.912 1.455-1.175-.034-.351-.175-1.187-.347-1.326z"/><path fill="#a0522d" d="M27.188 11.188c-3.437.156-7.207.438-9.5.438-3.655 0-5.219-1.428-6.562-2.625C8.838 6.964 8.167 4.779 6 5.501c0 0-.632-.411-1.247-.778l-.261-.152c-.256-.148-.492-.276-.656-.347-.164-.072-.258-.087-.228-.01.019.051.093.143.236.286.472.472.675.95.728 1.395-2.01 1.202-2.093 2.276-2.871 3.552-.492.807-1.36 2.054-1.56 2.515-.412.948 1.024 2.052 1.706 1.407.893-.845.961-1.122 2.032-1.744.983-.016 1.975-.416 2.308-1.02 0 0 .938 2.083 1.938 3.583s2.5 3.125 2.5 3.125c-.131 1.227.12 2.176.549 2.922-.385.757-.924 1.807-1.417 2.745-.656 1.245-1.473 3.224-1.208 3.618.534.798 2.719 2.926 4.137 3.311 1.03.28 2.14.437 2.14.437l-.193-1.574s-1.343.213-1.875-.083c-1.427-.795-2.666-2.248-2.708-2.542-.07-.487 3.841-2.868 5.14-3.645 2.266.097 6.022-.369 8.626-1.702.958 1.86 2.978 2.513 2.978 2.513s.667 2.208 1.375 4.125c-1.017.533-4.468 3.254-4.975 3.854-.456.54-.856 2.49-.856 2.49.82.375 1.57.187 1.57.187s.039-1.562.385-2.073c.346-.511 4.701-2.559 5.958-3.458.492-.352.404-.903.262-1.552-.321-1.471-.97-4.781-.971-4.782 5.146-2.979 6.458-11.316-2.354-10.916z"/><path fill="#292F33" d="M22.336 33.782s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.187-1.861-.126-1.861-.126zm-7.676-5.296c-.167.146.164 1.859.164 1.859s2.064.299 2.111-.34c.045-.62-.647-1.614-.91-1.634-.351-.027-1.198-.031-1.365.115z"/><path fill="#c27a3b" d="M25.103 11.282c-3.295.135-9.103.499-10.4-.079.063 1.922-.676 3.605.3 6.865.46.101 8.122.244 10.935-.912-.672-2.862-.389-3.993-.835-5.874z"/><path fill="#623120" d="M15.891 11.438s-.759 3.543 2.408 3.63 2.792-2.247 3.045-2.505 2.718-.391 2.718-1.064c0-.233-1.269-.127-1.874-.099-.303.014-3.589.204-6.297.038z"/><path fill="#f2994a" d="M6.094 5.706c-.682.47-1.67.286-1.67.286-.594.25-1.524 1.156-1.93 1.937S.969 10.593.969 10.593s1.094.865 1.719 1.906c0 0 .531-.531 1.192-.875 1.942-.063 2.308-1.02 2.308-1.02s.031-2.992-.094-4.898zM4.321 8.467c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459z"/><circle fill="#292F33" cx="4.25" cy="8.047" r=".349"/><path fill="#F5F8FA" d="M4.321 7.099c-.502 0-.909.408-.909.909s.407.909.909.909c.501 0 .908-.408.908-.909s-.407-.909-.908-.909zm0 1.368c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459zm-1.785 4.185L.765 10.9l.253-.388 1.841 1.817zm3.568-6.953l.449-.009.093 4.898-.449.009z"/><path fill="#292F33" d="M12.655 9.07c1.773 1.446 3.147.322 3.147.322-1.295-.271-2.056-.867-2.708-1.562.835-.131 1.287-.666 1.287-.666-1.061-.013-1.824-.3-2.485-.699-.565-.614-1.233-1.202-2.254-1.631-.294-.125-.606-.21-.922-.276-.086-.025-.178-.063-.258-.073-.906-.114-1.845.051-2.737.603-.322.2-.214.639.117.623 1.741-.085 2.866.582 3.47 1.633 2.169 3.772 5.344 3.875 5.344 3.875s-1.29-.688-2.001-2.149zm5.11 13.33l-.361-7.566 1.029.228.45 7.208c-.377.071-1.118.13-1.118.13z"/><path fill="#623120" d="M2.354 12.75c-.191 0-.374-.11-.457-.296-.112-.252.001-.548.254-.66C8.29 9.058 13.369 9.059 13.628 9.047c.275.001.498.226.497.502-.001.275-.226.498-.5.498h-.004c-.104 0-5.15.025-11.063 2.66-.066.029-.135.043-.204.043z"/><path fill="#FFDC5D" d="M18.875 5.516c-.438-1.469-3.256-1.231-3.077-2.591l-.121.243c-.028-.207-.079-.416-.171-.62-.45-.997-1.522-1.486-2.394-1.092-.756.341-1.738.349-1.341 1.636.061.197.134.451.248.703.452.996 1.849 1.665 2.722 1.271.05-.022.091-.055.137-.082.207.123.84.506 1.864 1.205 1.207.823 2.568.797 2.133-.673z"/><path fill="#c27a3b" d="M11.889 1.419c.256-.5 1.301-1.065 2.192-1.01 1.005.063 1.564.76 1.795 1.633.114.43.045.914-.043 1.27 0 0-.965-.087-.858-.15.198-.117.034-.815-.218-.907-.265-.097-.361.163-.324.364.036.201.032.324-.08.398s-.489-.502-.765-.614c-.455-.185-1.491 1.132-1.816.69-.202-.276-.2-1.055.117-1.674z"/><path fill="#f2994a" d="M13.163 2.849s1.582-.754 1.988-.869.603-.166.671-.252c.067-.086-.103-.225-.178-.316s-.44-.974-1.275-1.243c-.696-.224-1.202-.111-1.583.045s-1.184.512-1.366 1.842c-.096.745.038 1.145.038 1.145s-.476.136-.523.144c-.047.008-.042.126.179.181.221.055 1.292-.068 1.64-.231s.318-.371.409-.446z"/><path d="M20.828 14.172c-.186-.532-.248-.716-.554-1.524-.1-.264-.219-.585-.369-.993l-1.934.745c.176.383.313.688.426.946.364.832.475 1.321.592 1.877l-.801.291c-.387.168-.811.333-.858.933-.036.462.341.424.635.388.433-.052 3.093-.506 3.223-.788.117-.257-.139-1.243-.36-1.875z"/><path fill="#CCD6DD" d="M17.971 12.4s-.2-.506-.395-1.169c-.376-1.282-.565-2.314 3.451-3.335-.024-.042-.056-.092-.099-.152-1.324-1.858-4.253-3.696-3.491-3.815 3.832-.601 5.007-.007 6.684 2.349.827 1.162.936 1.593.784 2.191-.59 2.328-5.15 1.272-5 3.186l-1.934.745z"/><path fill="#f2994a" d="M17.439 7.086c1.535 1.055 2.339-.154 3.588.81l3.277-1.322c-1.281-2.465-4.879-4.553-7.86-3.024-.693.355-1.185 1.024-1.041 1.804.289 1.56 1.405 1.299 2.036 1.732z"/><path fill="#f8c79b" d="M17.937 5.153c-.031-.08-.117-.287-.179-.356-.3-.419-.842-.609-1.34-.406-.583.238-.864.903-.626 1.487.924 2.413 1.142 2.651 1.032 2.839-.03.03-.348.284-2.323.09L14 9v1l.305.797c1.924.189 3.359.114 4.107-.865.879-1.152.428-2.421-.475-4.779z"/><path fill="#FFDC5D" d="M14.502 8.807c-1.893-1.191-2.035.25-2.089.799-.054.55-.098.995 1.893 1.191l.196-1.99z"/><path fill="#AAB8C2" d="M18.273 15.478l.447-.159c-.488-1.218-1.031-1.021-1.071-1.006-.2.076-.925 1.053-.316 2.516.039.093.126.15.22.154.036.002.073-.005.107-.019.127-.054.188-.199.135-.327-.373-.896-.142-1.651.031-1.725.172-.073.411.302.447.566z"/></g></svg><span class="forma" style="--f:#f2994a;color:#111">7</span></span><span class="derece" style="--i:1">2</span></div>
+            <div class="kulvar"><span class="at" style="--a:19cqw;--b:46cqw;--s:calc(77cqw - 62px)"><svg viewBox="0 0 36 36" aria-hidden="true"><g transform="translate(36 0) scale(-1 1)"><path fill="#292F33" d="M28.721 12.849s3.809 1.643 5.532.449c1.723-1.193 2.11-2.773 1.159-4.736-.951-1.961-3.623-2.732-3.712-5.292 0 0-.298 4.141 1.513 5.505 2.562 1.933-.446 4.21-3.522 3.828-3.078-.382-.97.246-.97.246z"/><path fill="#6e3820" d="M23.875 19.375s-.628 2.542.187 5.03c.145.341.049.556-.208.678-.256.122-4.294 1.542-4.729 1.771-.396.208-1.142 1.78-1.208 2.854.844.218 1.625.104 1.625.104s.025-1.915.208-2.042c.183-.127 5.686-1.048 6.062-1.771s1.611-3.888.812-5.292c-.225-.395-.637-1.15-.637-1.15l-2.112-.182z"/><path fill="#292F33" d="M17.917 29.708s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.186-1.861-.126-1.861-.126z"/><path fill="#6e3820" d="M11.812 21.875l-.75-2.562s-2.766 2.105-3.938 3.594c-.344.437-1.847 3.198-1.722 4.413.05.488.474 2.583.474 2.583l1.651-.465s-1.312-1.896-1.021-2.562c1.428-3.263 5.306-5.001 5.306-5.001z"/><path fill="#292F33" d="M7.679 29.424c-.172-.139-1.803.479-1.803.479s.057 2.085.695 2.022c.618-.061 1.48-.912 1.455-1.175-.034-.351-.175-1.187-.347-1.326z"/><path fill="#8b4a2b" d="M27.188 11.188c-3.437.156-7.207.438-9.5.438-3.655 0-5.219-1.428-6.562-2.625C8.838 6.964 8.167 4.779 6 5.501c0 0-.632-.411-1.247-.778l-.261-.152c-.256-.148-.492-.276-.656-.347-.164-.072-.258-.087-.228-.01.019.051.093.143.236.286.472.472.675.95.728 1.395-2.01 1.202-2.093 2.276-2.871 3.552-.492.807-1.36 2.054-1.56 2.515-.412.948 1.024 2.052 1.706 1.407.893-.845.961-1.122 2.032-1.744.983-.016 1.975-.416 2.308-1.02 0 0 .938 2.083 1.938 3.583s2.5 3.125 2.5 3.125c-.131 1.227.12 2.176.549 2.922-.385.757-.924 1.807-1.417 2.745-.656 1.245-1.473 3.224-1.208 3.618.534.798 2.719 2.926 4.137 3.311 1.03.28 2.14.437 2.14.437l-.193-1.574s-1.343.213-1.875-.083c-1.427-.795-2.666-2.248-2.708-2.542-.07-.487 3.841-2.868 5.14-3.645 2.266.097 6.022-.369 8.626-1.702.958 1.86 2.978 2.513 2.978 2.513s.667 2.208 1.375 4.125c-1.017.533-4.468 3.254-4.975 3.854-.456.54-.856 2.49-.856 2.49.82.375 1.57.187 1.57.187s.039-1.562.385-2.073c.346-.511 4.701-2.559 5.958-3.458.492-.352.404-.903.262-1.552-.321-1.471-.97-4.781-.971-4.782 5.146-2.979 6.458-11.316-2.354-10.916z"/><path fill="#292F33" d="M22.336 33.782s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.187-1.861-.126-1.861-.126zm-7.676-5.296c-.167.146.164 1.859.164 1.859s2.064.299 2.111-.34c.045-.62-.647-1.614-.91-1.634-.351-.027-1.198-.031-1.365.115z"/><path fill="#161616" d="M25.103 11.282c-3.295.135-9.103.499-10.4-.079.063 1.922-.676 3.605.3 6.865.46.101 8.122.244 10.935-.912-.672-2.862-.389-3.993-.835-5.874z"/><path fill="#623120" d="M15.891 11.438s-.759 3.543 2.408 3.63 2.792-2.247 3.045-2.505 2.718-.391 2.718-1.064c0-.233-1.269-.127-1.874-.099-.303.014-3.589.204-6.297.038z"/><path fill="#1b1b1b" d="M6.094 5.706c-.682.47-1.67.286-1.67.286-.594.25-1.524 1.156-1.93 1.937S.969 10.593.969 10.593s1.094.865 1.719 1.906c0 0 .531-.531 1.192-.875 1.942-.063 2.308-1.02 2.308-1.02s.031-2.992-.094-4.898zM4.321 8.467c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459z"/><circle fill="#292F33" cx="4.25" cy="8.047" r=".349"/><path fill="#F5F8FA" d="M4.321 7.099c-.502 0-.909.408-.909.909s.407.909.909.909c.501 0 .908-.408.908-.909s-.407-.909-.908-.909zm0 1.368c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459zm-1.785 4.185L.765 10.9l.253-.388 1.841 1.817zm3.568-6.953l.449-.009.093 4.898-.449.009z"/><path fill="#292F33" d="M12.655 9.07c1.773 1.446 3.147.322 3.147.322-1.295-.271-2.056-.867-2.708-1.562.835-.131 1.287-.666 1.287-.666-1.061-.013-1.824-.3-2.485-.699-.565-.614-1.233-1.202-2.254-1.631-.294-.125-.606-.21-.922-.276-.086-.025-.178-.063-.258-.073-.906-.114-1.845.051-2.737.603-.322.2-.214.639.117.623 1.741-.085 2.866.582 3.47 1.633 2.169 3.772 5.344 3.875 5.344 3.875s-1.29-.688-2.001-2.149zm5.11 13.33l-.361-7.566 1.029.228.45 7.208c-.377.071-1.118.13-1.118.13z"/><path fill="#623120" d="M2.354 12.75c-.191 0-.374-.11-.457-.296-.112-.252.001-.548.254-.66C8.29 9.058 13.369 9.059 13.628 9.047c.275.001.498.226.497.502-.001.275-.226.498-.5.498h-.004c-.104 0-5.15.025-11.063 2.66-.066.029-.135.043-.204.043z"/><path fill="#FFDC5D" d="M18.875 5.516c-.438-1.469-3.256-1.231-3.077-2.591l-.121.243c-.028-.207-.079-.416-.171-.62-.45-.997-1.522-1.486-2.394-1.092-.756.341-1.738.349-1.341 1.636.061.197.134.451.248.703.452.996 1.849 1.665 2.722 1.271.05-.022.091-.055.137-.082.207.123.84.506 1.864 1.205 1.207.823 2.568.797 2.133-.673z"/><path fill="#161616" d="M11.889 1.419c.256-.5 1.301-1.065 2.192-1.01 1.005.063 1.564.76 1.795 1.633.114.43.045.914-.043 1.27 0 0-.965-.087-.858-.15.198-.117.034-.815-.218-.907-.265-.097-.361.163-.324.364.036.201.032.324-.08.398s-.489-.502-.765-.614c-.455-.185-1.491 1.132-1.816.69-.202-.276-.2-1.055.117-1.674z"/><path fill="#1b1b1b" d="M13.163 2.849s1.582-.754 1.988-.869.603-.166.671-.252c.067-.086-.103-.225-.178-.316s-.44-.974-1.275-1.243c-.696-.224-1.202-.111-1.583.045s-1.184.512-1.366 1.842c-.096.745.038 1.145.038 1.145s-.476.136-.523.144c-.047.008-.042.126.179.181.221.055 1.292-.068 1.64-.231s.318-.371.409-.446z"/><path d="M20.828 14.172c-.186-.532-.248-.716-.554-1.524-.1-.264-.219-.585-.369-.993l-1.934.745c.176.383.313.688.426.946.364.832.475 1.321.592 1.877l-.801.291c-.387.168-.811.333-.858.933-.036.462.341.424.635.388.433-.052 3.093-.506 3.223-.788.117-.257-.139-1.243-.36-1.875z"/><path fill="#CCD6DD" d="M17.971 12.4s-.2-.506-.395-1.169c-.376-1.282-.565-2.314 3.451-3.335-.024-.042-.056-.092-.099-.152-1.324-1.858-4.253-3.696-3.491-3.815 3.832-.601 5.007-.007 6.684 2.349.827 1.162.936 1.593.784 2.191-.59 2.328-5.15 1.272-5 3.186l-1.934.745z"/><path fill="#1b1b1b" d="M17.439 7.086c1.535 1.055 2.339-.154 3.588.81l3.277-1.322c-1.281-2.465-4.879-4.553-7.86-3.024-.693.355-1.185 1.024-1.041 1.804.289 1.56 1.405 1.299 2.036 1.732z"/><path fill="#828282" d="M17.937 5.153c-.031-.08-.117-.287-.179-.356-.3-.419-.842-.609-1.34-.406-.583.238-.864.903-.626 1.487.924 2.413 1.142 2.651 1.032 2.839-.03.03-.348.284-2.323.09L14 9v1l.305.797c1.924.189 3.359.114 4.107-.865.879-1.152.428-2.421-.475-4.779z"/><path fill="#FFDC5D" d="M14.502 8.807c-1.893-1.191-2.035.25-2.089.799-.054.55-.098.995 1.893 1.191l.196-1.99z"/><path fill="#AAB8C2" d="M18.273 15.478l.447-.159c-.488-1.218-1.031-1.021-1.071-1.006-.2.076-.925 1.053-.316 2.516.039.093.126.15.22.154.036.002.073-.005.107-.019.127-.054.188-.199.135-.327-.373-.896-.142-1.651.031-1.725.172-.073.411.302.447.566z"/></g></svg><span class="forma" style="--f:#1b1b1b;color:#fff">6</span></span><span class="derece" style="--i:2">3</span></div>
+            <div class="kulvar"><span class="at" style="--a:27cqw;--b:49cqw;--s:calc(71cqw - 62px)"><svg viewBox="0 0 36 36" aria-hidden="true"><g transform="translate(36 0) scale(-1 1)"><path fill="#292F33" d="M28.721 12.849s3.809 1.643 5.532.449c1.723-1.193 2.11-2.773 1.159-4.736-.951-1.961-3.623-2.732-3.712-5.292 0 0-.298 4.141 1.513 5.505 2.562 1.933-.446 4.21-3.522 3.828-3.078-.382-.97.246-.97.246z"/><path fill="#8a4b38" d="M23.875 19.375s-.628 2.542.187 5.03c.145.341.049.556-.208.678-.256.122-4.294 1.542-4.729 1.771-.396.208-1.142 1.78-1.208 2.854.844.218 1.625.104 1.625.104s.025-1.915.208-2.042c.183-.127 5.686-1.048 6.062-1.771s1.611-3.888.812-5.292c-.225-.395-.637-1.15-.637-1.15l-2.112-.182z"/><path fill="#292F33" d="M17.917 29.708s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.186-1.861-.126-1.861-.126z"/><path fill="#8a4b38" d="M11.812 21.875l-.75-2.562s-2.766 2.105-3.938 3.594c-.344.437-1.847 3.198-1.722 4.413.05.488.474 2.583.474 2.583l1.651-.465s-1.312-1.896-1.021-2.562c1.428-3.263 5.306-5.001 5.306-5.001z"/><path fill="#292F33" d="M7.679 29.424c-.172-.139-1.803.479-1.803.479s.057 2.085.695 2.022c.618-.061 1.48-.912 1.455-1.175-.034-.351-.175-1.187-.347-1.326z"/><path fill="#c1694f" d="M27.188 11.188c-3.437.156-7.207.438-9.5.438-3.655 0-5.219-1.428-6.562-2.625C8.838 6.964 8.167 4.779 6 5.501c0 0-.632-.411-1.247-.778l-.261-.152c-.256-.148-.492-.276-.656-.347-.164-.072-.258-.087-.228-.01.019.051.093.143.236.286.472.472.675.95.728 1.395-2.01 1.202-2.093 2.276-2.871 3.552-.492.807-1.36 2.054-1.56 2.515-.412.948 1.024 2.052 1.706 1.407.893-.845.961-1.122 2.032-1.744.983-.016 1.975-.416 2.308-1.02 0 0 .938 2.083 1.938 3.583s2.5 3.125 2.5 3.125c-.131 1.227.12 2.176.549 2.922-.385.757-.924 1.807-1.417 2.745-.656 1.245-1.473 3.224-1.208 3.618.534.798 2.719 2.926 4.137 3.311 1.03.28 2.14.437 2.14.437l-.193-1.574s-1.343.213-1.875-.083c-1.427-.795-2.666-2.248-2.708-2.542-.07-.487 3.841-2.868 5.14-3.645 2.266.097 6.022-.369 8.626-1.702.958 1.86 2.978 2.513 2.978 2.513s.667 2.208 1.375 4.125c-1.017.533-4.468 3.254-4.975 3.854-.456.54-.856 2.49-.856 2.49.82.375 1.57.187 1.57.187s.039-1.562.385-2.073c.346-.511 4.701-2.559 5.958-3.458.492-.352.404-.903.262-1.552-.321-1.471-.97-4.781-.971-4.782 5.146-2.979 6.458-11.316-2.354-10.916z"/><path fill="#292F33" d="M22.336 33.782s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.187-1.861-.126-1.861-.126zm-7.676-5.296c-.167.146.164 1.859.164 1.859s2.064.299 2.111-.34c.045-.62-.647-1.614-.91-1.634-.351-.027-1.198-.031-1.365.115z"/><path fill="#257e3f" d="M25.103 11.282c-3.295.135-9.103.499-10.4-.079.063 1.922-.676 3.605.3 6.865.46.101 8.122.244 10.935-.912-.672-2.862-.389-3.993-.835-5.874z"/><path fill="#623120" d="M15.891 11.438s-.759 3.543 2.408 3.63 2.792-2.247 3.045-2.505 2.718-.391 2.718-1.064c0-.233-1.269-.127-1.874-.099-.303.014-3.589.204-6.297.038z"/><path fill="#2e9d4f" d="M6.094 5.706c-.682.47-1.67.286-1.67.286-.594.25-1.524 1.156-1.93 1.937S.969 10.593.969 10.593s1.094.865 1.719 1.906c0 0 .531-.531 1.192-.875 1.942-.063 2.308-1.02 2.308-1.02s.031-2.992-.094-4.898zM4.321 8.467c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459z"/><circle fill="#292F33" cx="4.25" cy="8.047" r=".349"/><path fill="#F5F8FA" d="M4.321 7.099c-.502 0-.909.408-.909.909s.407.909.909.909c.501 0 .908-.408.908-.909s-.407-.909-.908-.909zm0 1.368c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459zm-1.785 4.185L.765 10.9l.253-.388 1.841 1.817zm3.568-6.953l.449-.009.093 4.898-.449.009z"/><path fill="#292F33" d="M12.655 9.07c1.773 1.446 3.147.322 3.147.322-1.295-.271-2.056-.867-2.708-1.562.835-.131 1.287-.666 1.287-.666-1.061-.013-1.824-.3-2.485-.699-.565-.614-1.233-1.202-2.254-1.631-.294-.125-.606-.21-.922-.276-.086-.025-.178-.063-.258-.073-.906-.114-1.845.051-2.737.603-.322.2-.214.639.117.623 1.741-.085 2.866.582 3.47 1.633 2.169 3.772 5.344 3.875 5.344 3.875s-1.29-.688-2.001-2.149zm5.11 13.33l-.361-7.566 1.029.228.45 7.208c-.377.071-1.118.13-1.118.13z"/><path fill="#623120" d="M2.354 12.75c-.191 0-.374-.11-.457-.296-.112-.252.001-.548.254-.66C8.29 9.058 13.369 9.059 13.628 9.047c.275.001.498.226.497.502-.001.275-.226.498-.5.498h-.004c-.104 0-5.15.025-11.063 2.66-.066.029-.135.043-.204.043z"/><path fill="#FFDC5D" d="M18.875 5.516c-.438-1.469-3.256-1.231-3.077-2.591l-.121.243c-.028-.207-.079-.416-.171-.62-.45-.997-1.522-1.486-2.394-1.092-.756.341-1.738.349-1.341 1.636.061.197.134.451.248.703.452.996 1.849 1.665 2.722 1.271.05-.022.091-.055.137-.082.207.123.84.506 1.864 1.205 1.207.823 2.568.797 2.133-.673z"/><path fill="#257e3f" d="M11.889 1.419c.256-.5 1.301-1.065 2.192-1.01 1.005.063 1.564.76 1.795 1.633.114.43.045.914-.043 1.27 0 0-.965-.087-.858-.15.198-.117.034-.815-.218-.907-.265-.097-.361.163-.324.364.036.201.032.324-.08.398s-.489-.502-.765-.614c-.455-.185-1.491 1.132-1.816.69-.202-.276-.2-1.055.117-1.674z"/><path fill="#2e9d4f" d="M13.163 2.849s1.582-.754 1.988-.869.603-.166.671-.252c.067-.086-.103-.225-.178-.316s-.44-.974-1.275-1.243c-.696-.224-1.202-.111-1.583.045s-1.184.512-1.366 1.842c-.096.745.038 1.145.038 1.145s-.476.136-.523.144c-.047.008-.042.126.179.181.221.055 1.292-.068 1.64-.231s.318-.371.409-.446z"/><path d="M20.828 14.172c-.186-.532-.248-.716-.554-1.524-.1-.264-.219-.585-.369-.993l-1.934.745c.176.383.313.688.426.946.364.832.475 1.321.592 1.877l-.801.291c-.387.168-.811.333-.858.933-.036.462.341.424.635.388.433-.052 3.093-.506 3.223-.788.117-.257-.139-1.243-.36-1.875z"/><path fill="#CCD6DD" d="M17.971 12.4s-.2-.506-.395-1.169c-.376-1.282-.565-2.314 3.451-3.335-.024-.042-.056-.092-.099-.152-1.324-1.858-4.253-3.696-3.491-3.815 3.832-.601 5.007-.007 6.684 2.349.827 1.162.936 1.593.784 2.191-.59 2.328-5.15 1.272-5 3.186l-1.934.745z"/><path fill="#2e9d4f" d="M17.439 7.086c1.535 1.055 2.339-.154 3.588.81l3.277-1.322c-1.281-2.465-4.879-4.553-7.86-3.024-.693.355-1.185 1.024-1.041 1.804.289 1.56 1.405 1.299 2.036 1.732z"/><path fill="#8cc99e" d="M17.937 5.153c-.031-.08-.117-.287-.179-.356-.3-.419-.842-.609-1.34-.406-.583.238-.864.903-.626 1.487.924 2.413 1.142 2.651 1.032 2.839-.03.03-.348.284-2.323.09L14 9v1l.305.797c1.924.189 3.359.114 4.107-.865.879-1.152.428-2.421-.475-4.779z"/><path fill="#FFDC5D" d="M14.502 8.807c-1.893-1.191-2.035.25-2.089.799-.054.55-.098.995 1.893 1.191l.196-1.99z"/><path fill="#AAB8C2" d="M18.273 15.478l.447-.159c-.488-1.218-1.031-1.021-1.071-1.006-.2.076-.925 1.053-.316 2.516.039.093.126.15.22.154.036.002.073-.005.107-.019.127-.054.188-.199.135-.327-.373-.896-.142-1.651.031-1.725.172-.073.411.302.447.566z"/></g></svg><span class="forma" style="--f:#2e9d4f;color:#fff">5</span></span><span class="derece" style="--i:3">4</span></div>
+            <div class="kulvar"><span class="at" style="--a:23cqw;--b:42cqw;--s:calc(64cqw - 62px)"><svg viewBox="0 0 36 36" aria-hidden="true"><g transform="translate(36 0) scale(-1 1)"><path fill="#292F33" d="M28.721 12.849s3.809 1.643 5.532.449c1.723-1.193 2.11-2.773 1.159-4.736-.951-1.961-3.623-2.732-3.712-5.292 0 0-.298 4.141 1.513 5.505 2.562 1.933-.446 4.21-3.522 3.828-3.078-.382-.97.246-.97.246z"/><path fill="#2a1d16" d="M23.875 19.375s-.628 2.542.187 5.03c.145.341.049.556-.208.678-.256.122-4.294 1.542-4.729 1.771-.396.208-1.142 1.78-1.208 2.854.844.218 1.625.104 1.625.104s.025-1.915.208-2.042c.183-.127 5.686-1.048 6.062-1.771s1.611-3.888.812-5.292c-.225-.395-.637-1.15-.637-1.15l-2.112-.182z"/><path fill="#292F33" d="M17.917 29.708s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.186-1.861-.126-1.861-.126z"/><path fill="#2a1d16" d="M11.812 21.875l-.75-2.562s-2.766 2.105-3.938 3.594c-.344.437-1.847 3.198-1.722 4.413.05.488.474 2.583.474 2.583l1.651-.465s-1.312-1.896-1.021-2.562c1.428-3.263 5.306-5.001 5.306-5.001z"/><path fill="#292F33" d="M7.679 29.424c-.172-.139-1.803.479-1.803.479s.057 2.085.695 2.022c.618-.061 1.48-.912 1.455-1.175-.034-.351-.175-1.187-.347-1.326z"/><path fill="#3b2a20" d="M27.188 11.188c-3.437.156-7.207.438-9.5.438-3.655 0-5.219-1.428-6.562-2.625C8.838 6.964 8.167 4.779 6 5.501c0 0-.632-.411-1.247-.778l-.261-.152c-.256-.148-.492-.276-.656-.347-.164-.072-.258-.087-.228-.01.019.051.093.143.236.286.472.472.675.95.728 1.395-2.01 1.202-2.093 2.276-2.871 3.552-.492.807-1.36 2.054-1.56 2.515-.412.948 1.024 2.052 1.706 1.407.893-.845.961-1.122 2.032-1.744.983-.016 1.975-.416 2.308-1.02 0 0 .938 2.083 1.938 3.583s2.5 3.125 2.5 3.125c-.131 1.227.12 2.176.549 2.922-.385.757-.924 1.807-1.417 2.745-.656 1.245-1.473 3.224-1.208 3.618.534.798 2.719 2.926 4.137 3.311 1.03.28 2.14.437 2.14.437l-.193-1.574s-1.343.213-1.875-.083c-1.427-.795-2.666-2.248-2.708-2.542-.07-.487 3.841-2.868 5.14-3.645 2.266.097 6.022-.369 8.626-1.702.958 1.86 2.978 2.513 2.978 2.513s.667 2.208 1.375 4.125c-1.017.533-4.468 3.254-4.975 3.854-.456.54-.856 2.49-.856 2.49.82.375 1.57.187 1.57.187s.039-1.562.385-2.073c.346-.511 4.701-2.559 5.958-3.458.492-.352.404-.903.262-1.552-.321-1.471-.97-4.781-.971-4.782 5.146-2.979 6.458-11.316-2.354-10.916z"/><path fill="#292F33" d="M22.336 33.782s-.616 1.993.008 2.138c.605.141 1.694-.388 1.755-.646.081-.343.216-1.179.098-1.366-.118-.187-1.861-.126-1.861-.126zm-7.676-5.296c-.167.146.164 1.859.164 1.859s2.064.299 2.111-.34c.045-.62-.647-1.614-.91-1.634-.351-.027-1.198-.031-1.365.115z"/><path fill="#c2a13d" d="M25.103 11.282c-3.295.135-9.103.499-10.4-.079.063 1.922-.676 3.605.3 6.865.46.101 8.122.244 10.935-.912-.672-2.862-.389-3.993-.835-5.874z"/><path fill="#623120" d="M15.891 11.438s-.759 3.543 2.408 3.63 2.792-2.247 3.045-2.505 2.718-.391 2.718-1.064c0-.233-1.269-.127-1.874-.099-.303.014-3.589.204-6.297.038z"/><path fill="#f2c94c" d="M6.094 5.706c-.682.47-1.67.286-1.67.286-.594.25-1.524 1.156-1.93 1.937S.969 10.593.969 10.593s1.094.865 1.719 1.906c0 0 .531-.531 1.192-.875 1.942-.063 2.308-1.02 2.308-1.02s.031-2.992-.094-4.898zM4.321 8.467c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459z"/><circle fill="#292F33" cx="4.25" cy="8.047" r=".349"/><path fill="#F5F8FA" d="M4.321 7.099c-.502 0-.909.408-.909.909s.407.909.909.909c.501 0 .908-.408.908-.909s-.407-.909-.908-.909zm0 1.368c-.253 0-.46-.206-.46-.459s.207-.459.46-.459.459.206.459.459-.206.459-.459.459zm-1.785 4.185L.765 10.9l.253-.388 1.841 1.817zm3.568-6.953l.449-.009.093 4.898-.449.009z"/><path fill="#292F33" d="M12.655 9.07c1.773 1.446 3.147.322 3.147.322-1.295-.271-2.056-.867-2.708-1.562.835-.131 1.287-.666 1.287-.666-1.061-.013-1.824-.3-2.485-.699-.565-.614-1.233-1.202-2.254-1.631-.294-.125-.606-.21-.922-.276-.086-.025-.178-.063-.258-.073-.906-.114-1.845.051-2.737.603-.322.2-.214.639.117.623 1.741-.085 2.866.582 3.47 1.633 2.169 3.772 5.344 3.875 5.344 3.875s-1.29-.688-2.001-2.149zm5.11 13.33l-.361-7.566 1.029.228.45 7.208c-.377.071-1.118.13-1.118.13z"/><path fill="#623120" d="M2.354 12.75c-.191 0-.374-.11-.457-.296-.112-.252.001-.548.254-.66C8.29 9.058 13.369 9.059 13.628 9.047c.275.001.498.226.497.502-.001.275-.226.498-.5.498h-.004c-.104 0-5.15.025-11.063 2.66-.066.029-.135.043-.204.043z"/><path fill="#FFDC5D" d="M18.875 5.516c-.438-1.469-3.256-1.231-3.077-2.591l-.121.243c-.028-.207-.079-.416-.171-.62-.45-.997-1.522-1.486-2.394-1.092-.756.341-1.738.349-1.341 1.636.061.197.134.451.248.703.452.996 1.849 1.665 2.722 1.271.05-.022.091-.055.137-.082.207.123.84.506 1.864 1.205 1.207.823 2.568.797 2.133-.673z"/><path fill="#c2a13d" d="M11.889 1.419c.256-.5 1.301-1.065 2.192-1.01 1.005.063 1.564.76 1.795 1.633.114.43.045.914-.043 1.27 0 0-.965-.087-.858-.15.198-.117.034-.815-.218-.907-.265-.097-.361.163-.324.364.036.201.032.324-.08.398s-.489-.502-.765-.614c-.455-.185-1.491 1.132-1.816.69-.202-.276-.2-1.055.117-1.674z"/><path fill="#f2c94c" d="M13.163 2.849s1.582-.754 1.988-.869.603-.166.671-.252c.067-.086-.103-.225-.178-.316s-.44-.974-1.275-1.243c-.696-.224-1.202-.111-1.583.045s-1.184.512-1.366 1.842c-.096.745.038 1.145.038 1.145s-.476.136-.523.144c-.047.008-.042.126.179.181.221.055 1.292-.068 1.64-.231s.318-.371.409-.446z"/><path d="M20.828 14.172c-.186-.532-.248-.716-.554-1.524-.1-.264-.219-.585-.369-.993l-1.934.745c.176.383.313.688.426.946.364.832.475 1.321.592 1.877l-.801.291c-.387.168-.811.333-.858.933-.036.462.341.424.635.388.433-.052 3.093-.506 3.223-.788.117-.257-.139-1.243-.36-1.875z"/><path fill="#CCD6DD" d="M17.971 12.4s-.2-.506-.395-1.169c-.376-1.282-.565-2.314 3.451-3.335-.024-.042-.056-.092-.099-.152-1.324-1.858-4.253-3.696-3.491-3.815 3.832-.601 5.007-.007 6.684 2.349.827 1.162.936 1.593.784 2.191-.59 2.328-5.15 1.272-5 3.186l-1.934.745z"/><path fill="#f2c94c" d="M17.439 7.086c1.535 1.055 2.339-.154 3.588.81l3.277-1.322c-1.281-2.465-4.879-4.553-7.86-3.024-.693.355-1.185 1.024-1.041 1.804.289 1.56 1.405 1.299 2.036 1.732z"/><path fill="#f8e19d" d="M17.937 5.153c-.031-.08-.117-.287-.179-.356-.3-.419-.842-.609-1.34-.406-.583.238-.864.903-.626 1.487.924 2.413 1.142 2.651 1.032 2.839-.03.03-.348.284-2.323.09L14 9v1l.305.797c1.924.189 3.359.114 4.107-.865.879-1.152.428-2.421-.475-4.779z"/><path fill="#FFDC5D" d="M14.502 8.807c-1.893-1.191-2.035.25-2.089.799-.054.55-.098.995 1.893 1.191l.196-1.99z"/><path fill="#AAB8C2" d="M18.273 15.478l.447-.159c-.488-1.218-1.031-1.021-1.071-1.006-.2.076-.925 1.053-.316 2.516.039.093.126.15.22.154.036.002.073-.005.107-.019.127-.054.188-.199.135-.327-.373-.896-.142-1.651.031-1.725.172-.073.411.302.447.566z"/></g></svg><span class="forma" style="--f:#f2c94c;color:#111">4</span></span><span class="derece" style="--i:4">5</span></div>
+          </div>
+          <div class="tarz"><span><b>Bitiş sırası</b> yapay zekânın sıralaması</span><span><b>Aradaki fark</b> kazanma şansı</span><span><b>Yarış içi yer</b> koşu tarzı: önden ya da geriden</span></div>
+          <p class="kart-alt">Gerçek sonucu göstermez. Koşu bitince aynı pistte gerçek sonucun tekrarı da izlenir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · Altılı ganyan ve Kupon Sihirbazı -->
+    <section class="sahne" data-sure="6000" aria-label="Altılı ganyan ve Kupon Sihirbazı">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Altılı ganyan · Kupon Sihirbazı</p>
+          <h2 class="g" style="--d:0.1s">Altılı kuponunu <em>kendin kur</em></h2>
+          <p class="alt-yazi g" style="--d:0.23s">Dokun, seç. Kombinasyon, tutar ve tutma ihtimali anında.</p>
+        </div>
+        <div class="gorsel kart g" style="--d:0.26s">
+          <div class="kart-ust"><div><small>Kupon Sihirbazı</small><b>Örnek kupon</b></div><span>6/6 ayak</span></div>
+          <div class="ayaklar">
+            <div class="ayak"><small>1. AYAK</small><span class="sec" style="--d:0.65s">2</span><span>4</span><span class="sec" style="--d:0.75s">5</span><span>7</span></div>
+            <div class="ayak"><small>2. AYAK</small><span class="sec" style="--d:0.91s">1</span><span>3</span><span>6</span><span>8</span></div>
+            <div class="ayak"><small>3. AYAK</small><span class="sec" style="--d:1.17s">3</span><span class="sec" style="--d:1.27s">4</span><span class="sec" style="--d:1.37s">7</span><span>9</span></div>
+            <div class="ayak"><small>4. AYAK</small><span>1</span><span class="sec" style="--d:1.56s">5</span><span class="sec" style="--d:1.66s">6</span><span>8</span></div>
+            <div class="ayak"><small>5. AYAK</small><span class="sec" style="--d:1.89s">1</span><span>2</span><span>4</span><span>7</span></div>
+            <div class="ayak"><small>6. AYAK</small><span>2</span><span class="sec" style="--d:2.15s">3</span><span>5</span><span class="sec" style="--d:2.24s">9</span></div>
+          </div>
+          <div class="ozet3">
+            <div><span>Kombinasyon</span><b data-say="24" data-gec="2400">24</b></div>
+            <div><span>Tutar</span><b>anında</b></div>
+            <div class="vurgu"><span>Tutma ihtimali</span><b>anında</b></div>
+          </div>
+          <div class="hazir g" style="--d:2.73s"><span>Yapay zekânın küçük kuponu</span><span>Geniş kupon</span><span>Her ayakta ilk 2</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · Yapay zekânın önerileri -->
+    <section class="sahne" data-sure="6000" aria-label="Yapay zekânın kupon önerileri ve sürpriz tiyoları">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Karar anında</p>
+          <h2 class="g" style="--d:0.1s">Kuponuna <em>yapay zekâ önerisi</em></h2>
+          <p class="alt-yazi g" style="--d:0.23s">Zayıf ayağı, en verimli eklemeyi ve sürpriz tiyolarını söyler.</p>
+        </div>
+        <div class="gorsel kart g" style="--d:0.26s">
+          <div class="kart-ust"><div><small>Kupon Sihirbazı</small><b>Örnek öneriler</b></div><span>örnek</span></div>
+          <ul class="oneri">
+            <li class="g" style="--d:0.59s"><b>En zayıf ayak</b><small>En az kapsanan ayak.</small></li>
+            <li class="art g" style="--d:0.98s"><b>En verimli ekleme</b><small>Tutmayı en çok, tutarı en az artıran at.</small></li>
+            <li class="eks g" style="--d:1.37s"><b>En az katkılı at</b><small>Çıkarınca en az şey kaybettiren at.</small></li>
+          </ul>
+          <div class="tiyo g" style="--d:1.82s"><b>★ Sürpriz tiyoları</b>
+            <div class="rozetler"><i style="--d:2.08s">Üst gruptan</i><i style="--d:2.18s">En iyi derece</i><i style="--d:2.27s">Galop 1.</i><i style="--d:2.37s">Mesafe ustası</i><i style="--d:2.47s">Puanı en yüksek</i><i style="--d:2.57s">Jokey formda</i></div>
+          </div>
+          <p class="kart-alt">Hesap aracıdır; sinyaller geçmiş veridir, garanti değildir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Karne -->
+    <section class="sahne" data-sure="5500" aria-label="Şeffaf karne">
+      <div class="ic">
+        <div class="yazi">
+          <p class="etiket g">Şeffaf karne</p>
+          <h2 class="g" style="--d:0.1s">Her gün <em>açık</em> karne</h2>
+          <p class="alt-yazi g" style="--d:0.23s">Her tahmin önceden kilitlenir, sonuçla kayda geçer. Tutmayanlar da.</p>
+        </div>
+        <div class="gorsel kart g" style="--d:0.26s">
+          <div class="kart-ust"><div><small>Yapay zekânın görmediği dönem</small><b>2.431 koşuluk test</b></div><span>27 Haz – 10 Kas 2026</span></div>
+          <div class="kiyas"><b>Kazananı ilk 3'te gösterme</b>
+            <div class="ks yz"><span>Yapay zekâ</span><span class="olc"><u class="dol" style="--w:67.5%;--d:0.65s"></u></span><strong data-say="67.5" data-ond="1" data-on="%">%67,5</strong></div>
+            <div class="ks"><span>AGF</span><span class="olc"><u class="dol" style="--w:65.7%;--d:0.85s"></u></span><strong data-say="65.7" data-ond="1" data-on="%">%65,7</strong></div>
+          </div>
+          <div class="kiyas"><b>Kazananı birinci bilme</b>
+            <div class="ks yz"><span>Yapay zekâ</span><span class="olc"><u class="dol" style="--w:33.6%;--d:1.17s"></u></span><strong data-say="33.6" data-ond="1" data-on="%">%33,6</strong></div>
+            <div class="ks"><span>AGF</span><span class="olc"><u class="dol" style="--w:32.7%;--d:1.37s"></u></span><strong data-say="32.7" data-ond="1" data-on="%">%32,7</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · Dahası -->
+    <section class="sahne" data-sure="5000" aria-label="Diğer özellikler">
+      <div class="ic tek">
+        <p class="etiket g">Ve dahası</p>
+        <h2 class="g" style="--d:0.1s">Tek sitede <em>hepsi</em></h2>
+        <div class="kutular">
+          <div class="kutu g" style="--d:0.33s"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h7v14H4zM13 5h7v14h-7z"/><path d="M6.5 9h2M6.5 12h2M15.5 9h2M15.5 12h2"/></svg><b>Rehber</b><p>AGF, altılı, pist türleri.</p></div>
+          <div class="kutu g" style="--d:0.42s"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg><b>Kasketli Kurt</b><p>Günün yorumu.</p></div>
+          <div class="kutu g" style="--d:0.52s"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 5a3 3 0 0 1 0 6M18 14c2 .8 3 3 3 6"/></svg><b>Değer ganyanı</b><p>Adil ganyan hesabı.</p></div>
+          <div class="kutu g" style="--d:0.62s"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M4 7h6M14 7h6M4 12h6M14 12h6M4 17h6M14 17h6"/></svg><b>At karşılaştırma</b><p>İki atı yan yana koy.</p></div>
+          <div class="kutu g" style="--d:0.72s"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg><b>Analiz Motoru</b><p>Şansı ne yükseltti, ne düşürdü.</p></div>
+          <div class="kutu g" style="--d:0.81s"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5z"/><path d="M9 10h6M9 14h6M9 18h3"/></svg><b>At ve jokey sayfaları</b><p>Yarış geçmişi ve istatistik.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 · Kapanış -->
+    <section class="sahne" data-sure="0" aria-label="Kapanış">
+      <div class="ic tek">
+        <img class="logo-buyuk g" src="logo.webp" alt="Atgoritma">
+        <h2 class="g" style="--d:0.26s">Bugünün yarışları <em>hazır.</em></h2>
+        <p class="alt-yazi g" style="--d:0.39s">Yapay zekânın bugünkü at yarışı tahminleri ve altılı ganyan analizi sitede.</p>
+        <div class="dugmeler g" style="--d:0.59s"><a class="buyuk altin" href="/">Siteyi aç →</a><a class="buyuk" href="/tanitim/nasil-kullanilir/">Site nasıl kullanılır? →</a><button class="buyuk" type="button" id="paylas">Paylaş</button><button class="buyuk" type="button" id="bastan">↻ Baştan izle</button></div>
+        <p class="kucuk-not g" style="--d:.8s" id="paylasNot">18+ · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir ve kazanç vaat etmez. Sorumlu oyun: YEDAM 115.</p>
+      </div>
+    </section>
+
+    <div class="oynat-ort"><button class="buyuk altin" type="button" id="hareketAc">▶ Tanıtımı oynat</button></div>
+  </main>
+
+  <footer class="serit-alt">
+    <div class="kontrol">
+      <button type="button" id="geri" aria-label="Önceki sahne"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+      <button type="button" id="dur" aria-label="Duraklat"><svg viewBox="0 0 24 24" id="durIk"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg></button>
+      <button type="button" id="ileri" aria-label="Sonraki sahne"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
     </div>
-  </div>
+    <div class="ilerleme" id="ilerleme" role="group" aria-label="Sahneler"></div>
+    <p class="yasal">18+ · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir.</p>
+  </footer>
 </div>
+
+<section class="ozet" aria-labelledby="ozetBas">
+  <div class="ozet-ic">
+    <h2 id="ozetBas">Atgoritma nedir, <em>ne sunar?</em></h2>
+    <p>Atgoritma, Türkiye Jokey Kulübü'nün (TJK) resmi program ve sonuçlarıyla eğitilen yapay zekâ destekli bir at yarışı analiz sitesidir. Her gün tüm hipodromlardaki koşular için atların kazanma şansını hesaplar, AGF ile karşılaştırır, sürpriz ihtimali yüksek koşuları işaretler ve her tahmini sonuçla birlikte açık bir karnede tutar.</p>
+    <h3>Öne çıkan özellikler</h3>
+    <ul>
+      <li><b>Yapay zekâ ile at yarışı tahmini:</b> Eylül 2023'ten bugüne 19.980 koşuluk TJK verisi; form, hız, jokey, galop ve AGF dahil 31 kriter tek bir kazanma şansında birleşir. Ayrıntı: <a href="/nasil-calisir/">Nasıl çalışır</a>.</li>
+      <li><b>Kazanma şansı ve AGF yan yana:</b> her koşuda her at için yapay zekânın verdiği şans, halkın tahmini AGF ile birlikte gösterilir. Günün listesi: <a href="/tahmin/">Tahminler</a>.</li>
+      <li><b>Sürpriz ihtimali:</b> kazananın yapay zekânın ilk üçü dışından gelme olasılığı her koşu için hesaplanır; yüksek olanlar işaretlenir.</li>
+      <li><b>Koşu simülasyonu:</b> her koşunun altındaki "Yapay zekâ simülasyonu" düğmesiyle atlar pistte koşar. Bitiş sırası yapay zekânın sıralamasıdır, aradaki farklar kazanma şansına göre açılır, yarış içindeki yerleri atın koşu tarzı (önden ya da geriden) belirler. Gerçek sonucu göstermez; koşu bittikten sonra aynı pistte gerçek sonucun tekrarı izlenebilir.</li>
+      <li><b>Altılı ganyan ve Kupon Sihirbazı:</b> hazır küçük ve geniş kuponlar, altılının zorluğu; sihirbazda altı ayak yan yana, kombinasyon, tutar ve tutma ihtimali anında hesaplanır. Günün altılıları: <a href="/altili-ganyan/">Altılı ganyan</a>.</li>
+      <li><b>Yapay zekânın kupon önerileri:</b> en zayıf ayak, en verimli ekleme, en az katkılı at ve geçmiş veriye dayanan sürpriz tiyoları (üst grup tecrübesi, en iyi derece, galop, mesafe, handikap puanı, jokey formu).</li>
+      <li><b>Şeffaf karne:</b> yapay zekânın görmediği 2.431 koşuluk test döneminde (27 Haziran – 10 Kasım 2026) kazananı ilk 3'te gösterme %67,5 (AGF %65,7), kazananı birinci bilme %33,6 (AGF %32,7). Güncel rakamlar: <a href="/istatistikler/">İstatistikler</a>.</li>
+      <li><b>Ve dahası:</b> Kasketli Kurt yorumları, değer ganyanı, at karşılaştırma, Analiz Motoru, <a href="/at/">at</a> ve <a href="/jokey/">jokey</a> sayfaları, <a href="/rehber/">rehber</a>.</li>
+    </ul>
+    <p class="kucuk">Altılı kuponları ve değer bahisleri geçmiş testlerde kâr getirmedi; site bunu açıkça yazar. Atgoritma bilgi ve eğlence amaçlıdır, bahis tavsiyesi değildir ve kazanç vaat etmez; 18 yaş altına uygun değildir. Sorumlu oyun: YEDAM 115. Resmi bilgi için tjk.org esastır. <a href="/yasal/">Yasal uyarı</a> · <a href="/tanitim/nasil-kullanilir/">Site nasıl kullanılır?</a></p>
+  </div>
+</section>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Atgoritma tanıtımı","url":"https://atgoritma.com/tanitim/","inLanguage":"tr","description":"TJK'nın resmi verisiyle eğitilen yapay zekâ destekli at yarışı analiz sitesi Atgoritma'nın öne çıkan özellikleri.","isPartOf":{"@type":"WebSite","name":"Atgoritma","url":"https://atgoritma.com/"},"mainEntity":{"@type":"ItemList","name":"Atgoritma'nın öne çıkan özellikleri","itemListElement":[{"@type":"ListItem","position":1,"name":"Yapay zekâ ile at yarışı tahmini"},{"@type":"ListItem","position":2,"name":"Kazanma şansı ve AGF karşılaştırması"},{"@type":"ListItem","position":3,"name":"Sürpriz ihtimali"},{"@type":"ListItem","position":4,"name":"Koşu simülasyonu"},{"@type":"ListItem","position":5,"name":"Altılı ganyan ve Kupon Sihirbazı"},{"@type":"ListItem","position":6,"name":"Yapay zekânın kupon önerileri ve sürpriz tiyoları"},{"@type":"ListItem","position":7,"name":"Şeffaf karne"}]}}</script>
 
 <script>
 (function () {
-  const ADIM = [
-    { e: "YAPAY ZEKÂ", ek: "Hoş geldin", menu: -1, b: "Yapay zekâ ile <em>at yarışı</em>", alt: "20 bine yakın koşuyla eğitildi. Her koşuda her ata bir kazanma şansı verir." },
-    { e: "NASIL DÜŞÜNÜR", ek: "Yapay zekâ", menu: -1, b: "Veriden <em>şansa</em>", alt: "Form, derece, galop, jokey, pist ve halkın tahmini birlikte tartılır." },
-    { e: "SİMÜLASYON", ek: "Simülasyon", menu: -1, b: "Koşuyu <em>önceden</em> izle", alt: "Atlar yapay zekânın sıralamasıyla koşar; koşu tarzı yarıştaki yerini belirler." },
-    { e: "MENÜLER", ek: "Menüler", menu: 0, b: "Her şey bir <em>dokunuşta</em>", alt: "Ana, Yarışlar, Altılı, Kupon ve İstatistik." },
-    { e: "YARIŞLAR", ek: "Yarışlar", menu: 1, b: "Tabloyu <em>oku</em>", alt: "Altın şerit yapay zekâ favorisi, mor şerit halkın gözden kaçırdığı sürpriz." },
-    { e: "AT ÖZETİ", ek: "Yarışlar", menu: 1, b: "Ata dokun, <em>özet</em> açılsın", alt: "Mesafe, pist, kilo, galop ve jokey formu anında karşında." },
-    { e: "KOŞUNUN HİKÂYESİ", ek: "Yarışlar", menu: 1, b: "Koşuyu <em>tek bakışta</em> anla", alt: "Favori gücü, tempo, en hızlı galop; tek dokunuşla sürprizleri vurgula." },
-    { e: "ALTILI GANYAN", ek: "Altılı", menu: 2, b: "Hazır <em>altılı</em> kuponları", alt: "Küçük ve geniş kupon, tutma ihtimali ve altılının zorluğuyla." },
-    { e: "KUPON SİHİRBAZI", ek: "Kupon", menu: 3, b: "Kendi kuponunu <em>kur</em>", alt: "Altı ayak yan yana: dokun, seç; tutar ve tutma ihtimali anında hesaplanır." },
-    { e: "ŞEFFAF KARNE", ek: "İstatistik", menu: 4, b: "Her gün <em>açık</em> karne", alt: "Kilitlenen tahminler, halkın tahminiyle yan yana. Sonuçlar garanti değildir." },
-  ];
-  const SURE = 4800, SURE_AD = { 0: 5200, 2: 7200, 3: 5200, 8: 6200 };
-  const AZ = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let a = 0, oyn = false, bas = 0, kalan = SURE, zam = null, raf = null, sihZam = [], basladi = false;
-  const $ = (id) => document.getElementById(id);
-  const P = [...document.querySelectorAll(".parca")];
-  const alt = [...document.querySelectorAll("#ekAlt span")];
-  $("cubuklar").innerHTML = ADIM.map(() => "<span><i></i></span>").join("");
-  const CB = [...document.querySelectorAll("#cubuklar span")];
+  var kok = document.documentElement, film = document.getElementById("film");
+  var sahneler = [].slice.call(document.querySelectorAll(".sahne"));
+  var ilerleme = document.getElementById("ilerleme"), cakma = document.getElementById("cakma");
+  var durIk = document.getElementById("durIk"), durDugme = document.getElementById("dur");
+  var simdi = -1, zamanlayici = null, kalan = 0, basladi = 0, durdu = false;
+  var azalt = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Telefonu ekrana sığdır
-  function olcek() {
-    const mob = innerWidth <= 860, h = innerHeight - (mob ? 70 + 34 + ($("baslik").offsetHeight + $("alt").offsetHeight + 40) : 120), w = innerWidth - 32;
-    const o = Math.max(.5, Math.min(1.1, h / 620, w / 320));
-    document.documentElement.style.setProperty("--o", o.toFixed(3));
-  }
-  addEventListener("resize", olcek);
-
-  // Arka plandaki altın parçacıklar
-  (function parcacik() {
-    const c = $("parcacik"), x = c.getContext("2d"); let W, H, N = [];
-    const boy = () => { W = c.width = innerWidth * devicePixelRatio; H = c.height = innerHeight * devicePixelRatio; };
-    boy(); addEventListener("resize", boy);
-    for (let i = 0; i < 70; i++) N.push({ x: Math.random(), y: Math.random(), r: .6 + Math.random() * 1.8, v: .0004 + Math.random() * .0012, s: Math.random() * 6.28 });
-    const ciz = (t) => {
-      x.clearRect(0, 0, W, H);
-      N.forEach((n) => { n.y -= n.v; if (n.y < -0.02) { n.y = 1.02; n.x = Math.random(); }
-        const al = .25 + .35 * Math.sin(t / 900 + n.s);
-        x.beginPath(); x.fillStyle = `rgba(255,214,110,${al.toFixed(2)})`; x.arc((n.x + .01 * Math.sin(t / 2000 + n.s)) * W, n.y * H, n.r * devicePixelRatio, 0, 6.29); x.fill(); });
-      if (!AZ) requestAnimationFrame(ciz);
-    };
-    requestAnimationFrame(ciz);
-  })();
-
-  // Kupon sihirbazı sahnesi: dokunuşlarla seçim
-  const AY = [[["3", 31], ["7", 15, 1], ["1", 14], ["5", 11], ["2", 9]], [["2", 44], ["8", 21], ["4", 9], ["6", 7], ["1", 5]],
-    [["5", 62], ["1", 18], ["6", 7], ["3", 5], ["2", 3]], [["4", 24], ["9", 22], ["2", 13], ["11", 12, 1], ["7", 9]],
-    [["3", 35], ["6", 20], ["1", 16], ["8", 9], ["2", 6]], [["7", 28], ["2", 23], ["4", 15], ["1", 12], ["9", 8]]];
-  const ZOR = ["z", "n", "n", "z", "n", "z"];
-  const ON = [[0, 1, 2], [0, 1], [0], [0, 1, 2, 3], [0, 1, 2], [0, 1, 2, 3, 4]];
-  function sihKur() {
-    $("sIzgara").innerHTML = AY.map((l, i) => `<div class="m-ayak"><i>${i + 1}.</i><em class="${ZOR[i]}">${ZOR[i] === "n" ? "Net" : "Zor"}</em>${l.map(([n, p, u], j) => `<span class="m-at${u ? " u" : ""}" data-a="${i}-${j}">${n}<small>%${p}</small></span>`).join("")}</div>`).join("");
-    ["sKomb", "sTutar", "sTutma"].forEach((x) => { $(x).textContent = "-"; });
-  }
-  function sihOyna() {
-    sihKur();
-    const S = AY.map(() => new Set());
-    const hesap = () => {
-      const k = S.reduce((t, s) => t * s.size, 1), tut = S.reduce((t, s, i) => t * [...s].reduce((u, j) => u + AY[i][j][1], 0) / 100, 1);
-      $("sKomb").textContent = k.toLocaleString("tr-TR"); $("sTutar").textContent = "₺" + (k * 1.25).toLocaleString("tr-TR", { maximumFractionDigits: 0 });
-      $("sTutma").textContent = "%" + (100 * tut).toLocaleString("tr-TR", { maximumFractionDigits: 1, minimumFractionDigits: 1 });
-    };
-    const dokun = (el) => { const d = $("sDokun"), ek = $("ekIcerik").getBoundingClientRect(), r = el.getBoundingClientRect();
-      d.style.left = (r.left - ek.left + r.width / 2) + "px"; d.style.top = (r.top - ek.top + r.height / 2) + "px";
-      d.style.animation = "none"; void d.offsetWidth; d.style.animation = "dokun .8s ease-out both"; };
-    // 1) hazır küçük kupon yüklenir, 2) ipucu çıkar, 3) önerilen at eklenir
-    sihZam.push(setTimeout(() => { ON.forEach((l, i) => l.forEach((j) => { S[i].add(j); document.querySelector(`[data-a="${i}-${j}"]`).classList.add("s"); })); hesap(); }, 500));
-    sihZam.push(setTimeout(() => { const el = document.querySelector('[data-a="2-1"]'); dokun(el); el.classList.add("s"); S[2].add(1); hesap(); }, 3600));
-  }
-  function sayacOyna() {
-    const el = $("sayac"), H = 19885, t0 = performance.now() + 250;
-    const f = (t) => { const u = Math.max(0, Math.min(1, (t - t0) / 1100)); el.textContent = Math.round(H * (1 - Math.pow(1 - u, 3))).toLocaleString("tr-TR"); if (u < 1 && a === 0) requestAnimationFrame(f); };
-    requestAnimationFrame(f);
-  }
-  // Yarış simülasyonu: bitiş sırası yapay zekâ sırası, aradaki farklar şansa göre; koşu tarzı (önde/geride) yarış içi konumu belirler
-  const SIM = [["3", "RÜZGAR OĞLU", 31, "#d32f2f", "#fff", .25], ["7", "GECE YILDIZI", 15, "#8e44ad", "#fff", -.35], ["1", "DEMİR ASLAN", 14, "#1e63d6", "#fff", .45],
-    ["5", "ALTIN KANAT", 11, "#f2c94c", "#111", -.1], ["2", "KARA ŞİMŞEK", 9, "#2e9d4f", "#fff", .1], ["4", "BEYAZ İNCİ", 7, "#f5f5f5", "#111", -.2]];
-  let simRaf = null;
-  function simOyna() {
-    cancelAnimationFrame(simRaf);
-    const pist = $("pist"), sonuc = $("simSonuc");
-    pist.querySelectorAll(".serit").forEach((x) => x.remove()); sonuc.innerHTML = "";
-    const S = SIM.map((h, i) => { const d = document.createElement("div"); d.className = "serit"; d.innerHTML = `<span class="kosucu" style="background:${h[3]};color:${h[4]}">${h[0]}</span>`; pist.appendChild(d); return d.firstChild; });
-    const L = pist.clientWidth - 52, T0 = 4300;
-    const sure = SIM.map((h, i) => T0 * (1 + i * 0.035 + (i ? 0.012 : 0)));
-    const bas = performance.now() + 350, bit = new Set();
-    const kare = (t) => {
-      const ms = t - bas;
-      S.forEach((el, i) => {
-        const u = Math.max(0, Math.min(1, ms / sure[i])), a_ = SIM[i][5];
-        const x = L * (u + a_ * u * (1 - u));
-        el.style.transform = `translateX(${Math.max(0, x)}px)`;
-        el.classList.toggle("hiz", u > 0 && u < 1);
-        if (u >= 1 && !bit.has(i)) { bit.add(i); const h = SIM[i];
-          sonuc.insertAdjacentHTML("beforeend", `<div><i style="background:${h[3]};color:${h[4]}">${h[0]}</i><span>${bit.size}.</span><span>${h[1]}</span><em>YZ %${h[2]}</em></div>`);
-          const son = sonuc.lastElementChild; setTimeout(() => son.classList.add("gor"), 20);
-          [...sonuc.children].slice(3).forEach((x) => x.remove()); }
-      });
-      if (bit.size < S.length && a === 2) simRaf = requestAnimationFrame(kare);
-    };
-    simRaf = requestAnimationFrame(kare);
-  }
-  function menuOyna() {
-    const ad = ["Ana", "Yarışlar", "Altılı", "Kupon", "İstatistik", "Daha"];
-    ad.forEach((x, i) => sihZam.push(setTimeout(() => {
-      alt.forEach((s, k) => s.classList.toggle("on", k === i));
-      const n = $("menuNot"), w = $("ekAlt").getBoundingClientRect().width;
-      n.textContent = x; n.style.left = ((i + .5) * w / 6) + "px";
-    }, 200 + i * 750)));
-  }
-  function vurguOyna() {
-    sihZam.push(setTimeout(() => { $("vurguChip").classList.add("on"); document.querySelectorAll('#pVurgu .vs').forEach((x) => { x.style.opacity = ".3"; }); }, 2100));
-  }
-  function baslikYaz(html) {
-    const t = document.createElement("div"); t.innerHTML = html; let n = 0, out = "";
-    t.childNodes.forEach((d) => {
-      if (d.nodeType === 3) d.textContent.split(/(\s+)/).forEach((w) => { if (!w) return; out += /^\s+$/.test(w) ? w : `<span class="k" style="animation-delay:${(0.05 * n++).toFixed(2)}s">${w}</span>`; });
-      else out += `<em class="k" style="animation-delay:${(0.05 * n++).toFixed(2)}s, ${(0.8 + 0.05 * n).toFixed(2)}s">${d.textContent}</em>`;
-    });
-    return out;
-  }
-  function goster(i, yon = 1) {
-    sihZam.forEach(clearTimeout); sihZam = [];
-    a = Math.max(0, Math.min(ADIM.length - 1, i));
-    const x = ADIM[a];
-    const sl = $("silme"); sl.classList.remove("git"); void sl.offsetWidth; if (!AZ) sl.classList.add("git");
-    const fl = $("flas"); fl.classList.remove("git"); void fl.offsetWidth; if (!AZ) fl.classList.add("git");
-    const hy = $("hayalet"); hy.textContent = String(a + 1).padStart(2, "0"); hy.classList.remove("vur"); void hy.offsetWidth; hy.classList.add("vur");
-    const td = $("telDon"); td.classList.remove("giris-sag", "giris-sol"); void td.offsetWidth; td.classList.add(yon > 0 ? "giris-sag" : "giris-sol");
-    P.forEach((p, k) => { p.classList.toggle("aktif", k === a); p.classList.remove("oyna"); });
-    void P[a].offsetWidth; P[a].classList.add("oyna");
-    document.querySelectorAll('#pVurgu .vs').forEach((y) => { y.style.opacity = ""; }); $("vurguChip").classList.remove("on");
-    alt.forEach((s, k) => s.classList.toggle("on", k === x.menu));
-    $("ekBaslik").textContent = x.ek;
-    $("etiket").innerHTML = `<img src="/ikon-192.png" alt="">ATGORİTMA · ${x.e}`;
-    $("baslik").innerHTML = baslikYaz(x.b);
-    const al = $("alt"); al.textContent = x.alt; al.classList.remove("gor"); void al.offsetWidth; al.classList.add("gor");
-    $("arka").style.setProperty("--gx", (20 + (a * 37) % 70) + "%"); $("arka").style.setProperty("--gy", (10 + (a * 23) % 60) + "%");
-    CB.forEach((c, k) => { c.classList.toggle("bitti", k < a); c.firstChild.style.width = k < a ? "100%" : "0"; });
-    olcek();
-    if (a === 0) sayacOyna();
-    if (a === 2) simOyna();
-    if (a === 3) menuOyna();
-    if (a === 6) vurguOyna();
-    if (a === 8) sihOyna();
-    kalan = SURE_AD[a] || SURE; zamanla();
-  }
-  function zamanla() {
-    clearTimeout(zam); cancelAnimationFrame(raf);
-    const T = SURE_AD[a] || SURE;
-    if (!oyn) { CB[a].firstChild.style.width = (100 * (1 - kalan / T)) + "%"; return; }
-    bas = performance.now();
-    const ciz = () => { const g = T - kalan + (performance.now() - bas); CB[a].firstChild.style.width = Math.min(100, 100 * g / T) + "%"; if (oyn) raf = requestAnimationFrame(ciz); };
-    ciz();
-    zam = setTimeout(() => { if (a < ADIM.length - 1) goster(a + 1); else bitir(); }, kalan);
-  }
-  function durdur(g) {
-    const d = $("durdu"); $("durduIk").innerHTML = g ? '<path d="M7 5h3v14H7zM14 5h3v14h-3z"/>' : '<path d="M7 4l13 8-13 8z"/>';
-    d.classList.add("gor"); clearTimeout(durdur.z); durdur.z = setTimeout(() => d.classList.remove("gor"), 700);
-  }
-  function oynatDegis() {
-    if (!basladi) return;
-    if (oyn) { oyn = false; kalan -= performance.now() - bas; zamanla(); durdur(true); }
-    else { oyn = true; zamanla(); durdur(false); }
-  }
-  function basla() {
-    if (basladi) return; basladi = true; clearTimeout(basla.z);
-    $("intro").classList.add("kapali"); $("outro").classList.add("kapali");
-    oyn = true; goster(0);
-  }
-  function bitir() {
-    oyn = false; CB.forEach((c) => { c.classList.add("bitti"); c.firstChild.style.width = "100%"; });
-    $("outro").classList.remove("kapali");
-  }
-  $("izle").onclick = basla;
-  basla.z = setTimeout(basla, 2700);
-  $("tekrar").onclick = () => { $("outro").classList.add("kapali"); oyn = true; goster(0); };
-  $("dGeri").onclick = () => basladi && goster(a - 1, -1);
-  $("dIleri").onclick = () => { if (!basladi) return; if (a < ADIM.length - 1) goster(a + 1); else bitir(); };
-  $("dDur").onclick = oynatDegis;
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowRight") $("dIleri").click(); else if (e.key === "ArrowLeft") $("dGeri").click();
-    else if (e.key === " " || e.key === "Enter") { e.preventDefault(); basladi ? oynatDegis() : basla(); }
+  sahneler.forEach(function (s, i) {
+    var b = document.createElement("button");
+    b.type = "button"; b.setAttribute("aria-label", (i + 1) + ". sahne: " + s.getAttribute("aria-label"));
+    b.innerHTML = "<i><u></u></i>";
+    b.addEventListener("click", function () { git(i); });
+    ilerleme.appendChild(b);
   });
-  $("paylas").onclick = async () => {
-    const url = "https://atgoritma.com/tanitim/";
-    try { if (navigator.share) { await navigator.share({ title: "Atgoritma: yapay zekâ ile at yarışı", url }); return; } await navigator.clipboard.writeText(url); $("paylasNot").textContent = "Bağlantı kopyalandı: " + url; }
-    catch (e) { $("paylasNot").textContent = "Bağlantı: " + url; }
-  };
-  // İlk sahne arka planda hazır dursun (giriş ekranının arkasında)
-  goster(0); oyn = false; clearTimeout(zam);
+  var cubuklar = [].slice.call(ilerleme.children);
+
+  // Sayılar sıfırdan hedefe sayar; sayfadaki yazı zaten son değerdir (betik çalışmasa da doğru görünür)
+  function say(el) {
+    var hedef = parseFloat(el.dataset.say), ond = parseInt(el.dataset.ond || "0", 10), on = el.dataset.on || "";
+    var gec = parseInt(el.dataset.gec || "450", 10), sure = 900, t0 = null;
+    var yaz = function (v) { el.textContent = on + v.toLocaleString("tr-TR", { minimumFractionDigits: ond, maximumFractionDigits: ond }); };
+    yaz(0);
+    el._say = setTimeout(function () {
+      (function adim(t) {
+        if (t0 === null) t0 = t;
+        var k = Math.min((t - t0) / sure, 1); k = 1 - Math.pow(1 - k, 3);
+        yaz(hedef * k);
+        if (k < 1) el._kare = requestAnimationFrame(adim); else yaz(hedef);
+      })(performance.now());
+    }, gec);
+  }
+  function sayDurdur(s) {
+    s.querySelectorAll("[data-say]").forEach(function (el) {
+      clearTimeout(el._say); cancelAnimationFrame(el._kare);
+      var ond = parseInt(el.dataset.ond || "0", 10);
+      el.textContent = (el.dataset.on || "") + parseFloat(el.dataset.say).toLocaleString("tr-TR", { minimumFractionDigits: ond, maximumFractionDigits: ond });
+    });
+  }
+
+  function git(i) {
+    i = Math.max(0, Math.min(sahneler.length - 1, i));
+    if (i === simdi) return;
+    var eski = sahneler[simdi], yeni = sahneler[i];
+    if (eski) {
+      sayDurdur(eski);
+      eski.classList.remove("acik"); eski.classList.add("cikan");
+      setTimeout(function () { eski.classList.remove("cikan"); }, 460);
+      cakma.classList.remove("vur"); void cakma.offsetWidth; cakma.classList.add("vur");
+    }
+    simdi = i;
+    yeni.classList.remove("cikan"); yeni.classList.add("acik");
+    if (!kok.classList.contains("durgun")) yeni.querySelectorAll("[data-say]").forEach(say);
+    var sure = parseInt(yeni.dataset.sure, 10) || 0;
+    cubuklar.forEach(function (c, j) {
+      c.classList.toggle("gecti", j < i || (j === i && !sure));
+      c.classList.remove("simdi");
+      c.setAttribute("aria-current", j === i ? "step" : "false");
+    });
+    if (sure) { void cubuklar[i].offsetWidth; cubuklar[i].style.setProperty("--sure", sure + "ms"); cubuklar[i].classList.add("simdi"); }
+    clearTimeout(zamanlayici); kalan = sure; basladi = performance.now();
+    if (sure && !durdu) zamanlayici = setTimeout(function () { git(simdi + 1); }, sure);
+  }
+  function duraklat(d) {
+    durdu = d; film.classList.toggle("duraklat", d);
+    durIk.innerHTML = d ? '<path d="M7 4v16l13-8z"/>' : '<path d="M7 5h3v14H7zM14 5h3v14h-3z"/>';
+    durDugme.setAttribute("aria-label", d ? "Oynat" : "Duraklat");
+    clearTimeout(zamanlayici);
+    if (d) kalan = Math.max(0, kalan - (performance.now() - basladi));
+    else if (kalan) { basladi = performance.now(); zamanlayici = setTimeout(function () { git(simdi + 1); }, kalan); }
+  }
+  function bastan() { simdi = -1; sahneler.forEach(function (s) { s.classList.remove("acik", "cikan"); }); if (durdu) duraklat(false); git(0); }
+
+  document.getElementById("geri").addEventListener("click", function () { git(simdi - 1); });
+  document.getElementById("ileri").addEventListener("click", function () { git(simdi + 1); });
+  durDugme.addEventListener("click", function () { duraklat(!durdu); });
+  document.getElementById("bastan").addEventListener("click", bastan);
+  document.addEventListener("keydown", function (e) {
+    if (e.target.closest("a, button") && e.key === " ") return;
+    if (e.key === "ArrowRight") git(simdi + 1);
+    else if (e.key === "ArrowLeft") git(simdi - 1);
+    else if (e.key === " ") { e.preventDefault(); duraklat(!durdu); }
+  });
+  // Sekme arka plana geçince film bekler, dönünce kaldığı yerden sürer
+  var gizliDurdu = false;
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden && !durdu) { gizliDurdu = true; duraklat(true); }
+    else if (!document.hidden && gizliDurdu) { gizliDurdu = false; duraklat(false); }
+  });
+
+  // Paylaş: telefonun paylaşım menüsü; yoksa bağlantı panoya kopyalanır
+  document.getElementById("paylas").addEventListener("click", async function () {
+    var url = "https://atgoritma.com/tanitim/", not = document.getElementById("paylasNot");
+    try {
+      if (navigator.share) { await navigator.share({ title: "Atgoritma: yapay zekâ ile at yarışı tahmini", url: url }); return; }
+      await navigator.clipboard.writeText(url); not.textContent = "Bağlantı kopyalandı: " + url;
+    } catch (e) { if (e && e.name !== "AbortError") not.textContent = "Bağlantı: " + url; }
+  });
+  // Sahneye dokunma: sol üçte bir geri, sağ üçte bir ileri, orta duraklat ya da oynat
+  var perde = document.getElementById("perde");
+  perde.addEventListener("click", function (e) {
+    if (e.target.closest("a, button") || kok.classList.contains("durgun")) return;
+    var r = perde.getBoundingClientRect(), x = (e.clientX - r.left) / r.width;
+    if (x < 0.3) git(simdi - 1); else if (x > 0.7) git(simdi + 1); else duraklat(!durdu);
+  });
+
+  // "Hareketi azalt" açıksa film kendiliğinden başlamaz; düğmeye basılırsa hareketli oynar
+  if (azalt) {
+    kok.classList.add("durgun"); durdu = true; git(0); duraklat(true);
+    document.getElementById("hareketAc").addEventListener("click", function () { kok.classList.remove("durgun"); bastan(); });
+  } else git(0);
 })();
 </script>
-
 </body>
 </html>
