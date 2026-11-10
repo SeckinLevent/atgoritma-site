@@ -30,14 +30,14 @@
 - 9. koşu (18.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 2 BALCIDEDE, kazanma şansı %22; sürpriz ihtimali %49.
 
 ### Kocaeli
-- 1. koşu (17.15 · Handikap 17/DHÖW /H2 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 2 CANYAMAN, kazanma şansı %26; sürpriz ihtimali %36.
-- 2. koşu (17.45 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 AKÇAALİ, kazanma şansı %25; sürpriz ihtimali %38.
+- 1. koşu (17.15 · Handikap 17/DHÖW /H2 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 2 CANYAMAN, kazanma şansı %25; sürpriz ihtimali %36.
+- 2. koşu (17.45 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 AKÇAALİ, kazanma şansı %26; sürpriz ihtimali %37.
 - 3. koşu (18.30 · ŞARTLI 4 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 3 BOLD RUNNER, kazanma şansı %36; sürpriz ihtimali %18.
 - 4. koşu (19.00 · Handikap 15/DHÖW/Dişi /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 CABİRE SULTAN, kazanma şansı %23; sürpriz ihtimali %32.
 - 5. koşu (19.30 · ŞARTLI 3/Dişi/Y2 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 1 I RO, kazanma şansı %26; sürpriz ihtimali %42.
-- 6. koşu (20.00 · KV-8/DHT · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 ALTINBORA, kazanma şansı %31; sürpriz ihtimali %18.
-- 7. koşu (20.30 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 BRAVE ATHENA, kazanma şansı %30; sürpriz ihtimali %28.
-- 8. koşu (21.00 · Handikap 15 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 5 GRANDE TEMPESTA, kazanma şansı %42; sürpriz ihtimali %26.
+- 6. koşu (20.00 · KV-8/DHT · 3 Yaşlı Araplar · 1500 m · Kum): favori 2 ALTINBORA, kazanma şansı %30; sürpriz ihtimali %19.
+- 7. koşu (20.30 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 BRAVE ATHENA, kazanma şansı %29; sürpriz ihtimali %28.
+- 8. koşu (21.00 · Handikap 15 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 5 GRANDE TEMPESTA, kazanma şansı %43; sürpriz ihtimali %25.
 - 9. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 5 KAPTAN İRFAN, kazanma şansı %19; sürpriz ihtimali %51.
 
 ## Sayfalar
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 10.11.2026 07:04
+Güncellendi: 10.11.2026 07:52
