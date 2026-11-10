@@ -82,6 +82,7 @@ button.altin { background: linear-gradient(180deg, var(--gold2), var(--gold) 55%
   <p id="gAlt">Yükleniyor…</p>
   <button class="buyuk" id="basla" type="button" aria-label="Yarışı başlat" hidden><svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z"/></svg></button>
   <small>Kamera: 1 Jokey · 2 Takip · 3 Yayın · 4 Havadan · ← → at değiştir</small>
+  <small>At modeli: mirada, "3 Dreams of Black" (ro.me), Apache 2.0</small>
 </div></div>
 <div class="ortu" id="bitis" hidden><div class="kart">
   <h1 id="bBaslik"></h1>
@@ -90,8 +91,12 @@ button.altin { background: linear-gradient(180deg, var(--gold2), var(--gold) 55%
   <div class="dugmeler"><button class="altin" type="button" id="tekrar2">↺ Yeniden izle</button><button type="button" id="sonraki">Sonraki koşu ›</button><a href="/#yarislar"><button type="button">Siteye dön</button></a></div>
 </div></div>
 
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }</script>
 <script type="module">
-import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js";
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+let MODEL = null;  // hazır at modeli (at.glb); yüklenemezse kodla çizilen at kullanılır
+const M_OLCEK = .0092, M_YON = Math.PI, M_JOKEY = 1.55;
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -259,9 +264,9 @@ function atYap(no, ad, p) {
   const eyer = kure(.2, .06, .26, deri, 0, 1.86, .02, govde);
   const nd = doku(128, 96, (x) => { x.fillStyle = f; x.fillRect(0, 0, 128, 96); x.strokeStyle = ACIK.includes(f) ? "#111" : "#fff"; x.lineWidth = 5; x.strokeRect(4, 4, 120, 88); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 70px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 64, 52); });
   const nm = new THREE.MeshBasicMaterial({ map: nd });
-  [-1, 1].forEach((y) => { const o = new THREE.Mesh(new THREE.PlaneGeometry(.46, .34), nm); o.position.set(y * .355, 1.52, .06); o.rotation.y = y * Math.PI / 2; o.rotation.x = 0; govde.add(o); });
+  [-1, 1].forEach((y) => { const o = new THREE.Mesh(new THREE.PlaneGeometry(.46, .34), nm); o.position.set(y * .355, 1.52, .06); o.rotation.y = y * Math.PI / 2; o.rotation.x = 0; o.userData.kal = true; o.userData.ortu = y; govde.add(o); });
   // jokey: öne eğik gövde, kasklı baş, kollar dizginde, dizler bükük
-  const jokey = new THREE.Group(); jokey.position.set(0, 1.9, .1); govde.add(jokey);
+  const jokey = new THREE.Group(); jokey.position.set(0, 1.9, .1); jokey.userData.kal = true; govde.add(jokey);
   const govJ = new THREE.Mesh(new THREE.CapsuleGeometry(.135, .3, 4, 12), ipek); govJ.rotation.x = -1.1; govJ.position.set(0, .26, -.2); govJ.scale.set(1.15, 1, .9); jokey.add(govJ);
   const kusak = new THREE.Mesh(new THREE.TorusGeometry(.14, .035, 6, 14), ipek2); kusak.position.set(0, .2, -.08); kusak.rotation.x = .5; jokey.add(kusak);
   const kask = new THREE.Group(); kask.position.set(0, .45, -.52); jokey.add(kask);
@@ -280,7 +285,15 @@ function atYap(no, ad, p) {
   // etiket
   const et = new THREE.Sprite(new THREE.SpriteMaterial({ map: doku(512, 128, (x) => { x.fillStyle = "rgba(6,12,27,.82)"; x.beginPath(); x.roundRect(4, 14, 504, 100, 26); x.fill(); x.fillStyle = f; x.beginPath(); x.roundRect(16, 26, 92, 76, 16); x.fill(); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 56px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 62, 66); x.fillStyle = "#fff"; x.font = "700 40px Arial"; x.textAlign = "left"; let a = ad; while (x.measureText(a).width > 270 && a.length > 4) a = a.slice(0, -2); x.fillText(a === ad ? a : a + "…", 122, 66); x.fillStyle = "#f5c542"; x.textAlign = "right"; x.font = "800 40px Arial"; x.fillText("%" + Math.round(100 * p), 496, 66); }), transparent: true, depthWrite: false, sizeAttenuation: false }));
   et.scale.set(.16, .04, 1); et.position.y = 3.1; g.add(et);
-  return { g, govde, boyun, bas, kuyruk, bacak, jokey, kask, et, faz: Math.random() * 6.28, no, ad, p };
+  let mixer = null, dur = 1, jy = 1.86;
+  if (MODEL) {
+    govde.children.forEach((c) => { if (!c.userData.kal) c.visible = false; else if (c.userData.ortu) { c.position.set(c.userData.ortu * .29, M_JOKEY - .22, .1); } });
+    const m = MODEL.mesh.clone(); m.material = MODEL.mesh.material.clone();
+    m.material.color = new THREE.Color(ton).multiplyScalar(1.9).lerp(new THREE.Color(0xffffff), ton === 0xb9b4ae ? .85 : .35); m.material.roughness = .55; m.material.metalness = .05;
+    m.scale.setScalar(M_OLCEK); m.rotation.y = M_YON; m.position.set(0, 0, (M_YON ? -1 : 1) * 26 * M_OLCEK); m.userData.kal = true; m.frustumCulled = false; govde.add(m);
+    mixer = new THREE.AnimationMixer(m); mixer.clipAction(MODEL.clip).play(); dur = MODEL.clip.duration; jy = M_JOKEY; jokey.position.set(0, jy, .12); jokey.scale.setScalar(.92);
+  }
+  return { g, govde, boyun, bas, kuyruk, bacak, jokey, kask, et, mixer, dur, jy, faz: Math.random() * 6.28, no, ad, p };
 }
 
 /* ---------- yarış ---------- */
@@ -321,7 +334,8 @@ function ciz(dt) {
     a.govde.position.y = .06 * hz * Math.sin(2 * w); a.govde.rotation.x = .05 * hz * Math.sin(w + .6);
     a.boyun.rotation.x = -.95 - .12 * hz + .13 * hz * Math.sin(w + 1); a.kuyruk.rotation.x = .9 + .5 * hz + .15 * Math.sin(w);
     a.bacak.forEach((b) => { const f = w + b.faz; b.ust.rotation.x = (b.on ? .95 : .8) * hz * Math.sin(f); b.diz.rotation.x = (b.on ? 1 : -1) * 1.1 * hz * Math.max(0, Math.sin(f + (b.on ? 1.3 : -1.3))); });
-    a.jokey.position.y = 1.86 + .05 * hz * Math.sin(2 * w + 1);
+    a.jokey.position.y = a.jy + .05 * hz * Math.sin(2 * w + 1);
+    if (a.mixer) { a.govde.position.y = 0; a.govde.rotation.x = 0; a.mixer.setTime((((w / 6.2832) % 1) + 1) % 1 * a.dur * .999); }
   });
   // toz
   if (toz) { const p = toz.geometry.attributes.position, A = p.array;
@@ -334,7 +348,7 @@ function ciz(dt) {
   atlar.forEach((a) => { const kendi = kamera === "jokey" && a === b && durum !== "bekle"; a.jokey.visible = !kendi; a.et.visible = !kendi && a.g.position.distanceTo(cam.position) > 5; });
   let fov = 72;
   if (durum === "bekle") { const a = performance.now() / 9000; hY.set(Math.sin(a) * 15, 4.5 + Math.sin(a * 2), 9 + Math.cos(a) * 9); hB.set(0, 1.5, -4); fov = 55; }
-  else if (kamera === "jokey") { hY.set(b.x, 2.5 + .06 * hz * Math.sin(2 * w + 1), -b.s + .25); hB.set(b.x * .93, 1.7, -b.s - 30); fov = 74 + 12 * hz; }
+  else if (kamera === "jokey") { hY.set(b.x, b.jy + .62 + .06 * hz * Math.sin(2 * w + 1), -b.s + .3); hB.set(b.x * .93, 1.7, -b.s - 30); fov = 74 + 12 * hz; }
   else if (kamera === "takip") { hY.set(b.x + 1.4, 3.3, -b.s + 6.5); hB.set(b.x, 1.6, -b.s - 8); fov = 62 + 8 * hz; }
   else if (kamera === "yayin") { hY.set(genislik / 2 + 11, 4.2, -lider.s + 5); hB.set(0, 1.3, -lider.s + 2); fov = 30; }
   else { hY.set(-genislik / 2 - 6, 26, -lider.s + 16); hB.set(0, 0, -lider.s - 6); fov = 50; }
@@ -381,6 +395,8 @@ addEventListener("keydown", (e) => {
 });
 
 (async () => {
+  try { const gl = await new GLTFLoader().loadAsync("at.glb"); let m = null; gl.scene.traverse((o) => { if (o.isMesh && !m) m = o; }); if (m && gl.animations.length) MODEL = { mesh: m, clip: gl.animations[0] }; } catch (e) {}
+  kamSec("yayin");
   V = await veriAl();
   if (!V || !(V.gunler || []).length) { $("gAlt").textContent = "Veri alınamadı. Lütfen sayfayı yenileyin."; return; }
   kosulariKur();
