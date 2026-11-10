@@ -38,7 +38,7 @@
 - 6. koşu (20.00 · KV-8/DHT · 3 Yaşlı Araplar · 1500 m · Kum): favori 4 GÜRDALHAN, kazanma şansı %40; sürpriz ihtimali %12. Sonuç: kazanan 5 SALGUR.
 - 7. koşu (20.30 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 BRAVE ATHENA, kazanma şansı %45; sürpriz ihtimali %26. Sonuç: kazanan 1 BRAVE ATHENA.
 - 8. koşu (21.00 · Handikap 15 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 5 GRANDE TEMPESTA, kazanma şansı %44; sürpriz ihtimali %27. Sonuç: kazanan 3 KING MAHİR.
-- 9. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 5 KAPTAN İRFAN, kazanma şansı %41; sürpriz ihtimali %36.
+- 9. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 5 KAPTAN İRFAN, kazanma şansı %41; sürpriz ihtimali %36. Sonuç: kazanan 4 ILGARCAN.
 
 ## Sayfalar
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 10.11.2026 21:17
+Güncellendi: 10.11.2026 21:40
