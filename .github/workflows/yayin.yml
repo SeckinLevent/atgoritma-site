@@ -1,0 +1,35 @@
+# atgoritma.com yayını (10 Kasım 2026). GitHub'ın hazır Pages yayını ~12.800 dosyayı 10 dakikada eşitleyemeyip
+# zaman aşımına düşüyordu; burada bekleme süresi 30 dakika ve üst üste gelen yayınlar birbirini iptal etmez, sıraya girer.
+name: Yayın
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  yayin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+      url: ${{ steps.dagit.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: dagit
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
