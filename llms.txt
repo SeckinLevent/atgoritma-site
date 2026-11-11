@@ -19,24 +19,24 @@
 ## 11.11.2026 programı: yapay zekânın favorileri
 
 ### İstanbul
-- 1. koşu (14.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 1 ALAZVUR, kazanma şansı %24; sürpriz ihtimali %31.
-- 2. koşu (14.30 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 8 TOUCH THE MONEY, kazanma şansı %60; sürpriz ihtimali %17.
+- 1. koşu (14.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 1 ALAZVUR, kazanma şansı %24; sürpriz ihtimali %32.
+- 2. koşu (14.30 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 8 TOUCH THE MONEY, kazanma şansı %61; sürpriz ihtimali %17.
 - 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1500 m · Sentetik): favori 2 YONAGUNI, kazanma şansı %27; sürpriz ihtimali %28.
 - 4. koşu (15.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 6 MAVİ HAKAN, kazanma şansı %23; sürpriz ihtimali %50.
-- 5. koşu (16.00 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 2 IRON SKY, kazanma şansı %60; sürpriz ihtimali %12.
-- 6. koşu (16.30 · KV-8/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 1 GÖZPINARI, kazanma şansı %40; sürpriz ihtimali %22.
-- 7. koşu (17.00 · KV-7/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 3 BAMBİ BAMBO, kazanma şansı %34; sürpriz ihtimali %16.
-- 8. koşu (17.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 6 FATİH BAŞKAN, kazanma şansı %39; sürpriz ihtimali %36.
-- 9. koşu (18.00 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 1500 m · Sentetik): favori 15 KONAKLI, kazanma şansı %39; sürpriz ihtimali %41.
+- 5. koşu (16.00 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 2 IRON SKY, kazanma şansı %61; sürpriz ihtimali %10.
+- 6. koşu (16.30 · KV-8/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 1 GÖZPINARI, kazanma şansı %39; sürpriz ihtimali %22.
+- 7. koşu (17.00 · KV-7/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 3 BAMBİ BAMBO, kazanma şansı %33; sürpriz ihtimali %18.
+- 8. koşu (17.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 6 FATİH BAŞKAN, kazanma şansı %40; sürpriz ihtimali %36.
+- 9. koşu (18.00 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 1500 m · Sentetik): favori 15 KONAKLI, kazanma şansı %38; sürpriz ihtimali %42.
 
 ### Elazığ
 - 1. koşu (17.45 · ŞARTLI 4/DHÖW/Dişi · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ELİFİN IŞIĞI, kazanma şansı %26; sürpriz ihtimali %30.
-- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 VAREGON, kazanma şansı %40; sürpriz ihtimali %34.
+- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 VAREGON, kazanma şansı %40; sürpriz ihtimali %33.
 - 3. koşu (19.00 · Handikap 17 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 SIDNEY SHOW, kazanma şansı %21; sürpriz ihtimali %48.
 - 4. koşu (19.30 · Handikap 16/DHÖW /H3 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 2 KING GÖKÇE, kazanma şansı %27; sürpriz ihtimali %48.
 - 5. koşu (20.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 MI GULIETTA, kazanma şansı %31; sürpriz ihtimali %17.
-- 6. koşu (20.30 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1200 m · Kum): favori 3 HÜKÜMSÜREN, kazanma şansı %30; sürpriz ihtimali %20.
-- 7. koşu (21.00 · Handikap 13 /H3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 3 INFERNO BLAZE, kazanma şansı %22; sürpriz ihtimali %37.
+- 6. koşu (20.30 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1200 m · Kum): favori 3 HÜKÜMSÜREN, kazanma şansı %31; sürpriz ihtimali %20.
+- 7. koşu (21.00 · Handikap 13 /H3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 3 INFERNO BLAZE, kazanma şansı %22; sürpriz ihtimali %36.
 - 8. koşu (21.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 5 MEMORY REMAINS, kazanma şansı %27; sürpriz ihtimali %47.
 
 ## Sayfalar
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 11.11.2026 13:23
+Güncellendi: 11.11.2026 13:43
