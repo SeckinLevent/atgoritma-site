@@ -34,7 +34,7 @@
 - 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 VAREGON, kazanma şansı %40; sürpriz ihtimali %31. Sonuç: kazanan 2 MİR KARAN.
 - 3. koşu (19.00 · Handikap 17 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 SIDNEY SHOW, kazanma şansı %20; sürpriz ihtimali %49. Sonuç: kazanan 2 INFORMACTION.
 - 4. koşu (19.30 · Handikap 16/DHÖW /H3 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 2 KING GÖKÇE, kazanma şansı %21; sürpriz ihtimali %52. Sonuç: kazanan 12 GÖZE ÇARPAN.
-- 5. koşu (20.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 MI GULIETTA, kazanma şansı %37; sürpriz ihtimali %16.
+- 5. koşu (20.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 MI GULIETTA, kazanma şansı %37; sürpriz ihtimali %16. Sonuç: kazanan 7 MI GULIETTA.
 - 6. koşu (20.30 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1200 m · Kum): favori 3 HÜKÜMSÜREN, kazanma şansı %29; sürpriz ihtimali %21.
 - 7. koşu (21.00 · Handikap 13 /H3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 1 EGALİTE, kazanma şansı %28; sürpriz ihtimali %30.
 - 8. koşu (21.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 5 MEMORY REMAINS, kazanma şansı %24; sürpriz ihtimali %50.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 11.11.2026 20:15
+Güncellendi: 11.11.2026 20:16
