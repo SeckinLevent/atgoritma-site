@@ -24,7 +24,11 @@ jobs:
       name: github-pages
       url: ${{ steps.dagit.outputs.page_url }}
     steps:
+      # Her iş kendi gönderiminin değil, o anki en güncel sayfanın kopyasını yayınlar: sırada bekleyip geç çalışan
+      # eski bir iş siteyi eski hâline döndüremez (12 Kasım 2026, GitHub arızasında yaşandı).
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
