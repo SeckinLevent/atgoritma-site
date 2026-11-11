@@ -1573,7 +1573,8 @@ nav.alt-menu a.menu-vurgu svg { stroke: var(--gold); }
         <div class="kart-b"><div class="aday-liste">${surprizler.length ? sehirGrup(g, surprizler, (a, b) => b.z.p / b.z.agf - a.z.p / a.z.agf, "surpriz") : `<div class="bos">Bugün AGF'den belirgin ayrışan at yok.</div>`}</div>
         <p class="dipnot">AGF'de 3. sıra ve gerisinde olup yapay zekânın AGF'den en az %25 fazla şans verdiği atlar.</p></div></div>
       <div class="kart"><div class="kart-h"><h3>${IK.bilet}İkili Önerileri</h3></div>
-        <div class="kart-b"><div class="aday-liste">${(() => { const L = ikiliAdaylar(g); return L.length ? ikiliGrup(g, L) : `<div class="bos">Bugün öneri yok.</div>`; })()}</div>
+        <div class="kart-b"><div class="aday-liste">${(() => { const L = ikiliAdaylar(g); if (L.length) return ikiliGrup(g, L); const agfYok = gunTum(g).some((x) => x.k && x.k.piyasa !== "TJK AGF" && !x.r);
+          return `<div class="bos">${agfYok ? "TJK bugünün AGF'sini (halkın tahmini) yayımlayınca ikili önerileri burada çıkacak. Sayfa kendiliğinden yenilenir." : "Bugün halkın bariz favorisi dışında öne çıkan ikili yok."}</div>`; })()}</div>
         <p class="dipnot">İkili: ilk iki atı sırasız bilmek. Her hipodromda halkın bariz gördüğü (ihtimali %20'nin üstü) ikililer dışında, yapay zekâya göre tutma ihtimali en yüksek ikililer. Geçmiş testte koşu başına bu kural %19 tuttu (yapay zekâ %14 bekliyordu), medyan ödeme 6,05 TL. Bilgi amaçlıdır, oynama önerisi değildir.</p></div></div>
     </section>`;
     const uclu = `<section class="ikili-ana" aria-label="Seçili koşu">
