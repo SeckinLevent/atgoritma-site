@@ -37,7 +37,7 @@
 - 5. koşu (20.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 MI GULIETTA, kazanma şansı %37; sürpriz ihtimali %16. Sonuç: kazanan 7 MI GULIETTA.
 - 6. koşu (20.30 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1200 m · Kum): favori 3 HÜKÜMSÜREN, kazanma şansı %29; sürpriz ihtimali %21. Sonuç: kazanan 3 HÜKÜMSÜREN.
 - 7. koşu (21.00 · Handikap 13 /H3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 1 EGALİTE, kazanma şansı %28; sürpriz ihtimali %30. Sonuç: kazanan 2 ÇELİK STAR.
-- 8. koşu (21.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 5 MEMORY REMAINS, kazanma şansı %24; sürpriz ihtimali %50.
+- 8. koşu (21.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 5 MEMORY REMAINS, kazanma şansı %24; sürpriz ihtimali %50. Sonuç: kazanan 1 BOSTON LIGHT.
 
 ## Sayfalar
 
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 11.11.2026 21:15
+Güncellendi: 11.11.2026 21:45
