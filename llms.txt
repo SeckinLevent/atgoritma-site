@@ -30,12 +30,12 @@
 - 9. koşu (18.00 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 1500 m · Sentetik): favori 14 GÜMBÜRHAN, kazanma şansı %22; sürpriz ihtimali %53.
 
 ### Elazığ
-- 1. koşu (17.45 · ŞARTLI 4/DHÖW/Dişi · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ELİFİN IŞIĞI, kazanma şansı %32; sürpriz ihtimali %31.
-- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 VAREGON, kazanma şansı %27; sürpriz ihtimali %33.
-- 3. koşu (19.00 · Handikap 17 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 SIDNEY SHOW, kazanma şansı %27; sürpriz ihtimali %37.
+- 1. koşu (17.45 · ŞARTLI 4/DHÖW/Dişi · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 ELİFİN IŞIĞI, kazanma şansı %32; sürpriz ihtimali %32.
+- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 VAREGON, kazanma şansı %27; sürpriz ihtimali %32.
+- 3. koşu (19.00 · Handikap 17 /H3 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 SIDNEY SHOW, kazanma şansı %28; sürpriz ihtimali %37.
 - 4. koşu (19.30 · Handikap 16/DHÖW /H3 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 5 BIÇKIN KRAL, kazanma şansı %23; sürpriz ihtimali %46.
-- 5. koşu (20.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 MI GULIETTA, kazanma şansı %27; sürpriz ihtimali %30.
-- 6. koşu (20.30 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1200 m · Kum): favori 3 HÜKÜMSÜREN, kazanma şansı %30; sürpriz ihtimali %24.
+- 5. koşu (20.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Kum): favori 7 MI GULIETTA, kazanma şansı %28; sürpriz ihtimali %30.
+- 6. koşu (20.30 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1200 m · Kum): favori 3 HÜKÜMSÜREN, kazanma şansı %31; sürpriz ihtimali %23.
 - 7. koşu (21.00 · Handikap 13 /H3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 2 ÇELİK STAR, kazanma şansı %27; sürpriz ihtimali %28.
 - 8. koşu (21.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 5 MEMORY REMAINS, kazanma şansı %20; sürpriz ihtimali %48.
 
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 11.11.2026 09:33
+Güncellendi: 11.11.2026 09:53
