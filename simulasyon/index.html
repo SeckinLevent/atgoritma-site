@@ -284,7 +284,10 @@ function atYap(no, ad, p) {
   const golge = new THREE.Mesh(new THREE.CircleGeometry(.75, 20), new THREE.MeshBasicMaterial({ color: 0, transparent: true, opacity: .4, depthWrite: false })); golge.rotation.x = -Math.PI / 2; golge.scale.set(.75, 1.75, 1); golge.position.y = .05; g.add(golge);
   // etiket
   const et = new THREE.Sprite(new THREE.SpriteMaterial({ map: doku(512, 128, (x) => { x.fillStyle = "rgba(6,12,27,.82)"; x.beginPath(); x.roundRect(4, 14, 504, 100, 26); x.fill(); x.fillStyle = f; x.beginPath(); x.roundRect(16, 26, 92, 76, 16); x.fill(); x.fillStyle = ACIK.includes(f) ? "#111" : "#fff"; x.font = "800 56px Arial"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(no, 62, 66); x.fillStyle = "#fff"; x.font = "700 40px Arial"; x.textAlign = "left"; let a = ad; while (x.measureText(a).width > 270 && a.length > 4) a = a.slice(0, -2); x.fillText(a === ad ? a : a + "…", 122, 66); x.fillStyle = "#f5c542"; x.textAlign = "right"; x.font = "800 40px Arial"; x.fillText("%" + Math.round(100 * p), 496, 66); }), transparent: true, depthWrite: false, sizeAttenuation: false }));
-  et.scale.set(.16, .04, 1); et.position.y = 3.1; g.add(et);
+  g.add(et);
+  // Küçük numara etiketi: her atın tam üstünde durur (alt kenarı jokeyin kaskına oturur); adlı uzun etiket yalnız seçili atta
+  const etK = new THREE.Sprite(new THREE.SpriteMaterial({ map: nd, transparent: true, depthWrite: false, sizeAttenuation: false })); g.add(etK);
+  et.center.set(.5, 0); etK.center.set(.5, 0);
   let mixer = null, dur = 1, jy = 1.86;
   if (MODEL) {
     govde.children.forEach((c) => { if (!c.userData.kal) c.visible = false; else if (c.userData.ortu) { c.position.set(c.userData.ortu * .29, M_JOKEY - .22, .1); } });
@@ -293,11 +296,12 @@ function atYap(no, ad, p) {
     m.scale.setScalar(M_OLCEK); m.rotation.y = M_YON; m.position.set(0, 0, (M_YON ? -1 : 1) * 26 * M_OLCEK); m.userData.kal = true; m.frustumCulled = false; govde.add(m);
     mixer = new THREE.AnimationMixer(m); mixer.clipAction(MODEL.clip).play(); dur = MODEL.clip.duration; jy = M_JOKEY; jokey.position.set(0, jy, .12); jokey.scale.setScalar(.92);
   }
-  return { g, govde, boyun, bas, kuyruk, bacak, jokey, kask, et, mixer, dur, jy, faz: Math.random() * 6.28, no, ad, p };
+  et.position.y = etK.position.y = jy + (MODEL ? .62 : .68);
+  return { g, govde, boyun, bas, kuyruk, bacak, jokey, kask, et, etK, mixer, dur, jy, faz: Math.random() * 6.28, no, ad, p };
 }
 
 /* ---------- yarış ---------- */
-let sayilan = 9, durum = "bekle", zaman = 0, sonKare = 0, ben = 0, kamera = "jokey", mod = "sim", bitisZ = null;
+let sayilan = 9, durum = "bekle", zaman = 0, sonKare = 0, ben = 0, kamera = "jokey", mod = "sim", bitisZ = null, ondeK = 0;
 const kY = new THREE.Vector3(), kB = new THREE.Vector3(), hY = new THREE.Vector3(), hB = new THREE.Vector3();
 function kur(i, m = "sim") {
   aktif = KOSU[i]; mod = m; $("sKosu").value = i;
@@ -309,7 +313,7 @@ function kur(i, m = "sim") {
   kulvar.forEach((no, j) => { const z = k.atlar.find((x) => x.no === no), a = atYap(no, z.at, z.p); a.x = -(n * 1.55) / 2 + (j + .5) * 1.55; a.plan = plan[no]; a.z = z; a.s = 0; a.v = 0; a.g.position.set(a.x, 0, 0); scene.add(a.g); atlar.push(a); });
   ben = atlar.findIndex((a) => a.no === sira[0]);
   $("sAt").innerHTML = atlar.map((a, j) => `<option value="${j}">${a.no} · ${esc(a.ad)} · %${Math.round(100 * a.p)}</option>`).join(""); $("sAt").value = ben;
-  durum = "bekle"; zaman = 0; bitisZ = null; $("bitis").hidden = true; $("giris").hidden = false;
+  durum = "bekle"; zaman = 0; bitisZ = null; ondeK = 0; $("bitis").hidden = true; $("giris").hidden = false;
   $("gBaslik").innerHTML = `${esc(aktif.s.ad)} <em>${aktif.n}. koşu</em>`;
   $("gAlt").textContent = `${k.mesafe} m ${k.pist} · ${n} at · ${mod === "sonuc" ? "sonuç tekrarı" : "yapay zekâ simülasyonu"}. Jokeyin gözünden izle.`;
   $("basla").hidden = false; history.replaceState(null, "", "#" + aktif.id + (mod === "sonuc" ? "~sonuc" : ""));
@@ -345,13 +349,32 @@ function ciz(dt) {
   // kamera
   const b = atlar[ben]; if (!b) return;
   const lider = atlar.reduce((m, a) => (a.s > m.s ? a : m), atlar[0]), hz = Math.min(1, Math.abs(b.v) / 17), w = b.faz + t * (9 + 5.5 * hz);
-  atlar.forEach((a) => { const kendi = kamera === "jokey" && a === b && durum !== "bekle"; a.jokey.visible = !kendi; a.et.visible = !kendi && a.g.position.distanceTo(cam.position) > 5; });
+  // Etiketler ekranda hep aynı boyda kalır (görüş açısı değişse de): seçili atta adlı etiket, diğerlerinde yalnız numara
+  const tf = 2 * Math.tan(cam.fov * Math.PI / 360);
+  atlar.forEach((a) => { const kendi = kamera === "jokey" && a === b && durum !== "bekle", gor = !kendi && a.g.position.distanceTo(cam.position) > 5; a.jokey.visible = !kendi;
+    a.et.visible = gor && a === b; a.etK.visible = gor && a !== b; a.et.scale.set(.15 * tf, .0375 * tf, 1); a.etK.scale.set(.044 * tf, .033 * tf, 1); });
+  // Kadraj koşu tarzına göre kurulur: önden kaçan ile geriden gelen arasındaki mesafe açıldıkça kamera ikisini de
+  // gösterecek biçimde açılır; seçili at (geriden geliyorsa da) hep görüntüde kalır. Çok gerideki kopuklar kadrajı bozmaz.
+  const enArka = atlar.reduce((m, a) => Math.min(m, a.s), 1e9), arka = Math.min(b.s, Math.max(enArka, lider.s - 40));
+  const orta = (lider.s + arka) / 2, yari = (lider.s - arka) / 2 + 5;
+  ondeK += ((lider === b && durum === "kos" && b.s > 25 ? 1 : 0) - ondeK) * Math.min(1, dt * 1.2);
   let fov = 72;
   if (durum === "bekle") { const a = performance.now() / 9000; hY.set(Math.sin(a) * 15, 4.5 + Math.sin(a * 2), 9 + Math.cos(a) * 9); hB.set(0, 1.5, -4); fov = 55; }
   else if (kamera === "jokey") { hY.set(b.x, b.jy + .62 + .06 * hz * Math.sin(2 * w + 1), -b.s + .3); hB.set(b.x * .93, 1.7, -b.s - 30); fov = 74 + 12 * hz; }
-  else if (kamera === "takip") { hY.set(b.x + 1.4, 3.3, -b.s + 6.5); hB.set(b.x, 1.6, -b.s - 8); fov = 62 + 8 * hz; }
-  else if (kamera === "yayin") { hY.set(genislik / 2 + 11, 4.2, -lider.s + 5); hB.set(0, 1.3, -lider.s + 2); fov = 30; }
-  else { hY.set(-genislik / 2 - 6, 26, -lider.s + 16); hB.set(0, 0, -lider.s - 6); fov = 50; }
+  else if (kamera === "takip") {
+    // Seçili at geriden geliyorsa arkasından bakılır (önündeki atlar görünür); öndeyse kamera öne geçip geriye bakar (peşindekiler görünür)
+    const e = ondeK * ondeK * (3 - 2 * ondeK);
+    hY.set(b.x + 1.4 + 1.6 * e, 3.3 - .9 * e, -b.s + 6.5 - 14.5 * e); hB.set(b.x - e, 1.6, -b.s - 8 + 16 * e); fov = 62 + 8 * hz;
+  }
+  else if (kamera === "yayin") {
+    // Atlar toplu koşarken yandan; ara açıldıkça kamera öne geçip çapraz bakar, böylece baştaki ve sondaki at aynı görüntüye sığar
+    fov = cam.aspect < 1 ? 50 : 36;
+    const D = genislik / 2 + 11, sig = 1.6 * Math.atan(Math.tan(fov * Math.PI / 360) * cam.aspect);
+    let ofs = -2, a1 = 0, a2 = 0;
+    for (; ofs < 90; ofs += .5) { a1 = Math.atan((orta + ofs - lider.s) / D); a2 = Math.atan((orta + ofs - arka) / D); if (a2 - a1 <= sig) break; }
+    hY.set(D, 6, -(orta + ofs)); hB.set(0, 1.3, -(orta + ofs) + D * Math.tan((a1 + a2) / 2));
+  }
+  else { hY.set(-genislik / 2 - 6, 20 + yari * .9, -arka + 12 + yari * .3); hB.set(0, 0, -orta - 6); fov = 50; }
   if (bitisZ != null && kamera !== "jokey") { hY.set(genislik / 2 + 9, 2.4, -UZ + 5); hB.set(0, 1.5, -UZ - 2); fov = 42; }
   const k = dt === 0 || kamera === "jokey" && durum !== "bekle" ? 1 : Math.min(1, dt * 5);
   kY.lerp(hY, k); kB.lerp(hB, k); cam.position.copy(kY); cam.lookAt(kB);
@@ -400,11 +423,20 @@ function sesKur() {
   atlar.forEach(sesAt);
   kon(kalabalik.p, genislik / 2 + 20, 10, -UZ + 110);
 }
-function nal(a, guc) {
-  const t = ac.currentTime, k = ac.createBufferSource(); k.buffer = gurultu; k.playbackRate.value = .55 + Math.random() * .5;
-  const f = ac.createBiquadFilter(); f.type = "lowpass"; f.frequency.value = 200 + Math.random() * 140;
-  const g = ac.createGain(); g.gain.setValueAtTime(guc, t); g.gain.exponentialRampToValueAtTime(.001, t + .1);
-  k.connect(f); f.connect(g); g.connect(a.pan); k.start(t, Math.random(), .12);
+// Dörtnal: her adımda dört nal vuruşu art arda gelir, sonra at havadayken kısa bir boşluk olur ("ta-ka-ta-tak … ta-ka-ta-tak")
+const NAL_AN = [0, .16, .32, .5];
+function nal(a, guc, i) {
+  const t = ac.currentTime, cim = aktif && aktif.k.pist === "Çim";
+  // tok ses: toynağın yere vuruşu (hızla pesleşir); son vuruş biraz daha güçlü
+  const o = ac.createOscillator(), og = ac.createGain(), f0 = (i === 3 ? 190 : 160) * (.9 + Math.random() * .2);
+  o.type = "sine"; o.frequency.setValueAtTime(f0, t); o.frequency.exponentialRampToValueAtTime(62, t + .08);
+  og.gain.setValueAtTime(guc * (i === 3 ? 1 : .8), t); og.gain.exponentialRampToValueAtTime(.001, t + .12);
+  o.connect(og); og.connect(a.pan); o.start(t); o.stop(t + .14);
+  // tık: nalın zemine değdiği an (çimde daha yumuşak)
+  const k = ac.createBufferSource(); k.buffer = gurultu;
+  const f = ac.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = (cim ? 520 : 820) + Math.random() * 380; f.Q.value = 1.3;
+  const g = ac.createGain(); g.gain.setValueAtTime(guc * (cim ? .45 : .7), t); g.gain.exponentialRampToValueAtTime(.001, t + .05);
+  k.connect(f); f.connect(g); g.connect(a.pan); k.start(t, Math.random() * 1.8, .07);
 }
 function bip(frek, sure, ses = .2, tip = "sine", gec = 0) {
   if (!ac) return;
@@ -421,13 +453,13 @@ function sesGuncelle(lider, b, hz) {
   atlar.forEach((a) => {
     if (!a.pan) return;
     kon(a.pan, a.x, 1, -a.s);
-    const w = a.faz + Math.max(0, zaman) * (9 + 5.5 * Math.min(1, Math.abs(a.v) / 17)), v = Math.floor(w / (Math.PI / 2));
-    if (v !== a.vurus) { a.vurus = v; if (kos && a.v > 3 && a.g.position.distanceTo(cam.position) < 45) nal(a, a === b && kamera === "jokey" ? .9 : .6); }
+    const w = a.faz + Math.max(0, zaman) * (9 + 5.5 * Math.min(1, Math.abs(a.v) / 17)), tur = w / 6.2832, u = tur - Math.floor(tur), v = Math.floor(tur) * 4 + NAL_AN.filter((x) => u >= x).length - 1;
+    if (v !== a.vurus) { a.vurus = v; if (kos && a.v > 3 && a.g.position.distanceTo(cam.position) < 40) nal(a, a === b && kamera !== "yayin" && kamera !== "hava" ? .9 : .5, v % 4); }
   });
   const ilerleme = Math.min(1, lider.s / UZ);
-  kalabalik.g.gain.setTargetAtTime(durum === "bekle" ? .04 : kos ? .06 + .5 * Math.max(0, ilerleme - .45) / .55 + (bitisZ != null ? .25 : 0) : durum === "bitti" ? .2 : .05, t, .6);
+  kalabalik.g.gain.setTargetAtTime(durum === "bekle" ? .04 : kos ? .025 + .22 * Math.max(0, ilerleme - .55) / .45 + (bitisZ != null ? .12 : 0) : durum === "bitti" ? .1 : .02, t, .6);
   kalabalik.f.frequency.setTargetAtTime(750 + 500 * ilerleme, t, .8);
-  ruzgar.g.gain.setTargetAtTime(kos ? (kamera === "jokey" ? .1 : kamera === "takip" ? .05 : .015) * hz : 0, t, .3);
+  ruzgar.g.gain.setTargetAtTime(kos ? (kamera === "jokey" ? .035 : kamera === "takip" ? .015 : 0) * hz : 0, t, .3);
 }
 
 /* ---------- arayüz ---------- */

@@ -449,8 +449,8 @@ body { overflow: hidden; background: #03070f; }
           <div class="m-kart gir"><div class="m-bas">Canlı karne</div>
             <div class="m-sub">Kazananı birinci bilme</div>
             <div style="font-size:10px">Yapay zekâ · %33,6</div><div class="m-bar"><i style="--w:67%;background:var(--gold)"></i></div>
-            <div style="font-size:10px">Halk (AGF) · %32,7</div><div class="m-bar"><i style="--w:65%;background:var(--muted)"></i></div>
-            <div class="m-sub">2.431 koşuluk test dönemi; her gün kilitlenen tahminlerle sürer. Güncel rakamlar İstatistik sekmesinde.</div>
+            <div style="font-size:10px">Halk (AGF) · %32,6</div><div class="m-bar"><i style="--w:65%;background:var(--muted)"></i></div>
+            <div class="m-sub">2.448 koşuluk test dönemi; her gün kilitlenen tahminlerle sürer. Güncel rakamlar İstatistik sekmesinde.</div>
           </div>
           <div class="m-kart gir" style="--gec:.8s;margin-top:8px;font-size:10.5px">Verilen şans tuttu mu? Yapay zekâ %20 dediği atların gerçekten ne kadarının kazandığını gösteren kalibrasyon tabloları.</div>
           <div class="m-kart gir" style="--gec:1.4s;margin-top:8px;font-size:10.5px;border-color:rgba(255,181,71,.45)"><b style="color:var(--warn)">18+</b> · Bilgilendirme amaçlıdır, bahis tavsiyesi değildir ve kazanç vaat etmez.</div>
@@ -490,7 +490,7 @@ body { overflow: hidden; background: #03070f; }
 <script>
 (function () {
   const ADIM = [
-    { e: "YAPAY ZEKÂ", ek: "Hoş geldin", menu: -1, b: "Yapay zekâ ile <em>at yarışı</em>", alt: "19.980 koşuluk TJK verisi. Her koşuda her ata bir kazanma şansı verir." },
+    { e: "YAPAY ZEKÂ", ek: "Hoş geldin", menu: -1, b: "Yapay zekâ ile <em>at yarışı</em>", alt: "19.997 koşuluk TJK verisi. Her koşuda her ata bir kazanma şansı verir." },
     { e: "NASIL DÜŞÜNÜR", ek: "Yapay zekâ", menu: -1, b: "Veriden <em>şansa</em>", alt: "Form, derece, galop, jokey, pist ve halkın tahmini birlikte tartılır." },
     { e: "SİMÜLASYON", ek: "Simülasyon", menu: -1, b: "Koşuyu <em>önceden</em> izle", alt: "Atlar yapay zekânın sıralamasıyla koşar; koşu tarzı yarıştaki yerini belirler." },
     { e: "MENÜLER", ek: "Menüler", menu: 0, b: "Her şey bir <em>dokunuşta</em>", alt: "Ana, Yarışlar, Altılı, Kupon ve İstatistik." },
@@ -560,7 +560,7 @@ body { overflow: hidden; background: #03070f; }
     sihZam.push(setTimeout(() => { const el = document.querySelector('[data-a="2-1"]'); dokun(el); el.classList.add("s"); S[2].add(1); hesap(); }, 3600));
   }
   function sayacOyna() {
-    const el = $("sayac"), H = 19980, t0 = performance.now() + 250;
+    const el = $("sayac"), H = 19997, t0 = performance.now() + 250;
     const f = (t) => { const u = Math.max(0, Math.min(1, (t - t0) / 1100)); el.textContent = Math.round(H * (1 - Math.pow(1 - u, 3))).toLocaleString("tr-TR"); if (u < 1 && a === 0) requestAnimationFrame(f); };
     requestAnimationFrame(f);
   }
