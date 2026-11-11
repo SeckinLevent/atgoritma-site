@@ -19,9 +19,9 @@
 ## 11.11.2026 programı: yapay zekânın favorileri
 
 ### İstanbul
-- 1. koşu (14.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 3 SERGÜZEŞT, kazanma şansı %29; sürpriz ihtimali %28.
+- 1. koşu (14.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 3 SERGÜZEŞT, kazanma şansı %29; sürpriz ihtimali %29.
 - 2. koşu (14.30 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Çim): favori 8 TOUCH THE MONEY, kazanma şansı %42; sürpriz ihtimali %27.
-- 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1600 m · Çim): favori 2 YONAGUNI, kazanma şansı %29; sürpriz ihtimali %24.
+- 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1600 m · Çim): favori 2 YONAGUNI, kazanma şansı %29; sürpriz ihtimali %25.
 - 4. koşu (15.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Çim): favori 5 LA MIRAGE, kazanma şansı %21; sürpriz ihtimali %44.
 - 5. koşu (16.00 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Çim): favori 2 IRON SKY, kazanma şansı %34; sürpriz ihtimali %18.
 - 6. koşu (16.30 · KV-8/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 1 GÖZPINARI, kazanma şansı %39; sürpriz ihtimali %30.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 11.11.2026 09:53
+Güncellendi: 11.11.2026 10:06
