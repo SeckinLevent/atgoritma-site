@@ -22,7 +22,7 @@
 - 1. koşu (14.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 3 SERGÜZEŞT, kazanma şansı %29; sürpriz ihtimali %29.
 - 2. koşu (14.30 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 8 TOUCH THE MONEY, kazanma şansı %42; sürpriz ihtimali %28.
 - 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1500 m · Sentetik): favori 2 YONAGUNI, kazanma şansı %29; sürpriz ihtimali %23.
-- 4. koşu (15.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Sentetik): favori 5 LA MIRAGE, kazanma şansı %21; sürpriz ihtimali %43.
+- 4. koşu (15.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 5 LA MIRAGE, kazanma şansı %20; sürpriz ihtimali %44.
 - 5. koşu (16.00 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 2 IRON SKY, kazanma şansı %39; sürpriz ihtimali %16.
 - 6. koşu (16.30 · KV-8/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 1 GÖZPINARI, kazanma şansı %39; sürpriz ihtimali %30.
 - 7. koşu (17.00 · KV-7/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 KINZHAL, kazanma şansı %28; sürpriz ihtimali %25.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 11.11.2026 10:18
+Güncellendi: 11.11.2026 10:54
