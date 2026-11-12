@@ -37,8 +37,8 @@
 - 4. koşu (19.30 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 9 AUTHORITY, kazanma şansı %25; sürpriz ihtimali %45.
 - 5. koşu (20.00 · KV-8 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 1 DANCE OF WIND, kazanma şansı %45; sürpriz ihtimali %21.
 - 6. koşu (20.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1900 m · Kum): favori 5 GERARD, kazanma şansı %38; sürpriz ihtimali %27.
-- 7. koşu (21.00 · KV-7/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 ŞAFİYE, kazanma şansı %35; sürpriz ihtimali %26.
-- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 6 SANDUHAN, kazanma şansı %28; sürpriz ihtimali %30.
+- 7. koşu (21.00 · KV-7/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 ŞAFİYE, kazanma şansı %36; sürpriz ihtimali %26.
+- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 6 SANDUHAN, kazanma şansı %29; sürpriz ihtimali %30.
 
 ## Sayfalar
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 12.11.2026 18:47
+Güncellendi: 12.11.2026 19:16
