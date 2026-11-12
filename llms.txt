@@ -19,7 +19,7 @@
 ## 12.11.2026 programı: yapay zekânın favorileri
 
 ### Ankara
-- 1. koşu (12.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Çim): favori 7 TIME BREAKER, kazanma şansı %40; sürpriz ihtimali %27.
+- 1. koşu (12.30 · Maiden · 2 Yaşlı İngilizler · 1600 m · Çim): favori 7 TIME BREAKER, kazanma şansı %39; sürpriz ihtimali %27.
 - 2. koşu (13.00 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Kum): favori 1 ATEŞİM, kazanma şansı %32; sürpriz ihtimali %35.
 - 3. koşu (13.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 2200 m · Çim): favori 1 KİNJAL, kazanma şansı %37; sürpriz ihtimali %22.
 - 4. koşu (14.00 · Maiden · 2 Yaşlı İngilizler · 1600 m · Çim): favori 10 LADY SOVEREIGN, kazanma şansı %28; sürpriz ihtimali %35.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 12.11.2026 08:08
+Güncellendi: 12.11.2026 08:31
