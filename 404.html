@@ -66,7 +66,7 @@ tr.k1 td{background:rgba(245,197,66,.06)}
 <h1 id="b">Bu sayfa artık yok</h1>
 <p class="ozet" id="m">Aradığın sayfa taşınmış ya da kaldırılmış olabilir.</p>
 <div id="ara-kutu" hidden>
-<p>Sitede yalnız <b>son 30 günde koşmuş</b> atların ve bugünün programındaki atların sayfası tutuluyor. At yeniden
+<p>Sitede yalnız <b>son bir yılda koşmuş</b> atların ve bugünün programındaki atların sayfası tutuluyor. At yeniden
 programa girdiğinde sayfası da geri gelir. Başka bir at arayabilirsin:</p>
 <input id="ara" type="search" placeholder="At adı" autocomplete="off" style="width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:16px">
 <ul id="sonuc"></ul>
@@ -83,7 +83,7 @@ programa girdiğinde sayfası da geri gelir. Başka bir at arayabilirsin:</p>
     return;
   }
   document.getElementById("b").textContent = ad + " · sayfası şu an yok";
-  document.getElementById("m").textContent = "Bu at son 30 gündür koşmadığı için sayfası geçici olarak kaldırıldı.";
+  document.getElementById("m").textContent = "Bu at son bir yıldır koşmadığı için sayfası şu an yok.";
   document.getElementById("ara-kutu").hidden = false;
   var L = [], i = document.getElementById("ara"), s = document.getElementById("sonuc");
   var n = function (x) { return x.toLocaleUpperCase("tr").normalize("NFD").replace(/[\u0300-\u036f]/g, ""); };
