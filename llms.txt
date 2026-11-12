@@ -8,6 +8,7 @@
 - Yöntem: koşu içi kıyaslama (koşullu logit). Her at aynı koşudaki rakiplerine göre puanlanır; AGF, form, derece, handikap puanı, kilo, jokey, antrenör, pist ve mesafe geçmişi, galop (idman) dereceleri gibi kriterler tek bir kazanma şansında birleşir. Koşu tipine göre (Maiden, Şartlı, KV, Handikap, Grup) ayrı ağırlıklar öğrenilir.
 - Sürpriz katmanı: koşunun özelliklerine göre şansları yumuşatır; sürpriz ihtimali, kazananın yapay zekânın ilk 3'ü dışından gelme olasılığıdır.
 - Değer ganyanı: yapay zekânın verdiği şansa göre atın en az ödemesi gereken ganyan (%20 güvenlik payıyla).
+- Sesli anlatım: önemli koşularda ve altılı kuponlarında yapay zekâ 30 saniyelik sesli ve görsel bir anlatım yapar; favoriyi ve nedenini, koşunun açık ya da net olduğunu, tempoyu, sürpriz adayını ve kuponun neden öyle kurulduğunu (banko, bilmece ayak, favoriye karşı ayak) söyler. Ücretsizdir.
 
 ## Başarı (geriye dönük test, yapay zekânın görmediği dönem)
 
@@ -46,9 +47,11 @@
 - [Nasıl çalışır](https://atgoritma.com/nasil-calisir/): veri, kriterler, sürpriz ihtimali, değer ganyanı ve sınırlar.
 - [İstatistikler](https://atgoritma.com/istatistikler/): kazananı bilme oranları, AGF ile karşılaştırma, kalibrasyon.
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
+- [Kupon sihirbazı](https://atgoritma.com/kupon-sihirbazi/): bütçeye göre yapay zekâ ile altılı kuponu kurma.
+- [Sesli anlatım](https://atgoritma.com/sesli-anlatim/): yapay zekâ koşuyu ve kuponu 30 saniyede sesli anlatır.
 - [Tahminler](https://atgoritma.com/tahmin/): hipodrom hipodrom günün tahminleri (düz metin), sonuçlar ve günlük arşiv.
 - [At sayfaları](https://atgoritma.com/at/) ve [jokey sayfaları](https://atgoritma.com/jokey/): TJK sonuçlarından yarış geçmişi ve istatistikler.
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 13.11.2026 00:35
+Güncellendi: 13.11.2026 00:47
