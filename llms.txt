@@ -20,7 +20,7 @@
 ## 13.11.2026 programı: yapay zekânın favorileri
 
 ### Bursa
-- 1. koşu (14.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 6 SHARP STORM, kazanma şansı %24; sürpriz ihtimali %37.
+- 1. koşu (14.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 6 SHARP STORM, kazanma şansı %24; sürpriz ihtimali %37. Sonuç: kazanan 4 LEJUR.
 - 2. koşu (15.00 · KV-7/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 DADAKBEY, kazanma şansı %17; sürpriz ihtimali %52.
 - 3. koşu (15.30 · Kısa Vade Handikap 22/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 9 OĞUL ÇINAR, kazanma şansı %25; sürpriz ihtimali %43.
 - 4. koşu (16.00 · Kısa Vade Handikap 24 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 2 PRENS LEVENT, kazanma şansı %41; sürpriz ihtimali %28.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 13.11.2026 14:15
+Güncellendi: 13.11.2026 14:43
