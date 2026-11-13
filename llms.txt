@@ -30,13 +30,13 @@
 
 ### İstanbul
 - 1. koşu (17.15 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2200 m · Sentetik): favori 1 ERSANŞAH, kazanma şansı %32; sürpriz ihtimali %36. Sonuç: kazanan 4 ALMUTANABİY.
-- 2. koşu (18.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 2100 m · Çim): favori 2 IŞILS A MELİNA, kazanma şansı %30; sürpriz ihtimali %21.
-- 3. koşu (18.30 · ŞARTLI 5/EBF · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ŞAHİ, kazanma şansı %52; sürpriz ihtimali %7.
-- 4. koşu (19.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 8 NORTH BRIDE, kazanma şansı %25; sürpriz ihtimali %32.
-- 5. koşu (19.30 · Kısa Vade Handikap 24/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Çim): favori 2 BY TÜRKOĞLU, kazanma şansı %39; sürpriz ihtimali %34.
-- 6. koşu (20.00 · Kısa Vade Handikap 22 /H1 · 3 ve Yukarı İngilizler · 1500 m · Çim): favori 9 GIRALAMO, kazanma şansı %30; sürpriz ihtimali %27.
+- 2. koşu (18.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 2100 m · Çim): favori 2 IŞILS A MELİNA, kazanma şansı %29; sürpriz ihtimali %21.
+- 3. koşu (18.30 · ŞARTLI 5/EBF · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ŞAHİ, kazanma şansı %50; sürpriz ihtimali %7.
+- 4. koşu (19.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 8 NORTH BRIDE, kazanma şansı %24; sürpriz ihtimali %33.
+- 5. koşu (19.30 · Kısa Vade Handikap 24/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Çim): favori 2 BY TÜRKOĞLU, kazanma şansı %37; sürpriz ihtimali %35.
+- 6. koşu (20.00 · Kısa Vade Handikap 22 /H1 · 3 ve Yukarı İngilizler · 1500 m · Çim): favori 9 GIRALAMO, kazanma şansı %31; sürpriz ihtimali %27.
 - 7. koşu (20.30 · KV-7/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 2 ÇİLEKEŞ ÖMER, kazanma şansı %50; sürpriz ihtimali %14.
-- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ELF STORM, kazanma şansı %31; sürpriz ihtimali %24.
+- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ELF STORM, kazanma şansı %30; sürpriz ihtimali %24.
 - 9. koşu (21.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1900 m · Çim): favori 9 PEVRUL, kazanma şansı %34; sürpriz ihtimali %32.
 
 ## Sayfalar
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 13.11.2026 17:26
+Güncellendi: 13.11.2026 17:46
