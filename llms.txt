@@ -37,7 +37,7 @@
 - 6. koşu (20.00 · Kısa Vade Handikap 22 /H1 · 3 ve Yukarı İngilizler · 1500 m · Çim): favori 9 GIRALAMO, kazanma şansı %31; sürpriz ihtimali %27. Sonuç: kazanan 2 JOYFUL FOREVER.
 - 7. koşu (20.30 · KV-7/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 2 ÇİLEKEŞ ÖMER, kazanma şansı %48; sürpriz ihtimali %14. Sonuç: kazanan 2 ÇİLEKEŞ ÖMER.
 - 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ELF STORM, kazanma şansı %28; sürpriz ihtimali %26. Sonuç: kazanan 8 QUEEN Z.
-- 9. koşu (21.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1900 m · Çim): favori 9 PEVRUL, kazanma şansı %33; sürpriz ihtimali %36.
+- 9. koşu (21.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1900 m · Çim): favori 9 PEVRUL, kazanma şansı %33; sürpriz ihtimali %36. Sonuç: kazanan 11 DANCING KING.
 
 ## Sayfalar
 
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 13.11.2026 21:19
+Güncellendi: 13.11.2026 21:44
