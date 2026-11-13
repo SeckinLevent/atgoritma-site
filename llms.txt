@@ -20,24 +20,24 @@
 ## 13.11.2026 programı: yapay zekânın favorileri
 
 ### Bursa
-- 1. koşu (14.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 GRAND MISSION, kazanma şansı %19; sürpriz ihtimali %52.
-- 2. koşu (15.00 · KV-7/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 SERTUĞ, kazanma şansı %20; sürpriz ihtimali %54.
-- 3. koşu (15.30 · Kısa Vade Handikap 22/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 9 OĞUL ÇINAR, kazanma şansı %28; sürpriz ihtimali %44.
-- 4. koşu (16.00 · Kısa Vade Handikap 24 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 2 PRENS LEVENT, kazanma şansı %32; sürpriz ihtimali %37.
-- 5. koşu (16.30 · G 3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 RATTLESNAKE, kazanma şansı %74; sürpriz ihtimali %8.
-- 6. koşu (17.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 SANGARYAN, kazanma şansı %27; sürpriz ihtimali %36.
-- 7. koşu (17.30 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 1400 m · Kum): favori 1 ŞEKER HALHAL, kazanma şansı %33; sürpriz ihtimali %46.
+- 1. koşu (14.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 6 SHARP STORM, kazanma şansı %24; sürpriz ihtimali %37.
+- 2. koşu (15.00 · KV-7/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 SERTUĞ, kazanma şansı %18; sürpriz ihtimali %53.
+- 3. koşu (15.30 · Kısa Vade Handikap 22/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 9 OĞUL ÇINAR, kazanma şansı %26; sürpriz ihtimali %46.
+- 4. koşu (16.00 · Kısa Vade Handikap 24 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 2 PRENS LEVENT, kazanma şansı %35; sürpriz ihtimali %34.
+- 5. koşu (16.30 · G 3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 RATTLESNAKE, kazanma şansı %77; sürpriz ihtimali %9.
+- 6. koşu (17.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 SANGARYAN, kazanma şansı %24; sürpriz ihtimali %41.
+- 7. koşu (17.30 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 1400 m · Kum): favori 1 ŞEKER HALHAL, kazanma şansı %35; sürpriz ihtimali %42.
 
 ### İstanbul
-- 1. koşu (17.15 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2200 m · Sentetik): favori 1 ERSANŞAH, kazanma şansı %35; sürpriz ihtimali %38.
-- 2. koşu (18.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 2100 m · Çim): favori 2 IŞILS A MELİNA, kazanma şansı %30; sürpriz ihtimali %20.
-- 3. koşu (18.30 · ŞARTLI 5/EBF · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ŞAHİ, kazanma şansı %40; sürpriz ihtimali %16.
-- 4. koşu (19.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 8 NORTH BRIDE, kazanma şansı %20; sürpriz ihtimali %46.
-- 5. koşu (19.30 · Kısa Vade Handikap 24/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Çim): favori 10 TOZYUTTURAN, kazanma şansı %40; sürpriz ihtimali %30.
-- 6. koşu (20.00 · Kısa Vade Handikap 22 /H1 · 3 ve Yukarı İngilizler · 1500 m · Çim): favori 9 GIRALAMO, kazanma şansı %27; sürpriz ihtimali %32.
+- 1. koşu (17.15 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2200 m · Sentetik): favori 1 ERSANŞAH, kazanma şansı %30; sürpriz ihtimali %37.
+- 2. koşu (18.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 2100 m · Çim): favori 2 IŞILS A MELİNA, kazanma şansı %29; sürpriz ihtimali %18.
+- 3. koşu (18.30 · ŞARTLI 5/EBF · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ŞAHİ, kazanma şansı %39; sürpriz ihtimali %13.
+- 4. koşu (19.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 10 QUEEN MİHRİ, kazanma şansı %26; sürpriz ihtimali %30.
+- 5. koşu (19.30 · Kısa Vade Handikap 24/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Çim): favori 10 TOZYUTTURAN, kazanma şansı %28; sürpriz ihtimali %38.
+- 6. koşu (20.00 · Kısa Vade Handikap 22 /H1 · 3 ve Yukarı İngilizler · 1500 m · Çim): favori 9 GIRALAMO, kazanma şansı %29; sürpriz ihtimali %35.
 - 7. koşu (20.30 · KV-7/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 2 ÇİLEKEŞ ÖMER, kazanma şansı %39; sürpriz ihtimali %8.
-- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ELF STORM, kazanma şansı %46; sürpriz ihtimali %14.
-- 9. koşu (21.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1900 m · Çim): favori 9 PEVRUL, kazanma şansı %28; sürpriz ihtimali %44.
+- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Çim): favori 3 ELF STORM, kazanma şansı %44; sürpriz ihtimali %15.
+- 9. koşu (21.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1900 m · Çim): favori 9 PEVRUL, kazanma şansı %27; sürpriz ihtimali %43.
 
 ## Sayfalar
 
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 13.11.2026 09:16
+Güncellendi: 13.11.2026 09:37
