@@ -22,11 +22,11 @@
 ### Bursa
 - 1. koşu (14.30 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 KOÇARSLAN, kazanma şansı %26; sürpriz ihtimali %38.
 - 2. koşu (15.00 · KV-7/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 ASALETLİ ÇOCUK, kazanma şansı %20; sürpriz ihtimali %46.
-- 3. koşu (15.30 · Kısa Vade Handikap 22/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 8 DEMON HUNTER, kazanma şansı %23; sürpriz ihtimali %46.
+- 3. koşu (15.30 · Kısa Vade Handikap 22/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 8 DEMON HUNTER, kazanma şansı %23; sürpriz ihtimali %47.
 - 4. koşu (16.00 · Kısa Vade Handikap 24 /H2 · 3 ve Yukarı İngilizler · 1800 m · Kum): favori 3 SELLY SON, kazanma şansı %24; sürpriz ihtimali %36.
 - 5. koşu (16.30 · G 3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 RATTLESNAKE, kazanma şansı %39; sürpriz ihtimali %25.
-- 6. koşu (17.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 SANGARYAN, kazanma şansı %24; sürpriz ihtimali %37.
-- 7. koşu (17.30 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 1400 m · Kum): favori 1 ŞEKER HALHAL, kazanma şansı %22; sürpriz ihtimali %47.
+- 6. koşu (17.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 SANGARYAN, kazanma şansı %25; sürpriz ihtimali %36.
+- 7. koşu (17.30 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 1400 m · Kum): favori 1 ŞEKER HALHAL, kazanma şansı %23; sürpriz ihtimali %46.
 
 ### İstanbul
 - 1. koşu (17.15 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2200 m · Sentetik): favori 1 ERSANŞAH, kazanma şansı %26; sürpriz ihtimali %31.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 13.11.2026 08:15
+Güncellendi: 13.11.2026 08:35
