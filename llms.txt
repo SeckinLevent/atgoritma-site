@@ -20,15 +20,15 @@
 ## 14.11.2026 programı: yapay zekânın favorileri
 
 ### Ankara
-- 1. koşu (13.00 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Çim): favori 1 DEJAME, kazanma şansı %30; sürpriz ihtimali %28.
+- 1. koşu (13.00 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Çim): favori 1 DEJAME, kazanma şansı %29; sürpriz ihtimali %28.
 - 2. koşu (13.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Çim): favori 2 AKTUNALI, kazanma şansı %26; sürpriz ihtimali %37.
-- 3. koşu (14.00 · SATIŞ 3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 3 LA MUNECA, kazanma şansı %31; sürpriz ihtimali %19.
+- 3. koşu (14.00 · SATIŞ 3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 3 LA MUNECA, kazanma şansı %33; sürpriz ihtimali %18.
 - 4. koşu (14.30 · Handikap 21 /H1 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 GOLDEN PROMISE, kazanma şansı %32; sürpriz ihtimali %25.
 - 5. koşu (15.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 4 SIEGREICH, kazanma şansı %23; sürpriz ihtimali %43.
 - 6. koşu (15.30 · G 2/ULS · 2 Yaşlı İngilizler · 1400 m · Çim): favori 2 HAROLDCOOPER, kazanma şansı %36; sürpriz ihtimali %22.
-- 7. koşu (16.00 · Handikap 17 /H1 · 3 Yaşlı İngilizler · 1900 m · Çim): favori 2 BORN TO TRUST, kazanma şansı %27; sürpriz ihtimali %24.
-- 8. koşu (16.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Çim): favori 2 BESNİ, kazanma şansı %29; sürpriz ihtimali %39.
-- 9. koşu (17.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1600 m · Çim): favori 6 KATICESUR, kazanma şansı %17; sürpriz ihtimali %57.
+- 7. koşu (16.00 · Handikap 17 /H1 · 3 Yaşlı İngilizler · 1900 m · Çim): favori 2 BORN TO TRUST, kazanma şansı %28; sürpriz ihtimali %24.
+- 8. koşu (16.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Çim): favori 2 BESNİ, kazanma şansı %28; sürpriz ihtimali %39.
+- 9. koşu (17.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1600 m · Çim): favori 6 KATICESUR, kazanma şansı %17; sürpriz ihtimali %58.
 
 ### İzmir
 - 1. koşu (16.45 · ŞARTLI 3/DHÖ · 4 ve Yukarı Araplar · 1600 m · Kum): favori 4 AĞA TALİP, kazanma şansı %28; sürpriz ihtimali %41.
@@ -61,4 +61,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 14.11.2026 08:35
+Güncellendi: 14.11.2026 08:57
