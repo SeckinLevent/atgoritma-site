@@ -37,15 +37,15 @@
 - 4. koşu (18.30 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 7 KÖSE RECEP, kazanma şansı %19; sürpriz ihtimali %54.
 - 5. koşu (19.00 · Kısa Vade Handikap 22 /H2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 2 WHITE WOLF, kazanma şansı %51; sürpriz ihtimali %25.
 - 6. koşu (19.30 · ŞARTLI 5 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 DARK GLORY, kazanma şansı %41; sürpriz ihtimali %15.
-- 7. koşu (20.00 · Maiden/DHÖ/Dişi · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 İZOTOP, kazanma şansı %33; sürpriz ihtimali %27.
-- 8. koşu (20.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 2 PARMIGIANO, kazanma şansı %44; sürpriz ihtimali %30.
+- 7. koşu (20.00 · Maiden/DHÖ/Dişi · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 İZOTOP, kazanma şansı %33; sürpriz ihtimali %28.
+- 8. koşu (20.30 · ŞARTLI 19 · 3 Yaşlı İngilizler · 1900 m · Kum): favori 2 PARMIGIANO, kazanma şansı %43; sürpriz ihtimali %30.
 
 ### Diyarbakır
-- 1. koşu (21.00 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 KURTTEKİN OĞLU, kazanma şansı %56; sürpriz ihtimali %26.
-- 2. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 3 VERMİTHRAX, kazanma şansı %26; sürpriz ihtimali %42.
-- 3. koşu (22.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 YALNIZ BABA, kazanma şansı %22; sürpriz ihtimali %46.
+- 1. koşu (21.00 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 KURTTEKİN OĞLU, kazanma şansı %57; sürpriz ihtimali %26.
+- 2. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 3 VERMİTHRAX, kazanma şansı %25; sürpriz ihtimali %42.
+- 3. koşu (22.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 YALNIZ BABA, kazanma şansı %23; sürpriz ihtimali %44.
 - 4. koşu (22.30 · Handikap 14/DHÖW /H3 · 3 Yaşlı Araplar · 1700 m · Kum): favori 3 ENESPAŞA, kazanma şansı %22; sürpriz ihtimali %45.
-- 5. koşu (23.00 · ŞARTLI 19 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %38; sürpriz ihtimali %27.
+- 5. koşu (23.00 · ŞARTLI 19 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %39; sürpriz ihtimali %26.
 - 6. koşu (23.30 · Handikap 15 /H3 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 9 RAHAT OLL, kazanma şansı %25; sürpriz ihtimali %43.
 
 ## Sayfalar
@@ -61,4 +61,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 14.11.2026 17:19
+Güncellendi: 14.11.2026 17:48
