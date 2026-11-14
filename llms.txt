@@ -22,7 +22,7 @@
 ### Ankara
 - 1. koşu (13.00 · ŞARTLI 5 · 3 Yaşlı İngilizler · 1400 m · Çim): favori 7 ROMANTIC PARADISE (GB), kazanma şansı %33; sürpriz ihtimali %33. Sonuç: kazanan 1 DEJAME.
 - 2. koşu (13.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Çim): favori 1 ETMAN, kazanma şansı %38; sürpriz ihtimali %28. Sonuç: kazanan 1 ETMAN.
-- 3. koşu (14.00 · SATIŞ 3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 1 CRIMSON POWER, kazanma şansı %44; sürpriz ihtimali %14.
+- 3. koşu (14.00 · SATIŞ 3 · 2 Yaşlı İngilizler · 1500 m · Kum): favori 1 CRIMSON POWER, kazanma şansı %44; sürpriz ihtimali %14. Sonuç: kazanan 1 CRIMSON POWER.
 - 4. koşu (14.30 · Handikap 21 /H1 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 4 GOLDEN PROMISE, kazanma şansı %49; sürpriz ihtimali %24.
 - 5. koşu (15.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1600 m · Çim): favori 8 MIZMIZ MYRTLE, kazanma şansı %27; sürpriz ihtimali %42.
 - 6. koşu (15.30 · G 2/ULS · 2 Yaşlı İngilizler · 1400 m · Çim): favori 2 HAROLDCOOPER, kazanma şansı %41; sürpriz ihtimali %26.
@@ -61,4 +61,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 14.11.2026 14:16
+Güncellendi: 14.11.2026 14:17
