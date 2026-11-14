@@ -42,7 +42,7 @@
 
 ### Diyarbakır
 - 1. koşu (21.00 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 KURTTEKİN OĞLU, kazanma şansı %57; sürpriz ihtimali %26.
-- 2. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 3 VERMİTHRAX, kazanma şansı %25; sürpriz ihtimali %44.
+- 2. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 3 VERMİTHRAX, kazanma şansı %24; sürpriz ihtimali %44.
 - 3. koşu (22.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 YALNIZ BABA, kazanma şansı %23; sürpriz ihtimali %44.
 - 4. koşu (22.30 · Handikap 14/DHÖW /H3 · 3 Yaşlı Araplar · 1700 m · Kum): favori 3 ENESPAŞA, kazanma şansı %22; sürpriz ihtimali %46.
 - 5. koşu (23.00 · ŞARTLI 19 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %40; sürpriz ihtimali %25.
@@ -61,4 +61,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 14.11.2026 18:49
+Güncellendi: 14.11.2026 19:16
