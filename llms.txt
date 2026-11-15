@@ -31,14 +31,14 @@
 - 9. koşu (18.00 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 1200 m · Çim): favori 7 GLONASS, kazanma şansı %22; sürpriz ihtimali %47.
 
 ### Adana
-- 1. koşu (17.45 · Handikap 16/DHÖW /H2 · 4 Yaşlı Araplar · 1300 m · Kum): favori 7 TEPELİ, kazanma şansı %21; sürpriz ihtimali %41.
-- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 5 THUNDERSTRUCK, kazanma şansı %62; sürpriz ihtimali %15.
-- 3. koşu (19.00 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 3 DEV YÜREK, kazanma şansı %36; sürpriz ihtimali %28.
-- 4. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 HYPER ROCKER, kazanma şansı %33; sürpriz ihtimali %21.
-- 5. koşu (20.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 1200 m · Kum): favori 5 CEMO CAN, kazanma şansı %42; sürpriz ihtimali %31.
-- 6. koşu (20.30 · KV-8 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 REFLECTED GLORY, kazanma şansı %44; sürpriz ihtimali %24.
+- 1. koşu (17.45 · Handikap 16/DHÖW /H2 · 4 Yaşlı Araplar · 1300 m · Kum): favori 7 TEPELİ, kazanma şansı %22; sürpriz ihtimali %39.
+- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 5 THUNDERSTRUCK, kazanma şansı %63; sürpriz ihtimali %15.
+- 3. koşu (19.00 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 3 DEV YÜREK, kazanma şansı %36; sürpriz ihtimali %29.
+- 4. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 HYPER ROCKER, kazanma şansı %33; sürpriz ihtimali %22.
+- 5. koşu (20.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 1200 m · Kum): favori 5 CEMO CAN, kazanma şansı %40; sürpriz ihtimali %32.
+- 6. koşu (20.30 · KV-8 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 REFLECTED GLORY, kazanma şansı %44; sürpriz ihtimali %23.
 - 7. koşu (21.00 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 ASPUWA, kazanma şansı %36; sürpriz ihtimali %34.
-- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 9 GENGAR, kazanma şansı %45; sürpriz ihtimali %20.
+- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 9 GENGAR, kazanma şansı %45; sürpriz ihtimali %19.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 15.11.2026 15:49
+Güncellendi: 15.11.2026 16:21
