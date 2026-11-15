@@ -21,7 +21,7 @@
 
 ### İstanbul
 - 1. koşu (14.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1900 m · Çim): favori 3 BALKIBEY, kazanma şansı %25; sürpriz ihtimali %47. Sonuç: kazanan 9 EFE KAPTAN.
-- 2. koşu (14.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1600 m · Çim): favori 5 EFLAH, kazanma şansı %27; sürpriz ihtimali %34.
+- 2. koşu (14.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1600 m · Çim): favori 5 EFLAH, kazanma şansı %27; sürpriz ihtimali %34. Sonuç: kazanan 5 EFLAH.
 - 3. koşu (15.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Çim): favori 4 DON ÇİÇİ, kazanma şansı %49; sürpriz ihtimali %11.
 - 4. koşu (15.30 · Handikap 17 /H1 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 7 SOCIAL BEE, kazanma şansı %23; sürpriz ihtimali %47.
 - 5. koşu (16.00 · G 2/ULS · 2 Yaşlı İngilizler · 1800 m · Çim): favori 4 HAYRETBİŞEY, kazanma şansı %46; sürpriz ihtimali %23.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 15.11.2026 14:10
+Güncellendi: 15.11.2026 14:40
