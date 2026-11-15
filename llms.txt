@@ -7,7 +7,7 @@
 - Veri: TJK günlük program ve sonuç dosyaları, Eylül 2023 - Kasım 2026 arası 20.070 koşu.
 - Yöntem: koşu içi kıyaslama (koşullu logit). Her at aynı koşudaki rakiplerine göre puanlanır; AGF, form, derece, handikap puanı, kilo, jokey, antrenör, pist ve mesafe geçmişi, galop (idman) dereceleri gibi kriterler tek bir kazanma şansında birleşir. Koşu tipine göre (Maiden, Şartlı, KV, Handikap, Grup) ayrı ağırlıklar öğrenilir.
 - Sürpriz katmanı: koşunun özelliklerine göre şansları yumuşatır; sürpriz ihtimali, kazananın yapay zekânın ilk 3'ü dışından gelme olasılığıdır.
-- Değer ganyanı: yapay zekânın verdiği şansa göre atın en az ödemesi gereken ganyan (%20 güvenlik payıyla).
+- YZ ganyanı: yapay zekânın bu ata verdiği şansın ganyan karşılığı (%20 payla).
 - Sesli anlatım: önemli koşularda ve altılı kuponlarında yapay zekâ kısa, sesli ve görsel bir anlatım yapar (koşularda 3D canlandırmayla finişe kadar); favoriyi ve nedenini, koşunun açık ya da net olduğunu, tempoyu, sürpriz adayını ve kuponun neden öyle kurulduğunu (banko, bilmece ayak, favoriye karşı ayak) söyler. Ücretsizdir.
 
 ## Başarı (geriye dönük test, yapay zekânın görmediği dönem)
@@ -43,7 +43,7 @@
 ## Sayfalar
 
 - [Ana sayfa](https://atgoritma.com/): günün yarışları, yapay zekâ tahminleri, altılı analizi, istatistikler ve karne.
-- [Nasıl çalışır](https://atgoritma.com/nasil-calisir/): veri, kriterler, sürpriz ihtimali, değer ganyanı ve sınırlar.
+- [Nasıl çalışır](https://atgoritma.com/nasil-calisir/): veri, kriterler, sürpriz ihtimali, YZ ganyanı ve sınırlar.
 - [İstatistikler](https://atgoritma.com/istatistikler/): kazananı bilme oranları, AGF ile karşılaştırma, kalibrasyon.
 - [Altılı ganyan](https://atgoritma.com/altili-ganyan/): günün altılıları, zorluk ve örnek kuponlar.
 - [Kupon sihirbazı](https://atgoritma.com/kupon-sihirbazi/): bütçeye göre yapay zekâ ile altılı kuponu kurma.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 16.11.2026 00:19
+Güncellendi: 16.11.2026 00:26
