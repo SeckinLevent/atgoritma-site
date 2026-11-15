@@ -37,8 +37,8 @@
 - 4. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 HYPER ROCKER, kazanma şansı %33; sürpriz ihtimali %29.
 - 5. koşu (20.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 1200 m · Kum): favori 5 CEMO CAN, kazanma şansı %34; sürpriz ihtimali %36.
 - 6. koşu (20.30 · KV-8 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 REFLECTED GLORY, kazanma şansı %42; sürpriz ihtimali %24.
-- 7. koşu (21.00 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 ASPUWA, kazanma şansı %31; sürpriz ihtimali %34.
-- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 9 GENGAR, kazanma şansı %46; sürpriz ihtimali %21.
+- 7. koşu (21.00 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 ASPUWA, kazanma şansı %27; sürpriz ihtimali %35.
+- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 9 GENGAR, kazanma şansı %44; sürpriz ihtimali %23.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 15.11.2026 18:50
+Güncellendi: 15.11.2026 19:16
