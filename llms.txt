@@ -36,7 +36,7 @@
 - 5. koşu (20.00 · KV-6/DHT · 4 ve Yukarı Araplar · 2000 m · Kum): favori 13 PEKALP, kazanma şansı %27; sürpriz ihtimali %46. Sonuç: kazanan 7 DERBEDER ALİ.
 - 6. koşu (20.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 13 THE REAL HERO, kazanma şansı %29; sürpriz ihtimali %41. Sonuç: kazanan 12 LORD OF THE BLACK.
 - 7. koşu (21.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 ÇAKAL ÇÖKERTEN, kazanma şansı %41; sürpriz ihtimali %33. Sonuç: kazanan 1 ÇAKAL ÇÖKERTEN.
-- 8. koşu (21.30 · ŞARTLI 3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 17 YELİN, kazanma şansı %22; sürpriz ihtimali %49.
+- 8. koşu (21.30 · ŞARTLI 3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 17 YELİN, kazanma şansı %22; sürpriz ihtimali %49. Sonuç: kazanan 2 MANY MORE.
 
 ## Sayfalar
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 16.11.2026 21:21
+Güncellendi: 16.11.2026 21:48
