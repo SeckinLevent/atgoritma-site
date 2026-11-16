@@ -24,7 +24,7 @@
 - 2. koşu (15.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 4 COME AND SEE, kazanma şansı %32; sürpriz ihtimali %37. Sonuç: kazanan 7 TM BATAILE.
 - 3. koşu (15.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 8 ÖZGÜN BAŞKAN, kazanma şansı %38; sürpriz ihtimali %37. Sonuç: kazanan 3 PRENSES BERRİN.
 - 4. koşu (16.00 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 DRAGON FURIOUS, kazanma şansı %36; sürpriz ihtimali %32. Sonuç: kazanan 3 COLLECTOR MAN.
-- 5. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 5 LORD OF YILDIZER, kazanma şansı %41; sürpriz ihtimali %24.
+- 5. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 5 LORD OF YILDIZER, kazanma şansı %41; sürpriz ihtimali %24. Sonuç: kazanan 4 KEÇİKHAN.
 - 6. koşu (17.00 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 3 BAD REFTAR, kazanma şansı %40; sürpriz ihtimali %20.
 - 7. koşu (17.30 · Handikap 16/DHÖW /H2 · 4 ve Yukarı Araplar · 1900 m · Kum): favori 7 KARANİMO, kazanma şansı %28; sürpriz ihtimali %44.
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 16.11.2026 16:47
+Güncellendi: 16.11.2026 16:48
