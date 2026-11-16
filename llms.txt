@@ -30,7 +30,7 @@
 
 ### Şanlıurfa
 - 1. koşu (18.00 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 ADARYAM, kazanma şansı %22; sürpriz ihtimali %42. Sonuç: kazanan 3 ADARYAM.
-- 2. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 PİRİM ÖZER, kazanma şansı %28; sürpriz ihtimali %51.
+- 2. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 PİRİM ÖZER, kazanma şansı %28; sürpriz ihtimali %51. Sonuç: kazanan 4 ÇILGINKRAL.
 - 3. koşu (19.00 · Handikap 14 /H3 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 8 AYHAN IN MY HEART, kazanma şansı %34; sürpriz ihtimali %47.
 - 4. koşu (19.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 5 RÜZGARLIHAN, kazanma şansı %30; sürpriz ihtimali %37.
 - 5. koşu (20.00 · KV-6/DHT · 4 ve Yukarı Araplar · 2000 m · Kum): favori 13 PEKALP, kazanma şansı %27; sürpriz ihtimali %46.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 16.11.2026 18:47
+Güncellendi: 16.11.2026 18:48
