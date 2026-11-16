@@ -17,28 +17,26 @@
 - Kazananı ilk 3'te gösterme: yapay zekâ %67,6, AGF %65,8.
 - Altılı kuponları ve değer bahisleri geçmiş testlerde kâr getirmedi; site bunu açıkça yazar.
 
-## 15.11.2026 programı: yapay zekânın favorileri
+## 16.11.2026 programı: yapay zekânın favorileri
 
-### İstanbul
-- 1. koşu (14.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1900 m · Çim): favori 3 BALKIBEY, kazanma şansı %25; sürpriz ihtimali %47. Sonuç: kazanan 9 EFE KAPTAN.
-- 2. koşu (14.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1600 m · Çim): favori 5 EFLAH, kazanma şansı %27; sürpriz ihtimali %34. Sonuç: kazanan 5 EFLAH.
-- 3. koşu (15.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Çim): favori 4 DON ÇİÇİ, kazanma şansı %49; sürpriz ihtimali %11. Sonuç: kazanan 9 RECHARGE MY HEART.
-- 4. koşu (15.30 · Handikap 17 /H1 · 3 Yaşlı İngilizler · 2000 m · Sentetik): favori 7 SOCIAL BEE, kazanma şansı %23; sürpriz ihtimali %47. Sonuç: kazanan 7 SOCIAL BEE.
-- 5. koşu (16.00 · G 2/ULS · 2 Yaşlı İngilizler · 1800 m · Çim): favori 4 HAYRETBİŞEY, kazanma şansı %45; sürpriz ihtimali %24. Sonuç: kazanan 2 BATURALP CAN.
-- 6. koşu (16.30 · G 3 · 2 ve Yukarı İngilizler · 1400 m · Çim): favori 7 WHIZBANG, kazanma şansı %53; sürpriz ihtimali %12. Sonuç: kazanan 7 WHIZBANG.
-- 7. koşu (17.00 · G 3/ULS · 3 ve Yukarı İngilizler · 2400 m · Çim): favori 4 TOR GOLD, kazanma şansı %32; sürpriz ihtimali %25. Sonuç: kazanan 6 BRANDO.
-- 8. koşu (17.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Çim): favori 7 MARMARALI, kazanma şansı %35; sürpriz ihtimali %27. Sonuç: kazanan 6 KING LEGACY.
-- 9. koşu (18.00 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 1200 m · Çim): favori 7 GLONASS, kazanma şansı %22; sürpriz ihtimali %47. Sonuç: kazanan 4 FLYING JO.
+### Bursa
+- 1. koşu (14.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 ARSLANBEYLİ, kazanma şansı %32; sürpriz ihtimali %34.
+- 2. koşu (15.00 · Handikap 16 /H2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 4 COME AND SEE, kazanma şansı %25; sürpriz ihtimali %46.
+- 3. koşu (15.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 8 ÖZGÜN BAŞKAN, kazanma şansı %23; sürpriz ihtimali %42.
+- 4. koşu (16.00 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 DRAGON FURIOUS, kazanma şansı %37; sürpriz ihtimali %32.
+- 5. koşu (16.30 · KV-6 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 3 FEBRİS, kazanma şansı %33; sürpriz ihtimali %26.
+- 6. koşu (17.00 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 3 BAD REFTAR, kazanma şansı %30; sürpriz ihtimali %32.
+- 7. koşu (17.30 · Handikap 16/DHÖW /H2 · 4 ve Yukarı Araplar · 1900 m · Kum): favori 7 KARANİMO, kazanma şansı %21; sürpriz ihtimali %49.
 
-### Adana
-- 1. koşu (17.45 · Handikap 16/DHÖW /H2 · 4 Yaşlı Araplar · 1300 m · Kum): favori 7 TEPELİ, kazanma şansı %21; sürpriz ihtimali %43. Sonuç: kazanan 4 ALİMENDER.
-- 2. koşu (18.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 5 THUNDERSTRUCK, kazanma şansı %68; sürpriz ihtimali %14. Sonuç: kazanan 5 THUNDERSTRUCK.
-- 3. koşu (19.00 · ŞARTLI 5/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 3 DEV YÜREK, kazanma şansı %33; sürpriz ihtimali %33. Sonuç: kazanan 8 YARIŞ KRALİÇESİ.
-- 4. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 HYPER ROCKER, kazanma şansı %33; sürpriz ihtimali %29. Sonuç: kazanan 2 HYPER ROCKER.
-- 5. koşu (20.00 · ŞARTLI 5/Dişi · 3 Yaşlı İngilizler · 1200 m · Kum): favori 5 CEMO CAN, kazanma şansı %34; sürpriz ihtimali %36. Sonuç: kazanan 3 DOLCE MARE.
-- 6. koşu (20.30 · KV-8 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 REFLECTED GLORY, kazanma şansı %42; sürpriz ihtimali %24. Sonuç: kazanan 1 GÖK BERK.
-- 7. koşu (21.00 · ŞARTLI 5/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 ASPUWA, kazanma şansı %27; sürpriz ihtimali %35. Sonuç: kazanan 3 NOBLE CREST.
-- 8. koşu (21.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 9 GENGAR, kazanma şansı %44; sürpriz ihtimali %23. Sonuç: kazanan 4 ANOTHER BANGER.
+### Şanlıurfa
+- 1. koşu (18.00 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 6 GÖKTE YAZI, kazanma şansı %20; sürpriz ihtimali %43.
+- 2. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 PİRİM ÖZER, kazanma şansı %20; sürpriz ihtimali %60.
+- 3. koşu (19.00 · Handikap 14 /H3 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 8 AYHAN IN MY HEART, kazanma şansı %17; sürpriz ihtimali %56.
+- 4. koşu (19.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 14 YEŞİLVADİ GÜLÜ, kazanma şansı %17; sürpriz ihtimali %57.
+- 5. koşu (20.00 · KV-6/DHT · 4 ve Yukarı Araplar · 2000 m · Kum): favori 1 ÇİLOBEY, kazanma şansı %19; sürpriz ihtimali %53.
+- 6. koşu (20.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 1 KING LIGHTNING, kazanma şansı %19; sürpriz ihtimali %52.
+- 7. koşu (21.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 3 DOKTOR MEMO, kazanma şansı %19; sürpriz ihtimali %51.
+- 8. koşu (21.30 · ŞARTLI 3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 7 DANİSKA, kazanma şansı %19; sürpriz ihtimali %54.
 
 ## Sayfalar
 
@@ -53,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 16.11.2026 00:38
+Güncellendi: 16.11.2026 07:04
