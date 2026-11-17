@@ -22,7 +22,7 @@
 ### Adana
 - 1. koşu (14.30 · Maiden · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 TIMEWARDEN, kazanma şansı %46; sürpriz ihtimali %25. Sonuç: kazanan 1 TIMEWARDEN.
 - 2. koşu (15.00 · Handikap 14 /H2 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 3 COOGER FIRE, kazanma şansı %71; sürpriz ihtimali %11. Sonuç: kazanan 3 COOGER FIRE.
-- 3. koşu (15.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 6 CESURSOY, kazanma şansı %25; sürpriz ihtimali %48.
+- 3. koşu (15.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 6 CESURSOY, kazanma şansı %25; sürpriz ihtimali %48. Sonuç: kazanan 8 AZERBAYCANLI.
 - 4. koşu (16.00 · Handikap 14 /H1 · 3 ve Yukarı İngilizler · 1200 m · Sentetik): favori 5 MAMDANI, kazanma şansı %25; sürpriz ihtimali %43.
 - 5. koşu (16.30 · ŞARTLI 3 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 3 COMPETITOR, kazanma şansı %33; sürpriz ihtimali %33.
 - 6. koşu (17.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 1900 m · Kum): favori 8 DOĞAN KARDEŞLER, kazanma şansı %46; sürpriz ihtimali %22.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 17.11.2026 15:18
+Güncellendi: 17.11.2026 15:41
