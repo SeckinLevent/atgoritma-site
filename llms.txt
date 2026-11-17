@@ -30,14 +30,14 @@
 - 8. koşu (18.00 · SATIŞ 2/DHÖW · 4 Yaşlı Araplar · 1300 m · Kum): favori 5 UMUDUM DENİZ, kazanma şansı %20; sürpriz ihtimali %44.
 
 ### Antalya
-- 1. koşu (17.45 · Maiden · 2 Yaşlı İngilizler · 1200 m · Sentetik): favori 5 PETIT PRINCE, kazanma şansı %40; sürpriz ihtimali %13.
+- 1. koşu (17.45 · Maiden · 2 Yaşlı İngilizler · 1200 m · Sentetik): favori 5 PETIT PRINCE, kazanma şansı %39; sürpriz ihtimali %13.
 - 2. koşu (18.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 MR ÇINAR, kazanma şansı %47; sürpriz ihtimali %19.
-- 3. koşu (19.00 · ŞARTLI 3/DHT · 3 Yaşlı Araplar · 1400 m · Kum): favori 5 YAYLA ÇİÇEĞİ, kazanma şansı %22; sürpriz ihtimali %42.
-- 4. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2200 m · Sentetik): favori 1 THUNDER HORSE, kazanma şansı %47; sürpriz ihtimali %14.
-- 5. koşu (20.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 2200 m · Kum): favori 9 IŞIK GECE, kazanma şansı %31; sürpriz ihtimali %32.
-- 6. koşu (20.30 · KV-8/Dişi · 3 ve Yukarı İngilizler · 1400 m · Sentetik): favori 3 GENERAL BRIELLA, kazanma şansı %41; sürpriz ihtimali %14.
+- 3. koşu (19.00 · ŞARTLI 3/DHT · 3 Yaşlı Araplar · 1400 m · Kum): favori 5 YAYLA ÇİÇEĞİ, kazanma şansı %22; sürpriz ihtimali %43.
+- 4. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2200 m · Sentetik): favori 1 THUNDER HORSE, kazanma şansı %48; sürpriz ihtimali %14.
+- 5. koşu (20.00 · KV-6/DHÖW · 4 ve Yukarı Araplar · 2200 m · Kum): favori 9 IŞIK GECE, kazanma şansı %30; sürpriz ihtimali %32.
+- 6. koşu (20.30 · KV-8/Dişi · 3 ve Yukarı İngilizler · 1400 m · Sentetik): favori 3 GENERAL BRIELLA, kazanma şansı %39; sürpriz ihtimali %15.
 - 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1200 m · Sentetik): favori 1 BORSACI BABA, kazanma şansı %33; sürpriz ihtimali %24.
-- 8. koşu (21.30 · Handikap 15/DHÖ /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 5 ÇALIŞTAY, kazanma şansı %21; sürpriz ihtimali %43.
+- 8. koşu (21.30 · Handikap 15/DHÖ /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 2 KRAL YAZICI, kazanma şansı %20; sürpriz ihtimali %43.
 
 ## Sayfalar
 
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 17.11.2026 15:47
+Güncellendi: 17.11.2026 16:17
