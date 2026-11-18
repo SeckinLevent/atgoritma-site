@@ -37,8 +37,8 @@
 - 4. koşu (19.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 GREEN MILE, kazanma şansı %21; sürpriz ihtimali %44.
 - 5. koşu (20.00 · Handikap 15/Dişi /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 7 DENİZ LARA, kazanma şansı %17; sürpriz ihtimali %55.
 - 6. koşu (20.30 · ŞARTLI 4 · 2 Yaşlı İngilizler · 1600 m · Kum): favori 4 SARİŞİM, kazanma şansı %33; sürpriz ihtimali %25.
-- 7. koşu (21.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 RHEA, kazanma şansı %33; sürpriz ihtimali %27.
-- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 5 TAYKUTBEY, kazanma şansı %31; sürpriz ihtimali %45.
+- 7. koşu (21.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 RHEA, kazanma şansı %30; sürpriz ihtimali %30.
+- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 5 TAYKUTBEY, kazanma şansı %28; sürpriz ihtimali %47.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 18.11.2026 18:46
+Güncellendi: 18.11.2026 19:17
