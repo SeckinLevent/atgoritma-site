@@ -20,25 +20,25 @@
 ## 18.11.2026 programı: yapay zekânın favorileri
 
 ### İstanbul
-- 1. koşu (14.00 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Kum): favori 6 YENERSULTAN, kazanma şansı %42; sürpriz ihtimali %29.
-- 2. koşu (14.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 5 ORUNBAY, kazanma şansı %23; sürpriz ihtimali %46.
-- 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 ZOHAR, kazanma şansı %64; sürpriz ihtimali %8.
-- 4. koşu (15.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 2 SEHER ZAMANI, kazanma şansı %57; sürpriz ihtimali %26.
-- 5. koşu (16.00 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 6 TANJU BEY, kazanma şansı %30; sürpriz ihtimali %41.
-- 6. koşu (16.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 1 KAHRAMAN FATİH, kazanma şansı %21; sürpriz ihtimali %52.
-- 7. koşu (17.00 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 TOUCH OF GLORY, kazanma şansı %36; sürpriz ihtimali %16.
-- 8. koşu (17.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 1 AKÇAALİ, kazanma şansı %27; sürpriz ihtimali %41.
-- 9. koşu (18.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 9 DEJAVU, kazanma şansı %69; sürpriz ihtimali %18.
+- 1. koşu (14.00 · ŞARTLI 5/DHÖW/Dişi · 4 ve Yukarı Araplar · 2000 m · Kum): favori 6 YENERSULTAN, kazanma şansı %43; sürpriz ihtimali %29.
+- 2. koşu (14.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 5 ORUNBAY, kazanma şansı %23; sürpriz ihtimali %47.
+- 3. koşu (15.00 · Handikap 15 /H2 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 ZOHAR, kazanma şansı %69; sürpriz ihtimali %6.
+- 4. koşu (15.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1500 m · Sentetik): favori 2 SEHER ZAMANI, kazanma şansı %53; sürpriz ihtimali %29.
+- 5. koşu (16.00 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 6 TANJU BEY, kazanma şansı %29; sürpriz ihtimali %42.
+- 6. koşu (16.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 1 KAHRAMAN FATİH, kazanma şansı %20; sürpriz ihtimali %52.
+- 7. koşu (17.00 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 TOUCH OF GLORY, kazanma şansı %39; sürpriz ihtimali %14.
+- 8. koşu (17.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 1 AKÇAALİ, kazanma şansı %27; sürpriz ihtimali %40.
+- 9. koşu (18.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 9 DEJAVU, kazanma şansı %70; sürpriz ihtimali %16.
 
 ### Elazığ
-- 1. koşu (17.45 · ŞARTLI 3/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 3 KIRDOĞAN, kazanma şansı %36; sürpriz ihtimali %38.
-- 2. koşu (18.30 · ŞARTLI 3 · 3 Yaşlı İngilizler · 1800 m · Kum): favori 3 SÜPER ELOŞ, kazanma şansı %20; sürpriz ihtimali %49.
-- 3. koşu (19.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 7 EDEPLİ, kazanma şansı %23; sürpriz ihtimali %34.
-- 4. koşu (19.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2000 m · Kum): favori 5 YALNIZ TURBO, kazanma şansı %18; sürpriz ihtimali %55.
-- 5. koşu (20.00 · Handikap 15/Dişi /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 7 DENİZ LARA, kazanma şansı %20; sürpriz ihtimali %52.
-- 6. koşu (20.30 · ŞARTLI 4 · 2 Yaşlı İngilizler · 1600 m · Kum): favori 4 SARİŞİM, kazanma şansı %42; sürpriz ihtimali %17.
-- 7. koşu (21.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 RHEA, kazanma şansı %36; sürpriz ihtimali %32.
-- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 5 TAYKUTBEY, kazanma şansı %27; sürpriz ihtimali %53.
+- 1. koşu (17.45 · ŞARTLI 3/DHÖW · 3 Yaşlı Araplar · 1500 m · Kum): favori 3 KIRDOĞAN, kazanma şansı %42; sürpriz ihtimali %32.
+- 2. koşu (18.30 · ŞARTLI 3 · 3 Yaşlı İngilizler · 1800 m · Kum): favori 3 SÜPER ELOŞ, kazanma şansı %25; sürpriz ihtimali %44.
+- 3. koşu (19.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 7 EDEPLİ, kazanma şansı %23; sürpriz ihtimali %42.
+- 4. koşu (19.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 2000 m · Kum): favori 2 GREEN MILE, kazanma şansı %19; sürpriz ihtimali %50.
+- 5. koşu (20.00 · Handikap 15/Dişi /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 7 DENİZ LARA, kazanma şansı %21; sürpriz ihtimali %52.
+- 6. koşu (20.30 · ŞARTLI 4 · 2 Yaşlı İngilizler · 1600 m · Kum): favori 4 SARİŞİM, kazanma şansı %40; sürpriz ihtimali %19.
+- 7. koşu (21.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 RHEA, kazanma şansı %36; sürpriz ihtimali %27.
+- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 5 TAYKUTBEY, kazanma şansı %32; sürpriz ihtimali %47.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 18.11.2026 12:18
+Güncellendi: 18.11.2026 13:39
