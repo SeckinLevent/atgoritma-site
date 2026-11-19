@@ -25,7 +25,7 @@
 - 3. koşu (16.00 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 3 SOSAN YILDIZI, kazanma şansı %18; sürpriz ihtimali %55. Sonuç: kazanan 4 MADEİRA.
 - 4. koşu (16.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 6 PHANTOM STRIKE, kazanma şansı %39; sürpriz ihtimali %21. Sonuç: kazanan 4 ZENITH SKY.
 - 5. koşu (17.00 · ŞARTLI 4/Y2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 WOLF DED, kazanma şansı %37; sürpriz ihtimali %19. Sonuç: kazanan 3 WOLF DED.
-- 6. koşu (17.30 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 QUEEN OF MUĞLA, kazanma şansı %82; sürpriz ihtimali %5.
+- 6. koşu (17.30 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 QUEEN OF MUĞLA, kazanma şansı %82; sürpriz ihtimali %5. Sonuç: kazanan 2 ÇORLİ.
 - 7. koşu (18.00 · Handikap 14 /H1 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 3 HOLY, kazanma şansı %31; sürpriz ihtimali %30.
 
 ### Antalya
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 19.11.2026 17:43
+Güncellendi: 19.11.2026 17:46
