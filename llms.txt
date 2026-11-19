@@ -20,7 +20,7 @@
 ## 19.11.2026 programı: yapay zekânın favorileri
 
 ### İzmir
-- 1. koşu (15.00 · SATIŞ 2 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 BEAUTY ALYA, kazanma şansı %38; sürpriz ihtimali %17.
+- 1. koşu (15.00 · SATIŞ 2 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 BEAUTY ALYA, kazanma şansı %38; sürpriz ihtimali %17. Sonuç: kazanan 1 LADY ECRİN.
 - 2. koşu (15.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 SİYAH SANCAK, kazanma şansı %22; sürpriz ihtimali %41.
 - 3. koşu (16.00 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 3 SOSAN YILDIZI, kazanma şansı %19; sürpriz ihtimali %55.
 - 4. koşu (16.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 3 DRAGON RUNNER, kazanma şansı %31; sürpriz ihtimali %24.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 19.11.2026 14:44
+Güncellendi: 19.11.2026 15:10
