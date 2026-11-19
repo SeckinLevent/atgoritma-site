@@ -35,8 +35,8 @@
 - 4. koşu (19.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 10 CANSEFİRE, kazanma şansı %36; sürpriz ihtimali %29.
 - 5. koşu (20.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1300 m · Sentetik): favori 2 HOLA Y CHAO, kazanma şansı %34; sürpriz ihtimali %20.
 - 6. koşu (20.30 · ŞARTLI 4 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 2 YOU ARE BIG, kazanma şansı %71; sürpriz ihtimali %12.
-- 7. koşu (21.00 · KV-8 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 3 SWORD MASTER, kazanma şansı %45; sürpriz ihtimali %6.
-- 8. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 8 ASİ GÖNÜL, kazanma şansı %40; sürpriz ihtimali %35.
+- 7. koşu (21.00 · KV-8 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 3 SWORD MASTER, kazanma şansı %46; sürpriz ihtimali %7.
+- 8. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 8 ASİ GÖNÜL, kazanma şansı %37; sürpriz ihtimali %39.
 
 ## Sayfalar
 
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 19.11.2026 18:15
+Güncellendi: 19.11.2026 18:46
