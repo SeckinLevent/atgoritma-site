@@ -22,7 +22,7 @@
 ### İzmir
 - 1. koşu (15.00 · SATIŞ 2 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 BEAUTY ALYA, kazanma şansı %38; sürpriz ihtimali %17. Sonuç: kazanan 1 LADY ECRİN.
 - 2. koşu (15.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1600 m · Kum): favori 2 SİYAH SANCAK, kazanma şansı %22; sürpriz ihtimali %41. Sonuç: kazanan 12 ÖZASYALI.
-- 3. koşu (16.00 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 3 SOSAN YILDIZI, kazanma şansı %18; sürpriz ihtimali %55.
+- 3. koşu (16.00 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 1600 m · Kum): favori 3 SOSAN YILDIZI, kazanma şansı %18; sürpriz ihtimali %55. Sonuç: kazanan 4 MADEİRA.
 - 4. koşu (16.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 6 PHANTOM STRIKE, kazanma şansı %39; sürpriz ihtimali %21.
 - 5. koşu (17.00 · ŞARTLI 4/Y2 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 3 WOLF DED, kazanma şansı %37; sürpriz ihtimali %19.
 - 6. koşu (17.30 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 QUEEN OF MUĞLA, kazanma şansı %82; sürpriz ihtimali %5.
@@ -51,4 +51,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 19.11.2026 16:15
+Güncellendi: 19.11.2026 16:18
