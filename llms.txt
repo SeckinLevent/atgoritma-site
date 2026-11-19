@@ -13,8 +13,8 @@
 ## Başarı (geriye dönük test, yapay zekânın görmediği dönem)
 
 - Dönem: 2026-06-27 ile 2026-11-18 arası, 2.568 koşu.
-- Kazananı birinci bilme: yapay zekâ %33,8, AGF favorisi %32,8.
-- Kazananı ilk 3'te gösterme: yapay zekâ %67,5, AGF %65,5.
+- Kazananı birinci bilme: yapay zekâ %34,1, AGF favorisi %32,8.
+- Kazananı ilk 3'te gösterme: yapay zekâ %67,2, AGF %65,5.
 - Altılı kuponları ve değer bahisleri geçmiş testlerde kâr getirmedi; site bunu açıkça yazar.
 
 ## 18.11.2026 programı: yapay zekânın favorileri
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 18.11.2026 21:59
+Güncellendi: 19.11.2026 07:14
