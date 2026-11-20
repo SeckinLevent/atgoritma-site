@@ -21,12 +21,12 @@
 
 ### Antalya
 - 1. koşu (15.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 BELLAFINA, kazanma şansı %27; sürpriz ihtimali %34.
-- 2. koşu (15.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 MAUI, kazanma şansı %37; sürpriz ihtimali %37.
-- 3. koşu (16.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1300 m · Sentetik): favori 3 MILLENNIUM FALCON, kazanma şansı %17; sürpriz ihtimali %54.
-- 4. koşu (16.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 HASTA FINAL, kazanma şansı %31; sürpriz ihtimali %39.
-- 5. koşu (17.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 MAXIMUS MAN, kazanma şansı %25; sürpriz ihtimali %30.
-- 6. koşu (17.30 · Handikap 16/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 2 EŞAY, kazanma şansı %47; sürpriz ihtimali %28.
-- 7. koşu (18.00 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 3 ULU AĞAÇ, kazanma şansı %30; sürpriz ihtimali %52.
+- 2. koşu (15.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 MAUI, kazanma şansı %34; sürpriz ihtimali %33.
+- 3. koşu (16.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1300 m · Sentetik): favori 4 ÇAPGUR, kazanma şansı %19; sürpriz ihtimali %54.
+- 4. koşu (16.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 HASTA FINAL, kazanma şansı %36; sürpriz ihtimali %37.
+- 5. koşu (17.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 MAXIMUS MAN, kazanma şansı %32; sürpriz ihtimali %27.
+- 6. koşu (17.30 · Handikap 16/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 2 EŞAY, kazanma şansı %45; sürpriz ihtimali %27.
+- 7. koşu (18.00 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 3 ULU AĞAÇ, kazanma şansı %19; sürpriz ihtimali %60.
 
 ### İzmir
 - 1. koşu (18.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1600 m · Kum): favori 2 OTTOMAN, kazanma şansı %34; sürpriz ihtimali %13.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 20.11.2026 07:04
+Güncellendi: 20.11.2026 08:12
