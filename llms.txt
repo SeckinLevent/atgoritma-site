@@ -20,7 +20,7 @@
 ## 20.11.2026 programı: yapay zekânın favorileri
 
 ### Antalya
-- 1. koşu (15.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 BELLAFINA, kazanma şansı %39; sürpriz ihtimali %23.
+- 1. koşu (15.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 BELLAFINA, kazanma şansı %39; sürpriz ihtimali %23. Sonuç: kazanan 1 BELLAFINA.
 - 2. koşu (15.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 MAUI, kazanma şansı %46; sürpriz ihtimali %15.
 - 3. koşu (16.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1300 m · Sentetik): favori 3 MILLENNIUM FALCON, kazanma şansı %18; sürpriz ihtimali %56.
 - 4. koşu (16.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 HASTA FINAL, kazanma şansı %43; sürpriz ihtimali %27.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 20.11.2026 14:44
+Güncellendi: 20.11.2026 15:13
