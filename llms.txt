@@ -26,16 +26,16 @@
 - 4. koşu (16.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 HASTA FINAL, kazanma şansı %42; sürpriz ihtimali %29. Sonuç: kazanan 2 LADY SOVEREIGN.
 - 5. koşu (17.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 MAXIMUS MAN, kazanma şansı %36; sürpriz ihtimali %27. Sonuç: kazanan 1 MAXIMUS MAN.
 - 6. koşu (17.30 · Handikap 16/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 2 EŞAY, kazanma şansı %30; sürpriz ihtimali %32. Sonuç: kazanan 2 EŞAY.
-- 7. koşu (18.00 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 3 ULU AĞAÇ, kazanma şansı %29; sürpriz ihtimali %43.
+- 7. koşu (18.00 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 3 ULU AĞAÇ, kazanma şansı %29; sürpriz ihtimali %43. Sonuç: kazanan 2 KARAKÖPRÜ ATEŞİ.
 
 ### İzmir
 - 1. koşu (18.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 GOLDEN BEST, kazanma şansı %49; sürpriz ihtimali %5.
-- 2. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 CLEMSON, kazanma şansı %27; sürpriz ihtimali %35.
-- 3. koşu (19.30 · Handikap 14 /H1 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 2 MERCİA, kazanma şansı %22; sürpriz ihtimali %46.
-- 4. koşu (20.00 · KV-9/DHÖW · 3 Yaşlı Araplar · 1600 m · Kum): favori 4 KINDBERO, kazanma şansı %38; sürpriz ihtimali %31.
-- 5. koşu (20.30 · KV-7 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 4 DROWZEE, kazanma şansı %46; sürpriz ihtimali %12.
-- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 7 VICTORY DRUNKEN, kazanma şansı %28; sürpriz ihtimali %28.
-- 7. koşu (21.30 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 NEVERLAND, kazanma şansı %45; sürpriz ihtimali %25.
+- 2. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 CLEMSON, kazanma şansı %28; sürpriz ihtimali %36.
+- 3. koşu (19.30 · Handikap 14 /H1 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 2 MERCİA, kazanma şansı %22; sürpriz ihtimali %47.
+- 4. koşu (20.00 · KV-9/DHÖW · 3 Yaşlı Araplar · 1600 m · Kum): favori 4 KINDBERO, kazanma şansı %37; sürpriz ihtimali %32.
+- 5. koşu (20.30 · KV-7 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 4 DROWZEE, kazanma şansı %45; sürpriz ihtimali %13.
+- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 7 VICTORY DRUNKEN, kazanma şansı %28; sürpriz ihtimali %29.
+- 7. koşu (21.30 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 NEVERLAND, kazanma şansı %46; sürpriz ihtimali %25.
 
 ## Sayfalar
 
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 20.11.2026 17:52
+Güncellendi: 20.11.2026 18:13
