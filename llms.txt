@@ -21,21 +21,21 @@
 
 ### Antalya
 - 1. koşu (15.00 · ŞARTLI 4/Dişi · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 BELLAFINA, kazanma şansı %39; sürpriz ihtimali %23.
-- 2. koşu (15.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 MAUI, kazanma şansı %47; sürpriz ihtimali %17.
-- 3. koşu (16.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1300 m · Sentetik): favori 3 MILLENNIUM FALCON, kazanma şansı %18; sürpriz ihtimali %55.
-- 4. koşu (16.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 HASTA FINAL, kazanma şansı %38; sürpriz ihtimali %28.
-- 5. koşu (17.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 MAXIMUS MAN, kazanma şansı %35; sürpriz ihtimali %28.
-- 6. koşu (17.30 · Handikap 16/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 2 EŞAY, kazanma şansı %32; sürpriz ihtimali %32.
-- 7. koşu (18.00 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 3 ULU AĞAÇ, kazanma şansı %29; sürpriz ihtimali %46.
+- 2. koşu (15.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 MAUI, kazanma şansı %46; sürpriz ihtimali %15.
+- 3. koşu (16.00 · Handikap 16 /H1 · 3 Yaşlı İngilizler · 1300 m · Sentetik): favori 3 MILLENNIUM FALCON, kazanma şansı %18; sürpriz ihtimali %56.
+- 4. koşu (16.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 HASTA FINAL, kazanma şansı %43; sürpriz ihtimali %27.
+- 5. koşu (17.00 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 1 MAXIMUS MAN, kazanma şansı %39; sürpriz ihtimali %27.
+- 6. koşu (17.30 · Handikap 16/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 2 EŞAY, kazanma şansı %32; sürpriz ihtimali %31.
+- 7. koşu (18.00 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Sentetik): favori 3 ULU AĞAÇ, kazanma şansı %29; sürpriz ihtimali %44.
 
 ### İzmir
 - 1. koşu (18.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1600 m · Kum): favori 3 GOLDEN BEST, kazanma şansı %49; sürpriz ihtimali %5.
-- 2. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 CLEMSON, kazanma şansı %26; sürpriz ihtimali %39.
-- 3. koşu (19.30 · Handikap 14 /H1 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 2 MERCİA, kazanma şansı %20; sürpriz ihtimali %46.
-- 4. koşu (20.00 · KV-9/DHÖW · 3 Yaşlı Araplar · 1600 m · Kum): favori 4 KINDBERO, kazanma şansı %40; sürpriz ihtimali %32.
-- 5. koşu (20.30 · KV-7 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 4 DROWZEE, kazanma şansı %42; sürpriz ihtimali %16.
-- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 DERVİŞ HAN, kazanma şansı %27; sürpriz ihtimali %33.
-- 7. koşu (21.30 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 NEVERLAND, kazanma şansı %34; sürpriz ihtimali %22.
+- 2. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 CLEMSON, kazanma şansı %25; sürpriz ihtimali %36.
+- 3. koşu (19.30 · Handikap 14 /H1 · 3 ve Yukarı İngilizler · 1600 m · Kum): favori 2 MERCİA, kazanma şansı %23; sürpriz ihtimali %45.
+- 4. koşu (20.00 · KV-9/DHÖW · 3 Yaşlı Araplar · 1600 m · Kum): favori 4 KINDBERO, kazanma şansı %39; sürpriz ihtimali %31.
+- 5. koşu (20.30 · KV-7 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 4 DROWZEE, kazanma şansı %46; sürpriz ihtimali %13.
+- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 DERVİŞ HAN, kazanma şansı %30; sürpriz ihtimali %27.
+- 7. koşu (21.30 · KV-6/DHÖW · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 NEVERLAND, kazanma şansı %40; sürpriz ihtimali %26.
 
 ## Sayfalar
 
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 20.11.2026 11:20
+Güncellendi: 20.11.2026 14:07
