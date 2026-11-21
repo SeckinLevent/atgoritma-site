@@ -31,7 +31,7 @@
 - 9. koşu (18.00 · SATIŞ 2 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 12 GOLDEN RACER, kazanma şansı %18; sürpriz ihtimali %56.
 
 ### İstanbul
-- 1. koşu (17.45 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 CLEMENZA, kazanma şansı %32; sürpriz ihtimali %28.
+- 1. koşu (17.45 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 CLEMENZA, kazanma şansı %32; sürpriz ihtimali %28. Sonuç: kazanan 4 SARUNAS.
 - 2. koşu (18.30 · ŞARTLI 4/Y2 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 1 IRON SKY, kazanma şansı %75; sürpriz ihtimali %12.
 - 3. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BAY MENTOR, kazanma şansı %37; sürpriz ihtimali %27.
 - 4. koşu (19.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 14 ARAM SAMSAM, kazanma şansı %18; sürpriz ihtimali %56.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 21.11.2026 17:47
+Güncellendi: 21.11.2026 18:00
