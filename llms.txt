@@ -27,7 +27,7 @@
 - 5. koşu (16.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1400 m · Kum): favori 7 KADER GÜCÜ, kazanma şansı %26; sürpriz ihtimali %42. Sonuç: kazanan 6 IRMAK SU.
 - 6. koşu (16.30 · KV-8 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 1 PERCY JACKSON, kazanma şansı %42; sürpriz ihtimali %18. Sonuç: kazanan 3 DRAGON KINGDOM.
 - 7. koşu (17.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 BİR KARA VEDAT, kazanma şansı %48; sürpriz ihtimali %20. Sonuç: kazanan 6 BİR KARA VEDAT.
-- 8. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 4 KAVS, kazanma şansı %31; sürpriz ihtimali %27.
+- 8. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 4 KAVS, kazanma şansı %31; sürpriz ihtimali %27. Sonuç: kazanan 9 QUEEN SHERY.
 - 9. koşu (18.00 · SATIŞ 2 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 12 GOLDEN RACER, kazanma şansı %18; sürpriz ihtimali %56.
 
 ### İstanbul
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 21.11.2026 17:27
+Güncellendi: 21.11.2026 17:47
