@@ -23,7 +23,7 @@
 - 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 8 CHARM, kazanma şansı %22; sürpriz ihtimali %40. Sonuç: kazanan 6 VİNİ JR.
 - 2. koşu (14.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 2 BERKALİ, kazanma şansı %62; sürpriz ihtimali %17. Sonuç: kazanan 2 BERKALİ.
 - 3. koşu (15.00 · ŞARTLI 5 · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 SARATOGA SPRINGS, kazanma şansı %68; sürpriz ihtimali %6. Sonuç: kazanan 2 ETIQUETTE.
-- 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 BABYFACED ASSASSIN, kazanma şansı %21; sürpriz ihtimali %45.
+- 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 BABYFACED ASSASSIN, kazanma şansı %21; sürpriz ihtimali %45. Sonuç: kazanan 1 BABYFACED ASSASSIN.
 - 5. koşu (16.00 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1400 m · Kum): favori 7 KADER GÜCÜ, kazanma şansı %26; sürpriz ihtimali %42.
 - 6. koşu (16.30 · KV-8 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 1 PERCY JACKSON, kazanma şansı %42; sürpriz ihtimali %18.
 - 7. koşu (17.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 BİR KARA VEDAT, kazanma şansı %48; sürpriz ihtimali %20.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 21.11.2026 15:45
+Güncellendi: 21.11.2026 15:47
