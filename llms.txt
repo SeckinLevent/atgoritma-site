@@ -38,7 +38,7 @@
 - 5. koşu (20.00 · ŞARTLI 3/DHÖW/Dişi · 4 Yaşlı Araplar · 1400 m · Sentetik): favori 8 MİSS KÜBRA, kazanma şansı %32; sürpriz ihtimali %35. Sonuç: kazanan 5 AL SEHER.
 - 6. koşu (20.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1300 m · Sentetik): favori 1 ÜMİTBEY, kazanma şansı %42; sürpriz ihtimali %9. Sonuç: kazanan 1 ÜMİTBEY.
 - 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 4 JUNIOR ALAATTİN, kazanma şansı %36; sürpriz ihtimali %18. Sonuç: kazanan 9 LET IT BURN.
-- 8. koşu (21.30 · Handikap 15/DHÖW/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 5 UÇAN DULO, kazanma şansı %23; sürpriz ihtimali %47.
+- 8. koşu (21.30 · Handikap 15/DHÖW/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 5 UÇAN DULO, kazanma şansı %23; sürpriz ihtimali %47. Sonuç: kazanan 9 BALKIZIM.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 21.11.2026 21:16
+Güncellendi: 21.11.2026 21:44
