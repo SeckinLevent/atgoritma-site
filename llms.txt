@@ -28,17 +28,17 @@
 - 6. koşu (16.30 · KV-8 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 1 PERCY JACKSON, kazanma şansı %42; sürpriz ihtimali %18. Sonuç: kazanan 3 DRAGON KINGDOM.
 - 7. koşu (17.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 BİR KARA VEDAT, kazanma şansı %48; sürpriz ihtimali %20. Sonuç: kazanan 6 BİR KARA VEDAT.
 - 8. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 4 KAVS, kazanma şansı %31; sürpriz ihtimali %27. Sonuç: kazanan 9 QUEEN SHERY.
-- 9. koşu (18.00 · SATIŞ 2 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 12 GOLDEN RACER, kazanma şansı %18; sürpriz ihtimali %56.
+- 9. koşu (18.00 · SATIŞ 2 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 12 GOLDEN RACER, kazanma şansı %18; sürpriz ihtimali %56. Sonuç: kazanan 13 RÜZGAR UĞUR.
 
 ### İstanbul
 - 1. koşu (17.45 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 CLEMENZA, kazanma şansı %32; sürpriz ihtimali %28. Sonuç: kazanan 4 SARUNAS.
 - 2. koşu (18.30 · ŞARTLI 4/Y2 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 1 IRON SKY, kazanma şansı %75; sürpriz ihtimali %12.
-- 3. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BAY MENTOR, kazanma şansı %37; sürpriz ihtimali %27.
-- 4. koşu (19.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 14 ARAM SAMSAM, kazanma şansı %18; sürpriz ihtimali %56.
+- 3. koşu (19.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BAY MENTOR, kazanma şansı %36; sürpriz ihtimali %28.
+- 4. koşu (19.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 14 ARAM SAMSAM, kazanma şansı %19; sürpriz ihtimali %55.
 - 5. koşu (20.00 · ŞARTLI 3/DHÖW/Dişi · 4 Yaşlı Araplar · 1400 m · Sentetik): favori 8 MİSS KÜBRA, kazanma şansı %32; sürpriz ihtimali %35.
-- 6. koşu (20.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1300 m · Sentetik): favori 1 ÜMİTBEY, kazanma şansı %42; sürpriz ihtimali %8.
-- 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 9 LET IT BURN, kazanma şansı %38; sürpriz ihtimali %16.
-- 8. koşu (21.30 · Handikap 15/DHÖW/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 5 UÇAN DULO, kazanma şansı %25; sürpriz ihtimali %46.
+- 6. koşu (20.30 · ŞARTLI 3 · 2 Yaşlı İngilizler · 1300 m · Sentetik): favori 1 ÜMİTBEY, kazanma şansı %42; sürpriz ihtimali %9.
+- 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 9 LET IT BURN, kazanma şansı %37; sürpriz ihtimali %17.
+- 8. koşu (21.30 · Handikap 15/DHÖW/Dişi /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 5 UÇAN DULO, kazanma şansı %24; sürpriz ihtimali %46.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 21.11.2026 18:00
+Güncellendi: 21.11.2026 18:18
