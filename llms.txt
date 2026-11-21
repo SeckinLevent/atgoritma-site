@@ -20,7 +20,7 @@
 ## 21.11.2026 programı: yapay zekânın favorileri
 
 ### Adana
-- 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 8 CHARM, kazanma şansı %22; sürpriz ihtimali %40.
+- 1. koşu (14.00 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 8 CHARM, kazanma şansı %22; sürpriz ihtimali %40. Sonuç: kazanan 6 VİNİ JR.
 - 2. koşu (14.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 2 BERKALİ, kazanma şansı %62; sürpriz ihtimali %17.
 - 3. koşu (15.00 · ŞARTLI 5 · 2 Yaşlı İngilizler · 1300 m · Kum): favori 1 SARATOGA SPRINGS, kazanma şansı %68; sürpriz ihtimali %6.
 - 4. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 1 BABYFACED ASSASSIN, kazanma şansı %21; sürpriz ihtimali %46.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 21.11.2026 13:42
+Güncellendi: 21.11.2026 14:23
