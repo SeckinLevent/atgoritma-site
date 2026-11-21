@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 40
     environment:
       name: github-pages
-      url: ${{ steps.dagit.outputs.page_url }}
+      url: ${{ steps.dagit.outputs.page_url || steps.dagit2.outputs.page_url || steps.dagit3.outputs.page_url }}
     steps:
       # Her iş kendi gönderiminin değil, o anki en güncel sayfanın kopyasını yayınlar: sırada bekleyip geç çalışan
       # eski bir iş siteyi eski hâline döndüremez (12 Kasım 2026, GitHub arızasında yaşandı).
@@ -33,7 +33,25 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+      # Yeniden deneme (21 Kasım 2026): GitHub ara sıra yüklenen dosyaları bulamıyor ("No artifacts named github-pages";
+      # bir haftada 100 yayının 5'i). Yayın adımı 1 ve 3 dakika arayla iki kez daha denenir; üçü de düşerse iş hata verir.
       - id: dagit
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 1800000
+      - if: steps.dagit.outcome == 'failure'
+        run: sleep 60
+      - id: dagit2
+        if: steps.dagit.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 1800000
+      - if: steps.dagit.outcome == 'failure' && steps.dagit2.outcome == 'failure'
+        run: sleep 180
+      - id: dagit3
+        if: steps.dagit.outcome == 'failure' && steps.dagit2.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
           timeout: 1800000
