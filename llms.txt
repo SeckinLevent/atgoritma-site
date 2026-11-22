@@ -26,7 +26,7 @@
 - 4. koşu (16.00 · Handikap 15/Dişi /H1/Y2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 5 ROXELENA, kazanma şansı %19; sürpriz ihtimali %49. Sonuç: kazanan 6 SUPERTRAMP.
 - 5. koşu (16.30 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 1 AĞUSTOS AHMET, kazanma şansı %34; sürpriz ihtimali %26. Sonuç: kazanan 5 CHUMLEE.
 - 6. koşu (17.00 · KV-9 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 PAŞOT, kazanma şansı %51; sürpriz ihtimali %3. Sonuç: kazanan 4 PAŞOT.
-- 7. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 GALA, kazanma şansı %34; sürpriz ihtimali %35.
+- 7. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 GALA, kazanma şansı %34; sürpriz ihtimali %35. Sonuç: kazanan 4 GALA.
 - 8. koşu (18.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 GÜMBÜR BABA, kazanma şansı %33; sürpriz ihtimali %39.
 
 ### Adana
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 22.11.2026 17:45
+Güncellendi: 22.11.2026 17:47
