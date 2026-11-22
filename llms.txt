@@ -20,24 +20,24 @@
 ## 22.11.2026 programı: yapay zekânın favorileri
 
 ### İzmir
-- 1. koşu (14.30 · Handikap 15/DHÖW /H1 · 4 Yaşlı Araplar · 2000 m · Kum): favori 3 ULU YAŞAR, kazanma şansı %27; sürpriz ihtimali %35.
+- 1. koşu (14.30 · Handikap 15/DHÖW /H1 · 4 Yaşlı Araplar · 2000 m · Kum): favori 3 ULU YAŞAR, kazanma şansı %27; sürpriz ihtimali %37.
 - 2. koşu (15.00 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1600 m · Kum): favori 4 FEEL THE BATTLE, kazanma şansı %44; sürpriz ihtimali %18.
-- 3. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 DJUMBO, kazanma şansı %25; sürpriz ihtimali %34.
-- 4. koşu (16.00 · Handikap 15/Dişi /H1/Y2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 10 ROSİLDA, kazanma şansı %20; sürpriz ihtimali %49.
-- 5. koşu (16.30 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 1 AĞUSTOS AHMET, kazanma şansı %36; sürpriz ihtimali %24.
+- 3. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 DJUMBO, kazanma şansı %26; sürpriz ihtimali %35.
+- 4. koşu (16.00 · Handikap 15/Dişi /H1/Y2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 5 ROXELENA, kazanma şansı %19; sürpriz ihtimali %50.
+- 5. koşu (16.30 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 1 AĞUSTOS AHMET, kazanma şansı %35; sürpriz ihtimali %26.
 - 6. koşu (17.00 · KV-9 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 PAŞOT, kazanma şansı %52; sürpriz ihtimali %4.
-- 7. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 GALA, kazanma şansı %27; sürpriz ihtimali %37.
+- 7. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 GALA, kazanma şansı %29; sürpriz ihtimali %36.
 - 8. koşu (18.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 GÜMBÜR BABA, kazanma şansı %34; sürpriz ihtimali %37.
 
 ### Adana
-- 1. koşu (17.45 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 2100 m · Kum): favori 3 SELANİK PRENSİ, kazanma şansı %34; sürpriz ihtimali %21.
-- 2. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 7 RACİH, kazanma şansı %39; sürpriz ihtimali %18.
-- 3. koşu (19.00 · ŞARTLI 4/DHÖW/Dişi/Y1 · 4 Yaşlı Araplar · 1900 m · Sentetik): favori 4 ÇEŞMEBAŞI, kazanma şansı %32; sürpriz ihtimali %29.
-- 4. koşu (19.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 15 GONDAR, kazanma şansı %23; sürpriz ihtimali %43.
-- 5. koşu (20.00 · KV-6/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 TRUE ACTION, kazanma şansı %71; sürpriz ihtimali %12.
-- 6. koşu (20.30 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 5 LEADER TULIP, kazanma şansı %27; sürpriz ihtimali %46.
-- 7. koşu (21.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 9 ZUBİR, kazanma şansı %40; sürpriz ihtimali %24.
-- 8. koşu (21.30 · Handikap 14 /H1 · 3 Yaşlı İngilizler · 1900 m · Sentetik): favori 6 MAMDANI, kazanma şansı %23; sürpriz ihtimali %45.
+- 1. koşu (17.45 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 2100 m · Kum): favori 3 SELANİK PRENSİ, kazanma şansı %35; sürpriz ihtimali %21.
+- 2. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 7 RACİH, kazanma şansı %37; sürpriz ihtimali %20.
+- 3. koşu (19.00 · ŞARTLI 4/DHÖW/Dişi/Y1 · 4 Yaşlı Araplar · 1900 m · Sentetik): favori 4 ÇEŞMEBAŞI, kazanma şansı %34; sürpriz ihtimali %28.
+- 4. koşu (19.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 12 ÖZGÜNVERA, kazanma şansı %21; sürpriz ihtimali %45.
+- 5. koşu (20.00 · KV-6/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 TRUE ACTION, kazanma şansı %67; sürpriz ihtimali %14.
+- 6. koşu (20.30 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 5 LEADER TULIP, kazanma şansı %29; sürpriz ihtimali %42.
+- 7. koşu (21.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 9 ZUBİR, kazanma şansı %39; sürpriz ihtimali %25.
+- 8. koşu (21.30 · Handikap 14 /H1 · 3 Yaşlı İngilizler · 1900 m · Sentetik): favori 6 MAMDANI, kazanma şansı %24; sürpriz ihtimali %44.
 
 ## Sayfalar
 
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 22.11.2026 13:29
+Güncellendi: 22.11.2026 14:13
