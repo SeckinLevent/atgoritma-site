@@ -23,7 +23,7 @@
 - 1. koşu (14.30 · Handikap 15/DHÖW /H1 · 4 Yaşlı Araplar · 2000 m · Kum): favori 3 ULU YAŞAR, kazanma şansı %27; sürpriz ihtimali %37. Sonuç: kazanan 3 ULU YAŞAR.
 - 2. koşu (15.00 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1600 m · Kum): favori 4 FEEL THE BATTLE, kazanma şansı %44; sürpriz ihtimali %18. Sonuç: kazanan 4 FEEL THE BATTLE.
 - 3. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 DJUMBO, kazanma şansı %29; sürpriz ihtimali %32. Sonuç: kazanan 4 NORTH HERO.
-- 4. koşu (16.00 · Handikap 15/Dişi /H1/Y2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 5 ROXELENA, kazanma şansı %19; sürpriz ihtimali %49.
+- 4. koşu (16.00 · Handikap 15/Dişi /H1/Y2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 5 ROXELENA, kazanma şansı %19; sürpriz ihtimali %49. Sonuç: kazanan 6 SUPERTRAMP.
 - 5. koşu (16.30 · ŞARTLI 3 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 1 AĞUSTOS AHMET, kazanma şansı %34; sürpriz ihtimali %26.
 - 6. koşu (17.00 · KV-9 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 PAŞOT, kazanma şansı %51; sürpriz ihtimali %3.
 - 7. koşu (17.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 4 GALA, kazanma şansı %34; sürpriz ihtimali %35.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 22.11.2026 15:51
+Güncellendi: 22.11.2026 16:11
