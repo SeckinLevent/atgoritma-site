@@ -30,7 +30,7 @@
 - 8. koşu (18.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 GÜMBÜR BABA, kazanma şansı %33; sürpriz ihtimali %39.
 
 ### Adana
-- 1. koşu (17.45 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 2100 m · Kum): favori 3 SELANİK PRENSİ, kazanma şansı %36; sürpriz ihtimali %22.
+- 1. koşu (17.45 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 2100 m · Kum): favori 3 SELANİK PRENSİ, kazanma şansı %36; sürpriz ihtimali %22. Sonuç: kazanan 4 WE ARE THE STAR.
 - 2. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 7 RACİH, kazanma şansı %38; sürpriz ihtimali %23.
 - 3. koşu (19.00 · ŞARTLI 4/DHÖW/Dişi/Y1 · 4 Yaşlı Araplar · 1900 m · Sentetik): favori 4 ÇEŞMEBAŞI, kazanma şansı %35; sürpriz ihtimali %32.
 - 4. koşu (19.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 12 ÖZGÜNVERA, kazanma şansı %22; sürpriz ihtimali %46.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 22.11.2026 17:47
+Güncellendi: 22.11.2026 18:03
