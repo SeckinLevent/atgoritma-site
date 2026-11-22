@@ -36,7 +36,7 @@
 - 4. koşu (19.30 · Handikap 16/DHÖW /H1 · 4 ve Yukarı Araplar · 2000 m · Kum): favori 12 ÖZGÜNVERA, kazanma şansı %22; sürpriz ihtimali %46. Sonuç: kazanan 13 ODABAŞI.
 - 5. koşu (20.00 · KV-6/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 3 TRUE ACTION, kazanma şansı %61; sürpriz ihtimali %15. Sonuç: kazanan 6 PERIWINKLE.
 - 6. koşu (20.30 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 5 LEADER TULIP, kazanma şansı %27; sürpriz ihtimali %44. Sonuç: kazanan 2 HIZLI GÖR.
-- 7. koşu (21.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 9 ZUBİR, kazanma şansı %39; sürpriz ihtimali %26.
+- 7. koşu (21.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1300 m · Kum): favori 9 ZUBİR, kazanma şansı %39; sürpriz ihtimali %26. Sonuç: kazanan 9 ZUBİR.
 - 8. koşu (21.30 · Handikap 14 /H1 · 3 Yaşlı İngilizler · 1900 m · Sentetik): favori 11 TIME CHANGER, kazanma şansı %26; sürpriz ihtimali %47.
 
 ## Sayfalar
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 22.11.2026 20:48
+Güncellendi: 22.11.2026 21:17
