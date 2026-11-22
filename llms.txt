@@ -20,7 +20,7 @@
 ## 22.11.2026 programı: yapay zekânın favorileri
 
 ### İzmir
-- 1. koşu (14.30 · Handikap 15/DHÖW /H1 · 4 Yaşlı Araplar · 2000 m · Kum): favori 3 ULU YAŞAR, kazanma şansı %27; sürpriz ihtimali %37.
+- 1. koşu (14.30 · Handikap 15/DHÖW /H1 · 4 Yaşlı Araplar · 2000 m · Kum): favori 3 ULU YAŞAR, kazanma şansı %27; sürpriz ihtimali %37. Sonuç: kazanan 3 ULU YAŞAR.
 - 2. koşu (15.00 · ŞARTLI 4 · 3 Yaşlı İngilizler · 1600 m · Kum): favori 4 FEEL THE BATTLE, kazanma şansı %44; sürpriz ihtimali %18.
 - 3. koşu (15.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 DJUMBO, kazanma şansı %26; sürpriz ihtimali %35.
 - 4. koşu (16.00 · Handikap 15/Dişi /H1/Y2 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 5 ROXELENA, kazanma şansı %19; sürpriz ihtimali %50.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 22.11.2026 14:13
+Güncellendi: 22.11.2026 14:40
