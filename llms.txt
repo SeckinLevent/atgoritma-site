@@ -38,7 +38,7 @@
 - 5. koşu (20.00 · KV-6 · 3 ve Yukarı İngilizler · 1700 m · Kum): favori 9 VERMİTHRAX, kazanma şansı %21; sürpriz ihtimali %60. Sonuç: kazanan 10 KORKMAZ KARDEŞLER.
 - 6. koşu (20.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1700 m · Kum): favori 10 MAÇKA BEY, kazanma şansı %30; sürpriz ihtimali %34. Sonuç: kazanan 4 GÖNÜL KALESİ.
 - 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 10 QUEEN IQRA, kazanma şansı %34; sürpriz ihtimali %40. Sonuç: kazanan 13 NORTHERN TOUCH.
-- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 KÜÇÜKCEVER, kazanma şansı %18; sürpriz ihtimali %57.
+- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 KÜÇÜKCEVER, kazanma şansı %18; sürpriz ihtimali %57. Sonuç: kazanan 11 TAYKUTBEY.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 23.11.2026 21:19
+Güncellendi: 23.11.2026 21:42
