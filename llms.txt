@@ -34,11 +34,11 @@
 - 1. koşu (18.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 GLACIUS BOREAS, kazanma şansı %36; sürpriz ihtimali %34.
 - 2. koşu (18.30 · ŞARTLI 3/DHÖW/Y2 · 4 ve Yukarı Araplar · 1800 m · Kum): favori 5 SANPMAN, kazanma şansı %40; sürpriz ihtimali %25.
 - 3. koşu (19.00 · Handikap 15/DHÖW/Dişi /H3 · 4 Yaşlı Araplar · 1800 m · Kum): favori 4 UĞUR MELEĞİ, kazanma şansı %29; sürpriz ihtimali %44.
-- 4. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 9 STAR SONN, kazanma şansı %21; sürpriz ihtimali %40.
-- 5. koşu (20.00 · KV-6 · 3 ve Yukarı İngilizler · 1700 m · Kum): favori 9 VERMİTHRAX, kazanma şansı %22; sürpriz ihtimali %55.
-- 6. koşu (20.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1700 m · Kum): favori 10 MAÇKA BEY, kazanma şansı %30; sürpriz ihtimali %34.
-- 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 10 QUEEN IQRA, kazanma şansı %37; sürpriz ihtimali %37.
-- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1200 m · Kum): favori 11 TAYKUTBEY, kazanma şansı %18; sürpriz ihtimali %55.
+- 4. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 9 STAR SONN, kazanma şansı %21; sürpriz ihtimali %41.
+- 5. koşu (20.00 · KV-6 · 3 ve Yukarı İngilizler · 1700 m · Kum): favori 9 VERMİTHRAX, kazanma şansı %22; sürpriz ihtimali %56.
+- 6. koşu (20.30 · ŞARTLI 4/DHÖW · 3 Yaşlı Araplar · 1700 m · Kum): favori 10 MAÇKA BEY, kazanma şansı %31; sürpriz ihtimali %34.
+- 7. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 10 QUEEN IQRA, kazanma şansı %37; sürpriz ihtimali %38.
+- 8. koşu (21.30 · Handikap 14/DHÖW /H3 · 4 ve Yukarı Araplar · 1200 m · Kum): favori 11 TAYKUTBEY, kazanma şansı %18; sürpriz ihtimali %56.
 
 ## Sayfalar
 
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 23.11.2026 15:52
+Güncellendi: 23.11.2026 16:15
