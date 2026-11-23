@@ -20,7 +20,7 @@
 ## 23.11.2026 programı: yapay zekânın favorileri
 
 ### Bursa
-- 1. koşu (13.30 · Handikap 17 /H2 · 3 ve Yukarı İngilizler · 2100 m · Kum): favori 3 VOLITIVO, kazanma şansı %31; sürpriz ihtimali %30.
+- 1. koşu (13.30 · Handikap 17 /H2 · 3 ve Yukarı İngilizler · 2100 m · Kum): favori 3 VOLITIVO, kazanma şansı %31; sürpriz ihtimali %30. Sonuç: kazanan 3 VOLITIVO.
 - 2. koşu (14.00 · Maiden/DHÖW · 3 Yaşlı Araplar · 1200 m · Kum): favori 1 ESDRAGON, kazanma şansı %64; sürpriz ihtimali %25.
 - 3. koşu (14.30 · ŞARTLI 4 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 1 ALL FIRST, kazanma şansı %49; sürpriz ihtimali %13.
 - 4. koşu (15.00 · Handikap 16/DHT /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 9 GÜNDÜZ REİS, kazanma şansı %21; sürpriz ihtimali %39.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 23.11.2026 13:47
+Güncellendi: 23.11.2026 13:48
