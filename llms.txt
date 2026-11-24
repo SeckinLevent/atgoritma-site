@@ -4,7 +4,7 @@
 
 ## Nasıl çalışır
 
-- Veri: TJK günlük program ve sonuç dosyaları, Ağustos 2021 - Kasım 2026 arası 32.153 koşu.
+- Veri: TJK günlük program ve sonuç dosyaları, Ağustos 2021 - Kasım 2026 arası 32.168 koşu.
 - Yöntem: koşu içi kıyaslama (koşullu logit). Her at aynı koşudaki rakiplerine göre puanlanır; AGF, form, derece, handikap puanı, kilo, jokey, antrenör, pist ve mesafe geçmişi, galop (idman) dereceleri gibi kriterler tek bir kazanma şansında birleşir. Koşu tipine göre (Maiden, Şartlı, KV, Handikap, Grup) ayrı ağırlıklar öğrenilir.
 - Sürpriz katmanı: koşunun özelliklerine göre şansları yumuşatır; sürpriz ihtimali, kazananın yapay zekânın ilk 3'ü dışından gelme olasılığıdır.
 - YZ ganyanı: yapay zekânın bu ata verdiği şansın ganyan karşılığı (%20 payla).
@@ -12,8 +12,8 @@
 
 ## Başarı (geriye dönük test, yapay zekânın görmediği dönem)
 
-- Dönem: 2026-06-27 ile 2026-11-23 arası, 2.653 koşu.
-- Kazananı birinci bilme: yapay zekâ %34,2, AGF favorisi %32,8.
+- Dönem: 2026-06-27 ile 2026-11-24 arası, 2.668 koşu.
+- Kazananı birinci bilme: yapay zekâ %34,3, AGF favorisi %32,8.
 - Kazananı ilk 3'te gösterme: yapay zekâ %67,2, AGF %65,4.
 - Altılı kuponları ve değer bahisleri geçmiş testlerde kâr getirmedi; site bunu açıkça yazar.
 
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 24.11.2026 22:04
+Güncellendi: 24.11.2026 22:20
