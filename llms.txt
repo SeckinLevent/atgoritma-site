@@ -20,7 +20,7 @@
 ## 24.11.2026 programı: yapay zekânın favorileri
 
 ### Adana
-- 1. koşu (14.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 4 ARDANUÇDAN, kazanma şansı %48; sürpriz ihtimali %26.
+- 1. koşu (14.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 4 ARDANUÇDAN, kazanma şansı %48; sürpriz ihtimali %26. Sonuç: kazanan 1 DOĞANGİR.
 - 2. koşu (14.30 · ŞARTLI 4/Dişi/Y2 · 3 ve Yukarı İngilizler · 1900 m · Sentetik): favori 2 GENGAR, kazanma şansı %29; sürpriz ihtimali %26.
 - 3. koşu (15.00 · ŞARTLI 2 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BANKO MEHMET, kazanma şansı %44; sürpriz ihtimali %16.
 - 4. koşu (15.30 · Handikap 15/DHÖW /H1 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 7 UMUTSER, kazanma şansı %31; sürpriz ihtimali %28.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 24.11.2026 13:45
+Güncellendi: 24.11.2026 14:15
