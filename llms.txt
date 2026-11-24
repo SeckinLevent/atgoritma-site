@@ -21,22 +21,22 @@
 
 ### Adana
 - 1. koşu (14.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 4 ARDANUÇDAN, kazanma şansı %48; sürpriz ihtimali %26. Sonuç: kazanan 1 DOĞANGİR.
-- 2. koşu (14.30 · ŞARTLI 4/Dişi/Y2 · 3 ve Yukarı İngilizler · 1900 m · Sentetik): favori 2 GENGAR, kazanma şansı %29; sürpriz ihtimali %26.
-- 3. koşu (15.00 · ŞARTLI 2 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BANKO MEHMET, kazanma şansı %44; sürpriz ihtimali %16.
-- 4. koşu (15.30 · Handikap 15/DHÖW /H1 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 7 UMUTSER, kazanma şansı %31; sürpriz ihtimali %28.
-- 5. koşu (16.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 2 SÜPER NİL, kazanma şansı %22; sürpriz ihtimali %40.
-- 6. koşu (16.30 · SATIŞ 1 · 3 Yaşlı İngilizler · 1900 m · Sentetik): favori 4 KNOW WORTH, kazanma şansı %38; sürpriz ihtimali %28.
-- 7. koşu (17.00 · ŞARTLI 3/DHÖW · 4 Yaşlı Araplar · 2000 m · Kum): favori 6 TEPELİ, kazanma şansı %72; sürpriz ihtimali %10.
-- 8. koşu (17.30 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 10 NATROSE, kazanma şansı %30; sürpriz ihtimali %32.
-- 9. koşu (18.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 3 BOZALAN, kazanma şansı %26; sürpriz ihtimali %39.
+- 2. koşu (14.30 · ŞARTLI 4/Dişi/Y2 · 3 ve Yukarı İngilizler · 1900 m · Sentetik): favori 2 GENGAR, kazanma şansı %29; sürpriz ihtimali %26. Sonuç: kazanan 8 FORLORN.
+- 3. koşu (15.00 · ŞARTLI 2 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 1 BANKO MEHMET, kazanma şansı %43; sürpriz ihtimali %15.
+- 4. koşu (15.30 · Handikap 15/DHÖW /H1 · 4 ve Yukarı Araplar · 1300 m · Kum): favori 7 UMUTSER, kazanma şansı %30; sürpriz ihtimali %32.
+- 5. koşu (16.00 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 2 SÜPER NİL, kazanma şansı %21; sürpriz ihtimali %43.
+- 6. koşu (16.30 · SATIŞ 1 · 3 Yaşlı İngilizler · 1900 m · Sentetik): favori 4 KNOW WORTH, kazanma şansı %37; sürpriz ihtimali %29.
+- 7. koşu (17.00 · ŞARTLI 3/DHÖW · 4 Yaşlı Araplar · 2000 m · Kum): favori 6 TEPELİ, kazanma şansı %75; sürpriz ihtimali %9.
+- 8. koşu (17.30 · Maiden/DHÖW/Dişi · 3 Yaşlı Araplar · 1200 m · Kum): favori 10 NATROSE, kazanma şansı %31; sürpriz ihtimali %33.
+- 9. koşu (18.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 3 BOZALAN, kazanma şansı %25; sürpriz ihtimali %38.
 
 ### Antalya
 - 1. koşu (18.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 2 HALLAND, kazanma şansı %50; sürpriz ihtimali %14.
-- 2. koşu (19.00 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 5 KOKO LOKO, kazanma şansı %35; sürpriz ihtimali %34.
-- 3. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 SKY MARSHALL, kazanma şansı %44; sürpriz ihtimali %15.
-- 4. koşu (20.00 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 YURIBOYKA, kazanma şansı %37; sürpriz ihtimali %21.
-- 5. koşu (20.30 · Handikap 15/DHÖW/Dişi /H1 · 4 Yaşlı Araplar · 1700 m · Sentetik): favori 1 SÜTLİMAN, kazanma şansı %38; sürpriz ihtimali %28.
-- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 WOLF ROCK, kazanma şansı %32; sürpriz ihtimali %15.
+- 2. koşu (19.00 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 5 KOKO LOKO, kazanma şansı %36; sürpriz ihtimali %34.
+- 3. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 SKY MARSHALL, kazanma şansı %48; sürpriz ihtimali %13.
+- 4. koşu (20.00 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 YURIBOYKA, kazanma şansı %37; sürpriz ihtimali %20.
+- 5. koşu (20.30 · Handikap 15/DHÖW/Dişi /H1 · 4 Yaşlı Araplar · 1700 m · Sentetik): favori 1 SÜTLİMAN, kazanma şansı %38; sürpriz ihtimali %27.
+- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 WOLF ROCK, kazanma şansı %35; sürpriz ihtimali %13.
 - 7. koşu (21.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Sentetik): favori 6 CİMİRİNGO, kazanma şansı %23; sürpriz ihtimali %41.
 
 ## Sayfalar
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 24.11.2026 14:15
+Güncellendi: 24.11.2026 14:48
