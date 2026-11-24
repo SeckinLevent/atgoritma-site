@@ -31,7 +31,7 @@
 - 9. koşu (18.00 · Handikap 15/DHÖW /H2 · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 PİSİFORMİS, kazanma şansı %25; sürpriz ihtimali %38. Sonuç: kazanan 15 BALTIMORE.
 
 ### Antalya
-- 1. koşu (18.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 2 HALLAND, kazanma şansı %51; sürpriz ihtimali %15.
+- 1. koşu (18.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 2 HALLAND, kazanma şansı %51; sürpriz ihtimali %15. Sonuç: kazanan 5 TEJON MELERO.
 - 2. koşu (19.00 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 5 KOKO LOKO, kazanma şansı %39; sürpriz ihtimali %37.
 - 3. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 SKY MARSHALL, kazanma şansı %48; sürpriz ihtimali %8.
 - 4. koşu (20.00 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 YURIBOYKA, kazanma şansı %34; sürpriz ihtimali %22.
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 24.11.2026 18:16
+Güncellendi: 24.11.2026 18:41
