@@ -32,12 +32,12 @@
 
 ### Antalya
 - 1. koşu (18.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 2 HALLAND, kazanma şansı %51; sürpriz ihtimali %15. Sonuç: kazanan 5 TEJON MELERO.
-- 2. koşu (19.00 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 5 KOKO LOKO, kazanma şansı %39; sürpriz ihtimali %37.
-- 3. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 SKY MARSHALL, kazanma şansı %48; sürpriz ihtimali %8.
-- 4. koşu (20.00 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 YURIBOYKA, kazanma şansı %34; sürpriz ihtimali %22.
-- 5. koşu (20.30 · Handikap 15/DHÖW/Dişi /H1 · 4 Yaşlı Araplar · 1700 m · Sentetik): favori 1 SÜTLİMAN, kazanma şansı %35; sürpriz ihtimali %29.
-- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 WOLF ROCK, kazanma şansı %34; sürpriz ihtimali %18.
-- 7. koşu (21.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Sentetik): favori 6 CİMİRİNGO, kazanma şansı %22; sürpriz ihtimali %44.
+- 2. koşu (19.00 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2100 m · Sentetik): favori 5 KOKO LOKO, kazanma şansı %39; sürpriz ihtimali %37. Sonuç: kazanan 5 KOKO LOKO.
+- 3. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 SKY MARSHALL, kazanma şansı %46; sürpriz ihtimali %8.
+- 4. koşu (20.00 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 YURIBOYKA, kazanma şansı %33; sürpriz ihtimali %22.
+- 5. koşu (20.30 · Handikap 15/DHÖW/Dişi /H1 · 4 Yaşlı Araplar · 1700 m · Sentetik): favori 1 SÜTLİMAN, kazanma şansı %29; sürpriz ihtimali %33.
+- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 WOLF ROCK, kazanma şansı %35; sürpriz ihtimali %21.
+- 7. koşu (21.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Sentetik): favori 6 CİMİRİNGO, kazanma şansı %21; sürpriz ihtimali %46.
 
 ## Sayfalar
 
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 24.11.2026 18:41
+Güncellendi: 24.11.2026 19:17
