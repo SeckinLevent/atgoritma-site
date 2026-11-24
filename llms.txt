@@ -36,7 +36,7 @@
 - 3. koşu (19.30 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 SKY MARSHALL, kazanma şansı %46; sürpriz ihtimali %8. Sonuç: kazanan 5 SKY MARSHALL.
 - 4. koşu (20.00 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 2 YURIBOYKA, kazanma şansı %33; sürpriz ihtimali %22. Sonuç: kazanan 5 FURIOUSD.
 - 5. koşu (20.30 · Handikap 15/DHÖW/Dişi /H1 · 4 Yaşlı Araplar · 1700 m · Sentetik): favori 1 SÜTLİMAN, kazanma şansı %29; sürpriz ihtimali %33. Sonuç: kazanan 7 HÜMALI KIZ.
-- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 WOLF ROCK, kazanma şansı %35; sürpriz ihtimali %21.
+- 6. koşu (21.00 · Maiden · 2 Yaşlı İngilizler · 1400 m · Kum): favori 5 WOLF ROCK, kazanma şansı %35; sürpriz ihtimali %21. Sonuç: kazanan 5 WOLF ROCK.
 - 7. koşu (21.30 · Handikap 17/DHÖW /H1 · 4 ve Yukarı Araplar · 2100 m · Sentetik): favori 6 CİMİRİNGO, kazanma şansı %21; sürpriz ihtimali %46.
 
 ## Sayfalar
@@ -52,4 +52,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 24.11.2026 20:48
+Güncellendi: 24.11.2026 21:18
