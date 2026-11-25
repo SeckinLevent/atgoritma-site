@@ -23,7 +23,7 @@
 - 1. koşu (14.00 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 8 ÇINARALTI KIZI, kazanma şansı %45; sürpriz ihtimali %24. Sonuç: kazanan 6 RULER STONE.
 - 2. koşu (14.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 4 SARAFİM, kazanma şansı %44; sürpriz ihtimali %12. Sonuç: kazanan 7 ORMANCIBEY.
 - 3. koşu (15.00 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 KAHRAMAN FATİH, kazanma şansı %25; sürpriz ihtimali %39. Sonuç: kazanan 1 KAHRAMAN FATİH.
-- 4. koşu (15.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 5 CROWN JEWEL, kazanma şansı %16; sürpriz ihtimali %54.
+- 4. koşu (15.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 5 CROWN JEWEL, kazanma şansı %16; sürpriz ihtimali %54. Sonuç: kazanan 11 DRAGON BREATH.
 - 5. koşu (16.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 ÖZGÜN BAŞKAN, kazanma şansı %26; sürpriz ihtimali %48.
 - 6. koşu (16.30 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 3 ASİL KRALİÇE, kazanma şansı %37; sürpriz ihtimali %14.
 - 7. koşu (17.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 1 KIZILCAHAMAM BEYİ, kazanma şansı %42; sürpriz ihtimali %21.
@@ -54,4 +54,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 25.11.2026 15:45
+Güncellendi: 25.11.2026 15:48
