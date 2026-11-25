@@ -24,22 +24,22 @@
 - 2. koşu (14.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 4 SARAFİM, kazanma şansı %44; sürpriz ihtimali %12. Sonuç: kazanan 7 ORMANCIBEY.
 - 3. koşu (15.00 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 KAHRAMAN FATİH, kazanma şansı %25; sürpriz ihtimali %39. Sonuç: kazanan 1 KAHRAMAN FATİH.
 - 4. koşu (15.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 5 CROWN JEWEL, kazanma şansı %16; sürpriz ihtimali %54. Sonuç: kazanan 11 DRAGON BREATH.
-- 5. koşu (16.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 ÖZGÜN BAŞKAN, kazanma şansı %26; sürpriz ihtimali %48.
+- 5. koşu (16.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 ÖZGÜN BAŞKAN, kazanma şansı %26; sürpriz ihtimali %48. Sonuç: kazanan 3 KOCA KAPTAN.
 - 6. koşu (16.30 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 3 ASİL KRALİÇE, kazanma şansı %37; sürpriz ihtimali %14.
 - 7. koşu (17.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 1 KIZILCAHAMAM BEYİ, kazanma şansı %42; sürpriz ihtimali %21.
 - 8. koşu (17.30 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 3 BEDRAN BEY, kazanma şansı %50; sürpriz ihtimali %17.
 - 9. koşu (18.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 10 THIS CHARMING MAN, kazanma şansı %21; sürpriz ihtimali %54.
 
 ### Elazığ
-- 1. koşu (17.15 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 9 THE FIRST DANCE, kazanma şansı %25; sürpriz ihtimali %42.
-- 2. koşu (17.45 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 6 SARİŞİM, kazanma şansı %33; sürpriz ihtimali %32.
-- 3. koşu (18.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %42; sürpriz ihtimali %26.
-- 4. koşu (19.00 · Handikap 14 /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 6 BEYAZ SARAY, kazanma şansı %53; sürpriz ihtimali %25.
-- 5. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 8 MY ORPHAN, kazanma şansı %23; sürpriz ihtimali %48.
-- 6. koşu (20.00 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 SERÜVENTAY, kazanma şansı %33; sürpriz ihtimali %32.
-- 7. koşu (20.30 · Handikap 16 /H3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 GOLDEN COOGER, kazanma şansı %16; sürpriz ihtimali %55.
-- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 10 SNOWDRIFT, kazanma şansı %35; sürpriz ihtimali %22.
-- 9. koşu (21.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 9 ÖZAYDIN, kazanma şansı %23; sürpriz ihtimali %46.
+- 1. koşu (17.15 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 9 THE FIRST DANCE, kazanma şansı %26; sürpriz ihtimali %42.
+- 2. koşu (17.45 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 6 SARİŞİM, kazanma şansı %34; sürpriz ihtimali %32.
+- 3. koşu (18.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %42; sürpriz ihtimali %27.
+- 4. koşu (19.00 · Handikap 14 /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 6 BEYAZ SARAY, kazanma şansı %53; sürpriz ihtimali %26.
+- 5. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 8 MY ORPHAN, kazanma şansı %22; sürpriz ihtimali %48.
+- 6. koşu (20.00 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 SERÜVENTAY, kazanma şansı %30; sürpriz ihtimali %33.
+- 7. koşu (20.30 · Handikap 16 /H3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 GOLDEN COOGER, kazanma şansı %17; sürpriz ihtimali %55.
+- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 10 SNOWDRIFT, kazanma şansı %35; sürpriz ihtimali %23.
+- 9. koşu (21.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 9 ÖZAYDIN, kazanma şansı %22; sürpriz ihtimali %48.
 
 ## Sayfalar
 
@@ -54,4 +54,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 25.11.2026 15:48
+Güncellendi: 25.11.2026 16:17
