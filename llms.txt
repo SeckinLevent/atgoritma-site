@@ -38,7 +38,7 @@
 - 5. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 8 MY ORPHAN, kazanma şansı %20; sürpriz ihtimali %51. Sonuç: kazanan 8 MY ORPHAN.
 - 6. koşu (20.00 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 SERÜVENTAY, kazanma şansı %26; sürpriz ihtimali %38. Sonuç: kazanan 8 ELİFİN IŞIĞI.
 - 7. koşu (20.30 · Handikap 16 /H3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 GOLDEN COOGER, kazanma şansı %18; sürpriz ihtimali %55. Sonuç: kazanan 5 ROYAL WARRIOR.
-- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 10 SNOWDRIFT, kazanma şansı %37; sürpriz ihtimali %25.
+- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 10 SNOWDRIFT, kazanma şansı %37; sürpriz ihtimali %25. Sonuç: kazanan 10 SNOWDRIFT.
 - 9. koşu (21.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 9 ÖZAYDIN, kazanma şansı %22; sürpriz ihtimali %51.
 
 ## Sayfalar
@@ -54,4 +54,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 25.11.2026 20:50
+Güncellendi: 25.11.2026 21:16
