@@ -28,7 +28,7 @@
 - 6. koşu (16.30 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 3 ASİL KRALİÇE, kazanma şansı %37; sürpriz ihtimali %14. Sonuç: kazanan 4 GIANT WAVE.
 - 7. koşu (17.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 1 KIZILCAHAMAM BEYİ, kazanma şansı %42; sürpriz ihtimali %21. Sonuç: kazanan 4 LIVE YOUR FREEDOM.
 - 8. koşu (17.30 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 3 BEDRAN BEY, kazanma şansı %50; sürpriz ihtimali %17. Sonuç: kazanan 6 LA MIRAGE.
-- 9. koşu (18.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 10 THIS CHARMING MAN, kazanma şansı %21; sürpriz ihtimali %54.
+- 9. koşu (18.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 10 THIS CHARMING MAN, kazanma şansı %21; sürpriz ihtimali %54. Sonuç: kazanan 10 THIS CHARMING MAN.
 
 ### Elazığ
 - 1. koşu (17.15 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 9 THE FIRST DANCE, kazanma şansı %23; sürpriz ihtimali %42. Sonuç: kazanan 3 CANOPUS.
@@ -54,4 +54,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 25.11.2026 18:15
+Güncellendi: 25.11.2026 18:18
