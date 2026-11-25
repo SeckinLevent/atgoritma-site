@@ -32,7 +32,7 @@
 
 ### Elazığ
 - 1. koşu (17.15 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 9 THE FIRST DANCE, kazanma şansı %23; sürpriz ihtimali %42. Sonuç: kazanan 3 CANOPUS.
-- 2. koşu (17.45 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 6 SARİŞİM, kazanma şansı %37; sürpriz ihtimali %33.
+- 2. koşu (17.45 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 6 SARİŞİM, kazanma şansı %37; sürpriz ihtimali %33. Sonuç: kazanan 5 BRAVO ÇEVİK.
 - 3. koşu (18.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %39; sürpriz ihtimali %27.
 - 4. koşu (19.00 · Handikap 14 /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 6 BEYAZ SARAY, kazanma şansı %56; sürpriz ihtimali %27.
 - 5. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 8 MY ORPHAN, kazanma şansı %20; sürpriz ihtimali %51.
@@ -54,4 +54,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 25.11.2026 17:49
+Güncellendi: 25.11.2026 18:02
