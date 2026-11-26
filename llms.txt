@@ -17,29 +17,25 @@
 - Kazananı ilk 3'te gösterme: yapay zekâ %67,1, AGF %65,4.
 - Altılı kuponları ve değer bahisleri geçmiş testlerde kâr getirmedi; site bunu açıkça yazar.
 
-## 25.11.2026 programı: yapay zekânın favorileri
+## 26.11.2026 programı: yapay zekânın favorileri
 
-### İstanbul
-- 1. koşu (14.00 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 8 ÇINARALTI KIZI, kazanma şansı %45; sürpriz ihtimali %24. Sonuç: kazanan 6 RULER STONE.
-- 2. koşu (14.30 · ŞARTLI 4/DHÖW · 4 ve Yukarı Araplar · 1400 m · Sentetik): favori 4 SARAFİM, kazanma şansı %44; sürpriz ihtimali %12. Sonuç: kazanan 7 ORMANCIBEY.
-- 3. koşu (15.00 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 1 KAHRAMAN FATİH, kazanma şansı %25; sürpriz ihtimali %39. Sonuç: kazanan 1 KAHRAMAN FATİH.
-- 4. koşu (15.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 2200 m · Kum): favori 5 CROWN JEWEL, kazanma şansı %16; sürpriz ihtimali %54. Sonuç: kazanan 11 DRAGON BREATH.
-- 5. koşu (16.00 · Handikap 14/DHÖ /H2 · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 ÖZGÜN BAŞKAN, kazanma şansı %26; sürpriz ihtimali %48. Sonuç: kazanan 3 KOCA KAPTAN.
-- 6. koşu (16.30 · KV-6 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 3 ASİL KRALİÇE, kazanma şansı %37; sürpriz ihtimali %14. Sonuç: kazanan 4 GIANT WAVE.
-- 7. koşu (17.00 · ŞARTLI 5 · 3 ve Yukarı İngilizler · 1200 m · Kum): favori 1 KIZILCAHAMAM BEYİ, kazanma şansı %42; sürpriz ihtimali %21. Sonuç: kazanan 4 LIVE YOUR FREEDOM.
-- 8. koşu (17.30 · Maiden/DHÖ · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 3 BEDRAN BEY, kazanma şansı %50; sürpriz ihtimali %17. Sonuç: kazanan 6 LA MIRAGE.
-- 9. koşu (18.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 1400 m · Kum): favori 10 THIS CHARMING MAN, kazanma şansı %21; sürpriz ihtimali %54. Sonuç: kazanan 10 THIS CHARMING MAN.
+### İzmir
+- 1. koşu (15.00 · ŞARTLI 2/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 2 ATAK KIZ, kazanma şansı %39; sürpriz ihtimali %20.
+- 2. koşu (15.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1400 m · Kum): favori 2 BOARDING PASS, kazanma şansı %17; sürpriz ihtimali %58.
+- 3. koşu (16.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1600 m · Kum): favori 5 DREAM OF ANGEL, kazanma şansı %45; sürpriz ihtimali %20.
+- 4. koşu (16.30 · Handikap 14 /H2 · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 MARVELLE, kazanma şansı %41; sürpriz ihtimali %22.
+- 5. koşu (17.00 · KV-6/DHÖ · 4 ve Yukarı Araplar · 1900 m · Kum): favori 3 ALTINTEPE, kazanma şansı %22; sürpriz ihtimali %54.
+- 6. koşu (17.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1600 m · Kum): favori 2 ESENCE, kazanma şansı %38; sürpriz ihtimali %20.
+- 7. koşu (18.00 · Handikap 15/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1200 m · Kum): favori 1 BENDEME, kazanma şansı %22; sürpriz ihtimali %47.
 
-### Elazığ
-- 1. koşu (17.15 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 9 THE FIRST DANCE, kazanma şansı %23; sürpriz ihtimali %42. Sonuç: kazanan 3 CANOPUS.
-- 2. koşu (17.45 · Handikap 15 /H3 · 2 Yaşlı İngilizler · 1200 m · Kum): favori 6 SARİŞİM, kazanma şansı %37; sürpriz ihtimali %33. Sonuç: kazanan 5 BRAVO ÇEVİK.
-- 3. koşu (18.30 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 2 AMALASUNTA, kazanma şansı %39; sürpriz ihtimali %27. Sonuç: kazanan 3 LADY ÇEVİK.
-- 4. koşu (19.00 · Handikap 14 /H3 · 3 ve Yukarı İngilizler · 1500 m · Kum): favori 6 BEYAZ SARAY, kazanma şansı %56; sürpriz ihtimali %27. Sonuç: kazanan 6 BEYAZ SARAY.
-- 5. koşu (19.30 · ŞARTLI 4 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 8 MY ORPHAN, kazanma şansı %20; sürpriz ihtimali %51. Sonuç: kazanan 8 MY ORPHAN.
-- 6. koşu (20.00 · Handikap 15/DHÖW /H3 · 3 Yaşlı Araplar · 1500 m · Kum): favori 1 SERÜVENTAY, kazanma şansı %26; sürpriz ihtimali %38. Sonuç: kazanan 8 ELİFİN IŞIĞI.
-- 7. koşu (20.30 · Handikap 16 /H3 · 3 Yaşlı İngilizler · 1200 m · Kum): favori 6 GOLDEN COOGER, kazanma şansı %18; sürpriz ihtimali %55. Sonuç: kazanan 5 ROYAL WARRIOR.
-- 8. koşu (21.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1200 m · Kum): favori 10 SNOWDRIFT, kazanma şansı %37; sürpriz ihtimali %25. Sonuç: kazanan 10 SNOWDRIFT.
-- 9. koşu (21.30 · ŞARTLI 5/DHÖW · 4 ve Yukarı Araplar · 1200 m · Kum): favori 9 ÖZAYDIN, kazanma şansı %22; sürpriz ihtimali %51. Sonuç: kazanan 9 ÖZAYDIN.
+### Antalya
+- 1. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 ÇAĞIM, kazanma şansı %25; sürpriz ihtimali %34.
+- 2. koşu (19.00 · ŞARTLI 4/DHÖ · 4 Yaşlı Araplar · 1500 m · Sentetik): favori 2 HARESE, kazanma şansı %26; sürpriz ihtimali %43.
+- 3. koşu (19.30 · KV-6 · 3 ve Yukarı İngilizler · 1600 m · Sentetik): favori 2 BOSTON LIGHT, kazanma şansı %22; sürpriz ihtimali %49.
+- 4. koşu (20.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 2100 m · Sentetik): favori 1 APOLLON, kazanma şansı %19; sürpriz ihtimali %49.
+- 5. koşu (20.30 · KV-8/DHÖW · 4 ve Yukarı Araplar · 1200 m · Sentetik): favori 1 SAÇANŞAH, kazanma şansı %28; sürpriz ihtimali %42.
+- 6. koşu (21.00 · ŞARTLI 4/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 4 MELİKE, kazanma şansı %37; sürpriz ihtimali %32.
+- 7. koşu (21.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 ATAERİ, kazanma şansı %35; sürpriz ihtimali %34.
 
 ## Sayfalar
 
@@ -54,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 25.11.2026 22:08
+Güncellendi: 26.11.2026 07:06
