@@ -29,7 +29,7 @@
 - 7. koşu (18.00 · Handikap 15/DHÖW/Dişi /H1 · 4 ve Yukarı Araplar · 1200 m · Kum): favori 5 GÖKDİL, kazanma şansı %22; sürpriz ihtimali %44. Sonuç: kazanan 2 CABİRE SULTAN.
 
 ### Antalya
-- 1. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 ÇAĞIM, kazanma şansı %25; sürpriz ihtimali %34.
+- 1. koşu (18.30 · Maiden/DHÖW · 3 Yaşlı Araplar · 1400 m · Kum): favori 1 ÇAĞIM, kazanma şansı %25; sürpriz ihtimali %34. Sonuç: kazanan 1 ÇAĞIM.
 - 2. koşu (19.00 · ŞARTLI 4/DHÖ · 4 Yaşlı Araplar · 1500 m · Sentetik): favori 2 HARESE, kazanma şansı %30; sürpriz ihtimali %42.
 - 3. koşu (19.30 · KV-6 · 3 ve Yukarı İngilizler · 1600 m · Sentetik): favori 11 HAS SERÇE, kazanma şansı %23; sürpriz ihtimali %39.
 - 4. koşu (20.00 · Handikap 15 /H1 · 3 Yaşlı İngilizler · 2100 m · Sentetik): favori 2 NART THE BATTLE, kazanma şansı %34; sürpriz ihtimali %32.
@@ -50,4 +50,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 26.11.2026 18:17
+Güncellendi: 26.11.2026 18:45
