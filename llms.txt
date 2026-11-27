@@ -21,7 +21,7 @@
 
 ### Bursa
 - 1. koşu (14.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 AURELIA BLITZ, kazanma şansı %31; sürpriz ihtimali %30. Sonuç: kazanan 3 SİRENE.
-- 2. koşu (14.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 STERN COMMANDER, kazanma şansı %38; sürpriz ihtimali %31.
+- 2. koşu (14.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 STERN COMMANDER, kazanma şansı %38; sürpriz ihtimali %31. Sonuç: kazanan 9 ROCKING ISLAND.
 - 3. koşu (15.00 · Handikap 14/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 HALİDAĞA, kazanma şansı %34; sürpriz ihtimali %37.
 - 4. koşu (15.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 3 BELLA MARE, kazanma şansı %33; sürpriz ihtimali %25.
 - 5. koşu (16.00 · ŞARTLI 4/DHÖW/Dişi · 4 ve Yukarı Araplar · 1800 m · Kum): favori 4 BAYAN ALTIN, kazanma şansı %46; sürpriz ihtimali %23.
@@ -49,4 +49,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 27.11.2026 14:50
+Güncellendi: 27.11.2026 14:53
