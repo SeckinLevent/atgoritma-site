@@ -20,7 +20,7 @@
 ## 27.11.2026 programı: yapay zekânın favorileri
 
 ### Bursa
-- 1. koşu (14.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 AURELIA BLITZ, kazanma şansı %31; sürpriz ihtimali %30.
+- 1. koşu (14.00 · ŞARTLI 3/Dişi · 2 Yaşlı İngilizler · 1400 m · Kum): favori 2 AURELIA BLITZ, kazanma şansı %31; sürpriz ihtimali %30. Sonuç: kazanan 3 SİRENE.
 - 2. koşu (14.30 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1300 m · Kum): favori 2 STERN COMMANDER, kazanma şansı %38; sürpriz ihtimali %31.
 - 3. koşu (15.00 · Handikap 14/DHÖW /H2 · 4 ve Yukarı Araplar · 1400 m · Kum): favori 5 HALİDAĞA, kazanma şansı %38; sürpriz ihtimali %31.
 - 4. koşu (15.30 · ŞARTLI 5/Dişi · 3 ve Yukarı İngilizler · 1300 m · Kum): favori 3 BELLA MARE, kazanma şansı %30; sürpriz ihtimali %24.
@@ -49,4 +49,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 27.11.2026 13:47
+Güncellendi: 27.11.2026 14:15
