@@ -30,7 +30,7 @@
 
 ### İzmir
 - 1. koşu (19.00 · Maiden/Satış · 2 Yaşlı İngilizler · 1600 m · Kum): favori 10 NINJA QUEEN, kazanma şansı %27; sürpriz ihtimali %42. Sonuç: kazanan 10 NINJA QUEEN.
-- 2. koşu (19.30 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 2 STORM QUEEN, kazanma şansı %43; sürpriz ihtimali %30.
+- 2. koşu (19.30 · Handikap 16/Dişi /H1 · 3 ve Yukarı İngilizler · 2000 m · Kum): favori 2 STORM QUEEN, kazanma şansı %43; sürpriz ihtimali %30. Sonuç: kazanan 1 WAR STORM.
 - 3. koşu (20.00 · ŞARTLI 5/DHÖW/Dişi · 3 Yaşlı Araplar · 1600 m · Kum): favori 1 AÇANAY, kazanma şansı %27; sürpriz ihtimali %39.
 - 4. koşu (20.30 · KV-6 · 3 Yaşlı İngilizler · 2100 m · Kum): favori 4 CANVELO, kazanma şansı %40; sürpriz ihtimali %22.
 - 5. koşu (21.00 · ŞARTLI 5/DHÖW · 4 Yaşlı Araplar · 1400 m · Kum): favori 5 DENİZ KESTANESİ, kazanma şansı %50; sürpriz ihtimali %18.
@@ -49,4 +49,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 27.11.2026 19:13
+Güncellendi: 27.11.2026 19:41
