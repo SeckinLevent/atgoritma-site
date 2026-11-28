@@ -20,7 +20,7 @@
 ## 28.11.2026 programı: yapay zekânın favorileri
 
 ### Adana
-- 1. koşu (14.30 · Handikap 16/Dişi /H1 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 4 FEMALE WARRIOR, kazanma şansı %24; sürpriz ihtimali %43.
+- 1. koşu (14.30 · Handikap 16/Dişi /H1 · 3 Yaşlı İngilizler · 2000 m · Kum): favori 4 FEMALE WARRIOR, kazanma şansı %24; sürpriz ihtimali %43. Sonuç: kazanan 5 KARDAHA.
 - 2. koşu (15.00 · Maiden/Dişi · 2 Yaşlı İngilizler · 1300 m · Kum): favori 10 VEKOMA LIGHT, kazanma şansı %58; sürpriz ihtimali %25.
 - 3. koşu (15.30 · ŞARTLI 3/DHÖW · 4 ve Yukarı Araplar · 2000 m · Sentetik): favori 4 SİYAH PENÇE, kazanma şansı %23; sürpriz ihtimali %36.
 - 4. koşu (16.00 · SATIŞ 2 · 2 Yaşlı İngilizler · 1400 m · Sentetik): favori 5 LA MUNECA, kazanma şansı %25; sürpriz ihtimali %40.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 28.11.2026 14:16
+Güncellendi: 28.11.2026 14:48
