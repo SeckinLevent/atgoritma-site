@@ -30,7 +30,7 @@
 - 8. koşu (18.00 · Handikap 15 /H1 · 3 ve Yukarı İngilizler · 1900 m · Kum): favori 6 ASLAN SAİM, kazanma şansı %23; sürpriz ihtimali %44.
 
 ### İstanbul
-- 1. koşu (17.15 · ŞARTLI 5/DHÖW/Dişi · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 2 UÇAN DULO, kazanma şansı %28; sürpriz ihtimali %34.
+- 1. koşu (17.15 · ŞARTLI 5/DHÖW/Dişi · 3 Yaşlı Araplar · 1400 m · Sentetik): favori 2 UÇAN DULO, kazanma şansı %28; sürpriz ihtimali %34. Sonuç: kazanan 4 GÜZEL ZEHRA.
 - 2. koşu (17.45 · ŞARTLI 1 · 2 Yaşlı İngilizler · 1300 m · Sentetik): favori 3 GUSTAV TOD, kazanma şansı %25; sürpriz ihtimali %39.
 - 3. koşu (18.30 · Handikap 16 /H1 · 3 ve Yukarı İngilizler · 1500 m · Sentetik): favori 6 ZİMBATRON, kazanma şansı %24; sürpriz ihtimali %30.
 - 4. koşu (19.00 · ŞARTLI 5/DHÖ · 4 ve Yukarı Araplar · 2100 m · Sentetik): favori 4 EFLAH, kazanma şansı %33; sürpriz ihtimali %33.
@@ -53,4 +53,4 @@
 - [Rehber](https://atgoritma.com/rehber/): yapay zekâ ile at yarışı tahmini, AGF, altılı ganyan, sürpriz at, pist türleri; sitenin ölçtüğü rakamlarla.
 - [Yasal uyarı](https://atgoritma.com/yasal/): bilgilendirme amaçlıdır; resmi bilgi için tjk.org esastır.
 
-Güncellendi: 28.11.2026 17:15
+Güncellendi: 28.11.2026 17:25
